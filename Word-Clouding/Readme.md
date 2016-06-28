@@ -2,6 +2,8 @@
 
 MIT Techonology Review: https://www.technologyreview.com/
 
+MIT Techonology Review는 한달에 5개까지만 무료...
+
 IEEE Spectrum: http://spectrum.ieee.org/
 
 ---------------------------------------------------------------
