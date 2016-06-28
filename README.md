@@ -1,5 +1,6 @@
 # ETRI
 ---------------------------------------------------------------------------------------
-!~ETRI INTERN PROJECT~!
+ETRI INTERN PROJECT
+
 Word-Clouding
 
