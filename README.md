@@ -1,6 +1,5 @@
 # ETRI
 ---------------------------------------------------------------------------------------
-Word Clouding
-MIT Techonology Review: https://www.technologyreview.com/
+!~ETRI INTERN PROJECT~!
+Word-Clouding
 
-IEEE Spectrum: http://spectrum.ieee.org/
