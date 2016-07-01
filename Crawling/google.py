@@ -56,34 +56,37 @@ def get_html_Korea_Rem(pagenum):
     return soup
 
 
-# In[6]:
+# In[95]:
 
 # To get what we want from the HTML... News Title, Date, Reference, and links for each article.
 def get_google_article(html):    
     
-    flag = 0
     article_list = []
     
     tot_article = html.find_all(class_='g')
     for i in range(0,len(tot_article)):
+        flag = 1
         try:
             tmp_title = html.find_all(class_='g')[i]
             tmp_test = tmp_title.find_all('a')
-            if (len(tmp_test) < 3):
+            if (len(tmp_test) < 2):
                 flag = 0
             else:
                 flag = 1
 
-
             tmp_link = tmp_test[0]
             if flag == 1:
-                for j in range(0, 4):
+                for j in range(0, 10):
                     test_str = tmp_title.find_all('a')[j].get_text()
                     article_title = test_str.encode('utf-8')
+                    tmp_link = tmp_test[j]
                     article_link = tmp_link.encode('utf-8').split('\"')[1].split('&amp')[0].split('/url?q=')[1].replace('%3F','?')
                     article_link = article_link.replace('%3D','=')
-                    article_ref = unicode(tmp_title.find_all(class_='slp')[0].get_text().split(' - ')[0])
-
+                    article_link = article_link.replace('%26','&')
+                    article_ref = unicode(tmp_title.find_all(class_='slp')[j].get_text().split(' - ')[0])
+                    if len(article_title) == 0:
+                        break
+                    
                     article = {'구분': '뉴스', '발표처' : article_ref, 
                                '웹주소' : '=HYPERLINK(\"'+article_link+"\")", 
                                '제목' : article_title}
@@ -95,6 +98,7 @@ def get_google_article(html):
                 article_title = test_str.encode('utf-8')
                 article_link = tmp_link.encode('utf-8').split('\"')[1].split('&amp')[0].split('/url?q=')[1].replace('%3F','?')
                 article_link = article_link.replace('%3D','=')
+                article_link = article_link.replace('%26','&')
                 article_ref = unicode(tmp_title.find_all(class_='slp')[0].get_text().split(' - ')[0])
 
                 article = {'구분': '뉴스', '발표처' : article_ref, 
@@ -250,10 +254,12 @@ def WriteDictToCSV(csv_file,csv_columns,dict_data):
     return   
 
 
-# In[11]:
+# In[100]:
 
-test_list = []
-search_key = raw_input("Please write your search key in Google ")
+final_list = []
+google_list = []
+tmp_list = []
+search_key = raw_input("Please write your search key for Google ")
 
 
 # In[12]:
@@ -295,33 +301,29 @@ while(keepgo == 1):
     p = p+1
 
 
-# In[16]:
+# In[101]:
 
-html = get_google_list_html(0, search_key)
-
-
-# In[17]:
-
-for i in range(0,10):
-    delay = random.randrange(10,40)
+for i in range(0,20):
+    delay = random.randrange(10,30)
     html = get_google_list_html(i*10, search_key)
-    if len(get_google_article(html)) == 0:
+    tmp_list = get_google_article(html)
+    if len(tmp_list) == 0:
         break
-    test_list = test_list+get_google_article(html)
+    google_list = google_list + tmp_list
     time.sleep(delay)
 
 
-# In[18]:
+# In[102]:
 
 csv_columns = ['구분', '발표처', '제목', '웹주소']
 currentPath = os.getcwd()
 csv_file = str(date)+".csv"
-test_list = test_list+dataset
+final_list = google_list + dataset
 
 
-# In[19]:
+# In[103]:
 
-WriteDictToCSV(csv_file,csv_columns,test_list)
+WriteDictToCSV(csv_file,csv_columns,final_list)
 
 
 # In[ ]:
