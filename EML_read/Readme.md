@@ -1,3 +1,5 @@
 #Python Regular Expression
 --------------------------------------------------------------------------------------------------------
-The special characters used in url = - ! $ & ' ( ) * + , ; = : / ? # [ ] @ . %
+The special characters used in url 
+
+- ! $ & ' ( ) * + , ; = : / ? # [ ] @ . %
