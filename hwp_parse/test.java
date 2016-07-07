@@ -5,7 +5,8 @@ import java.io.File;
 
 public class test {
 	public static void main(String[] args){
-		String folder = System.getProperty("user.dir").concat("\\hwp");
+		String current_dir = System.getProperty("user.dir");	//Get the current Directory
+		String folder = current_dir.concat("\\hwp");			//Get the folder containing hwp files
 		File file = new File(folder);
 		if (!file.isDirectory()){
 			System.out.println("해당 디렉토리는 존재하지 않습니다.");
@@ -13,6 +14,7 @@ public class test {
 		}
 		int str_len = 0;
 		String text_name;
+		String result_dir;
 		File[] list= file.listFiles();
 		H2TParser parser = new H2TParser();
 		for ( File f:list){
@@ -28,9 +30,15 @@ public class test {
 			}
 			
 			str_len = f.getName().length();
-			text_name = f.getName().substring(0,str_len-4);			
+			text_name = f.getName().substring(0,str_len-4);		//delete the suffix ".hwp"		
+			result_dir = current_dir.concat("\\result");
 			
-			String fo = folder.concat("\\result\\".concat(text_name)+ ".txt");
+			File dir = new File(result_dir);
+		
+			if(!dir.isDirectory())							//If there's no folder named "result"
+				dir.mkdirs();								//Create it
+			
+			String fo = result_dir.concat("\\".concat(text_name)+ ".txt");	//Create txt file with hwp contents
 
 			HWPMeta meta = new HWPMeta();
 			parser.GetText(filename, meta, fo);
