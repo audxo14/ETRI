@@ -1,15 +1,15 @@
-package test;
+package hwp2txt;
 
 import rcc.h2tlib.parser.*;
 import java.io.File;
 
-public class test {
+public class hwp2txt {
 	public static void main(String[] args){
 		String current_dir = System.getProperty("user.dir");	//Get the current Directory
 		String folder = current_dir.concat("\\hwp");			//Get the folder containing hwp files
 		File file = new File(folder);
 		if (!file.isDirectory()){
-			System.out.println("ÇØ´ç µð·ºÅä¸®´Â Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
+			System.out.println("í•´ë‹¹ ë””ë ‰í† ë¦¬ëŠ” ì¡´ìž¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 			System.exit(1);
 		}
 		int str_len = 0;
