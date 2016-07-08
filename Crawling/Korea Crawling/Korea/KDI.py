@@ -1,5 +1,6 @@
 #-*- coding: utf-8 -*-
 import requests
+from operator import itemgetter
 from bs4 import BeautifulSoup
 import datetime
 import csv
@@ -85,6 +86,7 @@ while (keepgo == 1):
     keepgo = get_data_KDI(test_html)
     p = p + 1
 
+dataset = sorted(dataset, key =itemgetter('발표처'))
 csv_columns = ['구분', '발표처', '제목', '웹주소']
 currentPath = os.getcwd()
 csv_file = "KDI-"+str(date)+".csv"
