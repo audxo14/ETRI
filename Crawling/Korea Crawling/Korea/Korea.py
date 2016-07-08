@@ -118,6 +118,7 @@ nowmonth = str(datetime.datetime.now()).split('-')[1]
 today = str(datetime.datetime.now()).split('-')[2]
 today = today.split(' ')[0]
 savedate = nowmonth + '-' + today
+todate = str(datetime.datetime.now()).split(" ")[0]
 
 p = 1
 keepgo = 1
@@ -139,5 +140,5 @@ kor_re = sorted(kor_re, key = itemgetter('발표처'))
 dataset = kor_gv + kor_re
 csv_columns = ['구분', '발표처', '제목', '웹주소']
 currentPath = os.getcwd()
-csv_file = "Korea-"+str(date)+".csv"
+csv_file = "Korea-"+str(todate)+".csv"
 WriteDictToCSV(csv_file,csv_columns,dataset)
