@@ -90,7 +90,7 @@ for path, dirs, files in os.walk(pwd):
 
             csv_columns = ['구분', '순위', '단어', '횟수']
 
-            csv_file = "test" + ".csv"
+            csv_file = filename.split('.')[0] + "freq.csv"
 
             WriteDictToCSV(csv_file, csv_columns, dic)
         else:

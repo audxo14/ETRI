@@ -1,0 +1,59 @@
+﻿구분,순위,단어,횟수
+unigram,1,최양희,417
+unigram,2,◯미래창조과학부장관,400
+unigram,3,부분,160
+unigram,4,신상진,105
+unigram,5,◯위원장,94
+unigram,6,질의,88
+unigram,7,가지,70
+unigram,8,내용,67
+unigram,9,자료,66
+unigram,10,◯박홍근,64
+unigram,11,창조경제,63
+unigram,12,과학기술,63
+unigram,13,데,61
+unigram,14,R&D,60
+unigram,15,전,58
+unigram,16,법,58
+unigram,17,필요,56
+unigram,18,관련,55
+unigram,19,성과,54
+unigram,20,예산,53
+unigram,21,답변,53
+unigram,22,소프트웨어,51
+unigram,23,장관,51
+unigram,24,등,50
+unigram,25,한번,49
+unigram,26,앞,49
+unigram,27,국회,48
+unigram,28,입장,47
+unigram,29,중,47
+unigram,30,감사,46
+unigram,31,우리나라,46
+unigram,32,뭐,46
+unigram,33,지적,46
+unigram,34,얘,46
+unigram,35,이상,46
+unigram,36,◯유승희,46
+unigram,37,방통위,44
+unigram,38,미래,44
+unigram,39,중단,43
+unigram,40,◯고용진,43
+unigram,41,단통법,43
+unigram,42,번,43
+unigram,43,노력,43
+unigram,44,원,42
+unigram,45,검토,42
+unigram,46,회의,42
+unigram,47,시간,40
+unigram,48,경우,40
+unigram,49,이후,39
+unigram,50,사실,39
+bigram,1~20,바라ㅂ니다,53회 이상
+bigram,1~20,창조과학,53회 이상
+bigram,1~20,창조경제,53회 이상
+bigram,1~20,미래창조,53회 이상
+bigram,1~20,대하어서,53회 이상
+bigram,1~20,과학기술,53회 이상
+bigram,1~20,위하어서,53회 이상
+trigram,1~20,미래창조과학,53회 이상
