@@ -26,7 +26,7 @@ def WriteDictToCSV(csv_file,csv_columns,dict_data):
     return
 
 
-tmppos=[]
+
 stopwords = []
 stoptext = open("stopwords.txt", "r")
 for sw in stoptext.readlines():
@@ -38,7 +38,7 @@ for sw in stoptext.readlines():
 measures = collocations.BigramAssocMeasures()
 measures2 = collocations.TrigramAssocMeasures()
 
-dic = []
+
 
 def remove_values_from_list(the_list, val):
    return [value for value in the_list if value != val]
@@ -50,6 +50,8 @@ for path, dirs, files in os.walk(pwd):
     for file in files:
         filename = file.decode('cp949')
         if (filename.split('.')[1] == 'txt'):
+            dic = []
+            tmppos = []
             doc = unicode(open(("txt/"+filename)).read(), 'utf-8')
             pos = Hannanum().pos(doc)
             tagged_words = Kkma().pos(doc)
