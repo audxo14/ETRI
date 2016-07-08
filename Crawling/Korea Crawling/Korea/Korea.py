@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import datetime
 import time
 import csv
+from operator import itemgetter
 import os
 import sys
 reload(sys)
@@ -52,7 +53,7 @@ def get_data_Korea_Cen(html):
                 tmp_dd = tmp_dl[j].find_all('dd')[1].get_text()
                 tmp_ori = tmp_dd.encode('utf-8').strip()
 
-                dataset.append({'구분': '중앙부처', '발표처': tmp_ori, '제목': tmp_title, '웹주소': tmp_link})
+                kor_gv.append({'구분': '중앙부처', '발표처': tmp_ori, '제목': tmp_title, '웹주소': tmp_link})
             else:
                 keepgo = 0
         else:
@@ -86,7 +87,7 @@ def get_data_Korea_Rem(html):
                 tmp_dd = tmp_dl[j].find_all('dd')[1].get_text()
                 tmp_ori = tmp_dd.encode('utf-8').strip()
 
-                dataset.append({'구분': '지자체', '발표처': tmp_ori, '제목': tmp_title, '웹주소': tmp_link})
+                kor_re.append({'구분': '지자체', '발표처': tmp_ori, '제목': tmp_title, '웹주소': tmp_link})
             else:
                 keepgo = 0
         else:
@@ -108,6 +109,8 @@ def WriteDictToCSV(csv_file,csv_columns,dict_data):
     return
 
 dataset = []
+kor_gv = []
+kor_re = []
 date = str(datetime.datetime.now()- datetime.timedelta(days=1)).split(" ")[0]
 currentmonth =  date.split('-')[1]
 currentday =  date.split('-')[2]
@@ -130,6 +133,10 @@ while(keepgo == 1):
     keepgo = get_data_Korea_Rem(Korea_rem_html)
     p = p+1
 
+kor_gv = sorted(kor_gv, key = itemgetter('발표처'))
+kor_re = sorted(kor_re, key = itemgetter('발표처'))
+
+dataset = kor_gv + kor_re
 csv_columns = ['구분', '발표처', '제목', '웹주소']
 currentPath = os.getcwd()
 csv_file = "Korea-"+str(date)+".csv"
