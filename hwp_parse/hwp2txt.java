@@ -9,7 +9,7 @@ public class hwp2txt {
 	public static void main(String[] args){
 		String current_dir = System.getProperty("user.dir");	//Get the current Directory
 		String folder = current_dir.concat("\\hwp");			//Get the folder containing hwp files
-		String txt_folder = current_dir.concat("\\result");
+		String txt_folder = current_dir.concat("\\txt");
 		File txt_file = new File(txt_folder);
 		List<String> txt_list = new ArrayList<String>();
 		
@@ -17,11 +17,7 @@ public class hwp2txt {
 		String text_name;
 		int flag;
 		
-		if(!txt_file.isDirectory())
-		{
-			System.out.println("해당 디렉토리는 존재하지 않습니다.");
-		}
-		else
+		if(txt_file.isDirectory())
 		{
 			File[] txt_Filelist = txt_file.listFiles();
 			
@@ -59,7 +55,7 @@ public class hwp2txt {
 			
 			str_len = f.getName().length();
 			text_name = f.getName().substring(0,str_len-4);		//delete the suffix ".hwp"		
-			result_dir = current_dir.concat("\\result");
+			result_dir = current_dir.concat("\\txt");
 			flag = 0;
 			
 			for(String result_txt:txt_list)				//Check whether there are parsed hwp files in advance
@@ -76,7 +72,7 @@ public class hwp2txt {
 			
 			File dir = new File(result_dir);
 		
-			if(!dir.isDirectory())							//If there's no folder named "result"
+			if(!dir.isDirectory())							//If there's no folder named "txt"
 				dir.mkdirs();								//Create it
 			
 			String fo = result_dir.concat("\\".concat(text_name)+ ".txt");	//Create txt file with hwp contents
