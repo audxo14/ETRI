@@ -1,0 +1,545 @@
+Received: from SMTP2.etri.info (129.254.28.72) by SMTP4.etri.info
+ (129.254.28.74) with Microsoft SMTP Server (TLS) id 14.1.355.2; Thu, 7 Jul
+ 2016 17:06:35 +0900
+Received: from SMTPEG2.etri.info (129.254.27.142) by SMTP2.etri.info
+ (129.254.28.72) with Microsoft SMTP Server (TLS) id 14.1.355.2; Thu, 7 Jul
+ 2016 17:06:35 +0900
+Received: from spam.etri.re.kr (129.254.9.15) by SMTPEG2.etri.info
+ (129.254.27.142) with Microsoft SMTP Server (TLS) id 14.1.355.2; Thu, 7 Jul
+ 2016 17:06:35 +0900
+Received: from unknown (HELO mail-pa0-f69.google.com) (209.85.220.69)	by
+ 129.254.9.15 with ESMTP; 7 Jul 2016 17:06:22 +0900
+X-Original-SENDERIP: 209.85.220.69
+X-Original-MAILFROM: 3hw1-VxQKCVwAIIAF84F8LNM-HIL8JFSAIIAF8.6IG6IIF78HHS8NLC.L8.EL@alerts.bounces.google.com
+Received: by mail-pa0-f69.google.com with SMTP id cx13so20466777pac.2
+        for <cooldenny@etri.re.kr>; Thu, 07 Jul 2016 01:06:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=mime-version:date:list-id:list-unsubscribe:message-id:subject:from
+         :to;
+        bh=8uqYFsJmwXRp2asQjU2WwpLwuNFBsczqWc92nP9vF8s=;
+        b=hlWWA3zxO8LP7HPPvqSJ+HkeGdjGHvbIVB89wdVc7IeWF5V/iEmcQazLxHsK7lvrzk
+         Q8XM1hvAaSjrbOEfDtOup3qe2pdAOsTfieQtl1mo1Pw/d36VnEErVxZ3l9Ir86s/PCzj
+         BQzV84GR7cH9EMoRMCh/y8nxKv+/FIlqvqA5/QtNMWqSqL2N1ZgBKK6a1oS5/A/33ao1
+         KnnfzfW+9KIF+n9+qW22SGW8zWL4TypP5foAEa0yjp/C/8rsF7EcQw3KU+GhLEvcaT3h
+         WIBbZ1kZQ73T1xXGQ5iZ6wB4K01M0b0r/uZVTsf752da19CEBrpwOa3IOZk8ZyxXmX8p
+         obcg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:list-id:list-unsubscribe
+         :message-id:subject:from:to;
+        bh=8uqYFsJmwXRp2asQjU2WwpLwuNFBsczqWc92nP9vF8s=;
+        b=Fjn7LeRSsW/eH/uoUX6PzHcr+Ml4O+k7+j5JPE2qGUOygIJQyMJPqTtapMF8Ay/85N
+         DqFOTK5B/Z5u6Zto2VZCO5PNndtwAbdBYaVucsUYkF7vVTKmv1ow1tKbg3QDGNJ5Ox/U
+         eT7ifSWYMeK49RnrpyMjVfQbSOjm6lIlQG7OFJOYaYv6y13vRuy98G1ppozj1qeZU1kM
+         5qXGylkjdg8OiFnFB7OvWOIhYooJ3KnGl2FXc62SrnPJoakEGYObTO/ju9iS1qkUH0mf
+         6SPdRAFvvC2HjbKSN+k7xZypA663byTWtdaD7CUBIz0SdVgQaSM4xiKC8YFnsQoqkW0J
+         uExQ==
+X-Gm-Message-State: ALyK8tKXtvxfLmNosQEYl2qpgxAN9VKSjSP33o6DlLFV56wKXptZ44o4U21rPTdiBwk=
+X-Received: by 10.66.43.41 with SMTP id t9mr43573840pal.12.1467878791586; Thu,
+ 07 Jul 2016 01:06:31 -0700 (PDT)
+Date: Thu, 7 Jul 2016 01:06:31 -0700
+List-Id: <15289441128822185374.alerts.google.com>
+List-Unsubscribe: <mailto:ur@unsubscribe.alerts.google.com?subject=AB2Xq4jLvOUjZ8E63KT7hDcg6-MHp73iem6law8>
+Message-ID: <bcaec52e5df3f224ec05370729dc@google.com>
+Subject: Google Alert - "National Institute of Standards and Technology" OR (intitle:NIST)
+From: Google Alerts <googlealerts-noreply@google.com>
+To: <cooldenny@etri.re.kr>
+Content-Type: multipart/alternative; boundary="bcaec52e5df3f224ba05370729d9"
+Return-Path: 3hw1-VxQKCVwAIIAF84F8LNM-HIL8JFSAIIAF8.6IG6IIF78HHS8NLC.L8.EL@alerts.bounces.google.com
+X-MS-Exchange-Organization-AuthSource: SMTPEG2.etri.info
+X-MS-Exchange-Organization-AuthAs: Anonymous
+MIME-Version: 1.0
+
+--bcaec52e5df3f224ba05370729d9
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+PT09IE5ld3MgLSA1IG5ldyByZXN1bHRzIGZvciBbIk5hdGlvbmFsIEluc3RpdHV0ZSBvZiBTdGFu
+ZGFyZHMgYW5kICANClRlY2hub2xvZ3kiIE9SIChpbnRpdGxlOk5JU1QpXSA9PT0NCg0KUmVhbGl6
+aW5nIHRoZSBwb3RlbnRpYWwgb2YgM0QgcHJpbnRpbmcuIEludGVydmlldyB3aXRoIFNoYXduIE1v
+eWxhbiwgTklTVA0KM0QgUHJpbnRpbmcgSW5kdXN0cnkNCkkgc3Bva2UgdG8gU2hhd24gTW95bGFu
+LCBwcm9qZWN0IGxlYWRlciBhdCB0aGUgVS5TLiBOYXRpb25hbCBJbnN0aXR1dGUgb2YNClN0YW5k
+YXJkcyBhbmQgVGVjaG5vbG9neSAoTklTVCksIGFib3V0IDNEIHByaW50aW5nIG1ldGFsLiBGcm9t
+IGhpcyBsYWIgaW4NCi4uLg0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vdXJsP3JjdD1qJnNhPXQm
+dXJsPWh0dHA6Ly8zZHByaW50aW5naW5kdXN0cnkuY29tL25ld3MvcmVhbGl6aW5nLXBvdGVudGlh
+bC0zZC1wcmludGluZy1pbnRlcnZpZXctc2hhd24tbW95bGFuLW5pc3QtODM3MTIvJmN0PWdhJmNk
+PUNBRVlBQ29VTVRVNE1qa3pNVFl4TURBMk56SXhOVGt3T1RjeUhEQXhPREk1TnpVNU1XUmhaamxq
+T0RVNlkyOHVhM0k2Wlc0NlMxSSZ1c2c9QUZRakNORmcyMDRqdjdSLUNOdzNoa1ZzbVQwRVV4Uzhy
+QT4NCg0KQWRkcmVzc2luZyBOSVNUIGFuZCBET0QgUmVxdWlyZW1lbnRzIGZvciBNb2JpbGUgRGV2
+aWNlIE1hbmFnZW1lbnQgKE1ETSkNCkNTTyBPbmxpbmUNCk1vYmlsZSBkZXZpY2VzLCBwYXJ0aWN1
+bGFybHkgc21hcnRwaG9uZXMsIGFyZSBleGNlcHRpb25hbGx5IHZ1bG5lcmFibGUgdG8NCnNlY3Vy
+aXR5IGJyZWFjaGVzLiBUaGV5IGFyZSBlYXNpbHkgbG9zdCwgYXJlIGZpbGxlZCB3aXRoIHVua25v
+d24NCmFwcGxpY2F0aW9ucywgLi4uDQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS91cmw/cmN0PWom
+c2E9dCZ1cmw9aHR0cDovL3Jlc291cmNlcy5jc29vbmxpbmUuY29tL2NjZC9hc3NldHMvMTEzNTE0
+L2RldGFpbCZjdD1nYSZjZD1DQUVZQVNvVU1UVTRNamt6TVRZeE1EQTJOekl4TlRrd09UY3lIREF4
+T0RJNU56VTVNV1JoWmpsak9EVTZZMjh1YTNJNlpXNDZTMUkmdXNnPUFGUWpDTkhGVkVtc1QtWExy
+V19EOFYzT0RqSFhVQ0lnZlE+DQoNClF1YW50dW0gcGh5c2ljcyBtZWV0cyBJVCBzZWN1cml0eQ0K
+VGVjaFJlcHVibGljDQpUaGUgd29ya2luZyBncm91cCBtZW1iZXJzIGFyZSBwbGFubmluZyB0byB3
+b3JrIHdpdGggdGhlIFVTIGdvdmVybm1lbnQncw0KTmF0aW9uYWwgSW5zdGl0dXRlIG9mIFN0YW5k
+YXJkcyBhbmQgVGVjaG5vbG9neSAoTklTVCkgcXVhbnR1bSBzZWN1cml0eSAuLi4NCjxodHRwczov
+L3d3dy5nb29nbGUuY29tL3VybD9yY3Q9aiZzYT10JnVybD1odHRwOi8vd3d3LnRlY2hyZXB1Ymxp
+Yy5jb20vYXJ0aWNsZS9xdWFudHVtLXBoeXNpY3MtbWVldHMtaXQtc2VjdXJpdHkvJmN0PWdhJmNk
+PUNBRVlBaW9VTVRVNE1qa3pNVFl4TURBMk56SXhOVGt3T1RjeUhEQXhPREk1TnpVNU1XUmhaamxq
+T0RVNlkyOHVhM0k2Wlc0NlMxSSZ1c2c9QUZRakNOSFBCaTFfcVpQRksxSHlrRWtVWEY1ZGNaZjk5
+Zz4NCg0KU3RhZmZpbmc6IFRoZSBNb3N0IENyaXRpY2FsIEZhY3RvciBvZiBGaXJlZ3JvdW5kIFRh
+Y3RpY3MNCkZpcmVFbmdpbmVlcmluZy5jb20NCi4uLiBJbnN0aXR1dGUgKFVMLUZTUkkpIGFuZCBO
+YXRpb25hbCBJbnN0aXR1dGUgb2YgU3RhbmRhcmRzIGFuZCBUZWNobm9sb2d5DQooTklTVCkgc3R1
+ZGllcyBhbmQgaG93IHRob3NlIGdyb3VwcyBhcmUgZmluYWxseSBkb2luZyBpbnRlcmlvciBhdHRh
+Y2sNCnN0dWRpZXMuDQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS91cmw/cmN0PWomc2E9dCZ1cmw9
+aHR0cDovL3d3dy5maXJlZW5naW5lZXJpbmcuY29tL2FydGljbGVzLzIwMTYvMDcvc3RhZmZpbmct
+dGhlLW1vc3QtY3JpdGljYWwtZmFjdG9yLW9mLWZpcmVncm91bmQtdGFjdGljcy5odG1sJmN0PWdh
+JmNkPUNBRVlBeW9VTVRVNE1qa3pNVFl4TURBMk56SXhOVGt3T1RjeUhEQXhPREk1TnpVNU1XUmha
+amxqT0RVNlkyOHVhM0k2Wlc0NlMxSSZ1c2c9QUZRakNOR3FkZXZvNjYyMU92YzFtU3ZLRTRWNE9X
+dFF1UT4NCg0KSG93IFVudmFsaWRhdGVkIEVuY3J5cHRpb24gVGhyZWF0ZW5zIFBhdGllbnQgRGF0
+YSBTZWN1cml0eQ0KSGVhbHRoSVRTZWN1cml0eS5jb20NClRoZSBOYXRpb25hbCBJbnN0aXR1dGUg
+b2YgU3RhbmRhcmRzIGFuZCBUZWNobm9sb2d5IChOSVNUKSBlc3RhYmxpc2hlZCBhDQpwcm9ncmFt
+IHRvIHRlc3QgZW5jcnlwdGlvbi4gTm90IGFsbCBlbmNyeXB0aW9uIGlzIGVxdWFsLCBzbyBOSVNU
+IGFuZCB0aGVpcg0KLi4uDQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS91cmw/cmN0PWomc2E9dCZ1
+cmw9aHR0cDovL2hlYWx0aGl0c2VjdXJpdHkuY29tL25ld3MvaG93LXVudmFsaWRhdGVkLWVuY3J5
+cHRpb24tdGhyZWF0ZW5zLXBhdGllbnQtZGF0YS1zZWN1cml0eSZjdD1nYSZjZD1DQUVZQkNvVU1U
+VTRNamt6TVRZeE1EQTJOekl4TlRrd09UY3lIREF4T0RJNU56VTVNV1JoWmpsak9EVTZZMjh1YTNJ
+NlpXNDZTMUkmdXNnPUFGUWpDTkh5SHloZDVrM0gwSko2UXo5bmRrZmxvRmRHRGc+DQoNCg0KLSAt
+IC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0g
+LSAtIC0gLQ0KVW5zdWJzY3JpYmUgZnJvbSB0aGlzIEdvb2dsZSBBbGVydDoNCjxodHRwczovL3d3
+dy5nb29nbGUuY28ua3IvYWxlcnRzL3JlbW92ZT9zb3VyY2U9YWxlcnRzbWFpbCZobD1lbiZnbD1L
+UiZtc2dpZD1NVFU0TWprek1UWXhNREEyTnpJeE5Ua3dPVGMmcz1BQjJYcTRqTHZPVWpaOEU2M0tU
+N2hEY2c2LU1IcDczaWVtNmxhdzg+DQoNCkNyZWF0ZSBhbm90aGVyIEdvb2dsZSBBbGVydDoNCjxo
+dHRwczovL3d3dy5nb29nbGUuY28ua3IvYWxlcnRzP3NvdXJjZT1hbGVydHNtYWlsJmhsPWVuJmds
+PUtSJm1zZ2lkPU1UVTRNamt6TVRZeE1EQTJOekl4TlRrd09UYz4NCg0KU2lnbiBpbiB0byBtYW5h
+Z2UgeW91ciBhbGVydHM6DQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvLmtyL2FsZXJ0cz9zb3VyY2U9
+YWxlcnRzbWFpbCZobD1lbiZnbD1LUiZtc2dpZD1NVFU0TWprek1UWXhNREEyTnpJeE5Ua3dPVGM+
+DQo=
+--bcaec52e5df3f224ba05370729d9
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html lang=3D"en-KR"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head> <body> <div>   <!--[if mso]>
+ <table><tr><td width=3D650>
+<![endif]-->
+ <div style=3D"width:100%;max-width:650px"> <div style=3D"font-family:Arial=
+"> <table style=3D"border-collapse:collapse;border-left:1px solid #e4e4e4;b=
+order-right:1px solid #e4e4e4"> <tr> <td style=3D"background-color:#f8f8f8;=
+padding-left:18px;border-bottom:1px solid #e4e4e4;border-top:1px solid #e4e=
+4e4"></td> <td valign=3D"middle" style=3D"padding:13px 10px 8px 0px;backgro=
+und-color:#f8f8f8;border-top:1px solid #e4e4e4;border-bottom:1px solid #e4e=
+4e4"> <a href=3D"https://www.google.co.kr/alerts?source=3Dalertsmail&amp;hl=
+=3Den&amp;gl=3DKR&amp;msgid=3DMTU4MjkzMTYxMDA2NzIxNTkwOTc" style=3D"text-de=
+coration:none"> <img src=3D"https://www.google.com/intl/en_kr/alerts/logo.p=
+ng?cd=3DKhQxNTgyOTMxNjEwMDY3MjE1OTA5Nw" alt=3D"Google" border=3D"0" height=
+=3D"25"> </a> </td> <td style=3D"background-color:#f8f8f8;padding-left:18px=
+;border-top:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4"></td> </tr> =
+ <tr> <td style=3D"padding-left:32px"></td> <td style=3D"padding:18px 0px 0=
+px 0px;vertical-align:middle;line-height:20px;font-family:Arial"> <span sty=
+le=3D"color:#262626;font-size:22px">&quot;National Institute of Standards a=
+nd Technology&quot; OR (intitle:NIST)</span> <div style=3D"vertical-align:t=
+op;padding-top:6px;color:#aaa;font-size:12px;line-height:16px"> <span>Weekl=
+y update</span> <span style=3D"padding:0px 4px 0px 4px">=E2=8B=85</span> <a=
+ style=3D"color:#aaa;text-decoration:none">July 7, 2016</a> </div> </td> <t=
+d style=3D"padding-left:32px"></td> </tr>  <tr> <td style=3D"padding-left:1=
+8px"></td> <td style=3D"padding:16px 0px 12px 0px;border-bottom:1px solid #=
+e4e4e4"> <span style=3D"font-size:12px;color:#737373"> NEWS </span> </td> <=
+td style=3D"padding-right:18px"></td> </tr>   <tr itemscopeitemtype=3D"http=
+://schema.org/Article"> <td style=3D"padding-left:18px"></td> <td style=3D"=
+padding:18px 0px 12px 0px;vertical-align:top;font-family:Arial"> <a></a> <d=
+iv>  <span style=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google=
+.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://3dprintingindustry.com/news/re=
+alizing-potential-3d-printing-interview-shawn-moylan-nist-83712/&amp;ct=3Dg=
+a&amp;cd=3DCAEYACoUMTU4MjkzMTYxMDA2NzIxNTkwOTcyHDAxODI5NzU5MWRhZjljODU6Y28u=
+a3I6ZW46S1I&amp;usg=3DAFQjCNFg204jv7R-CNw3hkVsmT0EUxS8rA" itemprop=3D"url" =
+style=3D"color:#427fed;display:inline;text-decoration:none;font-size:16px;l=
+ine-height:20px"> <span itemprop=3D"name">Realizing the potential of 3D pri=
+nting. Interview with Shawn Moylan, NIST</span> </a> </span>  <div> <div st=
+yle=3D"padding:2px 0px 8px 0px"> <div itemprop=3D"publisher" itemscopeitemt=
+ype=3D"http://schema.org/Organization" style=3D"color:#737373;font-size:12p=
+x"> <a style=3D"text-decoration:none;color:#737373"> <span itemprop=3D"name=
+">3D Printing Industry</span> </a> </div> <div itemprop=3D"description" sty=
+le=3D"color:#252525;padding:2px 0px 0px 0px;font-size:12px;line-height:18px=
+">I spoke to Shawn Moylan, project leader at the U.S. <b>National Institute=
+ of</b> <b>Standards and Technology</b> (NIST), about 3D printing metal. Fr=
+om his lab in&nbsp;...</div> </div>   <table> <tr> <td width=3D"16" style=
+=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=
+=3Den&amp;gl=3DKR&amp;ru=3Dhttp://3dprintingindustry.com/news/realizing-pot=
+ential-3d-printing-interview-shawn-moylan-nist-83712/&amp;ss=3Dgp&amp;rt=3D=
+Realizing&#43;the&#43;potential&#43;of&#43;3D&#43;printing.&#43;Interview&#=
+43;with&#43;Shawn&#43;Moylan,&#43;NIST&amp;cd=3DKhQxNTgyOTMxNjEwMDY3MjE1OTA=
+5NzIcMDE4Mjk3NTkxZGFmOWM4NTpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmUwbOZTpkU54b9W_=
+ThE6_Ibt6Pc5A" style=3D"text-decoration:none"> <img alt=3D"Google Plus" src=
+=3D"https://www.gstatic.com/alerts/images/gp-24.png" border=3D"0" height=3D=
+"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> =
+<a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=
+=3Dhttp://3dprintingindustry.com/news/realizing-potential-3d-printing-inter=
+view-shawn-moylan-nist-83712/&amp;ss=3Dfb&amp;rt=3DRealizing&#43;the&#43;po=
+tential&#43;of&#43;3D&#43;printing.&#43;Interview&#43;with&#43;Shawn&#43;Mo=
+ylan,&#43;NIST&amp;cd=3DKhQxNTgyOTMxNjEwMDY3MjE1OTA5NzIcMDE4Mjk3NTkxZGFmOWM=
+4NTpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmUwbOZTpkU54b9W_ThE6_Ibt6Pc5A" style=3D"=
+text-decoration:none"> <img alt=3D"Facebook" src=3D"https://www.gstatic.com=
+/alerts/images/fb-24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td=
+> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.goog=
+le.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://3dprintingindustr=
+y.com/news/realizing-potential-3d-printing-interview-shawn-moylan-nist-8371=
+2/&amp;ss=3Dtw&amp;rt=3DRealizing&#43;the&#43;potential&#43;of&#43;3D&#43;p=
+rinting.&#43;Interview&#43;with&#43;Shawn&#43;Moylan,&#43;NIST&amp;cd=3DKhQ=
+xNTgyOTMxNjEwMDY3MjE1OTA5NzIcMDE4Mjk3NTkxZGFmOWM4NTpjby5rcjplbjpLUg&amp;ssp=
+=3DAMJHsmUwbOZTpkU54b9W_ThE6_Ibt6Pc5A" style=3D"text-decoration:none"> <img=
+ alt=3D"Twitter" src=3D"https://www.gstatic.com/alerts/images/tw-24.png" bo=
+rder=3D"0" height=3D"16" width=3D"16"></a> </td> <td style=3D"padding:0px 0=
+px 6px 15px;font-family:Arial"> <a href=3D"https://www.google.co.kr/alerts/=
+feedback?ffu=3Dhttp://3dprintingindustry.com/news/realizing-potential-3d-pr=
+inting-interview-shawn-moylan-nist-83712/&amp;source=3Dalertsmail&amp;hl=3D=
+en&amp;gl=3DKR&amp;msgid=3DMTU4MjkzMTYxMDA2NzIxNTkwOTc&amp;s=3DAB2Xq4jLvOUj=
+Z8E63KT7hDcg6-MHp73iem6law8" style=3D"text-decoration:none;vertical-align:m=
+iddle;color:#aaa;font-size:10px"> Flag as irrelevant </a> </td> </tr> </tab=
+le>  </div> </div> </td> <td style=3D"padding-right:18px"></td> </tr>    <t=
+r itemscopeitemtype=3D"http://schema.org/Article"> <td style=3D"padding-lef=
+t:18px"></td> <td style=3D"padding:18px 0px 12px 0px;vertical-align:top;bor=
+der-top:1px solid #e4e4e4;font-family:Arial"> <a></a> <div>  <span style=3D=
+"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=3Dj&am=
+p;sa=3Dt&amp;url=3Dhttp://resources.csoonline.com/ccd/assets/113514/detail&=
+amp;ct=3Dga&amp;cd=3DCAEYASoUMTU4MjkzMTYxMDA2NzIxNTkwOTcyHDAxODI5NzU5MWRhZj=
+ljODU6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNHFVEmsT-XLrW_D8V3ODjHXUCIgfQ" itempro=
+p=3D"url" style=3D"color:#427fed;display:inline;text-decoration:none;font-s=
+ize:16px;line-height:20px"> <span itemprop=3D"name">Addressing NIST and DOD=
+ Requirements for Mobile Device Management (MDM)</span> </a> </span>  <div>=
+ <div style=3D"padding:2px 0px 8px 0px"> <div itemprop=3D"publisher" itemsc=
+opeitemtype=3D"http://schema.org/Organization" style=3D"color:#737373;font-=
+size:12px"> <a style=3D"text-decoration:none;color:#737373"> <span itemprop=
+=3D"name">CSO Online</span> </a> </div> <div itemprop=3D"description" style=
+=3D"color:#252525;padding:2px 0px 0px 0px;font-size:12px;line-height:18px">=
+Mobile devices, particularly smartphones, are exceptionally vulnerable to s=
+ecurity breaches. They are easily lost, are filled with unknown application=
+s,&nbsp;...</div> </div>   <table> <tr> <td width=3D"16" style=3D"padding-r=
+ight:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=
+=3DKR&amp;ru=3Dhttp://resources.csoonline.com/ccd/assets/113514/detail&amp;=
+ss=3Dgp&amp;rt=3DAddressing&#43;NIST&#43;and&#43;DOD&#43;Requirements&#43;f=
+or&#43;Mobile&#43;Device&#43;Management&#43;(MDM)&amp;cd=3DKhQxNTgyOTMxNjEw=
+MDY3MjE1OTA5NzIcMDE4Mjk3NTkxZGFmOWM4NTpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmVVOV=
+W98r-GwOeP0S1G7srIR1SDxg" style=3D"text-decoration:none"> <img alt=3D"Googl=
+e Plus" src=3D"https://www.gstatic.com/alerts/images/gp-24.png" border=3D"0=
+" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-r=
+ight:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=
+=3DKR&amp;ru=3Dhttp://resources.csoonline.com/ccd/assets/113514/detail&amp;=
+ss=3Dfb&amp;rt=3DAddressing&#43;NIST&#43;and&#43;DOD&#43;Requirements&#43;f=
+or&#43;Mobile&#43;Device&#43;Management&#43;(MDM)&amp;cd=3DKhQxNTgyOTMxNjEw=
+MDY3MjE1OTA5NzIcMDE4Mjk3NTkxZGFmOWM4NTpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmVVOV=
+W98r-GwOeP0S1G7srIR1SDxg" style=3D"text-decoration:none"> <img alt=3D"Faceb=
+ook" src=3D"https://www.gstatic.com/alerts/images/fb-24.png" border=3D"0" h=
+eight=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-righ=
+t:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DK=
+R&amp;ru=3Dhttp://resources.csoonline.com/ccd/assets/113514/detail&amp;ss=
+=3Dtw&amp;rt=3DAddressing&#43;NIST&#43;and&#43;DOD&#43;Requirements&#43;for=
+&#43;Mobile&#43;Device&#43;Management&#43;(MDM)&amp;cd=3DKhQxNTgyOTMxNjEwMD=
+Y3MjE1OTA5NzIcMDE4Mjk3NTkxZGFmOWM4NTpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmVVOVW9=
+8r-GwOeP0S1G7srIR1SDxg" style=3D"text-decoration:none"> <img alt=3D"Twitter=
+" src=3D"https://www.gstatic.com/alerts/images/tw-24.png" border=3D"0" heig=
+ht=3D"16" width=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15px;fon=
+t-family:Arial"> <a href=3D"https://www.google.co.kr/alerts/feedback?ffu=3D=
+http://resources.csoonline.com/ccd/assets/113514/detail&amp;source=3Dalerts=
+mail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTU4MjkzMTYxMDA2NzIxNTkwOTc&amp;s=
+=3DAB2Xq4jLvOUjZ8E63KT7hDcg6-MHp73iem6law8" style=3D"text-decoration:none;v=
+ertical-align:middle;color:#aaa;font-size:10px"> Flag as irrelevant </a> </=
+td> </tr> </table>  </div> </div> </td> <td style=3D"padding-right:18px"></=
+td> </tr>    <tr itemscopeitemtype=3D"http://schema.org/Article"> <td style=
+=3D"padding-left:18px"></td> <td style=3D"padding:18px 0px 12px 0px;vertica=
+l-align:top;border-top:1px solid #e4e4e4;font-family:Arial"> <a href=3D"htt=
+ps://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.techrepubli=
+c.com/article/quantum-physics-meets-it-security/&amp;ct=3Dga&amp;cd=3DCAEYA=
+ioUMTU4MjkzMTYxMDA2NzIxNTkwOTcyHDAxODI5NzU5MWRhZjljODU6Y28ua3I6ZW46S1I&amp;=
+usg=3DAFQjCNHPBi1_qZPFK1HykEkUXF5dcZf99g" style=3D"text-decoration:none"> <=
+table align=3D"right" style=3D"display:inline;border-collapse:collapse"> <t=
+r> <td style=3D"padding-left:18px"></td> <td background=3D"https://encrypte=
+d-tbn3.gstatic.com/images?q=3Dtbn:ANd9GcQqL6QK-gHqYbrgThBKM9I1TUob-ZKpHMvre=
+I6Z-HzB1OoH6u7TEiz0AN-J-QODaZLtvrQ-XGk" height=3D"100" width=3D"100" valign=
+=3D"bottom" style=3D"padding:0px 0px 0px 0px;background-repeat:no-repeat;te=
+xt-align:center;border:1px solid #e4e4e4"> <link href=3D"https://encrypted-=
+tbn3.gstatic.com/images?q=3Dtbn:ANd9GcT0Wx2J4fCTuwZ_Si_cMKeR1bTiUNcbxMJOnfn=
+Pl1Yuw0Ha0qstEjWKzAX2kw" itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn3.gstatic.com/images%3Fq%3Dtbn:ANd9GcQqL6QK-gHqYbrgThBKM9I1TUo=
+b-ZKpHMvreI6Z-HzB1OoH6u7TEiz0AN-J-QODaZLtvrQ-XGk"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">TechRepublic</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">TechRepublic</div> </div> <!--[i=
+f gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <span styl=
+e=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=3D=
+j&amp;sa=3Dt&amp;url=3Dhttp://www.techrepublic.com/article/quantum-physics-=
+meets-it-security/&amp;ct=3Dga&amp;cd=3DCAEYAioUMTU4MjkzMTYxMDA2NzIxNTkwOTc=
+yHDAxODI5NzU5MWRhZjljODU6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNHPBi1_qZPFK1HykEkU=
+XF5dcZf99g" itemprop=3D"url" style=3D"color:#427fed;display:inline;text-dec=
+oration:none;font-size:16px;line-height:20px"> <span itemprop=3D"name">Quan=
+tum physics meets IT security</span> </a> </span>  <div> <div style=3D"padd=
+ing:2px 0px 8px 0px"> <div itemprop=3D"publisher" itemscopeitemtype=3D"http=
+://schema.org/Organization" style=3D"color:#737373;font-size:12px"> <a styl=
+e=3D"text-decoration:none;color:#737373"> <span itemprop=3D"name">TechRepub=
+lic</span> </a> </div> <div itemprop=3D"description" style=3D"color:#252525=
+;padding:2px 0px 0px 0px;font-size:12px;line-height:18px">The working group=
+ members are planning to work with the US government's <b>National Institut=
+e of Standards and Technology</b> (NIST) quantum security&nbsp;...</div> </=
+div>   <table> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=
+=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp=
+://www.techrepublic.com/article/quantum-physics-meets-it-security/&amp;ss=
+=3Dgp&amp;rt=3DQuantum&#43;physics&#43;meets&#43;IT&#43;security&amp;cd=3DK=
+hQxNTgyOTMxNjEwMDY3MjE1OTA5NzIcMDE4Mjk3NTkxZGFmOWM4NTpjby5rcjplbjpLUg&amp;s=
+sp=3DAMJHsmU4k-0-tOkHFZwILn4cknW9Z3HXwQ" style=3D"text-decoration:none"> <i=
+mg alt=3D"Google Plus" src=3D"https://www.gstatic.com/alerts/images/gp-24.p=
+ng" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" sty=
+le=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?=
+hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.techrepublic.com/article/quantum-ph=
+ysics-meets-it-security/&amp;ss=3Dfb&amp;rt=3DQuantum&#43;physics&#43;meets=
+&#43;IT&#43;security&amp;cd=3DKhQxNTgyOTMxNjEwMDY3MjE1OTA5NzIcMDE4Mjk3NTkxZ=
+GFmOWM4NTpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmU4k-0-tOkHFZwILn4cknW9Z3HXwQ" sty=
+le=3D"text-decoration:none"> <img alt=3D"Facebook" src=3D"https://www.gstat=
+ic.com/alerts/images/fb-24.png" border=3D"0" height=3D"16" width=3D"16"></a=
+> </td> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https://ww=
+w.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.techrep=
+ublic.com/article/quantum-physics-meets-it-security/&amp;ss=3Dtw&amp;rt=3DQ=
+uantum&#43;physics&#43;meets&#43;IT&#43;security&amp;cd=3DKhQxNTgyOTMxNjEwM=
+DY3MjE1OTA5NzIcMDE4Mjk3NTkxZGFmOWM4NTpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmU4k-0=
+-tOkHFZwILn4cknW9Z3HXwQ" style=3D"text-decoration:none"> <img alt=3D"Twitte=
+r" src=3D"https://www.gstatic.com/alerts/images/tw-24.png" border=3D"0" hei=
+ght=3D"16" width=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15px;fo=
+nt-family:Arial"> <a href=3D"https://www.google.co.kr/alerts/feedback?ffu=
+=3Dhttp://www.techrepublic.com/article/quantum-physics-meets-it-security/&a=
+mp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTU4MjkzMTYxMDA2=
+NzIxNTkwOTc&amp;s=3DAB2Xq4jLvOUjZ8E63KT7hDcg6-MHp73iem6law8" style=3D"text-=
+decoration:none;vertical-align:middle;color:#aaa;font-size:10px"> Flag as i=
+rrelevant </a> </td> </tr> </table>  </div> </div> </td> <td style=3D"paddi=
+ng-right:18px"></td> </tr>    <tr itemscopeitemtype=3D"http://schema.org/Ar=
+ticle"> <td style=3D"padding-left:18px"></td> <td style=3D"padding:18px 0px=
+ 12px 0px;vertical-align:top;border-top:1px solid #e4e4e4;font-family:Arial=
+"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp:=
+//www.fireengineering.com/articles/2016/07/staffing-the-most-critical-facto=
+r-of-fireground-tactics.html&amp;ct=3Dga&amp;cd=3DCAEYAyoUMTU4MjkzMTYxMDA2N=
+zIxNTkwOTcyHDAxODI5NzU5MWRhZjljODU6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNGqdevo66=
+21Ovc1mSvKE4V4OWtQuQ" style=3D"text-decoration:none"> <table align=3D"right=
+" style=3D"display:inline;border-collapse:collapse"> <tr> <td style=3D"padd=
+ing-left:18px"></td> <td background=3D"https://encrypted-tbn1.gstatic.com/i=
+mages?q=3Dtbn:ANd9GcT-XMEhz16wb41eHRgt2IE9VcMTeyHY7FewWq1dptZUcFjMD6mjcYINL=
+lR_R2cfA1p2d1n-_hE" height=3D"100" width=3D"100" valign=3D"bottom" style=3D=
+"padding:0px 0px 0px 0px;background-repeat:no-repeat;text-align:center;bord=
+er:1px solid #e4e4e4"> <link href=3D"https://encrypted-tbn1.gstatic.com/ima=
+ges?q=3Dtbn:ANd9GcQybEFIzE7im7hk3UNc3Vo97zXt13VlPGSkCuv9KJ0RGtcPmCYqx6O3qs3=
+Yh3rwfUN1u_kQiC7RVQ" itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn1.gstatic.com/images%3Fq%3Dtbn:ANd9GcT-XMEhz16wb41eHRgt2IE9VcM=
+TeyHY7FewWq1dptZUcFjMD6mjcYINLlR_R2cfA1p2d1n-_hE"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">FireEngineering.com</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">FireEngineering.com</div> </div>=
+ <!--[if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <sp=
+an style=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url=
+?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.fireengineering.com/articles/2016/=
+07/staffing-the-most-critical-factor-of-fireground-tactics.html&amp;ct=3Dga=
+&amp;cd=3DCAEYAyoUMTU4MjkzMTYxMDA2NzIxNTkwOTcyHDAxODI5NzU5MWRhZjljODU6Y28ua=
+3I6ZW46S1I&amp;usg=3DAFQjCNGqdevo6621Ovc1mSvKE4V4OWtQuQ" itemprop=3D"url" s=
+tyle=3D"color:#427fed;display:inline;text-decoration:none;font-size:16px;li=
+ne-height:20px"> <span itemprop=3D"name">Staffing: The Most Critical Factor=
+ of Fireground Tactics</span> </a> </span>  <div> <div style=3D"padding:2px=
+ 0px 8px 0px"> <div itemprop=3D"publisher" itemscopeitemtype=3D"http://sche=
+ma.org/Organization" style=3D"color:#737373;font-size:12px"> <a style=3D"te=
+xt-decoration:none;color:#737373"> <span itemprop=3D"name">FireEngineering.=
+com</span> </a> </div> <div itemprop=3D"description" style=3D"color:#252525=
+;padding:2px 0px 0px 0px;font-size:12px;line-height:18px">... Institute (UL=
+-FSRI) and <b>National Institute of Standards and Technology</b> (NIST) stu=
+dies and how those groups are finally doing interior attack studies.</div> =
+</div>   <table> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=
+=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp=
+://www.fireengineering.com/articles/2016/07/staffing-the-most-critical-fact=
+or-of-fireground-tactics.html&amp;ss=3Dgp&amp;rt=3DStaffing:&#43;The&#43;Mo=
+st&#43;Critical&#43;Factor&#43;of&#43;Fireground&#43;Tactics&amp;cd=3DKhQxN=
+TgyOTMxNjEwMDY3MjE1OTA5NzIcMDE4Mjk3NTkxZGFmOWM4NTpjby5rcjplbjpLUg&amp;ssp=
+=3DAMJHsmVX3rrFq3Yng-KyzaBBAiauPfz4rg" style=3D"text-decoration:none"> <img=
+ alt=3D"Google Plus" src=3D"https://www.gstatic.com/alerts/images/gp-24.png=
+" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=
+=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=
+=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.fireengineering.com/articles/2016/07/=
+staffing-the-most-critical-factor-of-fireground-tactics.html&amp;ss=3Dfb&am=
+p;rt=3DStaffing:&#43;The&#43;Most&#43;Critical&#43;Factor&#43;of&#43;Firegr=
+ound&#43;Tactics&amp;cd=3DKhQxNTgyOTMxNjEwMDY3MjE1OTA5NzIcMDE4Mjk3NTkxZGFmO=
+WM4NTpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmVX3rrFq3Yng-KyzaBBAiauPfz4rg" style=
+=3D"text-decoration:none"> <img alt=3D"Facebook" src=3D"https://www.gstatic=
+.com/alerts/images/fb-24.png" border=3D"0" height=3D"16" width=3D"16"></a> =
+</td> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.=
+google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.fireengin=
+eering.com/articles/2016/07/staffing-the-most-critical-factor-of-fireground=
+-tactics.html&amp;ss=3Dtw&amp;rt=3DStaffing:&#43;The&#43;Most&#43;Critical&=
+#43;Factor&#43;of&#43;Fireground&#43;Tactics&amp;cd=3DKhQxNTgyOTMxNjEwMDY3M=
+jE1OTA5NzIcMDE4Mjk3NTkxZGFmOWM4NTpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmVX3rrFq3Y=
+ng-KyzaBBAiauPfz4rg" style=3D"text-decoration:none"> <img alt=3D"Twitter" s=
+rc=3D"https://www.gstatic.com/alerts/images/tw-24.png" border=3D"0" height=
+=3D"16" width=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15px;font-=
+family:Arial"> <a href=3D"https://www.google.co.kr/alerts/feedback?ffu=3Dht=
+tp://www.fireengineering.com/articles/2016/07/staffing-the-most-critical-fa=
+ctor-of-fireground-tactics.html&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=
+=3DKR&amp;msgid=3DMTU4MjkzMTYxMDA2NzIxNTkwOTc&amp;s=3DAB2Xq4jLvOUjZ8E63KT7h=
+Dcg6-MHp73iem6law8" style=3D"text-decoration:none;vertical-align:middle;col=
+or:#aaa;font-size:10px"> Flag as irrelevant </a> </td> </tr> </table>  </di=
+v> </div> </td> <td style=3D"padding-right:18px"></td> </tr>    <tr itemsco=
+peitemtype=3D"http://schema.org/Article"> <td style=3D"padding-left:18px"><=
+/td> <td style=3D"padding:18px 0px 12px 0px;vertical-align:top;border-top:1=
+px solid #e4e4e4;font-family:Arial"> <a href=3D"https://www.google.com/url?=
+rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://healthitsecurity.com/news/how-unvalidat=
+ed-encryption-threatens-patient-data-security&amp;ct=3Dga&amp;cd=3DCAEYBCoU=
+MTU4MjkzMTYxMDA2NzIxNTkwOTcyHDAxODI5NzU5MWRhZjljODU6Y28ua3I6ZW46S1I&amp;usg=
+=3DAFQjCNHyHyhd5k3H0JJ6Qz9ndkfloFdGDg" style=3D"text-decoration:none"> <tab=
+le align=3D"right" style=3D"display:inline;border-collapse:collapse"> <tr> =
+<td style=3D"padding-left:18px"></td> <td background=3D"https://encrypted-t=
+bn2.gstatic.com/images?q=3Dtbn:ANd9GcT6bP_lA2W4kX_47J2pDYn4wtzMukfUhZGSEB1O=
+NUWAu7ZIFxQV5bTW5TybLIB_WT7eBZkdLfQ" height=3D"100" width=3D"100" valign=3D=
+"bottom" style=3D"padding:0px 0px 0px 0px;background-repeat:no-repeat;text-=
+align:center;border:1px solid #e4e4e4"> <link href=3D"https://encrypted-tbn=
+2.gstatic.com/images?q=3Dtbn:ANd9GcSmtpnG0wkkBw36gbFKsm2Ybc_AwCihJuct-oJXoK=
+V7UBfXmZANFp3WhCst-g" itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn2.gstatic.com/images%3Fq%3Dtbn:ANd9GcT6bP_lA2W4kX_47J2pDYn4wtz=
+MukfUhZGSEB1ONUWAu7ZIFxQV5bTW5TybLIB_WT7eBZkdLfQ"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">HealthITSecurity.com</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">HealthITSecurity.com</div> </div=
+> <!--[if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <s=
+pan style=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/ur=
+l?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://healthitsecurity.com/news/how-unvalid=
+ated-encryption-threatens-patient-data-security&amp;ct=3Dga&amp;cd=3DCAEYBC=
+oUMTU4MjkzMTYxMDA2NzIxNTkwOTcyHDAxODI5NzU5MWRhZjljODU6Y28ua3I6ZW46S1I&amp;u=
+sg=3DAFQjCNHyHyhd5k3H0JJ6Qz9ndkfloFdGDg" itemprop=3D"url" style=3D"color:#4=
+27fed;display:inline;text-decoration:none;font-size:16px;line-height:20px">=
+ <span itemprop=3D"name">How Unvalidated Encryption Threatens Patient Data =
+Security</span> </a> </span>  <div> <div style=3D"padding:2px 0px 8px 0px">=
+ <div itemprop=3D"publisher" itemscopeitemtype=3D"http://schema.org/Organiz=
+ation" style=3D"color:#737373;font-size:12px"> <a style=3D"text-decoration:=
+none;color:#737373"> <span itemprop=3D"name">HealthITSecurity.com</span> </=
+a> </div> <div itemprop=3D"description" style=3D"color:#252525;padding:2px =
+0px 0px 0px;font-size:12px;line-height:18px">The <b>National Institute of S=
+tandards and Technology</b> (NIST) established a program to test encryption=
+. Not all encryption is equal, so NIST and their&nbsp;...</div> </div>   <t=
+able> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https:/=
+/www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://healthit=
+security.com/news/how-unvalidated-encryption-threatens-patient-data-securit=
+y&amp;ss=3Dgp&amp;rt=3DHow&#43;Unvalidated&#43;Encryption&#43;Threatens&#43=
+;Patient&#43;Data&#43;Security&amp;cd=3DKhQxNTgyOTMxNjEwMDY3MjE1OTA5NzIcMDE=
+4Mjk3NTkxZGFmOWM4NTpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmUlyJHusfSUoyQVtEBysL7f7=
+Sptqw" style=3D"text-decoration:none"> <img alt=3D"Google Plus" src=3D"http=
+s://www.gstatic.com/alerts/images/gp-24.png" border=3D"0" height=3D"16" wid=
+th=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a href=
+=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp=
+://healthitsecurity.com/news/how-unvalidated-encryption-threatens-patient-d=
+ata-security&amp;ss=3Dfb&amp;rt=3DHow&#43;Unvalidated&#43;Encryption&#43;Th=
+reatens&#43;Patient&#43;Data&#43;Security&amp;cd=3DKhQxNTgyOTMxNjEwMDY3MjE1=
+OTA5NzIcMDE4Mjk3NTkxZGFmOWM4NTpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmUlyJHusfSUoy=
+QVtEBysL7f7Sptqw" style=3D"text-decoration:none"> <img alt=3D"Facebook" src=
+=3D"https://www.gstatic.com/alerts/images/fb-24.png" border=3D"0" height=3D=
+"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> =
+<a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=
+=3Dhttp://healthitsecurity.com/news/how-unvalidated-encryption-threatens-pa=
+tient-data-security&amp;ss=3Dtw&amp;rt=3DHow&#43;Unvalidated&#43;Encryption=
+&#43;Threatens&#43;Patient&#43;Data&#43;Security&amp;cd=3DKhQxNTgyOTMxNjEwM=
+DY3MjE1OTA5NzIcMDE4Mjk3NTkxZGFmOWM4NTpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmUlyJH=
+usfSUoyQVtEBysL7f7Sptqw" style=3D"text-decoration:none"> <img alt=3D"Twitte=
+r" src=3D"https://www.gstatic.com/alerts/images/tw-24.png" border=3D"0" hei=
+ght=3D"16" width=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15px;fo=
+nt-family:Arial"> <a href=3D"https://www.google.co.kr/alerts/feedback?ffu=
+=3Dhttp://healthitsecurity.com/news/how-unvalidated-encryption-threatens-pa=
+tient-data-security&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msg=
+id=3DMTU4MjkzMTYxMDA2NzIxNTkwOTc&amp;s=3DAB2Xq4jLvOUjZ8E63KT7hDcg6-MHp73iem=
+6law8" style=3D"text-decoration:none;vertical-align:middle;color:#aaa;font-=
+size:10px"> Flag as irrelevant </a> </td> </tr> </table>  </div> </div> </t=
+d> <td style=3D"padding-right:18px"></td> </tr>    <tr> <td colspan=3D"3" v=
+align=3D"middle" style=3D"background-color:#f8f8f8;font-size:14px;vertical-=
+align:middle;text-align:center;padding:10px 10px 10px 10px;line-height:20px=
+;border:1px solid #e4e4e4;font-family:Arial"> <a href=3D"https://www.google=
+.co.kr/alerts?s=3DAB2Xq4jLvOUjZ8E63KT7hDcg6-MHp73iem6law8&amp;start=3D14672=
+74031&amp;end=3D1467878791&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&=
+amp;msgid=3DMTU4MjkzMTYxMDA2NzIxNTkwOTc#history" style=3D"text-decoration:n=
+one;vertical-align:middle;color:#427fed">See more results</a> <span style=
+=3D"font-size:12px;padding-left:15px;padding-right:15px;color:#aaa">|</span=
+> <a href=3D"https://www.google.co.kr/alerts/edit?source=3Dalertsmail&amp;h=
+l=3Den&amp;gl=3DKR&amp;msgid=3DMTU4MjkzMTYxMDA2NzIxNTkwOTc&amp;s=3DAB2Xq4jL=
+vOUjZ8E63KT7hDcg6-MHp73iem6law8&amp;email=3Dcooldenny%40etri.re.kr" style=
+=3D"text-decoration:none;vertical-align:middle;color:#427fed">Edit this ale=
+rt</a>  </td> </tr>  </table> <table style=3D"padding-top:6px;font-size:12p=
+x;color:#252525;text-align:center;width:100%"> <tr> <td style=3D"font-famil=
+y:Arial"> You have received this email because you have subscribed to <b>Go=
+ogle Alerts</b>. <div> <a href=3D"https://www.google.co.kr/alerts/remove?so=
+urce=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTU4MjkzMTYxMDA2NzIxN=
+TkwOTc&amp;s=3DAB2Xq4jLvOUjZ8E63KT7hDcg6-MHp73iem6law8" style=3D"text-decor=
+ation:none;color:#427fed">Unsubscribe</a> <span style=3D"padding:0px 4px 0p=
+x 4px;color:#252525">|</span> <a href=3D"https://www.google.co.kr/alerts?so=
+urce=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTU4MjkzMTYxMDA2NzIxN=
+TkwOTc" style=3D"text-decoration:none;color:#427fed">View all your alerts</=
+a> </div> </td> </tr> <tr> <td style=3D"padding:6px 10px 0px 0px;font-famil=
+y:Arial"> <a href=3D"https://www.google.com/alerts/feeds/004825917682200587=
+31/18208432239738667352" style=3D"text-decoration:none;color:#427fed"> <img=
+ src=3D"https://www.gstatic.com/alerts/images/rss-16.gif" alt=3D"RSS" borde=
+r=3D"0" style=3D"padding:0px 8px 0px 0px;vertical-align:middle"> <span styl=
+e=3D"display:inline;line-height:16px;vertical-align:middle">Receive this al=
+ert as RSS feed</span> </a> </td> </tr> <tr> <td style=3D"padding:6px 0px 0=
+px 0px;font-family:Arial"> <a href=3D"https://www.google.co.kr/alerts?sourc=
+e=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTU4MjkzMTYxMDA2NzIxNTkw=
+OTc&amp;s=3DAB2Xq4jLvOUjZ8E63KT7hDcg6-MHp73iem6law8&amp;ffu=3D" style=3D"te=
+xt-decoration:none;color:#427fed"> <div style=3D"display:inline;line-height=
+:16px;vertical-align:middle">Send Feedback</div> </a> </td> </tr> </table> =
+</div> </div> <!--[if mso]>
+</td></tr></table>
+<![endif]-->
+  </div>  </body> </html>=
+
+--bcaec52e5df3f224ba05370729d9--

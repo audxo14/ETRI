@@ -1,0 +1,1170 @@
+Received: from SMTPEG2.etri.info (129.254.27.142) by SMTP1.etri.info
+ (129.254.28.71) with Microsoft SMTP Server (TLS) id 14.1.355.2; Thu, 7 Jul
+ 2016 16:03:07 +0900
+Received: from spam.etri.re.kr (129.254.9.15) by SMTPEG2.etri.info
+ (129.254.27.142) with Microsoft SMTP Server (TLS) id 14.1.355.2; Thu, 7 Jul
+ 2016 16:03:08 +0900
+Received: from unknown (HELO mail-pa0-f72.google.com) (209.85.220.72)	by
+ 129.254.9.15 with ESMTP; 7 Jul 2016 16:02:53 +0900
+X-Original-SENDERIP: 209.85.220.72
+X-Original-MAILFROM: 3pv59VxQKCV0BJJBG95G9MON-IJM9KGTBJJBG9.7JH7JJG89IIT9OMD.M9.FM@alerts.bounces.google.com
+Received: by mail-pa0-f72.google.com with SMTP id b13so17881359pat.3
+        for <cooldenny@etri.re.kr>; Thu, 07 Jul 2016 00:03:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=mime-version:date:list-id:list-unsubscribe:message-id:subject:from
+         :to;
+        bh=bmGWsb7Z4dnrLhLpp1m31LpazwiPrMd7KLiQ9tuajKU=;
+        b=c+Tsb3Unvfnd+tWdCPJ3QBqHN0WVpCnDZeS22kxmQ75Ol3ZD/AXM8XMtCXkKIu35W0
+         Nr9vrVlAr+d/5zlck/LXKzPDEJk5ePoUQCRbukQyza+ZcXhGUbybM/DHsVfy1Vs8Q5N6
+         v6VNwrl90i5jSDGcuru+XdlN+at3tYnVbupHGmuM1pYDP6qyZZGAd8ZUBW9roF1QAh+j
+         /dvIJofOlKYm5fduthFTL/Y1H75+aeX+mv+MqG3XhdVAb2RUxaG4MHYiBDbKUHSliNRq
+         M9pfkUwW1xp/B3JeueROaUVxLzMRcZKC7QqV/PAeWRyeF0Xc2pdt4eFF4nhG0T1UNUk/
+         hzoA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:list-id:list-unsubscribe
+         :message-id:subject:from:to;
+        bh=bmGWsb7Z4dnrLhLpp1m31LpazwiPrMd7KLiQ9tuajKU=;
+        b=Gqi+cqceYUZWnKNeXcIXCXOkPYOfXInl3hyZNgDzFHgjaei9QYkdlNPiM706D2xTYF
+         oVwdj3eMYREAulDJjfYmNpe/PJMNWZsq4zdJ8v07yO5XzOGWM8oqRx6EVu7Hl+ICYKuM
+         RywIMkM3frPusVZ7OsCp7bjNa956x0Ui312bp543gNNb75hk+C1gxAxH7EX2NvJgjmrL
+         3B0JmRvTF/aoWx8e0j81Z4SKNPi0EP9hSyBcEybNuMmz9m4xvhqO8n1z7QrudhHbFBil
+         kPuzmZfelCaTSGj3/st04uyUPHl1/52eJMwDW1Mj5hXpoLVomf2PCs+yxXt9ei/m2nq+
+         z4XA==
+X-Gm-Message-State: ALyK8tIGY3cIKhLuUz/+r4vkzdEXsev78sXhZWd+KzcCXDJAfBLEgKUtH03nB3TEAwk=
+X-Received: by 10.66.217.162 with SMTP id oz2mr29133778pac.34.1467874982859;
+ Thu, 07 Jul 2016 00:03:02 -0700 (PDT)
+Date: Thu, 7 Jul 2016 00:03:02 -0700
+List-Id: <3234393329189436369.alerts.google.com>
+List-Unsubscribe: <mailto:ur@unsubscribe.alerts.google.com?subject=AB2Xq4h8C2PzLkw60f391WkZk5mT51CfYeSTlF8>
+Message-ID: <047d7b5dbb88ed949705370646d3@google.com>
+Subject: Google Alert - "Pew Research Center"
+From: Google Alerts <googlealerts-noreply@google.com>
+To: <cooldenny@etri.re.kr>
+Content-Type: multipart/alternative; boundary="047d7b5dbb88ed946c05370646d0"
+Return-Path: 3pv59VxQKCV0BJJBG95G9MON-IJM9KGTBJJBG9.7JH7JJG89IIT9OMD.M9.FM@alerts.bounces.google.com
+X-MS-Exchange-Organization-AuthSource: SMTPEG2.etri.info
+X-MS-Exchange-Organization-AuthAs: Anonymous
+MIME-Version: 1.0
+
+--047d7b5dbb88ed946c05370646d0
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+PT09IE5ld3MgLSAxMCBuZXcgcmVzdWx0cyBmb3IgWyJQZXcgUmVzZWFyY2ggQ2VudGVyIl0gPT09
+DQoNCkhvdyB0aGUgcHVibGljIHZpZXdzIHRoZSBzZWNyZXQgdG8gQW1lcmljYSdzIHN1Y2Nlc3MN
+ClBldyBSZXNlYXJjaCBDZW50ZXINClBldyBSZXNlYXJjaCBDZW50ZXIncyBwb2xpdGljYWwgdmFs
+dWVzIHN1cnZleSBoYXMgY29uc2lzdGVudGx5IGZvdW5kIHRoYXQNCm92ZXJ3aGVsbWluZyBtYWpv
+cml0aWVzIGFncmVlIHdpdGggdGhlIHN0YXRlbWVudCwg4oCcSSBhbSB2ZXJ5IHBhdHJpb3RpYy4N
+CjxodHRwczovL3d3dy5nb29nbGUuY29tL3VybD9yY3Q9aiZzYT10JnVybD1odHRwOi8vd3d3LnBl
+d3Jlc2VhcmNoLm9yZy9mYWN0LXRhbmsvMjAxNi8wNy8wMS9hbWVyaWNhcy1zdWNjZXNzLyZjdD1n
+YSZjZD1DQUVZQUNvVU1UQTNOelkxTWpBeU16UXdNRE0zTURJeU5EZ3lIRFV6TjJZMFlUVmhNelZq
+WlRrM1lXUTZZMjh1YTNJNlpXNDZTMUkmdXNnPUFGUWpDTkV1U2IxNWtxNm9CSlhyNHZUb3FWV0Q0
+MTAwSEE+DQoNCkVsZWN0b3JhbGx5IGNvbXBldGl0aXZlIGNvdW50aWVzIGhhdmUgZ3Jvd24gc2Nh
+cmNlciBpbiByZWNlbnQgZGVjYWRlcw0KUGV3IFJlc2VhcmNoIENlbnRlcg0KLi4uIHNlcGFyYXRl
+ZCBEZW1vY3JhdCBCYXJhY2sgT2JhbWEgYW5kIFJlcHVibGljYW4gTWl0dCBSb21uZXksIGFjY29y
+ZGluZw0KdG8gYSBuZXcgUGV3IFJlc2VhcmNoIENlbnRlciBhbmFseXNpcyBvZiBjb3VudHktbGV2
+ZWwgdm90aW5nIGRhdGEuDQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS91cmw/cmN0PWomc2E9dCZ1
+cmw9aHR0cDovL3d3dy5wZXdyZXNlYXJjaC5vcmcvZmFjdC10YW5rLzIwMTYvMDYvMzAvZWxlY3Rv
+cmFsbHktY29tcGV0aXRpdmUtY291bnRpZXMtaGF2ZS1ncm93bi1zY2FyY2VyLWluLXJlY2VudC1k
+ZWNhZGVzLyZjdD1nYSZjZD1DQUVZQVNvVU1UQTNOelkxTWpBeU16UXdNRE0zTURJeU5EZ3lIRFV6
+TjJZMFlUVmhNelZqWlRrM1lXUTZZMjh1YTNJNlpXNDZTMUkmdXNnPUFGUWpDTkd4RGFzR19seUY4
+TGlZcS01SWN3UERsbnBYb1E+DQoNClN1cHBvcnQgZm9yIE5BVE8gaXMgd2lkZXNwcmVhZCBhbW9u
+ZyBtZW1iZXIgbmF0aW9ucw0KUGV3IFJlc2VhcmNoIENlbnRlcg0KQnV0IGEgc3ByaW5nIDIwMTYg
+UGV3IFJlc2VhcmNoIENlbnRlciBzdXJ2ZXkgb2YgbmluZSBFVSBuYXRpb25zLCB0aGUgVS5TLg0K
+YW5kIENhbmFkYSBmaW5kcyBwb3NpdGl2ZSB2aWV3cyBvZiB0aGUgbWlsaXRhcnkgYWxsaWFuY2Uu
+IEEgbWVkaWFuIG9mIDU3JQ0KLi4uDQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS91cmw/cmN0PWom
+c2E9dCZ1cmw9aHR0cDovL3d3dy5wZXdyZXNlYXJjaC5vcmcvZmFjdC10YW5rLzIwMTYvMDcvMDYv
+c3VwcG9ydC1mb3ItbmF0by1pcy13aWRlc3ByZWFkLWFtb25nLW1lbWJlci1uYXRpb25zLyZjdD1n
+YSZjZD1DQUVZQWlvVU1UQTNOelkxTWpBeU16UXdNRE0zTURJeU5EZ3lIRFV6TjJZMFlUVmhNelZq
+WlRrM1lXUTZZMjh1YTNJNlpXNDZTMUkmdXNnPUFGUWpDTkZsNGFDU1YxTVdIZER2QTN0MnJLMVJw
+dzE0cUE+DQoNClNoYXJpbmcgYW5kIG9uLWRlbWFuZCBzZXJ2aWNlcyBhdHRyYWN0IGEgc21hbGwg
+YnV0IGFjdGl2ZSBncm91cCBvZiAnc3VwZXINCnVzZXJzJw0KUGV3IFJlc2VhcmNoIENlbnRlcg0K
+U3RpbGwsIHNvbWUgQW1lcmljYW5zIGFyZSDigJxzdXBlciB1c2Vyc+KAnTogNyUgaGF2ZSB1c2Vk
+IHNpeCBvciBtb3JlIHNlcnZpY2VzDQoob3V0IG9mIGEgdG90YWwgb2YgMTEpLCBhY2NvcmRpbmcg
+dG8gYSBQZXcgUmVzZWFyY2ggQ2VudGVyIHN0dWR5LiBTb21lIG9mDQouLi4NCjxodHRwczovL3d3
+dy5nb29nbGUuY29tL3VybD9yY3Q9aiZzYT10JnVybD1odHRwOi8vd3d3LnBld3Jlc2VhcmNoLm9y
+Zy9mYWN0LXRhbmsvMjAxNi8wNi8zMC9zaGFyaW5nLWFuZC1vbi1kZW1hbmQtc2VydmljZXMtYXR0
+cmFjdC1hLXNtYWxsLWJ1dC1hY3RpdmUtZ3JvdXAtb2Ytc3VwZXItdXNlcnMvJmN0PWdhJmNkPUNB
+RVlBeW9VTVRBM056WTFNakF5TXpRd01ETTNNREl5TkRneUhEVXpOMlkwWVRWaE16VmpaVGszWVdR
+NlkyOHVhM0k2Wlc0NlMxSSZ1c2c9QUZRakNORlF1a1NVU2w4YUJhaHR6TU03dm5QSTc4b3JMdz4N
+Cg0KSGFsZiBvZiBNaWxsZW5uaWFsIExhdGlub3MgU2F5IFRoZXkgRXhwZXJpZW5jZWQgUmFjaWFs
+IERpc2NyaW1pbmF0aW9uLCBQZXcNClJlc2VhcmNoIENlbnRlciBGaW5kcw0KTGF0aW4gUG9zdA0K
+QSByZWNlbnQgUGV3IFJlc2VhcmNoIENlbnRlciBzdXJ2ZXkgZm91bmQgbW9yZSB0aGFuIGhhbGYg
+b2YgTGF0aW5vcyBzYWlkDQp0aGV5IGV4cGVyaWVuY2VkIHVuZmFpciB0cmVhdG1lbnQgYmVjYXVz
+ZSBvZiB0aGVpciByYWNlLiBPZiB0aGUgNjU0IC4uLg0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20v
+dXJsP3JjdD1qJnNhPXQmdXJsPWh0dHA6Ly93d3cubGF0aW5wb3N0LmNvbS9hcnRpY2xlcy8xMjIw
+MTMvMjAxNjA3MDYvaGFsZi1vZi1taWxsZW5uaWFsLWxhdGlub3Mtc2F5LXRoZXktZXhwZXJpZW5j
+ZWQtcmFjaWFsLWRpc2NyaW1pbmF0aW9uLXBldy1yZXNlYXJjaC1jZW50ZXItZmluZHMuaHRtJmN0
+PWdhJmNkPUNBRVlCQ29VTVRBM056WTFNakF5TXpRd01ETTNNREl5TkRneUhEVXpOMlkwWVRWaE16
+VmpaVGszWVdRNlkyOHVhM0k2Wlc0NlMxSSZ1c2c9QUZRakNORzNQdDBNNU40SnhMOU1UaHdDWjF0
+X3FyelBNdz4NCg0KNSBmYWN0cyBhYm91dCBBbWVyaWNhJ3MgcG9saXRpY2FsIGluZGVwZW5kZW50
+cw0KUGV3IFJlc2VhcmNoIENlbnRlcg0KQSBQZXcgUmVzZWFyY2ggQ2VudGVyIGFuYWx5c2lzIHRo
+YXQgZXhhbWluZWQgcGFydGlzYW4gYWZmaWxpYXRpb24gZnJvbSAxOTkyDQp0byAyMDE0IGZvdW5k
+IHRoYXQsIGluIDIwMTQsIDM5JSBvZiB0aGUgcHVibGljIGlkZW50aWZpZWQgYXMgaW5kZXBlbmRl
+bnRzDQouLi4NCjxodHRwczovL3d3dy5nb29nbGUuY29tL3VybD9yY3Q9aiZzYT10JnVybD1odHRw
+Oi8vd3d3LnBld3Jlc2VhcmNoLm9yZy9mYWN0LXRhbmsvMjAxNi8wNy8wNS81LWZhY3RzLWFib3V0
+LWFtZXJpY2FzLXBvbGl0aWNhbC1pbmRlcGVuZGVudHMvJmN0PWdhJmNkPUNBRVlCU29VTVRBM056
+WTFNakF5TXpRd01ETTNNREl5TkRneUhEVXpOMlkwWVRWaE16VmpaVGszWVdRNlkyOHVhM0k2Wlc0
+NlMxSSZ1c2c9QUZRakNORUZMOFYtQ2tGaHMzZ0pXU05ZdHRXRHVxV1JmQT4NCg0KUmVwb3J0OiBC
+bGFjayBBbmQgV2hpdGUgQW1lcmljYW5zIEFyZSAnV29ybGRzIEFwYXJ0JyBPbiBWaWV3cyBPZiBS
+YWNlDQpOUFINCi4uLiBhbmQgYmxhY2sgQW1lcmljYW5zIGFyZSBkZWVwbHkgZGl2aWRlZCBvbiB2
+aWV3cyBvZiByYWNlIHJlbGF0aW9ucyBpbg0KdGhlIFVuaXRlZCBTdGF0ZXMsIGFjY29yZGluZyB0
+byBhIG5ldyBzdXJ2ZXkgZnJvbSB0aGUgUGV3IFJlc2VhcmNoIENlbnRlci4NCjxodHRwczovL3d3
+dy5nb29nbGUuY29tL3VybD9yY3Q9aiZzYT10JnVybD1odHRwOi8vd3d3Lm5wci5vcmcvc2VjdGlv
+bnMvY29kZXN3aXRjaC8yMDE2LzA2LzMwLzQ4Mzg2MTgyNi9zdHVkeS1ibGFjay1hbmQtd2hpdGUt
+YW1lcmljYW5zLWFyZS13b3JsZHMtYXBhcnQtb24tdmlld3Mtb2YtcmFjZSZjdD1nYSZjZD1DQUVZ
+QmlvVU1UQTNOelkxTWpBeU16UXdNRE0zTURJeU5EZ3lIRFV6TjJZMFlUVmhNelZqWlRrM1lXUTZZ
+Mjh1YTNJNlpXNDZTMUkmdXNnPUFGUWpDTkU5MTRQcUlFR1I3T05Pdm1kR3ZIaXpfWUtjTmc+DQoN
+Ckhpc3BhbmljIE1hbGUgV29ya2VycyBFYXJuaW5nIEZyYWN0aW9uIG9mIFdoYXQgV2hpdGUgQ291
+bnRlcnBhcnRzIFBhaWQgUGV3DQpSZXNlYXJjaCBTdHVkeSAuLi4NCkxhdGluIFBvc3QNCkhpc3Bh
+bmljIG1lbiBlYXJuZWQganVzdCA2NyBwZXJjZW50IG9mIHdoYXQgdGhlaXIgd2hpdGUgY291bnRl
+cnBhcnRzIGVhcm5lZA0Kb24gYXZlcmFnZSBpbiAyMDE1IGEgbmV3IFBldyBSZXNlYXJjaCBDZW50
+ZXIgYW5hbHlzaXMgb2YgQnVyZWF1IG9mIC4uLg0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vdXJs
+P3JjdD1qJnNhPXQmdXJsPWh0dHA6Ly93d3cubGF0aW5wb3N0LmNvbS9hcnRpY2xlcy8xMjIwMTQv
+MjAxNjA3MDYvaGlzcGFuaWMtbWFsZS13b3JrZXJzLWVhcm5pbmctZnJhY3Rpb24tb2Ytd2hhdC13
+aGl0ZS1jb3VudGVycGFydHMtcGFpZC1wZXctcmVzZWFyY2gtc3R1ZHktZmluZHMuaHRtJmN0PWdh
+JmNkPUNBRVlCeW9VTVRBM056WTFNakF5TXpRd01ETTNNREl5TkRneUhEVXpOMlkwWVRWaE16Vmpa
+VGszWVdRNlkyOHVhM0k2Wlc0NlMxSSZ1c2c9QUZRakNOR09TWEZSWjBZUDhLbWY5LTl0MzVRYTM1
+ZzA0UT4NCg0KSG93ICdBbWVyaWNhbicgQXJlIFlvdT8NClRJTUUNClRoaXMgcXVpeiB3aWxsIHBv
+bGwgeW91IG9uIDEwIHF1ZXN0aW9ucyBmcm9tIHRoZSBQZXcgUmVzZWFyY2ggQ2VudGVyIGFuZA0K
+dGVsbCB5b3UgaG93IHN0cm9uZ2x5IHlvdXIgb3BpbmlvbnMgYW5kIGhhYml0cyBhbGlnbiB3aXRo
+IHRoZSBjb3VudHJ5IGF0DQpsYXJnZSAuLi4NCjxodHRwczovL3d3dy5nb29nbGUuY29tL3VybD9y
+Y3Q9aiZzYT10JnVybD1odHRwOi8vdGltZS5jb20vNDM4ODAyOC9qdWx5LTR0aC1hbWVyaWNhbi1x
+dWl6LyZjdD1nYSZjZD1DQUVZQ0NvVU1UQTNOelkxTWpBeU16UXdNRE0zTURJeU5EZ3lIRFV6TjJZ
+MFlUVmhNelZqWlRrM1lXUTZZMjh1YTNJNlpXNDZTMUkmdXNnPUFGUWpDTkZudXFEbjRneTJWUjRW
+UUkwN25BS0E3Qmh3NGc+DQoNClRoZSBncm91cCB0aGF0IHNlcmlvdXNseSBvdXRlYXJucyB3aGl0
+ZSBtZW4NCldhc2hpbmd0b24gUG9zdA0KVGhpcyBtb3JuaW5nLCB0aGUgUGV3IFJlc2VhcmNoIENl
+bnRlciByZWxlYXNlZCBhIG5ldyByZXBvcnQgb24gaG93DQpBbWVyaWNhbnMgYXJlIHBhaWQgYnkg
+cmFjZSBhbmQgZ2VuZGVyIOKAlCBhbmQgYm95LCBhcmUgdGhlcmUgc29tZSAuLi4NCjxodHRwczov
+L3d3dy5nb29nbGUuY29tL3VybD9yY3Q9aiZzYT10JnVybD1odHRwczovL3d3dy53YXNoaW5ndG9u
+cG9zdC5jb20vbmV3cy93b25rL3dwLzIwMTYvMDcvMDEvdGhlLWdyb3VwLXRoYXQtc2VyaW91c2x5
+LW91dC1lYXJucy13aGl0ZS1tZW4vJmN0PWdhJmNkPUNBRVlDU29VTVRBM056WTFNakF5TXpRd01E
+TTNNREl5TkRneUhEVXpOMlkwWVRWaE16VmpaVGszWVdRNlkyOHVhM0k2Wlc0NlMxSSZ1c2c9QUZR
+akNOSGI5dkFUcEJMaEp6cGk3ZnBldnVNUDIwUmFxZz4NCg0KDQotIC0gLSAtIC0gLSAtIC0gLSAt
+IC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtDQpVbnN1YnNj
+cmliZSBmcm9tIHRoaXMgR29vZ2xlIEFsZXJ0Og0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5jby5rci9h
+bGVydHMvcmVtb3ZlP3NvdXJjZT1hbGVydHNtYWlsJmhsPWVuJmdsPUtSJm1zZ2lkPU1UQTNOelkx
+TWpBeU16UXdNRE0zTURJeU5EZyZzPUFCMlhxNGg4QzJQekxrdzYwZjM5MVdrWms1bVQ1MUNmWWVT
+VGxGOD4NCg0KQ3JlYXRlIGFub3RoZXIgR29vZ2xlIEFsZXJ0Og0KPGh0dHBzOi8vd3d3Lmdvb2ds
+ZS5jby5rci9hbGVydHM/c291cmNlPWFsZXJ0c21haWwmaGw9ZW4mZ2w9S1ImbXNnaWQ9TVRBM056
+WTFNakF5TXpRd01ETTNNREl5TkRnPg0KDQpTaWduIGluIHRvIG1hbmFnZSB5b3VyIGFsZXJ0czoN
+CjxodHRwczovL3d3dy5nb29nbGUuY28ua3IvYWxlcnRzP3NvdXJjZT1hbGVydHNtYWlsJmhsPWVu
+JmdsPUtSJm1zZ2lkPU1UQTNOelkxTWpBeU16UXdNRE0zTURJeU5EZz4NCg==
+--047d7b5dbb88ed946c05370646d0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html lang=3D"en-KR"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head> <body> <div>   <!--[if mso]>
+ <table><tr><td width=3D650>
+<![endif]-->
+ <div style=3D"width:100%;max-width:650px"> <div style=3D"font-family:Arial=
+"> <table style=3D"border-collapse:collapse;border-left:1px solid #e4e4e4;b=
+order-right:1px solid #e4e4e4"> <tr> <td style=3D"background-color:#f8f8f8;=
+padding-left:18px;border-bottom:1px solid #e4e4e4;border-top:1px solid #e4e=
+4e4"></td> <td valign=3D"middle" style=3D"padding:13px 10px 8px 0px;backgro=
+und-color:#f8f8f8;border-top:1px solid #e4e4e4;border-bottom:1px solid #e4e=
+4e4"> <a href=3D"https://www.google.co.kr/alerts?source=3Dalertsmail&amp;hl=
+=3Den&amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyMzQwMDM3MDIyNDg" style=3D"text-de=
+coration:none"> <img src=3D"https://www.google.com/intl/en_kr/alerts/logo.p=
+ng?cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0OA" alt=3D"Google" border=3D"0" height=
+=3D"25"> </a> </td> <td style=3D"background-color:#f8f8f8;padding-left:18px=
+;border-top:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4"></td> </tr> =
+ <tr> <td style=3D"padding-left:32px"></td> <td style=3D"padding:18px 0px 0=
+px 0px;vertical-align:middle;line-height:20px;font-family:Arial"> <span sty=
+le=3D"color:#262626;font-size:22px">&quot;Pew Research Center&quot;</span> =
+<div style=3D"vertical-align:top;padding-top:6px;color:#aaa;font-size:12px;=
+line-height:16px"> <span>Weekly update</span> <span style=3D"padding:0px 4p=
+x 0px 4px">=E2=8B=85</span> <a style=3D"color:#aaa;text-decoration:none">Ju=
+ly 7, 2016</a> </div> </td> <td style=3D"padding-left:32px"></td> </tr>  <t=
+r> <td style=3D"padding-left:18px"></td> <td style=3D"padding:16px 0px 12px=
+ 0px;border-bottom:1px solid #e4e4e4"> <span style=3D"font-size:12px;color:=
+#737373"> NEWS </span> </td> <td style=3D"padding-right:18px"></td> </tr>  =
+ <tr itemscopeitemtype=3D"http://schema.org/Article"> <td style=3D"padding-=
+left:18px"></td> <td style=3D"padding:18px 0px 12px 0px;vertical-align:top;=
+font-family:Arial"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=3D=
+t&amp;url=3Dhttp://www.pewresearch.org/fact-tank/2016/07/01/americas-succes=
+s/&amp;ct=3Dga&amp;cd=3DCAEYACoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzV=
+jZTk3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNEuSb15kq6oBJXr4vToqVWD4100HA" styl=
+e=3D"text-decoration:none"> <table align=3D"right" style=3D"display:inline;=
+border-collapse:collapse"> <tr> <td style=3D"padding-left:18px"></td> <td b=
+ackground=3D"https://encrypted-tbn1.gstatic.com/images?q=3Dtbn:ANd9GcQT88OB=
+0qwUqQIXftDUnW39UoBaBjP5v8zDlfkbPgGWaRKyNZM-YwhvtJDgjEi2rbOaBNZ-smGU" heigh=
+t=3D"100" width=3D"100" valign=3D"bottom" style=3D"padding:0px 0px 0px 0px;=
+background-repeat:no-repeat;text-align:center;border:1px solid #e4e4e4"> <l=
+ink href=3D"https://encrypted-tbn1.gstatic.com/images?q=3Dtbn:ANd9GcTaSrJsm=
+wyPYj-hDB7vWONeT_pU8suRTDovVOA6fnrybvJraSLSxkWNIrWLeV8" itemprop=3D"image">=
+ <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn1.gstatic.com/images%3Fq%3Dtbn:ANd9GcQT88OB0qwUqQIXftDUnW39UoB=
+aBjP5v8zDlfkbPgGWaRKyNZM-YwhvtJDgjEi2rbOaBNZ-smGU"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Pew Research Center</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Pew Research Center</div> </div>=
+ <!--[if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <sp=
+an style=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url=
+?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.pewresearch.org/fact-tank/2016/07/=
+01/americas-success/&amp;ct=3Dga&amp;cd=3DCAEYACoUMTA3NzY1MjAyMzQwMDM3MDIyN=
+DgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNEuSb15kq6oBJXr4v=
+ToqVWD4100HA" itemprop=3D"url" style=3D"color:#427fed;display:inline;text-d=
+ecoration:none;font-size:16px;line-height:20px"> <span itemprop=3D"name">Ho=
+w the public views the secret to America's success</span> </a> </span>  <di=
+v> <div style=3D"padding:2px 0px 8px 0px"> <div itemprop=3D"publisher" item=
+scopeitemtype=3D"http://schema.org/Organization" style=3D"color:#737373;fon=
+t-size:12px"> <a style=3D"text-decoration:none;color:#737373"> <span itempr=
+op=3D"name">Pew Research Center</span> </a> </div> <div itemprop=3D"descrip=
+tion" style=3D"color:#252525;padding:2px 0px 0px 0px;font-size:12px;line-he=
+ight:18px"><b>Pew Research Center's</b> political values survey has consist=
+ently found that overwhelming majorities agree with the statement, =E2=80=
+=9CI am very patriotic.</div> </div>   <table> <tr> <td width=3D"16" style=
+=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=
+=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.pewresearch.org/fact-tank/2016/07/01/=
+americas-success/&amp;ss=3Dgp&amp;rt=3DHow&#43;the&#43;public&#43;views&#43=
+;the&#43;secret&#43;to&#43;America's&#43;success&amp;cd=3DKhQxMDc3NjUyMDIzN=
+DAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmUasZ2=
+K7S54kq8KqVpEJWDGkF0Ixg" style=3D"text-decoration:none"> <img alt=3D"Google=
+ Plus" src=3D"https://www.gstatic.com/alerts/images/gp-24.png" border=3D"0"=
+ height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-ri=
+ght:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=
+=3DKR&amp;ru=3Dhttp://www.pewresearch.org/fact-tank/2016/07/01/americas-suc=
+cess/&amp;ss=3Dfb&amp;rt=3DHow&#43;the&#43;public&#43;views&#43;the&#43;sec=
+ret&#43;to&#43;America's&#43;success&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0O=
+DIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmUasZ2K7S54kq8KqVp=
+EJWDGkF0Ixg" style=3D"text-decoration:none"> <img alt=3D"Facebook" src=3D"h=
+ttps://www.gstatic.com/alerts/images/fb-24.png" border=3D"0" height=3D"16" =
+width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a hr=
+ef=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dht=
+tp://www.pewresearch.org/fact-tank/2016/07/01/americas-success/&amp;ss=3Dtw=
+&amp;rt=3DHow&#43;the&#43;public&#43;views&#43;the&#43;secret&#43;to&#43;Am=
+erica's&#43;success&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNW=
+NlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmUasZ2K7S54kq8KqVpEJWDGkF0Ixg" styl=
+e=3D"text-decoration:none"> <img alt=3D"Twitter" src=3D"https://www.gstatic=
+.com/alerts/images/tw-24.png" border=3D"0" height=3D"16" width=3D"16"></a> =
+</td> <td style=3D"padding:0px 0px 6px 15px;font-family:Arial"> <a href=3D"=
+https://www.google.co.kr/alerts/feedback?ffu=3Dhttp://www.pewresearch.org/f=
+act-tank/2016/07/01/americas-success/&amp;source=3Dalertsmail&amp;hl=3Den&a=
+mp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyMzQwMDM3MDIyNDg&amp;s=3DAB2Xq4h8C2PzLkw6=
+0f391WkZk5mT51CfYeSTlF8" style=3D"text-decoration:none;vertical-align:middl=
+e;color:#aaa;font-size:10px"> Flag as irrelevant </a> </td> </tr> </table> =
+ </div> </div> </td> <td style=3D"padding-right:18px"></td> </tr>    <tr it=
+emscopeitemtype=3D"http://schema.org/Article"> <td style=3D"padding-left:18=
+px"></td> <td style=3D"padding:18px 0px 12px 0px;vertical-align:top;border-=
+top:1px solid #e4e4e4;font-family:Arial"> <a href=3D"https://www.google.com=
+/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.pewresearch.org/fact-tank/2016=
+/06/30/electorally-competitive-counties-have-grown-scarcer-in-recent-decade=
+s/&amp;ct=3Dga&amp;cd=3DCAEYASoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzV=
+jZTk3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNGxDasG_lyF8LiYq-5IcwPDlnpXoQ" styl=
+e=3D"text-decoration:none"> <table align=3D"right" style=3D"display:inline;=
+border-collapse:collapse"> <tr> <td style=3D"padding-left:18px"></td> <td b=
+ackground=3D"https://encrypted-tbn0.gstatic.com/images?q=3Dtbn:ANd9GcSKEDh7=
+HSgKUQKFhvX4VRyvcJK574oGu7fEbxP-YASkRW9OEriaaAylWpPoSpFOa_qBM_jRkk0" height=
+=3D"100" width=3D"100" valign=3D"bottom" style=3D"padding:0px 0px 0px 0px;b=
+ackground-repeat:no-repeat;text-align:center;border:1px solid #e4e4e4"> <li=
+nk href=3D"https://encrypted-tbn0.gstatic.com/images?q=3Dtbn:ANd9GcRa3SeHJM=
+ALbkiSkNE1qYOck3W6-BJuawTn2hRR6jEecv3yw9wJxfPoTPm4Kg" itemprop=3D"image"> <=
+!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn0.gstatic.com/images%3Fq%3Dtbn:ANd9GcSKEDh7HSgKUQKFhvX4VRyvcJK=
+574oGu7fEbxP-YASkRW9OEriaaAylWpPoSpFOa_qBM_jRkk0"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Pew Research Center</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Pew Research Center</div> </div>=
+ <!--[if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <sp=
+an style=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url=
+?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.pewresearch.org/fact-tank/2016/06/=
+30/electorally-competitive-counties-have-grown-scarcer-in-recent-decades/&a=
+mp;ct=3Dga&amp;cd=3DCAEYASoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk=
+3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNGxDasG_lyF8LiYq-5IcwPDlnpXoQ" itemprop=
+=3D"url" style=3D"color:#427fed;display:inline;text-decoration:none;font-si=
+ze:16px;line-height:20px"> <span itemprop=3D"name">Electorally competitive =
+counties have grown scarcer in recent decades</span> </a> </span>  <div> <d=
+iv style=3D"padding:2px 0px 8px 0px"> <div itemprop=3D"publisher" itemscope=
+itemtype=3D"http://schema.org/Organization" style=3D"color:#737373;font-siz=
+e:12px"> <a style=3D"text-decoration:none;color:#737373"> <span itemprop=3D=
+"name">Pew Research Center</span> </a> </div> <div itemprop=3D"description"=
+ style=3D"color:#252525;padding:2px 0px 0px 0px;font-size:12px;line-height:=
+18px">... separated Democrat Barack Obama and Republican Mitt Romney, accor=
+ding to a new <b>Pew Research Center</b> analysis of county-level voting da=
+ta.</div> </div>   <table> <tr> <td width=3D"16" style=3D"padding-right:6px=
+"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp=
+;ru=3Dhttp://www.pewresearch.org/fact-tank/2016/06/30/electorally-competiti=
+ve-counties-have-grown-scarcer-in-recent-decades/&amp;ss=3Dgp&amp;rt=3DElec=
+torally&#43;competitive&#43;counties&#43;have&#43;grown&#43;scarcer&#43;in&=
+#43;recent&#43;decades&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWE=
+zNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmXZNJKqHpbShwcj8Eq6E9iJeMGFWQ" s=
+tyle=3D"text-decoration:none"> <img alt=3D"Google Plus" src=3D"https://www.=
+gstatic.com/alerts/images/gp-24.png" border=3D"0" height=3D"16" width=3D"16=
+"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https=
+://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.pe=
+wresearch.org/fact-tank/2016/06/30/electorally-competitive-counties-have-gr=
+own-scarcer-in-recent-decades/&amp;ss=3Dfb&amp;rt=3DElectorally&#43;competi=
+tive&#43;counties&#43;have&#43;grown&#43;scarcer&#43;in&#43;recent&#43;deca=
+des&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcj=
+plbjpLUg&amp;ssp=3DAMJHsmXZNJKqHpbShwcj8Eq6E9iJeMGFWQ" style=3D"text-decora=
+tion:none"> <img alt=3D"Facebook" src=3D"https://www.gstatic.com/alerts/ima=
+ges/fb-24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=
+=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/al=
+erts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.pewresearch.org/fact-tan=
+k/2016/06/30/electorally-competitive-counties-have-grown-scarcer-in-recent-=
+decades/&amp;ss=3Dtw&amp;rt=3DElectorally&#43;competitive&#43;counties&#43;=
+have&#43;grown&#43;scarcer&#43;in&#43;recent&#43;decades&amp;cd=3DKhQxMDc3N=
+jUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJ=
+HsmXZNJKqHpbShwcj8Eq6E9iJeMGFWQ" style=3D"text-decoration:none"> <img alt=
+=3D"Twitter" src=3D"https://www.gstatic.com/alerts/images/tw-24.png" border=
+=3D"0" height=3D"16" width=3D"16"></a> </td> <td style=3D"padding:0px 0px 6=
+px 15px;font-family:Arial"> <a href=3D"https://www.google.co.kr/alerts/feed=
+back?ffu=3Dhttp://www.pewresearch.org/fact-tank/2016/06/30/electorally-comp=
+etitive-counties-have-grown-scarcer-in-recent-decades/&amp;source=3Dalertsm=
+ail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyMzQwMDM3MDIyNDg&amp;s=
+=3DAB2Xq4h8C2PzLkw60f391WkZk5mT51CfYeSTlF8" style=3D"text-decoration:none;v=
+ertical-align:middle;color:#aaa;font-size:10px"> Flag as irrelevant </a> </=
+td> </tr> </table>  </div> </div> </td> <td style=3D"padding-right:18px"></=
+td> </tr>    <tr itemscopeitemtype=3D"http://schema.org/Article"> <td style=
+=3D"padding-left:18px"></td> <td style=3D"padding:18px 0px 12px 0px;vertica=
+l-align:top;border-top:1px solid #e4e4e4;font-family:Arial"> <a href=3D"htt=
+ps://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.pewresearch=
+.org/fact-tank/2016/07/06/support-for-nato-is-widespread-among-member-natio=
+ns/&amp;ct=3Dga&amp;cd=3DCAEYAioUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMz=
+VjZTk3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNFl4aCSV1MWHdDvA3t2rK1Rpw14qA" sty=
+le=3D"text-decoration:none"> <table align=3D"right" style=3D"display:inline=
+;border-collapse:collapse"> <tr> <td style=3D"padding-left:18px"></td> <td =
+background=3D"https://encrypted-tbn1.gstatic.com/images?q=3Dtbn:ANd9GcQV6u1=
+CPVppdnihuWcAQOEjPjfZwXQURh5mOlr0b4Kzi6_0jJRNcGZUC8A8Y1_bVm0pD1DlJCkv" heig=
+ht=3D"100" width=3D"100" valign=3D"bottom" style=3D"padding:0px 0px 0px 0px=
+;background-repeat:no-repeat;text-align:center;border:1px solid #e4e4e4"> <=
+link href=3D"https://encrypted-tbn1.gstatic.com/images?q=3Dtbn:ANd9GcQT0Dzs=
+gy1pETqqtj_oQmIuv1Z2QadowA0S8Le7IV0vkJhsJm06mlg_1m-BtQw" itemprop=3D"image"=
+> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn1.gstatic.com/images%3Fq%3Dtbn:ANd9GcQV6u1CPVppdnihuWcAQOEjPjf=
+ZwXQURh5mOlr0b4Kzi6_0jJRNcGZUC8A8Y1_bVm0pD1DlJCkv"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Pew Research Center</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Pew Research Center</div> </div>=
+ <!--[if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <sp=
+an style=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url=
+?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.pewresearch.org/fact-tank/2016/07/=
+06/support-for-nato-is-widespread-among-member-nations/&amp;ct=3Dga&amp;cd=
+=3DCAEYAioUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28ua3I6ZW46=
+S1I&amp;usg=3DAFQjCNFl4aCSV1MWHdDvA3t2rK1Rpw14qA" itemprop=3D"url" style=3D=
+"color:#427fed;display:inline;text-decoration:none;font-size:16px;line-heig=
+ht:20px"> <span itemprop=3D"name">Support for NATO is widespread among memb=
+er nations</span> </a> </span>  <div> <div style=3D"padding:2px 0px 8px 0px=
+"> <div itemprop=3D"publisher" itemscopeitemtype=3D"http://schema.org/Organ=
+ization" style=3D"color:#737373;font-size:12px"> <a style=3D"text-decoratio=
+n:none;color:#737373"> <span itemprop=3D"name">Pew Research Center</span> <=
+/a> </div> <div itemprop=3D"description" style=3D"color:#252525;padding:2px=
+ 0px 0px 0px;font-size:12px;line-height:18px">But a spring 2016 <b>Pew Rese=
+arch Center</b> survey of nine EU nations, the U.S. and Canada finds positi=
+ve views of the military alliance. A median of 57%&nbsp;...</div> </div>   =
+<table> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https=
+://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.pe=
+wresearch.org/fact-tank/2016/07/06/support-for-nato-is-widespread-among-mem=
+ber-nations/&amp;ss=3Dgp&amp;rt=3DSupport&#43;for&#43;NATO&#43;is&#43;wides=
+pread&#43;among&#43;member&#43;nations&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI=
+0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmWEMGGi1vnVuZfcG=
+iiCcGnVhyGgDA" style=3D"text-decoration:none"> <img alt=3D"Google Plus" src=
+=3D"https://www.gstatic.com/alerts/images/gp-24.png" border=3D"0" height=3D=
+"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> =
+<a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=
+=3Dhttp://www.pewresearch.org/fact-tank/2016/07/06/support-for-nato-is-wide=
+spread-among-member-nations/&amp;ss=3Dfb&amp;rt=3DSupport&#43;for&#43;NATO&=
+#43;is&#43;widespread&#43;among&#43;member&#43;nations&amp;cd=3DKhQxMDc3NjU=
+yMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHs=
+mWEMGGi1vnVuZfcGiiCcGnVhyGgDA" style=3D"text-decoration:none"> <img alt=3D"=
+Facebook" src=3D"https://www.gstatic.com/alerts/images/fb-24.png" border=3D=
+"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding=
+-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;g=
+l=3DKR&amp;ru=3Dhttp://www.pewresearch.org/fact-tank/2016/07/06/support-for=
+-nato-is-widespread-among-member-nations/&amp;ss=3Dtw&amp;rt=3DSupport&#43;=
+for&#43;NATO&#43;is&#43;widespread&#43;among&#43;member&#43;nations&amp;cd=
+=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&a=
+mp;ssp=3DAMJHsmWEMGGi1vnVuZfcGiiCcGnVhyGgDA" style=3D"text-decoration:none"=
+> <img alt=3D"Twitter" src=3D"https://www.gstatic.com/alerts/images/tw-24.p=
+ng" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td style=3D"padding=
+:0px 0px 6px 15px;font-family:Arial"> <a href=3D"https://www.google.co.kr/a=
+lerts/feedback?ffu=3Dhttp://www.pewresearch.org/fact-tank/2016/07/06/suppor=
+t-for-nato-is-widespread-among-member-nations/&amp;source=3Dalertsmail&amp;=
+hl=3Den&amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyMzQwMDM3MDIyNDg&amp;s=3DAB2Xq4h=
+8C2PzLkw60f391WkZk5mT51CfYeSTlF8" style=3D"text-decoration:none;vertical-al=
+ign:middle;color:#aaa;font-size:10px"> Flag as irrelevant </a> </td> </tr> =
+</table>  </div> </div> </td> <td style=3D"padding-right:18px"></td> </tr> =
+   <tr itemscopeitemtype=3D"http://schema.org/Article"> <td style=3D"paddin=
+g-left:18px"></td> <td style=3D"padding:18px 0px 12px 0px;vertical-align:to=
+p;border-top:1px solid #e4e4e4;font-family:Arial"> <a href=3D"https://www.g=
+oogle.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.pewresearch.org/fact-=
+tank/2016/06/30/sharing-and-on-demand-services-attract-a-small-but-active-g=
+roup-of-super-users/&amp;ct=3Dga&amp;cd=3DCAEYAyoUMTA3NzY1MjAyMzQwMDM3MDIyN=
+DgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNFQukSUSl8aBahtzM=
+M7vnPI78orLw" style=3D"text-decoration:none"> <table align=3D"right" style=
+=3D"display:inline;border-collapse:collapse"> <tr> <td style=3D"padding-lef=
+t:18px"></td> <td background=3D"https://encrypted-tbn2.gstatic.com/images?q=
+=3Dtbn:ANd9GcSWqwOUzfYw9ccuPO1s-AjC4zvvFROEgOIifJ1Xxr9Tv-DGEXchGGeE-DpIotZu=
+GYqw_vPO7Dk" height=3D"100" width=3D"100" valign=3D"bottom" style=3D"paddin=
+g:0px 0px 0px 0px;background-repeat:no-repeat;text-align:center;border:1px =
+solid #e4e4e4"> <link href=3D"https://encrypted-tbn2.gstatic.com/images?q=
+=3Dtbn:ANd9GcRYXdfnYRI0SIRBwkpwR2UK16gw_m04Y8Nwk-1lwNzb3THBZgy9bj7WD9KsFA" =
+itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn2.gstatic.com/images%3Fq%3Dtbn:ANd9GcSWqwOUzfYw9ccuPO1s-AjC4zv=
+vFROEgOIifJ1Xxr9Tv-DGEXchGGeE-DpIotZuGYqw_vPO7Dk"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Pew Research Center</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Pew Research Center</div> </div>=
+ <!--[if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <sp=
+an style=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url=
+?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.pewresearch.org/fact-tank/2016/06/=
+30/sharing-and-on-demand-services-attract-a-small-but-active-group-of-super=
+-users/&amp;ct=3Dga&amp;cd=3DCAEYAyoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YT=
+VhMzVjZTk3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNFQukSUSl8aBahtzMM7vnPI78orLw"=
+ itemprop=3D"url" style=3D"color:#427fed;display:inline;text-decoration:non=
+e;font-size:16px;line-height:20px"> <span itemprop=3D"name">Sharing and on-=
+demand services attract a small but active group of 'super users'</span> </=
+a> </span>  <div> <div style=3D"padding:2px 0px 8px 0px"> <div itemprop=3D"=
+publisher" itemscopeitemtype=3D"http://schema.org/Organization" style=3D"co=
+lor:#737373;font-size:12px"> <a style=3D"text-decoration:none;color:#737373=
+"> <span itemprop=3D"name">Pew Research Center</span> </a> </div> <div item=
+prop=3D"description" style=3D"color:#252525;padding:2px 0px 0px 0px;font-si=
+ze:12px;line-height:18px">Still, some Americans are =E2=80=9Csuper users=E2=
+=80=9D: 7% have used six or more services (out of a total of 11), according=
+ to a <b>Pew Research Center</b> study. Some of&nbsp;...</div> </div>   <ta=
+ble> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https://=
+www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.pewre=
+search.org/fact-tank/2016/06/30/sharing-and-on-demand-services-attract-a-sm=
+all-but-active-group-of-super-users/&amp;ss=3Dgp&amp;rt=3DSharing&#43;and&#=
+43;on-demand&#43;services&#43;attract&#43;a&#43;small&#43;but&#43;active&#4=
+3;group&#43;of&#43;'super&#43;users'&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0O=
+DIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmUo7T1JIKPwKfyuAmA=
+9Jf5_NJAiWQ" style=3D"text-decoration:none"> <img alt=3D"Google Plus" src=
+=3D"https://www.gstatic.com/alerts/images/gp-24.png" border=3D"0" height=3D=
+"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> =
+<a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=
+=3Dhttp://www.pewresearch.org/fact-tank/2016/06/30/sharing-and-on-demand-se=
+rvices-attract-a-small-but-active-group-of-super-users/&amp;ss=3Dfb&amp;rt=
+=3DSharing&#43;and&#43;on-demand&#43;services&#43;attract&#43;a&#43;small&#=
+43;but&#43;active&#43;group&#43;of&#43;'super&#43;users'&amp;cd=3DKhQxMDc3N=
+jUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJ=
+HsmUo7T1JIKPwKfyuAmA9Jf5_NJAiWQ" style=3D"text-decoration:none"> <img alt=
+=3D"Facebook" src=3D"https://www.gstatic.com/alerts/images/fb-24.png" borde=
+r=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"pad=
+ding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&a=
+mp;gl=3DKR&amp;ru=3Dhttp://www.pewresearch.org/fact-tank/2016/06/30/sharing=
+-and-on-demand-services-attract-a-small-but-active-group-of-super-users/&am=
+p;ss=3Dtw&amp;rt=3DSharing&#43;and&#43;on-demand&#43;services&#43;attract&#=
+43;a&#43;small&#43;but&#43;active&#43;group&#43;of&#43;'super&#43;users'&am=
+p;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpL=
+Ug&amp;ssp=3DAMJHsmUo7T1JIKPwKfyuAmA9Jf5_NJAiWQ" style=3D"text-decoration:n=
+one"> <img alt=3D"Twitter" src=3D"https://www.gstatic.com/alerts/images/tw-=
+24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td style=3D"pad=
+ding:0px 0px 6px 15px;font-family:Arial"> <a href=3D"https://www.google.co.=
+kr/alerts/feedback?ffu=3Dhttp://www.pewresearch.org/fact-tank/2016/06/30/sh=
+aring-and-on-demand-services-attract-a-small-but-active-group-of-super-user=
+s/&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAy=
+MzQwMDM3MDIyNDg&amp;s=3DAB2Xq4h8C2PzLkw60f391WkZk5mT51CfYeSTlF8" style=3D"t=
+ext-decoration:none;vertical-align:middle;color:#aaa;font-size:10px"> Flag =
+as irrelevant </a> </td> </tr> </table>  </div> </div> </td> <td style=3D"p=
+adding-right:18px"></td> </tr>    <tr itemscopeitemtype=3D"http://schema.or=
+g/Article"> <td style=3D"padding-left:18px"></td> <td style=3D"padding:18px=
+ 0px 12px 0px;vertical-align:top;border-top:1px solid #e4e4e4;font-family:A=
+rial"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dh=
+ttp://www.latinpost.com/articles/122013/20160706/half-of-millennial-latinos=
+-say-they-experienced-racial-discrimination-pew-research-center-finds.htm&a=
+mp;ct=3Dga&amp;cd=3DCAEYBCoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk=
+3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNG3Pt0M5N4JxL9MThwCZ1t_qrzPMw" style=3D=
+"text-decoration:none"> <table align=3D"right" style=3D"display:inline;bord=
+er-collapse:collapse"> <tr> <td style=3D"padding-left:18px"></td> <td backg=
+round=3D"https://encrypted-tbn2.gstatic.com/images?q=3Dtbn:ANd9GcT2WqiAVtNW=
+Fnh_cOouKk-FOQ2QgGwObaYNjbChPqFMpvW-KcFcCOZFq4nbIJNyRtzbaOeck1g" height=3D"=
+100" width=3D"100" valign=3D"bottom" style=3D"padding:0px 0px 0px 0px;backg=
+round-repeat:no-repeat;text-align:center;border:1px solid #e4e4e4"> <link h=
+ref=3D"https://encrypted-tbn2.gstatic.com/images?q=3Dtbn:ANd9GcSyU4fttyLL_S=
+IbWfN4BzHVJuYUkE0pKP069yExjOqn7fReatPNQKtGQbTu4_gIRY6lD34UBgQi6A" itemprop=
+=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn2.gstatic.com/images%3Fq%3Dtbn:ANd9GcT2WqiAVtNWFnh_cOouKk-FOQ2=
+QgGwObaYNjbChPqFMpvW-KcFcCOZFq4nbIJNyRtzbaOeck1g"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Latin Post</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Latin Post</div> </div> <!--[if =
+gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <span style=
+=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=3Dj=
+&amp;sa=3Dt&amp;url=3Dhttp://www.latinpost.com/articles/122013/20160706/hal=
+f-of-millennial-latinos-say-they-experienced-racial-discrimination-pew-rese=
+arch-center-finds.htm&amp;ct=3Dga&amp;cd=3DCAEYBCoUMTA3NzY1MjAyMzQwMDM3MDIy=
+NDgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNG3Pt0M5N4JxL9MT=
+hwCZ1t_qrzPMw" itemprop=3D"url" style=3D"color:#427fed;display:inline;text-=
+decoration:none;font-size:16px;line-height:20px"> <span itemprop=3D"name">H=
+alf of Millennial Latinos Say They Experienced Racial Discrimination, <b>Pe=
+w Research Center</b> Finds</span> </a> </span>  <div> <div style=3D"paddin=
+g:2px 0px 8px 0px"> <div itemprop=3D"publisher" itemscopeitemtype=3D"http:/=
+/schema.org/Organization" style=3D"color:#737373;font-size:12px"> <a style=
+=3D"text-decoration:none;color:#737373"> <span itemprop=3D"name">Latin Post=
+</span> </a> </div> <div itemprop=3D"description" style=3D"color:#252525;pa=
+dding:2px 0px 0px 0px;font-size:12px;line-height:18px">A recent <b>Pew Rese=
+arch Center</b> survey found more than half of Latinos said they experience=
+d unfair treatment because of their race. Of the 654&nbsp;...</div> </div> =
+  <table> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"htt=
+ps://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.=
+latinpost.com/articles/122013/20160706/half-of-millennial-latinos-say-they-=
+experienced-racial-discrimination-pew-research-center-finds.htm&amp;ss=3Dgp=
+&amp;rt=3DHalf&#43;of&#43;Millennial&#43;Latinos&#43;Say&#43;They&#43;Exper=
+ienced&#43;Racial&#43;Discrimination,&#43;Pew&#43;Research&#43;Center&#43;F=
+inds&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rc=
+jplbjpLUg&amp;ssp=3DAMJHsmXgiw1JkoxpZhclWFfZAp21JY3gOw" style=3D"text-decor=
+ation:none"> <img alt=3D"Google Plus" src=3D"https://www.gstatic.com/alerts=
+/images/gp-24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td w=
+idth=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.google.co.k=
+r/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.latinpost.com/articl=
+es/122013/20160706/half-of-millennial-latinos-say-they-experienced-racial-d=
+iscrimination-pew-research-center-finds.htm&amp;ss=3Dfb&amp;rt=3DHalf&#43;o=
+f&#43;Millennial&#43;Latinos&#43;Say&#43;They&#43;Experienced&#43;Racial&#4=
+3;Discrimination,&#43;Pew&#43;Research&#43;Center&#43;Finds&amp;cd=3DKhQxMD=
+c3NjUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3D=
+AMJHsmXgiw1JkoxpZhclWFfZAp21JY3gOw" style=3D"text-decoration:none"> <img al=
+t=3D"Facebook" src=3D"https://www.gstatic.com/alerts/images/fb-24.png" bord=
+er=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"pa=
+dding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&=
+amp;gl=3DKR&amp;ru=3Dhttp://www.latinpost.com/articles/122013/20160706/half=
+-of-millennial-latinos-say-they-experienced-racial-discrimination-pew-resea=
+rch-center-finds.htm&amp;ss=3Dtw&amp;rt=3DHalf&#43;of&#43;Millennial&#43;La=
+tinos&#43;Say&#43;They&#43;Experienced&#43;Racial&#43;Discrimination,&#43;P=
+ew&#43;Research&#43;Center&#43;Finds&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0O=
+DIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmXgiw1JkoxpZhclWFf=
+ZAp21JY3gOw" style=3D"text-decoration:none"> <img alt=3D"Twitter" src=3D"ht=
+tps://www.gstatic.com/alerts/images/tw-24.png" border=3D"0" height=3D"16" w=
+idth=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15px;font-family:Ar=
+ial"> <a href=3D"https://www.google.co.kr/alerts/feedback?ffu=3Dhttp://www.=
+latinpost.com/articles/122013/20160706/half-of-millennial-latinos-say-they-=
+experienced-racial-discrimination-pew-research-center-finds.htm&amp;source=
+=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyMzQwMDM3MDIyN=
+Dg&amp;s=3DAB2Xq4h8C2PzLkw60f391WkZk5mT51CfYeSTlF8" style=3D"text-decoratio=
+n:none;vertical-align:middle;color:#aaa;font-size:10px"> Flag as irrelevant=
+ </a> </td> </tr> </table>  </div> </div> </td> <td style=3D"padding-right:=
+18px"></td> </tr>    <tr itemscopeitemtype=3D"http://schema.org/Article"> <=
+td style=3D"padding-left:18px"></td> <td style=3D"padding:18px 0px 12px 0px=
+;vertical-align:top;border-top:1px solid #e4e4e4;font-family:Arial"> <a hre=
+f=3D"https://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.pew=
+research.org/fact-tank/2016/07/05/5-facts-about-americas-political-independ=
+ents/&amp;ct=3Dga&amp;cd=3DCAEYBSoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVh=
+MzVjZTk3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNEFL8V-CkFhs3gJWSNYttWDuqWRfA" s=
+tyle=3D"text-decoration:none"> <table align=3D"right" style=3D"display:inli=
+ne;border-collapse:collapse"> <tr> <td style=3D"padding-left:18px"></td> <t=
+d background=3D"https://encrypted-tbn1.gstatic.com/images?q=3Dtbn:ANd9GcTFC=
+M4xwEjcXvJ9c533o7tHST-lw8TgjewFHAWIRQXlGuFDfHkJcgdwgYHNH_dhnZ2iylNBi7q4" he=
+ight=3D"100" width=3D"100" valign=3D"bottom" style=3D"padding:0px 0px 0px 0=
+px;background-repeat:no-repeat;text-align:center;border:1px solid #e4e4e4">=
+ <link href=3D"https://encrypted-tbn1.gstatic.com/images?q=3Dtbn:ANd9GcQIrt=
+i4G0frel6J8OT66p51Rpt7V4_P_gFUvWdfw2blth54QWaJ1KVxv2T2Jok" itemprop=3D"imag=
+e"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn1.gstatic.com/images%3Fq%3Dtbn:ANd9GcTFCM4xwEjcXvJ9c533o7tHST-=
+lw8TgjewFHAWIRQXlGuFDfHkJcgdwgYHNH_dhnZ2iylNBi7q4"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Pew Research Center</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Pew Research Center</div> </div>=
+ <!--[if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <sp=
+an style=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url=
+?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.pewresearch.org/fact-tank/2016/07/=
+05/5-facts-about-americas-political-independents/&amp;ct=3Dga&amp;cd=3DCAEY=
+BSoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28ua3I6ZW46S1I&amp=
+;usg=3DAFQjCNEFL8V-CkFhs3gJWSNYttWDuqWRfA" itemprop=3D"url" style=3D"color:=
+#427fed;display:inline;text-decoration:none;font-size:16px;line-height:20px=
+"> <span itemprop=3D"name">5 facts about America's political independents</=
+span> </a> </span>  <div> <div style=3D"padding:2px 0px 8px 0px"> <div item=
+prop=3D"publisher" itemscopeitemtype=3D"http://schema.org/Organization" sty=
+le=3D"color:#737373;font-size:12px"> <a style=3D"text-decoration:none;color=
+:#737373"> <span itemprop=3D"name">Pew Research Center</span> </a> </div> <=
+div itemprop=3D"description" style=3D"color:#252525;padding:2px 0px 0px 0px=
+;font-size:12px;line-height:18px">A <b>Pew Research Center</b> analysis tha=
+t examined partisan affiliation from 1992 to 2014 found that, in 2014, 39% =
+of the public identified as independents&nbsp;...</div> </div>    <div styl=
+e=3D"font-size:12px;line-height:18px"> <a href=3D"https://www.google.com/ur=
+l?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.radioiowa.com/2016/07/04/new-pew-=
+research-shows-partisans-dont-much-care-for-those-in-other-party/&amp;ct=3D=
+ga&amp;cd=3DCAEYBSoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28=
+ua3I6ZW46S1I&amp;usg=3DAFQjCNGn3BupncP2qOFJE6a2QmcJBHZsNg" style=3D"color:#=
+427FED;text-decoration:none">New Pew Center research shows partisans don't =
+much care for those in other party</a> <span style=3D"color:#737373"> - <a =
+style=3D"text-decoration:none;color:#737373">Radio Iowa</a></span> </div>  =
+ <div style=3D"padding:0px 0px 8px 0px"> <a href=3D"http://news.google.com/=
+news/story?ncl=3Dhttp://www.pewresearch.org/fact-tank/2016/07/05/5-facts-ab=
+out-americas-political-independents/&amp;hl=3Den&amp;geo=3DKR" target=3D"_b=
+lank" style=3D"font-size:10px;color:#427FED;text-decoration:none">Full Cove=
+rage</a> </div>   <table> <tr> <td width=3D"16" style=3D"padding-right:6px"=
+> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;=
+ru=3Dhttp://www.pewresearch.org/fact-tank/2016/07/05/5-facts-about-americas=
+-political-independents/&amp;ss=3Dgp&amp;rt=3D5&#43;facts&#43;about&#43;Ame=
+rica's&#43;political&#43;independents&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0=
+ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmXhRl9Hsw5gWnf4gT=
+VT0jLM__NjXg" style=3D"text-decoration:none"> <img alt=3D"Google Plus" src=
+=3D"https://www.gstatic.com/alerts/images/gp-24.png" border=3D"0" height=3D=
+"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> =
+<a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=
+=3Dhttp://www.pewresearch.org/fact-tank/2016/07/05/5-facts-about-americas-p=
+olitical-independents/&amp;ss=3Dfb&amp;rt=3D5&#43;facts&#43;about&#43;Ameri=
+ca's&#43;political&#43;independents&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0OD=
+IcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmXhRl9Hsw5gWnf4gTVT=
+0jLM__NjXg" style=3D"text-decoration:none"> <img alt=3D"Facebook" src=3D"ht=
+tps://www.gstatic.com/alerts/images/fb-24.png" border=3D"0" height=3D"16" w=
+idth=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a hre=
+f=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhtt=
+p://www.pewresearch.org/fact-tank/2016/07/05/5-facts-about-americas-politic=
+al-independents/&amp;ss=3Dtw&amp;rt=3D5&#43;facts&#43;about&#43;America's&#=
+43;political&#43;independents&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0ODIcNTM3=
+ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmXhRl9Hsw5gWnf4gTVT0jLM__=
+NjXg" style=3D"text-decoration:none"> <img alt=3D"Twitter" src=3D"https://w=
+ww.gstatic.com/alerts/images/tw-24.png" border=3D"0" height=3D"16" width=3D=
+"16"></a> </td> <td style=3D"padding:0px 0px 6px 15px;font-family:Arial"> <=
+a href=3D"https://www.google.co.kr/alerts/feedback?ffu=3Dhttp://www.pewrese=
+arch.org/fact-tank/2016/07/05/5-facts-about-americas-political-independents=
+/&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyM=
+zQwMDM3MDIyNDg&amp;s=3DAB2Xq4h8C2PzLkw60f391WkZk5mT51CfYeSTlF8" style=3D"te=
+xt-decoration:none;vertical-align:middle;color:#aaa;font-size:10px"> Flag a=
+s irrelevant </a> </td> </tr> </table>  </div> </div> </td> <td style=3D"pa=
+dding-right:18px"></td> </tr>    <tr itemscopeitemtype=3D"http://schema.org=
+/Article"> <td style=3D"padding-left:18px"></td> <td style=3D"padding:18px =
+0px 12px 0px;vertical-align:top;border-top:1px solid #e4e4e4;font-family:Ar=
+ial"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dht=
+tp://www.npr.org/sections/codeswitch/2016/06/30/483861826/study-black-and-w=
+hite-americans-are-worlds-apart-on-views-of-race&amp;ct=3Dga&amp;cd=3DCAEYB=
+ioUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28ua3I6ZW46S1I&amp;=
+usg=3DAFQjCNE914PqIEGR7ONOvmdGvHiz_YKcNg" style=3D"text-decoration:none"> <=
+table align=3D"right" style=3D"display:inline;border-collapse:collapse"> <t=
+r> <td style=3D"padding-left:18px"></td> <td background=3D"https://encrypte=
+d-tbn0.gstatic.com/images?q=3Dtbn:ANd9GcQ9XM0R7r64eRtw3XbeBnguMMwTTOyxaTlOH=
+eyV2Anx5zdm9LgmNa3VO3X-1poqE07BXMM2R-c" height=3D"100" width=3D"100" valign=
+=3D"bottom" style=3D"padding:0px 0px 0px 0px;background-repeat:no-repeat;te=
+xt-align:center;border:1px solid #e4e4e4"> <link href=3D"https://encrypted-=
+tbn0.gstatic.com/images?q=3Dtbn:ANd9GcSthvpNKeieFrPruMOhjsQa76MNjJxQCEMntfg=
+3jnzRx3fEtnVi-6YOtSlfeQ" itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn0.gstatic.com/images%3Fq%3Dtbn:ANd9GcQ9XM0R7r64eRtw3XbeBnguMMw=
+TTOyxaTlOHeyV2Anx5zdm9LgmNa3VO3X-1poqE07BXMM2R-c"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">NPR</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">NPR</div> </div> <!--[if gte mso=
+ 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <span style=3D"padd=
+ing:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=
+=3Dt&amp;url=3Dhttp://www.npr.org/sections/codeswitch/2016/06/30/483861826/=
+study-black-and-white-americans-are-worlds-apart-on-views-of-race&amp;ct=3D=
+ga&amp;cd=3DCAEYByoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28=
+ua3I6ZW46S1I&amp;usg=3DAFQjCNE914PqIEGR7ONOvmdGvHiz_YKcNg" itemprop=3D"url"=
+ style=3D"color:#427fed;display:inline;text-decoration:none;font-size:16px;=
+line-height:20px"> <span itemprop=3D"name">Report: Black And White American=
+s Are 'Worlds Apart' On Views Of Race</span> </a> </span>  <div> <div style=
+=3D"padding:2px 0px 8px 0px"> <div itemprop=3D"publisher" itemscopeitemtype=
+=3D"http://schema.org/Organization" style=3D"color:#737373;font-size:12px">=
+ <a style=3D"text-decoration:none;color:#737373"> <span itemprop=3D"name">N=
+PR</span> </a> </div> <div itemprop=3D"description" style=3D"color:#252525;=
+padding:2px 0px 0px 0px;font-size:12px;line-height:18px">... and black Amer=
+icans are deeply divided on views of race relations in the United States, a=
+ccording to a new survey from the <b>Pew Research Center</b>.</div> </div> =
+   <div style=3D"font-size:12px;line-height:18px"> <a href=3D"https://www.g=
+oogle.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.bustle.com/articles/1=
+69997-this-eye-opening-pew-report-on-race-should-teach-you-one-thing&amp;ct=
+=3Dga&amp;cd=3DCAEYBioUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk3YWQ6=
+Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNHG9io3vpVu4jxEevPojrrFkCpeOw" style=3D"colo=
+r:#427FED;text-decoration:none">This Eye-Opening Pew Report On Race Should =
+Teach You One Thing</a> <span style=3D"color:#737373"> - <a style=3D"text-d=
+ecoration:none;color:#737373">Bustle</a></span> </div>   <div style=3D"padd=
+ing:0px 0px 8px 0px"> <a href=3D"http://news.google.com/news/story?ncl=3Dht=
+tp://www.npr.org/sections/codeswitch/2016/06/30/483861826/study-black-and-w=
+hite-americans-are-worlds-apart-on-views-of-race&amp;hl=3Den&amp;geo=3DKR" =
+target=3D"_blank" style=3D"font-size:10px;color:#427FED;text-decoration:non=
+e">Full Coverage</a> </div>   <table> <tr> <td width=3D"16" style=3D"paddin=
+g-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;=
+gl=3DKR&amp;ru=3Dhttp://www.npr.org/sections/codeswitch/2016/06/30/48386182=
+6/study-black-and-white-americans-are-worlds-apart-on-views-of-race&amp;ss=
+=3Dgp&amp;rt=3DReport:&#43;Black&#43;And&#43;White&#43;Americans&#43;Are&#4=
+3;'Worlds&#43;Apart'&#43;On&#43;Views&#43;Of&#43;Race&amp;cd=3DKhQxMDc3NjUy=
+MDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsm=
+V_ovaHwiKntvByX87YXm5Rc-MRjA" style=3D"text-decoration:none"> <img alt=3D"G=
+oogle Plus" src=3D"https://www.gstatic.com/alerts/images/gp-24.png" border=
+=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padd=
+ing-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&am=
+p;gl=3DKR&amp;ru=3Dhttp://www.npr.org/sections/codeswitch/2016/06/30/483861=
+826/study-black-and-white-americans-are-worlds-apart-on-views-of-race&amp;s=
+s=3Dfb&amp;rt=3DReport:&#43;Black&#43;And&#43;White&#43;Americans&#43;Are&#=
+43;'Worlds&#43;Apart'&#43;On&#43;Views&#43;Of&#43;Race&amp;cd=3DKhQxMDc3NjU=
+yMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHs=
+mV_ovaHwiKntvByX87YXm5Rc-MRjA" style=3D"text-decoration:none"> <img alt=3D"=
+Facebook" src=3D"https://www.gstatic.com/alerts/images/fb-24.png" border=3D=
+"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding=
+-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;g=
+l=3DKR&amp;ru=3Dhttp://www.npr.org/sections/codeswitch/2016/06/30/483861826=
+/study-black-and-white-americans-are-worlds-apart-on-views-of-race&amp;ss=
+=3Dtw&amp;rt=3DReport:&#43;Black&#43;And&#43;White&#43;Americans&#43;Are&#4=
+3;'Worlds&#43;Apart'&#43;On&#43;Views&#43;Of&#43;Race&amp;cd=3DKhQxMDc3NjUy=
+MDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsm=
+V_ovaHwiKntvByX87YXm5Rc-MRjA" style=3D"text-decoration:none"> <img alt=3D"T=
+witter" src=3D"https://www.gstatic.com/alerts/images/tw-24.png" border=3D"0=
+" height=3D"16" width=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15=
+px;font-family:Arial"> <a href=3D"https://www.google.co.kr/alerts/feedback?=
+ffu=3Dhttp://www.npr.org/sections/codeswitch/2016/06/30/483861826/study-bla=
+ck-and-white-americans-are-worlds-apart-on-views-of-race&amp;source=3Dalert=
+smail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyMzQwMDM3MDIyNDg&amp;s=
+=3DAB2Xq4h8C2PzLkw60f391WkZk5mT51CfYeSTlF8" style=3D"text-decoration:none;v=
+ertical-align:middle;color:#aaa;font-size:10px"> Flag as irrelevant </a> </=
+td> </tr> </table>  </div> </div> </td> <td style=3D"padding-right:18px"></=
+td> </tr>    <tr itemscopeitemtype=3D"http://schema.org/Article"> <td style=
+=3D"padding-left:18px"></td> <td style=3D"padding:18px 0px 12px 0px;vertica=
+l-align:top;border-top:1px solid #e4e4e4;font-family:Arial"> <a href=3D"htt=
+ps://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.latinpost.c=
+om/articles/122014/20160706/hispanic-male-workers-earning-fraction-of-what-=
+white-counterparts-paid-pew-research-study-finds.htm&amp;ct=3Dga&amp;cd=3DC=
+AEYByoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28ua3I6ZW46S1I&=
+amp;usg=3DAFQjCNGOSXFRZ0YP8Kmf9-9t35Qa35g04Q" style=3D"text-decoration:none=
+"> <table align=3D"right" style=3D"display:inline;border-collapse:collapse"=
+> <tr> <td style=3D"padding-left:18px"></td> <td background=3D"https://encr=
+ypted-tbn2.gstatic.com/images?q=3Dtbn:ANd9GcQfTM77-MgJGZd66bXg4C6Va4Y9BREwi=
+immZBKFVhcSg6ZdsxEwjfySW8jHLm0M2nwqVHgVBvaY" height=3D"100" width=3D"100" v=
+align=3D"bottom" style=3D"padding:0px 0px 0px 0px;background-repeat:no-repe=
+at;text-align:center;border:1px solid #e4e4e4"> <link href=3D"https://encry=
+pted-tbn2.gstatic.com/images?q=3Dtbn:ANd9GcSeEup5JyO-bcPHUar_qbLbP6TD9ZXSOe=
+ZVbegEi_uUBypuptyV8gleAxqrkBU2IeKQDwhr5urAUHE" itemprop=3D"image"> <!--[if =
+gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn2.gstatic.com/images%3Fq%3Dtbn:ANd9GcQfTM77-MgJGZd66bXg4C6Va4Y=
+9BREwiimmZBKFVhcSg6ZdsxEwjfySW8jHLm0M2nwqVHgVBvaY"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Latin Post</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Latin Post</div> </div> <!--[if =
+gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <span style=
+=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=3Dj=
+&amp;sa=3Dt&amp;url=3Dhttp://www.latinpost.com/articles/122014/20160706/his=
+panic-male-workers-earning-fraction-of-what-white-counterparts-paid-pew-res=
+earch-study-finds.htm&amp;ct=3Dga&amp;cd=3DCAEYCioUMTA3NzY1MjAyMzQwMDM3MDIy=
+NDgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNGOSXFRZ0YP8Kmf9=
+-9t35Qa35g04Q" itemprop=3D"url" style=3D"color:#427fed;display:inline;text-=
+decoration:none;font-size:16px;line-height:20px"> <span itemprop=3D"name">H=
+ispanic Male Workers Earning Fraction of What White Counterparts Paid Pew R=
+esearch Study ...</span> </a> </span>  <div> <div style=3D"padding:2px 0px =
+8px 0px"> <div itemprop=3D"publisher" itemscopeitemtype=3D"http://schema.or=
+g/Organization" style=3D"color:#737373;font-size:12px"> <a style=3D"text-de=
+coration:none;color:#737373"> <span itemprop=3D"name">Latin Post</span> </a=
+> </div> <div itemprop=3D"description" style=3D"color:#252525;padding:2px 0=
+px 0px 0px;font-size:12px;line-height:18px">Hispanic men earned just 67 per=
+cent of what their white counterparts earned on average in 2015 a new <b>Pe=
+w Research Center</b> analysis of Bureau of&nbsp;...</div> </div>   <table>=
+ <tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.=
+google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.latinpost=
+.com/articles/122014/20160706/hispanic-male-workers-earning-fraction-of-wha=
+t-white-counterparts-paid-pew-research-study-finds.htm&amp;ss=3Dgp&amp;rt=
+=3DHispanic&#43;Male&#43;Workers&#43;Earning&#43;Fraction&#43;of&#43;What&#=
+43;White&#43;Counterparts&#43;Paid&#43;Pew&#43;Research&#43;Study&#43;...&a=
+mp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjp=
+LUg&amp;ssp=3DAMJHsmW7UoYme_Fjc1fnxrYHr32zPbIHTw" style=3D"text-decoration:=
+none"> <img alt=3D"Google Plus" src=3D"https://www.gstatic.com/alerts/image=
+s/gp-24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=
+=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/al=
+erts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.latinpost.com/articles/1=
+22014/20160706/hispanic-male-workers-earning-fraction-of-what-white-counter=
+parts-paid-pew-research-study-finds.htm&amp;ss=3Dfb&amp;rt=3DHispanic&#43;M=
+ale&#43;Workers&#43;Earning&#43;Fraction&#43;of&#43;What&#43;White&#43;Coun=
+terparts&#43;Paid&#43;Pew&#43;Research&#43;Study&#43;...&amp;cd=3DKhQxMDc3N=
+jUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJ=
+HsmW7UoYme_Fjc1fnxrYHr32zPbIHTw" style=3D"text-decoration:none"> <img alt=
+=3D"Facebook" src=3D"https://www.gstatic.com/alerts/images/fb-24.png" borde=
+r=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"pad=
+ding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&a=
+mp;gl=3DKR&amp;ru=3Dhttp://www.latinpost.com/articles/122014/20160706/hispa=
+nic-male-workers-earning-fraction-of-what-white-counterparts-paid-pew-resea=
+rch-study-finds.htm&amp;ss=3Dtw&amp;rt=3DHispanic&#43;Male&#43;Workers&#43;=
+Earning&#43;Fraction&#43;of&#43;What&#43;White&#43;Counterparts&#43;Paid&#4=
+3;Pew&#43;Research&#43;Study&#43;...&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0O=
+DIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmW7UoYme_Fjc1fnxrY=
+Hr32zPbIHTw" style=3D"text-decoration:none"> <img alt=3D"Twitter" src=3D"ht=
+tps://www.gstatic.com/alerts/images/tw-24.png" border=3D"0" height=3D"16" w=
+idth=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15px;font-family:Ar=
+ial"> <a href=3D"https://www.google.co.kr/alerts/feedback?ffu=3Dhttp://www.=
+latinpost.com/articles/122014/20160706/hispanic-male-workers-earning-fracti=
+on-of-what-white-counterparts-paid-pew-research-study-finds.htm&amp;source=
+=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyMzQwMDM3MDIyN=
+Dg&amp;s=3DAB2Xq4h8C2PzLkw60f391WkZk5mT51CfYeSTlF8" style=3D"text-decoratio=
+n:none;vertical-align:middle;color:#aaa;font-size:10px"> Flag as irrelevant=
+ </a> </td> </tr> </table>  </div> </div> </td> <td style=3D"padding-right:=
+18px"></td> </tr>    <tr itemscopeitemtype=3D"http://schema.org/Article"> <=
+td style=3D"padding-left:18px"></td> <td style=3D"padding:18px 0px 12px 0px=
+;vertical-align:top;border-top:1px solid #e4e4e4;font-family:Arial"> <a hre=
+f=3D"https://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://time.co=
+m/4388028/july-4th-american-quiz/&amp;ct=3Dga&amp;cd=3DCAEYCCoUMTA3NzY1MjAy=
+MzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNFnu=
+qDn4gy2VR4VQI07nAKA7Bhw4g" style=3D"text-decoration:none"> <table align=3D"=
+right" style=3D"display:inline;border-collapse:collapse"> <tr> <td style=3D=
+"padding-left:18px"></td> <td background=3D"https://encrypted-tbn3.gstatic.=
+com/images?q=3Dtbn:ANd9GcQNJzX-8_U_EJ9XRsWXPREMHO3kVAJfUTICG3ZXPXLxJonjI6bR=
+OHQS5pe_mlC0pUyjcykQdtWc" height=3D"100" width=3D"100" valign=3D"bottom" st=
+yle=3D"padding:0px 0px 0px 0px;background-repeat:no-repeat;text-align:cente=
+r;border:1px solid #e4e4e4"> <link href=3D"https://encrypted-tbn3.gstatic.c=
+om/images?q=3Dtbn:ANd9GcRPsKD7VxRwmEUBrWqKiGBQzHqMIJrrUcwgjmIAsAjn30-UM_mDL=
+tpvD_Zfv-Vd7V3Bkz4BCC8v19s" itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn3.gstatic.com/images%3Fq%3Dtbn:ANd9GcQNJzX-8_U_EJ9XRsWXPREMHO3=
+kVAJfUTICG3ZXPXLxJonjI6bROHQS5pe_mlC0pUyjcykQdtWc"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">TIME</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">TIME</div> </div> <!--[if gte ms=
+o 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <span style=3D"pad=
+ding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=
+=3Dt&amp;url=3Dhttp://time.com/4388028/july-4th-american-quiz/&amp;ct=3Dga&=
+amp;cd=3DCAEYCyoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28ua3=
+I6ZW46S1I&amp;usg=3DAFQjCNFnuqDn4gy2VR4VQI07nAKA7Bhw4g" itemprop=3D"url" st=
+yle=3D"color:#427fed;display:inline;text-decoration:none;font-size:16px;lin=
+e-height:20px"> <span itemprop=3D"name">How 'American' Are You?</span> </a>=
+ </span>  <div> <div style=3D"padding:2px 0px 8px 0px"> <div itemprop=3D"pu=
+blisher" itemscopeitemtype=3D"http://schema.org/Organization" style=3D"colo=
+r:#737373;font-size:12px"> <a style=3D"text-decoration:none;color:#737373">=
+ <span itemprop=3D"name">TIME</span> </a> </div> <div itemprop=3D"descripti=
+on" style=3D"color:#252525;padding:2px 0px 0px 0px;font-size:12px;line-heig=
+ht:18px">This quiz will poll you on 10 questions from the <b>Pew Research C=
+enter</b> and tell you how strongly your opinions and habits align with the=
+ country at large&nbsp;...</div> </div>   <table> <tr> <td width=3D"16" sty=
+le=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?=
+hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://time.com/4388028/july-4th-american-quiz=
+/&amp;ss=3Dgp&amp;rt=3DHow&#43;'American'&#43;Are&#43;You%3F&amp;cd=3DKhQxM=
+Dc3NjUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=
+=3DAMJHsmVt3PaaI_PwPrBv9bw61YLA2q7zbQ" style=3D"text-decoration:none"> <img=
+ alt=3D"Google Plus" src=3D"https://www.gstatic.com/alerts/images/gp-24.png=
+" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=
+=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=
+=3Den&amp;gl=3DKR&amp;ru=3Dhttp://time.com/4388028/july-4th-american-quiz/&=
+amp;ss=3Dfb&amp;rt=3DHow&#43;'American'&#43;Are&#43;You%3F&amp;cd=3DKhQxMDc=
+3NjUyMDIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DA=
+MJHsmVt3PaaI_PwPrBv9bw61YLA2q7zbQ" style=3D"text-decoration:none"> <img alt=
+=3D"Facebook" src=3D"https://www.gstatic.com/alerts/images/fb-24.png" borde=
+r=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"pad=
+ding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&a=
+mp;gl=3DKR&amp;ru=3Dhttp://time.com/4388028/july-4th-american-quiz/&amp;ss=
+=3Dtw&amp;rt=3DHow&#43;'American'&#43;Are&#43;You%3F&amp;cd=3DKhQxMDc3NjUyM=
+DIzNDAwMzcwMjI0ODIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmV=
+t3PaaI_PwPrBv9bw61YLA2q7zbQ" style=3D"text-decoration:none"> <img alt=3D"Tw=
+itter" src=3D"https://www.gstatic.com/alerts/images/tw-24.png" border=3D"0"=
+ height=3D"16" width=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15p=
+x;font-family:Arial"> <a href=3D"https://www.google.co.kr/alerts/feedback?f=
+fu=3Dhttp://time.com/4388028/july-4th-american-quiz/&amp;source=3Dalertsmai=
+l&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyMzQwMDM3MDIyNDg&amp;s=3DA=
+B2Xq4h8C2PzLkw60f391WkZk5mT51CfYeSTlF8" style=3D"text-decoration:none;verti=
+cal-align:middle;color:#aaa;font-size:10px"> Flag as irrelevant </a> </td> =
+</tr> </table>  </div> </div> </td> <td style=3D"padding-right:18px"></td> =
+</tr>    <tr itemscopeitemtype=3D"http://schema.org/Article"> <td style=3D"=
+padding-left:18px"></td> <td style=3D"padding:18px 0px 12px 0px;vertical-al=
+ign:top;border-top:1px solid #e4e4e4;font-family:Arial"> <a href=3D"https:/=
+/www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttps://www.washingtonpost=
+.com/news/wonk/wp/2016/07/01/the-group-that-seriously-out-earns-white-men/&=
+amp;ct=3Dga&amp;cd=3DCAEYCSoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZT=
+k3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNHb9vATpBLhJzpi7fpevuMP20Raqg" style=
+=3D"text-decoration:none"> <table align=3D"right" style=3D"display:inline;b=
+order-collapse:collapse"> <tr> <td style=3D"padding-left:18px"></td> <td ba=
+ckground=3D"https://encrypted-tbn2.gstatic.com/images?q=3Dtbn:ANd9GcT6nSARR=
+75QlWLdpFuad6UKA_gtp1dN1PTSc3wdxiNlQKHBTjOx4pMiDFEl9bUieeL-oi2u1gY" height=
+=3D"100" width=3D"100" valign=3D"bottom" style=3D"padding:0px 0px 0px 0px;b=
+ackground-repeat:no-repeat;text-align:center;border:1px solid #e4e4e4"> <li=
+nk href=3D"https://encrypted-tbn2.gstatic.com/images?q=3Dtbn:ANd9GcTnqYDdBs=
+Rf3v45COmfQxAH5mOlvpnRG1c_uJJHfUrYvo2sJroqhkykQKBceQ" itemprop=3D"image"> <=
+!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn2.gstatic.com/images%3Fq%3Dtbn:ANd9GcT6nSARR75QlWLdpFuad6UKA_g=
+tp1dN1PTSc3wdxiNlQKHBTjOx4pMiDFEl9bUieeL-oi2u1gY"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Washington Post</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Washington Post</div> </div> <!-=
+-[if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <span s=
+tyle=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=
+=3Dj&amp;sa=3Dt&amp;url=3Dhttps://www.washingtonpost.com/news/wonk/wp/2016/=
+07/01/the-group-that-seriously-out-earns-white-men/&amp;ct=3Dga&amp;cd=3DCA=
+EYDCoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28ua3I6ZW46S1I&a=
+mp;usg=3DAFQjCNHb9vATpBLhJzpi7fpevuMP20Raqg" itemprop=3D"url" style=3D"colo=
+r:#427fed;display:inline;text-decoration:none;font-size:16px;line-height:20=
+px"> <span itemprop=3D"name">The group that seriously outearns white men</s=
+pan> </a> </span>  <div> <div style=3D"padding:2px 0px 8px 0px"> <div itemp=
+rop=3D"publisher" itemscopeitemtype=3D"http://schema.org/Organization" styl=
+e=3D"color:#737373;font-size:12px"> <a style=3D"text-decoration:none;color:=
+#737373"> <span itemprop=3D"name">Washington Post</span> </a> </div> <div i=
+temprop=3D"description" style=3D"color:#252525;padding:2px 0px 0px 0px;font=
+-size:12px;line-height:18px">This morning, the <b>Pew Research Center</b> r=
+eleased a new report on how Americans are paid by race and gender =E2=80=94=
+ and boy, are there some&nbsp;...</div> </div>    <div style=3D"font-size:1=
+2px;line-height:18px"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=
+=3Dt&amp;url=3Dhttp://www.marketwatch.com/story/these-workers-earn-more-tha=
+n-white-men-in-america-2016-07-01&amp;ct=3Dga&amp;cd=3DCAEYCSoUMTA3NzY1MjAy=
+MzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZTk3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNFTK=
+wY4sB7CovvQ8AxPxYT5NHHaBA" style=3D"color:#427FED;text-decoration:none">The=
+se workers earn more than white men in America</a> <span style=3D"color:#73=
+7373"> - <a style=3D"text-decoration:none;color:#737373">MarketWatch</a></s=
+pan> </div><div style=3D"font-size:12px;line-height:18px"> <a href=3D"https=
+://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.bloomberg.com=
+/news/articles/2016-07-01/asian-men-win-the-hourly-earnings-race-in-america=
+&amp;ct=3Dga&amp;cd=3DCAEYCSoUMTA3NzY1MjAyMzQwMDM3MDIyNDgyHDUzN2Y0YTVhMzVjZ=
+Tk3YWQ6Y28ua3I6ZW46S1I&amp;usg=3DAFQjCNEBr9hxRtwfDXX_8mREurK7iEMauQ" style=
+=3D"color:#427FED;text-decoration:none">Asian Men Win the Hourly Earnings R=
+ace in America</a> <span style=3D"color:#737373"> - <a style=3D"text-decora=
+tion:none;color:#737373">Bloomberg</a></span> </div>   <div style=3D"paddin=
+g:0px 0px 8px 0px"> <a href=3D"http://news.google.com/news/story?ncl=3Dhttp=
+s://www.washingtonpost.com/news/wonk/wp/2016/07/01/the-group-that-seriously=
+-out-earns-white-men/&amp;hl=3Den&amp;geo=3DKR" target=3D"_blank" style=3D"=
+font-size:10px;color:#427FED;text-decoration:none">Full Coverage</a> </div>=
+   <table> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"ht=
+tps://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttps://ww=
+w.washingtonpost.com/news/wonk/wp/2016/07/01/the-group-that-seriously-out-e=
+arns-white-men/&amp;ss=3Dgp&amp;rt=3DThe&#43;group&#43;that&#43;seriously&#=
+43;outearns&#43;white&#43;men&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0ODIcNTM3=
+ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmXWfTxm_bvp8PGfYqqj6AJPhZ=
+GksA" style=3D"text-decoration:none"> <img alt=3D"Google Plus" src=3D"https=
+://www.gstatic.com/alerts/images/gp-24.png" border=3D"0" height=3D"16" widt=
+h=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a href=
+=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp=
+s://www.washingtonpost.com/news/wonk/wp/2016/07/01/the-group-that-seriously=
+-out-earns-white-men/&amp;ss=3Dfb&amp;rt=3DThe&#43;group&#43;that&#43;serio=
+usly&#43;outearns&#43;white&#43;men&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0OD=
+IcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmXWfTxm_bvp8PGfYqqj=
+6AJPhZGksA" style=3D"text-decoration:none"> <img alt=3D"Facebook" src=3D"ht=
+tps://www.gstatic.com/alerts/images/fb-24.png" border=3D"0" height=3D"16" w=
+idth=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a hre=
+f=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhtt=
+ps://www.washingtonpost.com/news/wonk/wp/2016/07/01/the-group-that-seriousl=
+y-out-earns-white-men/&amp;ss=3Dtw&amp;rt=3DThe&#43;group&#43;that&#43;seri=
+ously&#43;outearns&#43;white&#43;men&amp;cd=3DKhQxMDc3NjUyMDIzNDAwMzcwMjI0O=
+DIcNTM3ZjRhNWEzNWNlOTdhZDpjby5rcjplbjpLUg&amp;ssp=3DAMJHsmXWfTxm_bvp8PGfYqq=
+j6AJPhZGksA" style=3D"text-decoration:none"> <img alt=3D"Twitter" src=3D"ht=
+tps://www.gstatic.com/alerts/images/tw-24.png" border=3D"0" height=3D"16" w=
+idth=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15px;font-family:Ar=
+ial"> <a href=3D"https://www.google.co.kr/alerts/feedback?ffu=3Dhttps://www=
+.washingtonpost.com/news/wonk/wp/2016/07/01/the-group-that-seriously-out-ea=
+rns-white-men/&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3D=
+MTA3NzY1MjAyMzQwMDM3MDIyNDg&amp;s=3DAB2Xq4h8C2PzLkw60f391WkZk5mT51CfYeSTlF8=
+" style=3D"text-decoration:none;vertical-align:middle;color:#aaa;font-size:=
+10px"> Flag as irrelevant </a> </td> </tr> </table>  </div> </div> </td> <t=
+d style=3D"padding-right:18px"></td> </tr>    <tr> <td colspan=3D"3" valign=
+=3D"middle" style=3D"background-color:#f8f8f8;font-size:14px;vertical-align=
+:middle;text-align:center;padding:10px 10px 10px 10px;line-height:20px;bord=
+er:1px solid #e4e4e4;font-family:Arial"> <a href=3D"https://www.google.co.k=
+r/alerts?s=3DAB2Xq4h8C2PzLkw60f391WkZk5mT51CfYeSTlF8&amp;start=3D1467270182=
+&amp;end=3D1467874982&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;m=
+sgid=3DMTA3NzY1MjAyMzQwMDM3MDIyNDg#history" style=3D"text-decoration:none;v=
+ertical-align:middle;color:#427fed">See more results</a> <span style=3D"fon=
+t-size:12px;padding-left:15px;padding-right:15px;color:#aaa">|</span> <a hr=
+ef=3D"https://www.google.co.kr/alerts/edit?source=3Dalertsmail&amp;hl=3Den&=
+amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyMzQwMDM3MDIyNDg&amp;s=3DAB2Xq4h8C2PzLkw=
+60f391WkZk5mT51CfYeSTlF8&amp;email=3Dcooldenny%40etri.re.kr" style=3D"text-=
+decoration:none;vertical-align:middle;color:#427fed">Edit this alert</a>  <=
+/td> </tr>  </table> <table style=3D"padding-top:6px;font-size:12px;color:#=
+252525;text-align:center;width:100%"> <tr> <td style=3D"font-family:Arial">=
+ You have received this email because you have subscribed to <b>Google Aler=
+ts</b>. <div> <a href=3D"https://www.google.co.kr/alerts/remove?source=3Dal=
+ertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyMzQwMDM3MDIyNDg&am=
+p;s=3DAB2Xq4h8C2PzLkw60f391WkZk5mT51CfYeSTlF8" style=3D"text-decoration:non=
+e;color:#427fed">Unsubscribe</a> <span style=3D"padding:0px 4px 0px 4px;col=
+or:#252525">|</span> <a href=3D"https://www.google.co.kr/alerts?source=3Dal=
+ertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyMzQwMDM3MDIyNDg" s=
+tyle=3D"text-decoration:none;color:#427fed">View all your alerts</a> </div>=
+ </td> </tr> <tr> <td style=3D"padding:6px 10px 0px 0px;font-family:Arial">=
+ <a href=3D"https://www.google.com/alerts/feeds/00482591768220058731/144539=
+67084425597736" style=3D"text-decoration:none;color:#427fed"> <img src=3D"h=
+ttps://www.gstatic.com/alerts/images/rss-16.gif" alt=3D"RSS" border=3D"0" s=
+tyle=3D"padding:0px 8px 0px 0px;vertical-align:middle"> <span style=3D"disp=
+lay:inline;line-height:16px;vertical-align:middle">Receive this alert as RS=
+S feed</span> </a> </td> </tr> <tr> <td style=3D"padding:6px 0px 0px 0px;fo=
+nt-family:Arial"> <a href=3D"https://www.google.co.kr/alerts?source=3Dalert=
+smail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTA3NzY1MjAyMzQwMDM3MDIyNDg&amp;s=
+=3DAB2Xq4h8C2PzLkw60f391WkZk5mT51CfYeSTlF8&amp;ffu=3D" style=3D"text-decora=
+tion:none;color:#427fed"> <div style=3D"display:inline;line-height:16px;ver=
+tical-align:middle">Send Feedback</div> </a> </td> </tr> </table> </div> </=
+div> <!--[if mso]>
+</td></tr></table>
+<![endif]-->
+  </div>  </body> </html>=
+
+--047d7b5dbb88ed946c05370646d0--

@@ -1,0 +1,1026 @@
+Received: from SMTPEG2.etri.info (129.254.27.142) by SMTP4.etri.info
+ (129.254.28.74) with Microsoft SMTP Server (TLS) id 14.1.355.2; Fri, 8 Jul
+ 2016 10:00:17 +0900
+Received: from spam.etri.re.kr (129.254.9.15) by SMTPEG2.etri.info
+ (129.254.27.142) with Microsoft SMTP Server (TLS) id 14.1.355.2; Fri, 8 Jul
+ 2016 10:00:18 +0900
+Received: from unknown (HELO mail-qk0-f197.google.com) (209.85.220.197)	by
+ 129.254.9.15 with ESMTP; 8 Jul 2016 09:59:59 +0900
+X-Original-SENDERIP: 209.85.220.197
+X-Original-MAILFROM: 3Hft-VxQKCdA2AA270w70DFE-9AD0B7K2AA270.yA8yAA7z099K0FD4.D0.6D@alerts.bounces.google.com
+Received: by mail-qk0-f197.google.com with SMTP id u1so68890985qkc.0
+        for <cooldenny@etri.re.kr>; Thu, 07 Jul 2016 18:00:15 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=mime-version:date:list-id:list-unsubscribe:message-id:subject:from
+         :to;
+        bh=Ky6YnqLD24l5R5EGTqxBoQH7UrQLGy00TtTfVdzBH5A=;
+        b=Ge7sEajtck2MlND28udnzI9NJfXJ74C/1fljqR4Qrx7wW/OMVVsh7lc4kaVZ1d+T3P
+         97X6uY5+rO53E5AZxBOKKf9ZCrD81OYftBZMXo243QNNJJQ3q4Y+cfsWSo+t2qgNxl7C
+         QQYa7JECJlEa+eC0ApxVNc7gQaz+iv3aFDX5v5GZ8D7dIA6Ra3bikwyoIvslUt/s2bZz
+         /aOFDycgYy4OLcKmkkRW5zTjUW5R6QurEZY09KUWRtwGBvJ+4dl8MUegqaknLTKMbgok
+         ZPKeTFvpZJYMY5dfme2rYWEN+bNuwpQ4H+rBn3N5q4eWwJsijgDwPVjBlgEaCYZ2dEG6
+         ZMsw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:list-id:list-unsubscribe
+         :message-id:subject:from:to;
+        bh=Ky6YnqLD24l5R5EGTqxBoQH7UrQLGy00TtTfVdzBH5A=;
+        b=QMAZG0cPhu9D588czEUiwzeuitd0ElrO6vTzafpH5Yg04ScCAi/qeiRCZBPmnB6j7d
+         DoS/JhZvmxx9qieadPtwwAH+DCKHr3DACPg4skGcvmMgj18UN0B522+jG2j+2z0bunZs
+         JWKgdkG0RF6rN+dPjLNDeoRq9SupYkiY4z0+Tfw/3KZyjV1+vRIaUoXgnZ5Xf4Sy3bxY
+         tTsXqp19hpC1IjRRb0Wp23feJUWi01v2jtX7NABJ/kuAVy68PQbdry4ycXV+GNIZDD2t
+         9X1JtDMp8X2mbPFffguSJyTP7tCb/00CYV/e/2vxLK86BO7F35fD8HhhQHsexigay+fi
+         wRHw==
+X-Gm-Message-State: ALyK8tJJPnoUKjdAFPYgWsR4GSSDHJ7Mlx6UQupcsAw22RqTxCBDRLcVMxZCDiKvWKg=
+X-Received: by 10.200.51.239 with SMTP id d44mr293687qtb.12.1467939613294;
+ Thu, 07 Jul 2016 18:00:13 -0700 (PDT)
+Date: Thu, 7 Jul 2016 18:00:12 -0700
+List-Id: <9279468190234038592.alerts.google.com>
+List-Unsubscribe: <mailto:ur@unsubscribe.alerts.google.com?subject=AB2Xq4jGLtxXd6_eH_J-gEEDPjoVeFo5zEsRf_4>
+Message-ID: <001a11c01f9633c4330537155358@google.com>
+Subject: Google Alert - "Global competitiveness"
+From: Google Alerts <googlealerts-noreply@google.com>
+To: <cooldenny@etri.re.kr>
+Content-Type: multipart/alternative; boundary="001a11c01f9633c4090537155355"
+Return-Path: 3Hft-VxQKCdA2AA270w70DFE-9AD0B7K2AA270.yA8yAA7z099K0FD4.D0.6D@alerts.bounces.google.com
+X-MS-Exchange-Organization-AuthSource: SMTPEG2.etri.info
+X-MS-Exchange-Organization-AuthAs: Anonymous
+MIME-Version: 1.0
+
+--001a11c01f9633c4090537155355
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+PT09IE5ld3MgLSAxMCBuZXcgcmVzdWx0cyBmb3IgWyJHbG9iYWwgY29tcGV0aXRpdmVuZXNzIl0g
+PT09DQoNClNsaW1UcmFkZXJzIHByZXBhcmVzIGhvc3BpdGFsaXR5IGluZHVzdHJ5IGZvciBnbG9i
+YWwgY29tcGV0aXRpdmVuZXNzDQpUaGVDYWJsZQ0KU2xpbVRyYWRlciwgYSB0dXJua2V5IGUtY29t
+bWVyY2Ugc29sdXRpb24gcHJvdmlkZXIgZm9yIGJ1c2luZXNzZXMsIGhlbGQgaXRzDQppbmF1Z3Vy
+YWwgZW1wb3dlcm1lbnQgZm9ydW0gZm9yIG93bmVycyBhbmQgbWFuYWdlcnMgb2YgaG90ZWxzIGFu
+ZCAuLi4NCjxodHRwczovL3d3dy5nb29nbGUuY29tL3VybD9yY3Q9aiZzYT10JnVybD1odHRwczov
+L3d3dy50aGVjYWJsZS5uZy9zbGltdHJhZGVycy1wcmVwYXJlcy1ob3NwaXRhbGl0eS1pbmR1c3Ry
+eS1mb3ItZ2xvYmFsLWNvbXBldGl0aXZlbmVzcyZjdD1nYSZjZD1DQUVZQUNvVE1qTTBOelE0TWpR
+d01EVTBOek15T0RZeE1USWNOR0ZoT0RneU1EaGxNRFl6WmpnMFlqcGpieTVyY2pwbGJqcExVZyZ1
+c2c9QUZRakNOR3JSWUp0SU9qZm9wMUFQUmJMRUV1R1Z1cmU4QT4NCg0KRmlsaXBpbm8gYmFuYW5h
+IGluZHVzdHJ5IHN0cml2ZXMgdG8gbWFpbnRhaW4gZ2xvYmFsIGNvbXBldGl0aXZlbmVzcw0KRnJl
+c2hQbGF6YQ0KUHJlc2lkZW50IG9mIHRoZSBQaWxpcGlubyBCYW5hbmEgR3Jvd2VycyBhbmQgRXhw
+b3J0ZXJzIEFzc29jaWF0aW9uIChQQkdFQSkNCkFsZXhhbmRlciBOLiBWYWxvcmlhIGhhcyBjYWxs
+ZWQgb24gc3Rha2Vob2xkZXJzIG9mIHRoZSBiYW5hbmEgaW5kdXN0cnkgLi4uDQo8aHR0cHM6Ly93
+d3cuZ29vZ2xlLmNvbS91cmw/cmN0PWomc2E9dCZ1cmw9aHR0cDovL3d3dy5mcmVzaHBsYXphLmNv
+bS9hcnRpY2xlLzE1OTkyOC9GaWxpcGluby1iYW5hbmEtaW5kdXN0cnktc3RyaXZlcy10by1tYWlu
+dGFpbi1nbG9iYWwtY29tcGV0aXRpdmVuZXNzJmN0PWdhJmNkPUNBRVlBU29UTWpNME56UTRNalF3
+TURVME56TXlPRFl4TVRJY05HRmhPRGd5TURobE1EWXpaamcwWWpwamJ5NXJjanBsYmpwTFVnJnVz
+Zz1BRlFqQ05GWFRTMER5NTZkWjVKVXREYnJFMmpPdHd2ZHVnPg0KDQpCYW5hbmEgZ3Jvd2Vycywg
+ZXhwb3J0ZXJzIHNlZWsgc3VwcG9ydCB0byBtYWludGFpbiBnbG9iYWwgY29tcGV0aXRpdmVuZXNz
+DQpCdXNpbmVzc1dvcmxkIE9ubGluZSBFZGl0aW9uDQpEQVZBTyBDSVRZIC0tIEFuIG9mZmljaWFs
+IG9mIHRoZSBQaWxpcGlubyBCYW5hbmEgR3Jvd2VycyBhbmQgRXhwb3J0ZXJzDQpBc3NvY2lhdGlv
+biAoUEJHRUEpIHVyZ2VkIHN0YWtlaG9sZGVycyBvZiB0aGUgYmFuYW5hIGluZHVzdHJ5IHRvIHVw
+aG9sZCAuLi4NCjxodHRwczovL3d3dy5nb29nbGUuY29tL3VybD9yY3Q9aiZzYT10JnVybD1odHRw
+Oi8vd3d3LmJ3b3JsZG9ubGluZS5jb20vY29udGVudC5waHAlM0ZzZWN0aW9uJTNERWNvbm9teSUy
+NnRpdGxlJTNEYmFuYW5hLWdyb3dlcnMtZXhwb3J0ZXJzLXNlZWstc3VwcG9ydC10by1tYWludGFp
+bi1nbG9iYWwtY29tcGV0aXRpdmVuZXNzJTI2aWQlM0QxMjk1OTImY3Q9Z2EmY2Q9Q0FFWUFpb1RN
+ak0wTnpRNE1qUXdNRFUwTnpNeU9EWXhNVEljTkdGaE9EZ3lNRGhsTURZelpqZzBZanBqYnk1cmNq
+cGxianBMVWcmdXNnPUFGUWpDTkVjR3ptWEhibzdkT3hnZmxaM3l0dV9iVzBfalE+DQoNCkVtYnJh
+Y2UgJ0Rpc3J1cHRpdmUgVGVjaG5vbG9neScgdG8gTGV2ZXJhZ2UgR2xvYmFsIENvbXBldGl0aXZl
+bmVzczogRXhwZXJ0DQpKYWthcnRhIEdsb2JlDQpCdXNpbmVzc2VzIGluIEluZG9uZXNpYSBhbmQg
+U291dGhlYXN0IEFzaWEgbXVzdCB0YWtlIGFkdmFudGFnZSBvZg0KZGlzcnVwdGl2ZSBpbm5vdmF0
+aW9ucyBhbmQgdGVjaG5vbG9naWVzIHRvIGxldmVyYWdlIHRoZWlyIGdsb2JhbA0KY29tcGV0aXRp
+dmVuZXNzLCAuLi4NCjxodHRwczovL3d3dy5nb29nbGUuY29tL3VybD9yY3Q9aiZzYT10JnVybD1o
+dHRwOi8vamFrYXJ0YWdsb2JlLmJlcml0YXNhdHUuY29tL2Vjb25vbXkvZGlzcnVwdGl2ZS10ZWNo
+bm9sb2d5LWZvci1pbmRvbmVzaWFzLXNtYWxsLWVudGVycHJpc2VzLXRvLXdpbi1nbG9iYWwtY29t
+cGV0aXRpb24vJmN0PWdhJmNkPUNBRVlBeW9UTWpNME56UTRNalF3TURVME56TXlPRFl4TVRJY05H
+RmhPRGd5TURobE1EWXpaamcwWWpwamJ5NXJjanBsYmpwTFVnJnVzZz1BRlFqQ05FNHlBUmlQWE1y
+UXJGNmxkUF9hQVExakF5OHF3Pg0KDQpRdWFsaXR5IEJhc2VkIFBvcmsgR3JhZGluZyBTeXN0ZW0g
+T2ZmZXJzIFBvdGVudGlhbCB0byBJbXByb3ZlIENhbmFkYSdzDQpHbG9iYWwgQ29tcGV0aXRpdmVu
+ZXNzDQpGYXJtc2NhcGUgT25saW5lDQpDYW5hZGEgUG9yayBJbnRlcm5hdGlvbmFsIGlzIGNvbmZp
+ZGVudCBjcmVhdGluZyBhIHBvcmsgcXVhbGl0eSBiYXNlZA0KZ3JhZGluZyBzeXN0ZW0sIG1vZGVs
+ZWQgYWZ0ZXIgd2hhdCBpcyBhbHJlYWR5IGluIHBsYWNlIGluIHRoZSBiZWVmIGluZHVzdHJ5LA0K
+d2lsbCAuLi4NCjxodHRwczovL3d3dy5nb29nbGUuY29tL3VybD9yY3Q9aiZzYT10JnVybD1odHRw
+Oi8vd3d3LmZhcm1zY2FwZS5jb20vZjJTaG93U2NyaXB0LmFzcHglM0ZpJTNEMjU1NjYlMjZxJTNE
+UXVhbGl0eSUyQkJhc2VkJTJCUG9yayUyQkdyYWRpbmclMkJTeXN0ZW0lMkJPZmZlcnMlMkJQb3Rl
+bnRpYWwlMkJ0byUyQkltcHJvdmUlMkJDYW5hZGElMjdzJTJCR2xvYmFsJTJCQ29tcGV0aXRpdmVu
+ZXNzJmN0PWdhJmNkPUNBRVlCQ29UTWpNME56UTRNalF3TURVME56TXlPRFl4TVRJY05HRmhPRGd5
+TURobE1EWXpaamcwWWpwamJ5NXJjanBsYmpwTFVnJnVzZz1BRlFqQ05FSHBhalBGSkh5Uk9BVEdY
+SUEtZ2Q0X1J5Z3JBPg0KDQpQaGlsaXBwaW5lcyBzbGlkZXMgaW4gY29tcGV0aXRpdmVuZXNzIG9m
+IHBvcnRzLCBsb2dpc3RpY3MgYnVzaW5lc3Nlcw0KUGhpbGlwcGluZSBTdGFyDQouLi4gRHV0ZXJ0
+ZSB0byBnb3Zlcm5tZW50IGFnZW5jaWVzIHRvIGhvbm9yIGNvbnRyYWN0cyBpcyBzZWVuIHRvIGlt
+cHJvdmUNCnRoZSBnbG9iYWwgY29tcGV0aXRpdmVuZXNzIG9mIHRoZSBjb3VudHJ5J3MgcG9ydCBh
+bmQgbG9naXN0aWNzIGJ1c2luZXNzZXMuDQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS91cmw/cmN0
+PWomc2E9dCZ1cmw9aHR0cDovL3d3dy5waGlsc3Rhci5jb20vYnVzaW5lc3MvMjAxNi8wNy8wNC8x
+NTk5MjAyL3BoaWxpcHBpbmVzLXNsaWRlcy1jb21wZXRpdGl2ZW5lc3MtcG9ydHMtbG9naXN0aWNz
+LWJ1c2luZXNzZXMmY3Q9Z2EmY2Q9Q0FFWUJTb1RNak0wTnpRNE1qUXdNRFUwTnpNeU9EWXhNVElj
+TkdGaE9EZ3lNRGhsTURZelpqZzBZanBqYnk1cmNqcGxianBMVWcmdXNnPUFGUWpDTkVQM05UdHl3
+TlZsUVhVbVhtU0dTQjRKWHFiUHc+DQoNCkRpZ2l0aXNhdGlvbiBpcyB0aGUga2V5IHRvIEluZGlh
+J3MgY29tcGV0aXRpdmVuZXNzDQpUaW1lcyBvZiBJbmRpYSAoYmxvZykNCi4uLiBkaWdpdGFsIGhh
+dmVzIGFuZCBoYXZlLW5vdHMsIGRpZ2l0aXNhdGlvbiB3aWxsIGJlIGtleSB0byBtYWludGFpbmlu
+Zw0KSW5kaWEncyBnbG9iYWwgY29tcGV0aXRpdmVuZXNzLCBHRFAgZ3Jvd3RoLCBpbm5vdmF0aW9u
+IGFuZCBjcmVhdGluZw0KZW1wbG95bWVudC4NCjxodHRwczovL3d3dy5nb29nbGUuY29tL3VybD9y
+Y3Q9aiZzYT10JnVybD1odHRwOi8vYmxvZ3MuZWNvbm9taWN0aW1lcy5pbmRpYXRpbWVzLmNvbS9l
+dC1jb21tZW50YXJ5L2RpZ2l0aXNhdGlvbi1pcy10aGUta2V5LXRvLWluZGlhcy1jb21wZXRpdGl2
+ZW5lc3MvJmN0PWdhJmNkPUNBRVlCaW9UTWpNME56UTRNalF3TURVME56TXlPRFl4TVRJY05HRmhP
+RGd5TURobE1EWXpaamcwWWpwamJ5NXJjanBsYmpwTFVnJnVzZz1BRlFqQ05FSjlVNmtNNVpCUkRT
+V2NqbEhLbnI0bzdYbHp3Pg0KDQooRURJVE9SSUFMIGZyb20gVGhlIEtvcmVhIFRpbWVzIG9uIEp1
+bmUgMjkpDQpZb25oYXAgTmV3cw0KU2Ftc3VuZyBFbGVjdHJvbmljcyBpcyB0YWtpbmcgc3RlcHMg
+dG93YXJkIGlubm92YXRpbmcgaXRzIGNvcnBvcmF0ZSBjdWx0dXJlDQp0byByYWlzZSBpdHMgZ2xv
+YmFsIGNvbXBldGl0aXZlbmVzcy4gVGhlIHRlY2ggY29tcGFueSBhbm5vdW5jZWQgcmVmb3JtIC4u
+Lg0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vdXJsP3JjdD1qJnNhPXQmdXJsPWh0dHA6Ly9lbmds
+aXNoLnlvbmhhcG5ld3MuY28ua3IvbmV3cy8yMDE2LzA2LzI5LzAyMDAwMDAwMDBBRU4yMDE2MDYy
+OTAwMDgwMDMyMC5odG1sJmN0PWdhJmNkPUNBRVlCeW9UTWpNME56UTRNalF3TURVME56TXlPRFl4
+TVRJY05HRmhPRGd5TURobE1EWXpaamcwWWpwamJ5NXJjanBsYmpwTFVnJnVzZz1BRlFqQ05HZ1RD
+MW5kX0ZpWHNndFRaXzhpUDNSNVQ3dnVRPg0KDQpFY29ub21pYyBwZXJmb3JtYW5jZSwgcmV0dXJu
+IG9mIGdsb2JhbCByZXNwZWN0IGNpdGVkIGFzIE5veSBhY2NvbXBsaXNobWVudHMNClBoaWxpcHBp
+bmUgU3Rhcg0KSGUgYWRkZWQgdGhhdCB0aGUgR2xvYmFsIENvbXBldGl0aXZlbmVzcyBJbmRleCBv
+ZiB0aGUgV29ybGQgRWNvbm9taWMgRm9ydW0NCm9mIDIwMTAgdGhlIGNvdW50cnkgd2FzIGF0IDg1
+LCBidXQgcm9zZSB0byA0NyBpbiAyMDE1LiDigJxXZSBoYXZlIC4uLg0KPGh0dHBzOi8vd3d3Lmdv
+b2dsZS5jb20vdXJsP3JjdD1qJnNhPXQmdXJsPWh0dHA6Ly93d3cucGhpbHN0YXIuY29tL2hlYWRs
+aW5lcy8yMDE2LzA2LzI4LzE1OTczNzUvZWNvbm9taWMtcGVyZm9ybWFuY2UtcmV0dXJuLWdsb2Jh
+bC1yZXNwZWN0LWNpdGVkLW5veS1hY2NvbXBsaXNobWVudHMmY3Q9Z2EmY2Q9Q0FFWUNDb1RNak0w
+TnpRNE1qUXdNRFUwTnpNeU9EWXhNVEljTkdGaE9EZ3lNRGhsTURZelpqZzBZanBqYnk1cmNqcGxi
+anBMVWcmdXNnPUFGUWpDTkdORGdHS0lOSTlTSExFb1JmUzRCUE9WR24wU3c+DQoNCkNoaW5hIEZv
+Y3VzOiBDaGluYSBmaXJtcyByaXNlIG9uIGdsb2JhbCBzdGFnZSBvbiBpbm5vdmF0aW9uLCBhY3F1
+aXNpdGlvbg0KU2hhbmdoYWkgRGFpbHkgKHN1YnNjcmlwdGlvbikNCkxpIE1pbmcsIGEgcGFydG5l
+ciB3aXRoIFB3Qywgc2FpZCB0aGF0IENoaW5lc2UgY29tcGFuaWVzIHNlZSBvdmVyc2Vhcw0KYWNx
+dWlzaXRpb25zIGFzIGEgd2F5IHRvIGJvb3N0IGdsb2JhbCBjb21wZXRpdGl2ZW5lc3MgYW5kIGV4
+cGFuZCBvdmVyc2Vhcy4NCjxodHRwczovL3d3dy5nb29nbGUuY29tL3VybD9yY3Q9aiZzYT10JnVy
+bD1odHRwOi8vd3d3LnNoYW5naGFpZGFpbHkuY29tL2FydGljbGUvYXJ0aWNsZV94aW5odWEuYXNw
+eCUzRmlkJTNEMzMwNTkxJmN0PWdhJmNkPUNBRVlDU29UTWpNME56UTRNalF3TURVME56TXlPRFl4
+TVRJY05HRmhPRGd5TURobE1EWXpaamcwWWpwamJ5NXJjanBsYmpwTFVnJnVzZz1BRlFqQ05FQWxt
+ZUhWdnRyUG51ZzZ3U1FaVGYwNE1zZHlBPg0KDQoNCi0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0g
+LSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0NClVuc3Vic2NyaWJlIGZy
+b20gdGhpcyBHb29nbGUgQWxlcnQ6DQo8aHR0cHM6Ly93d3cuZ29vZ2xlLmNvLmtyL2FsZXJ0cy9y
+ZW1vdmU/c291cmNlPWFsZXJ0c21haWwmaGw9ZW4mZ2w9S1ImbXNnaWQ9TWpNME56UTRNalF3TURV
+ME56TXlPRFl4TVEmcz1BQjJYcTRqR0x0eFhkNl9lSF9KLWdFRURQam9WZUZvNXpFc1JmXzQ+DQoN
+CkNyZWF0ZSBhbm90aGVyIEdvb2dsZSBBbGVydDoNCjxodHRwczovL3d3dy5nb29nbGUuY28ua3Iv
+YWxlcnRzP3NvdXJjZT1hbGVydHNtYWlsJmhsPWVuJmdsPUtSJm1zZ2lkPU1qTTBOelE0TWpRd01E
+VTBOek15T0RZeE1RPg0KDQpTaWduIGluIHRvIG1hbmFnZSB5b3VyIGFsZXJ0czoNCjxodHRwczov
+L3d3dy5nb29nbGUuY28ua3IvYWxlcnRzP3NvdXJjZT1hbGVydHNtYWlsJmhsPWVuJmdsPUtSJm1z
+Z2lkPU1qTTBOelE0TWpRd01EVTBOek15T0RZeE1RPg0K
+--001a11c01f9633c4090537155355
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html lang=3D"en-KR"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head> <body> <div>   <!--[if mso]>
+ <table><tr><td width=3D650>
+<![endif]-->
+ <div style=3D"width:100%;max-width:650px"> <div style=3D"font-family:Arial=
+"> <table style=3D"border-collapse:collapse;border-left:1px solid #e4e4e4;b=
+order-right:1px solid #e4e4e4"> <tr> <td style=3D"background-color:#f8f8f8;=
+padding-left:18px;border-bottom:1px solid #e4e4e4;border-top:1px solid #e4e=
+4e4"></td> <td valign=3D"middle" style=3D"padding:13px 10px 8px 0px;backgro=
+und-color:#f8f8f8;border-top:1px solid #e4e4e4;border-bottom:1px solid #e4e=
+4e4"> <a href=3D"https://www.google.co.kr/alerts?source=3Dalertsmail&amp;hl=
+=3Den&amp;gl=3DKR&amp;msgid=3DMjM0NzQ4MjQwMDU0NzMyODYxMQ" style=3D"text-dec=
+oration:none"> <img src=3D"https://www.google.com/intl/en_kr/alerts/logo.pn=
+g?cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjEx" alt=3D"Google" border=3D"0" height=3D"=
+25"> </a> </td> <td style=3D"background-color:#f8f8f8;padding-left:18px;bor=
+der-top:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4"></td> </tr>  <tr=
+> <td style=3D"padding-left:32px"></td> <td style=3D"padding:18px 0px 0px 0=
+px;vertical-align:middle;line-height:20px;font-family:Arial"> <span style=
+=3D"color:#262626;font-size:22px">&quot;Global competitiveness&quot;</span>=
+ <div style=3D"vertical-align:top;padding-top:6px;color:#aaa;font-size:12px=
+;line-height:16px"> <span>Weekly update</span> <span style=3D"padding:0px 4=
+px 0px 4px">=E2=8B=85</span> <a style=3D"color:#aaa;text-decoration:none">J=
+uly 8, 2016</a> </div> </td> <td style=3D"padding-left:32px"></td> </tr>  <=
+tr> <td style=3D"padding-left:18px"></td> <td style=3D"padding:16px 0px 12p=
+x 0px;border-bottom:1px solid #e4e4e4"> <span style=3D"font-size:12px;color=
+:#737373"> NEWS </span> </td> <td style=3D"padding-right:18px"></td> </tr> =
+  <tr itemscopeitemtype=3D"http://schema.org/Article"> <td style=3D"padding=
+-left:18px"></td> <td style=3D"padding:18px 0px 12px 0px;vertical-align:top=
+;font-family:Arial"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=
+=3Dt&amp;url=3Dhttps://www.thecable.ng/slimtraders-prepares-hospitality-ind=
+ustry-for-global-competitiveness&amp;ct=3Dga&amp;cd=3DCAEYACoTMjM0NzQ4MjQwM=
+DU0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplbjpLUg&amp;usg=3DAFQjCNGrRYJ=
+tIOjfop1APRbLEEuGVure8A" style=3D"text-decoration:none"> <table align=3D"ri=
+ght" style=3D"display:inline;border-collapse:collapse"> <tr> <td style=3D"p=
+adding-left:18px"></td> <td background=3D"https://encrypted-tbn3.gstatic.co=
+m/images?q=3Dtbn:ANd9GcRoNTCeT-aBbEIK7rB7P3uLH1iBkHm6FNLVDiS76RkNGJuWioT0ft=
+sSkvJWBdIbouYNQ-RxVZIf" height=3D"100" width=3D"100" valign=3D"bottom" styl=
+e=3D"padding:0px 0px 0px 0px;background-repeat:no-repeat;text-align:center;=
+border:1px solid #e4e4e4"> <link href=3D"https://encrypted-tbn3.gstatic.com=
+/images?q=3Dtbn:ANd9GcTsMq0ayctdILAw3YA2gOPGtfj5FK8wmG-jj3blivvemf5zazkyyww=
+NddOtjWI" itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn3.gstatic.com/images%3Fq%3Dtbn:ANd9GcRoNTCeT-aBbEIK7rB7P3uLH1i=
+BkHm6FNLVDiS76RkNGJuWioT0ftsSkvJWBdIbouYNQ-RxVZIf"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">TheCable</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">TheCable</div> </div> <!--[if gt=
+e mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <span style=3D=
+"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=3Dj&am=
+p;sa=3Dt&amp;url=3Dhttps://www.thecable.ng/slimtraders-prepares-hospitality=
+-industry-for-global-competitiveness&amp;ct=3Dga&amp;cd=3DCAEYACoTMjM0NzQ4M=
+jQwMDU0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplbjpLUg&amp;usg=3DAFQjCNG=
+rRYJtIOjfop1APRbLEEuGVure8A" itemprop=3D"url" style=3D"color:#427fed;displa=
+y:inline;text-decoration:none;font-size:16px;line-height:20px"> <span itemp=
+rop=3D"name">SlimTraders prepares hospitality industry for <b>global compet=
+itiveness</b></span> </a> </span>  <div> <div style=3D"padding:2px 0px 8px =
+0px"> <div itemprop=3D"publisher" itemscopeitemtype=3D"http://schema.org/Or=
+ganization" style=3D"color:#737373;font-size:12px"> <a style=3D"text-decora=
+tion:none;color:#737373"> <span itemprop=3D"name">TheCable</span> </a> </di=
+v> <div itemprop=3D"description" style=3D"color:#252525;padding:2px 0px 0px=
+ 0px;font-size:12px;line-height:18px">SlimTrader, a turnkey e-commerce solu=
+tion provider for businesses, held its inaugural empowerment forum for owne=
+rs and managers of hotels and&nbsp;...</div> </div>   <table> <tr> <td widt=
+h=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/a=
+lerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttps://www.thecable.ng/slimtrader=
+s-prepares-hospitality-industry-for-global-competitiveness&amp;ss=3Dgp&amp;=
+rt=3DSlimTraders&#43;prepares&#43;hospitality&#43;industry&#43;for&#43;glob=
+al&#43;competitiveness&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGU=
+wNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXh_cgXjAO-PHYgvhkUAQc1-uLATA" sty=
+le=3D"text-decoration:none"> <img alt=3D"Google Plus" src=3D"https://www.gs=
+tatic.com/alerts/images/gp-24.png" border=3D"0" height=3D"16" width=3D"16">=
+</a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https:/=
+/www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttps://www.the=
+cable.ng/slimtraders-prepares-hospitality-industry-for-global-competitivene=
+ss&amp;ss=3Dfb&amp;rt=3DSlimTraders&#43;prepares&#43;hospitality&#43;indust=
+ry&#43;for&#43;global&#43;competitiveness&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4=
+NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXh_cgXjAO-PHYg=
+vhkUAQc1-uLATA" style=3D"text-decoration:none"> <img alt=3D"Facebook" src=
+=3D"https://www.gstatic.com/alerts/images/fb-24.png" border=3D"0" height=3D=
+"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> =
+<a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=
+=3Dhttps://www.thecable.ng/slimtraders-prepares-hospitality-industry-for-gl=
+obal-competitiveness&amp;ss=3Dtw&amp;rt=3DSlimTraders&#43;prepares&#43;hosp=
+itality&#43;industry&#43;for&#43;global&#43;competitiveness&amp;cd=3DKhMyMz=
+Q3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAM=
+JHsmXh_cgXjAO-PHYgvhkUAQc1-uLATA" style=3D"text-decoration:none"> <img alt=
+=3D"Twitter" src=3D"https://www.gstatic.com/alerts/images/tw-24.png" border=
+=3D"0" height=3D"16" width=3D"16"></a> </td> <td style=3D"padding:0px 0px 6=
+px 15px;font-family:Arial"> <a href=3D"https://www.google.co.kr/alerts/feed=
+back?ffu=3Dhttps://www.thecable.ng/slimtraders-prepares-hospitality-industr=
+y-for-global-competitiveness&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DK=
+R&amp;msgid=3DMjM0NzQ4MjQwMDU0NzMyODYxMQ&amp;s=3DAB2Xq4jGLtxXd6_eH_J-gEEDPj=
+oVeFo5zEsRf_4" style=3D"text-decoration:none;vertical-align:middle;color:#a=
+aa;font-size:10px"> Flag as irrelevant </a> </td> </tr> </table>  </div> </=
+div> </td> <td style=3D"padding-right:18px"></td> </tr>    <tr itemscopeite=
+mtype=3D"http://schema.org/Article"> <td style=3D"padding-left:18px"></td> =
+<td style=3D"padding:18px 0px 12px 0px;vertical-align:top;border-top:1px so=
+lid #e4e4e4;font-family:Arial"> <a href=3D"https://www.google.com/url?rct=
+=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.freshplaza.com/article/159928/Filipino=
+-banana-industry-strives-to-maintain-global-competitiveness&amp;ct=3Dga&amp=
+;cd=3DCAEYASoTMjM0NzQ4MjQwMDU0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplb=
+jpLUg&amp;usg=3DAFQjCNFXTS0Dy56dZ5JUtDbrE2jOtwvdug" style=3D"text-decoratio=
+n:none"> <table align=3D"right" style=3D"display:inline;border-collapse:col=
+lapse"> <tr> <td style=3D"padding-left:18px"></td> <td background=3D"https:=
+//encrypted-tbn2.gstatic.com/images?q=3Dtbn:ANd9GcRvuf3xKBYKjthUwHQrN6UGnpq=
+9p4ElBWWT-4imr22ZKtbcCixPLaK1ies" height=3D"100" width=3D"100" valign=3D"bo=
+ttom" style=3D"padding:0px 0px 0px 0px;background-repeat:no-repeat;text-ali=
+gn:center;border:1px solid #e4e4e4"> <link href=3D"https://encrypted-tbn2.g=
+static.com/images?q=3Dtbn:ANd9GcT8CCT7x16IZN_8DSpxSLiXXx1nxqCLwbUkkgBL3hoa0=
+Qx1BSCgAMFY2gMkRw" itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn2.gstatic.com/images%3Fq%3Dtbn:ANd9GcRvuf3xKBYKjthUwHQrN6UGnpq=
+9p4ElBWWT-4imr22ZKtbcCixPLaK1ies"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">FreshPlaza</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">FreshPlaza</div> </div> <!--[if =
+gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <span style=
+=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=3Dj=
+&amp;sa=3Dt&amp;url=3Dhttp://www.freshplaza.com/article/159928/Filipino-ban=
+ana-industry-strives-to-maintain-global-competitiveness&amp;ct=3Dga&amp;cd=
+=3DCAEYASoTMjM0NzQ4MjQwMDU0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplbjpL=
+Ug&amp;usg=3DAFQjCNFXTS0Dy56dZ5JUtDbrE2jOtwvdug" itemprop=3D"url" style=3D"=
+color:#427fed;display:inline;text-decoration:none;font-size:16px;line-heigh=
+t:20px"> <span itemprop=3D"name">Filipino banana industry strives to mainta=
+in <b>global competitiveness</b></span> </a> </span>  <div> <div style=3D"p=
+adding:2px 0px 8px 0px"> <div itemprop=3D"publisher" itemscopeitemtype=3D"h=
+ttp://schema.org/Organization" style=3D"color:#737373;font-size:12px"> <a s=
+tyle=3D"text-decoration:none;color:#737373"> <span itemprop=3D"name">FreshP=
+laza</span> </a> </div> <div itemprop=3D"description" style=3D"color:#25252=
+5;padding:2px 0px 0px 0px;font-size:12px;line-height:18px">President of the=
+ Pilipino Banana Growers and Exporters Association (PBGEA) Alexander N. Val=
+oria has called on stakeholders of the banana industry&nbsp;...</div> </div=
+>   <table> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"h=
+ttps://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://ww=
+w.freshplaza.com/article/159928/Filipino-banana-industry-strives-to-maintai=
+n-global-competitiveness&amp;ss=3Dgp&amp;rt=3DFilipino&#43;banana&#43;indus=
+try&#43;strives&#43;to&#43;maintain&#43;global&#43;competitiveness&amp;cd=
+=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp=
+;ssp=3DAMJHsmUlh58SceTQh9UeKn-lo4YG862fFg" style=3D"text-decoration:none"> =
+<img alt=3D"Google Plus" src=3D"https://www.gstatic.com/alerts/images/gp-24=
+.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" s=
+tyle=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/shar=
+e?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.freshplaza.com/article/159928/Fil=
+ipino-banana-industry-strives-to-maintain-global-competitiveness&amp;ss=3Df=
+b&amp;rt=3DFilipino&#43;banana&#43;industry&#43;strives&#43;to&#43;maintain=
+&#43;global&#43;competitiveness&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YW=
+E4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmUlh58SceTQh9UeKn-lo4YG86=
+2fFg" style=3D"text-decoration:none"> <img alt=3D"Facebook" src=3D"https://=
+www.gstatic.com/alerts/images/fb-24.png" border=3D"0" height=3D"16" width=
+=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D=
+"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://=
+www.freshplaza.com/article/159928/Filipino-banana-industry-strives-to-maint=
+ain-global-competitiveness&amp;ss=3Dtw&amp;rt=3DFilipino&#43;banana&#43;ind=
+ustry&#43;strives&#43;to&#43;maintain&#43;global&#43;competitiveness&amp;cd=
+=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp=
+;ssp=3DAMJHsmUlh58SceTQh9UeKn-lo4YG862fFg" style=3D"text-decoration:none"> =
+<img alt=3D"Twitter" src=3D"https://www.gstatic.com/alerts/images/tw-24.png=
+" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td style=3D"padding:0=
+px 0px 6px 15px;font-family:Arial"> <a href=3D"https://www.google.co.kr/ale=
+rts/feedback?ffu=3Dhttp://www.freshplaza.com/article/159928/Filipino-banana=
+-industry-strives-to-maintain-global-competitiveness&amp;source=3Dalertsmai=
+l&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMjM0NzQ4MjQwMDU0NzMyODYxMQ&amp;s=3DAB=
+2Xq4jGLtxXd6_eH_J-gEEDPjoVeFo5zEsRf_4" style=3D"text-decoration:none;vertic=
+al-align:middle;color:#aaa;font-size:10px"> Flag as irrelevant </a> </td> <=
+/tr> </table>  </div> </div> </td> <td style=3D"padding-right:18px"></td> <=
+/tr>    <tr itemscopeitemtype=3D"http://schema.org/Article"> <td style=3D"p=
+adding-left:18px"></td> <td style=3D"padding:18px 0px 12px 0px;vertical-ali=
+gn:top;border-top:1px solid #e4e4e4;font-family:Arial"> <a></a> <div>  <spa=
+n style=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?=
+rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.bworldonline.com/content.php%3Fsect=
+ion%3DEconomy%26title%3Dbanana-growers-exporters-seek-support-to-maintain-g=
+lobal-competitiveness%26id%3D129592&amp;ct=3Dga&amp;cd=3DCAEYAioTMjM0NzQ4Mj=
+QwMDU0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplbjpLUg&amp;usg=3DAFQjCNEc=
+GzmXHbo7dOxgflZ3ytu_bW0_jQ" itemprop=3D"url" style=3D"color:#427fed;display=
+:inline;text-decoration:none;font-size:16px;line-height:20px"> <span itempr=
+op=3D"name">Banana growers, exporters seek support to maintain <b>global co=
+mpetitiveness</b></span> </a> </span>  <div> <div style=3D"padding:2px 0px =
+8px 0px"> <div itemprop=3D"publisher" itemscopeitemtype=3D"http://schema.or=
+g/Organization" style=3D"color:#737373;font-size:12px"> <a style=3D"text-de=
+coration:none;color:#737373"> <span itemprop=3D"name">BusinessWorld Online =
+Edition</span> </a> </div> <div itemprop=3D"description" style=3D"color:#25=
+2525;padding:2px 0px 0px 0px;font-size:12px;line-height:18px">DAVAO CITY --=
+ An official of the Pilipino Banana Growers and Exporters Association (PBGE=
+A) urged stakeholders of the banana industry to uphold&nbsp;...</div> </div=
+>   <table> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"h=
+ttps://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://ww=
+w.bworldonline.com/content.php%3Fsection%3DEconomy%26title%3Dbanana-growers=
+-exporters-seek-support-to-maintain-global-competitiveness%26id%3D129592&am=
+p;ss=3Dgp&amp;rt=3DBanana&#43;growers,&#43;exporters&#43;seek&#43;support&#=
+43;to&#43;maintain&#43;global&#43;competitiveness&amp;cd=3DKhMyMzQ3NDgyNDAw=
+NTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmW7VWDd=
+3iY_3xnWTzrG4KF2ejQN9g" style=3D"text-decoration:none"> <img alt=3D"Google =
+Plus" src=3D"https://www.gstatic.com/alerts/images/gp-24.png" border=3D"0" =
+height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-rig=
+ht:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3D=
+KR&amp;ru=3Dhttp://www.bworldonline.com/content.php%3Fsection%3DEconomy%26t=
+itle%3Dbanana-growers-exporters-seek-support-to-maintain-global-competitive=
+ness%26id%3D129592&amp;ss=3Dfb&amp;rt=3DBanana&#43;growers,&#43;exporters&#=
+43;seek&#43;support&#43;to&#43;maintain&#43;global&#43;competitiveness&amp;=
+cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&a=
+mp;ssp=3DAMJHsmW7VWDd3iY_3xnWTzrG4KF2ejQN9g" style=3D"text-decoration:none"=
+> <img alt=3D"Facebook" src=3D"https://www.gstatic.com/alerts/images/fb-24.=
+png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" st=
+yle=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share=
+?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.bworldonline.com/content.php%3Fsec=
+tion%3DEconomy%26title%3Dbanana-growers-exporters-seek-support-to-maintain-=
+global-competitiveness%26id%3D129592&amp;ss=3Dtw&amp;rt=3DBanana&#43;grower=
+s,&#43;exporters&#43;seek&#43;support&#43;to&#43;maintain&#43;global&#43;co=
+mpetitiveness&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRi=
+OmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmW7VWDd3iY_3xnWTzrG4KF2ejQN9g" style=3D"tex=
+t-decoration:none"> <img alt=3D"Twitter" src=3D"https://www.gstatic.com/ale=
+rts/images/tw-24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <t=
+d style=3D"padding:0px 0px 6px 15px;font-family:Arial"> <a href=3D"https://=
+www.google.co.kr/alerts/feedback?ffu=3Dhttp://www.bworldonline.com/content.=
+php%3Fsection%3DEconomy%26title%3Dbanana-growers-exporters-seek-support-to-=
+maintain-global-competitiveness%26id%3D129592&amp;source=3Dalertsmail&amp;h=
+l=3Den&amp;gl=3DKR&amp;msgid=3DMjM0NzQ4MjQwMDU0NzMyODYxMQ&amp;s=3DAB2Xq4jGL=
+txXd6_eH_J-gEEDPjoVeFo5zEsRf_4" style=3D"text-decoration:none;vertical-alig=
+n:middle;color:#aaa;font-size:10px"> Flag as irrelevant </a> </td> </tr> </=
+table>  </div> </div> </td> <td style=3D"padding-right:18px"></td> </tr>   =
+ <tr itemscopeitemtype=3D"http://schema.org/Article"> <td style=3D"padding-=
+left:18px"></td> <td style=3D"padding:18px 0px 12px 0px;vertical-align:top;=
+border-top:1px solid #e4e4e4;font-family:Arial"> <a href=3D"https://www.goo=
+gle.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.canindia.com/disruptive=
+-technology-is-an-alternative-to-boost-productivity/&amp;ct=3Dga&amp;cd=3DC=
+AEYAyoTMjM0NzQ4MjQwMDU0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplbjpLUg&a=
+mp;usg=3DAFQjCNH5t3LlF2G0byo_XTYnjAG3RgLfUA" style=3D"text-decoration:none"=
+> <table align=3D"right" style=3D"display:inline;border-collapse:collapse">=
+ <tr> <td style=3D"padding-left:18px"></td> <td background=3D"https://encry=
+pted-tbn0.gstatic.com/images?q=3Dtbn:ANd9GcSoclzos5qGJXk5tWTKCxGUSGZBCtR9wp=
+p-twhmYTnovdZOVtj08V9zkC78_T_lLvyGg-tGHqQ" height=3D"100" width=3D"100" val=
+ign=3D"bottom" style=3D"padding:0px 0px 0px 0px;background-repeat:no-repeat=
+;text-align:center;border:1px solid #e4e4e4"> <link href=3D"https://encrypt=
+ed-tbn0.gstatic.com/images?q=3Dtbn:ANd9GcQ8mYM3_D53A-yHyFBm9nBWGrhb1VP1MERF=
+8s8NPMDl2B0gcl-N_KwSj2pLlg" itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn0.gstatic.com/images%3Fq%3Dtbn:ANd9GcSoclzos5qGJXk5tWTKCxGUSGZ=
+BCtR9wpp-twhmYTnovdZOVtj08V9zkC78_T_lLvyGg-tGHqQ"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">CanIndia News</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">CanIndia News</div> </div> <!--[=
+if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <span sty=
+le=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=
+=3Dj&amp;sa=3Dt&amp;url=3Dhttp://jakartaglobe.beritasatu.com/economy/disrup=
+tive-technology-for-indonesias-small-enterprises-to-win-global-competition/=
+&amp;ct=3Dga&amp;cd=3DCAEYAyoTMjM0NzQ4MjQwMDU0NzMyODYxMTIcNGFhODgyMDhlMDYzZ=
+jg0Yjpjby5rcjplbjpLUg&amp;usg=3DAFQjCNE4yARiPXMrQrF6ldP_aAQ1jAy8qw" itempro=
+p=3D"url" style=3D"color:#427fed;display:inline;text-decoration:none;font-s=
+ize:16px;line-height:20px"> <span itemprop=3D"name">Embrace 'Disruptive Tec=
+hnology' to Leverage <b>Global Competitiveness</b>: Expert</span> </a> </sp=
+an>  <div> <div style=3D"padding:2px 0px 8px 0px"> <div itemprop=3D"publish=
+er" itemscopeitemtype=3D"http://schema.org/Organization" style=3D"color:#73=
+7373;font-size:12px"> <a style=3D"text-decoration:none;color:#737373"> <spa=
+n itemprop=3D"name">Jakarta Globe</span> </a> </div> <div itemprop=3D"descr=
+iption" style=3D"color:#252525;padding:2px 0px 0px 0px;font-size:12px;line-=
+height:18px">Businesses in Indonesia and Southeast Asia must take advantage=
+ of disruptive innovations and technologies to leverage their <b>global com=
+petitiveness</b>,&nbsp;...</div> </div>   <table> <tr> <td width=3D"16" sty=
+le=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?=
+hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://jakartaglobe.beritasatu.com/economy/dis=
+ruptive-technology-for-indonesias-small-enterprises-to-win-global-competiti=
+on/&amp;ss=3Dgp&amp;rt=3DEmbrace&#43;'Disruptive&#43;Technology'&#43;to&#43=
+;Leverage&#43;Global&#43;Competitiveness:&#43;Expert&amp;cd=3DKhMyMzQ3NDgyN=
+DAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXsk=
+IvJdd31QoCSjf_FMLJ7DmRT4g" style=3D"text-decoration:none"> <img alt=3D"Goog=
+le Plus" src=3D"https://www.gstatic.com/alerts/images/gp-24.png" border=3D"=
+0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-=
+right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=
+=3DKR&amp;ru=3Dhttp://jakartaglobe.beritasatu.com/economy/disruptive-techno=
+logy-for-indonesias-small-enterprises-to-win-global-competition/&amp;ss=3Df=
+b&amp;rt=3DEmbrace&#43;'Disruptive&#43;Technology'&#43;to&#43;Leverage&#43;=
+Global&#43;Competitiveness:&#43;Expert&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjE=
+xMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXskIvJdd31QoCSjf_=
+FMLJ7DmRT4g" style=3D"text-decoration:none"> <img alt=3D"Facebook" src=3D"h=
+ttps://www.gstatic.com/alerts/images/fb-24.png" border=3D"0" height=3D"16" =
+width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a hr=
+ef=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dht=
+tp://jakartaglobe.beritasatu.com/economy/disruptive-technology-for-indonesi=
+as-small-enterprises-to-win-global-competition/&amp;ss=3Dtw&amp;rt=3DEmbrac=
+e&#43;'Disruptive&#43;Technology'&#43;to&#43;Leverage&#43;Global&#43;Compet=
+itiveness:&#43;Expert&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUw=
+NjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXskIvJdd31QoCSjf_FMLJ7DmRT4g" styl=
+e=3D"text-decoration:none"> <img alt=3D"Twitter" src=3D"https://www.gstatic=
+.com/alerts/images/tw-24.png" border=3D"0" height=3D"16" width=3D"16"></a> =
+</td> <td style=3D"padding:0px 0px 6px 15px;font-family:Arial"> <a href=3D"=
+https://www.google.co.kr/alerts/feedback?ffu=3Dhttp://jakartaglobe.beritasa=
+tu.com/economy/disruptive-technology-for-indonesias-small-enterprises-to-wi=
+n-global-competition/&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;m=
+sgid=3DMjM0NzQ4MjQwMDU0NzMyODYxMQ&amp;s=3DAB2Xq4jGLtxXd6_eH_J-gEEDPjoVeFo5z=
+EsRf_4" style=3D"text-decoration:none;vertical-align:middle;color:#aaa;font=
+-size:10px"> Flag as irrelevant </a> </td> </tr> </table>  </div> </div> </=
+td> <td style=3D"padding-right:18px"></td> </tr>    <tr itemscopeitemtype=
+=3D"http://schema.org/Article"> <td style=3D"padding-left:18px"></td> <td s=
+tyle=3D"padding:18px 0px 12px 0px;vertical-align:top;border-top:1px solid #=
+e4e4e4;font-family:Arial"> <a></a> <div>  <span style=3D"padding:0px 6px 0p=
+x 0px"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3D=
+http://www.farmscape.com/f2ShowScript.aspx%3Fi%3D25566%26q%3DQuality%2BBase=
+d%2BPork%2BGrading%2BSystem%2BOffers%2BPotential%2Bto%2BImprove%2BCanada's%=
+2BGlobal%2BCompetitiveness&amp;ct=3Dga&amp;cd=3DCAEYBCoTMjM0NzQ4MjQwMDU0NzM=
+yODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplbjpLUg&amp;usg=3DAFQjCNEHpajPFJHyR=
+OATGXIA-gd4_RygrA" itemprop=3D"url" style=3D"color:#427fed;display:inline;t=
+ext-decoration:none;font-size:16px;line-height:20px"> <span itemprop=3D"nam=
+e">Quality Based Pork Grading System Offers Potential to Improve Canada's <=
+b>Global Competitiveness</b></span> </a> </span>  <div> <div style=3D"paddi=
+ng:2px 0px 8px 0px"> <div itemprop=3D"publisher" itemscopeitemtype=3D"http:=
+//schema.org/Organization" style=3D"color:#737373;font-size:12px"> <a style=
+=3D"text-decoration:none;color:#737373"> <span itemprop=3D"name">Farmscape =
+Online</span> </a> </div> <div itemprop=3D"description" style=3D"color:#252=
+525;padding:2px 0px 0px 0px;font-size:12px;line-height:18px">Canada Pork In=
+ternational is confident creating a pork quality based grading system, mode=
+led after what is already in place in the beef industry, will&nbsp;...</div=
+> </div>   <table> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a hr=
+ef=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dht=
+tp://www.farmscape.com/f2ShowScript.aspx%3Fi%3D25566%26q%3DQuality%2BBased%=
+2BPork%2BGrading%2BSystem%2BOffers%2BPotential%2Bto%2BImprove%2BCanada's%2B=
+Global%2BCompetitiveness&amp;ss=3Dgp&amp;rt=3DQuality&#43;Based&#43;Pork&#4=
+3;Grading&#43;System&#43;Offers&#43;Potential&#43;to&#43;Improve&#43;Canada=
+'s&#43;Global&#43;Competitiveness&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0=
+YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXO4krvQ7pgmy8BoPHeo7c8=
+wrya-w" style=3D"text-decoration:none"> <img alt=3D"Google Plus" src=3D"htt=
+ps://www.gstatic.com/alerts/images/gp-24.png" border=3D"0" height=3D"16" wi=
+dth=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a href=
+=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp=
+://www.farmscape.com/f2ShowScript.aspx%3Fi%3D25566%26q%3DQuality%2BBased%2B=
+Pork%2BGrading%2BSystem%2BOffers%2BPotential%2Bto%2BImprove%2BCanada's%2BGl=
+obal%2BCompetitiveness&amp;ss=3Dfb&amp;rt=3DQuality&#43;Based&#43;Pork&#43;=
+Grading&#43;System&#43;Offers&#43;Potential&#43;to&#43;Improve&#43;Canada's=
+&#43;Global&#43;Competitiveness&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YW=
+E4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXO4krvQ7pgmy8BoPHeo7c8wr=
+ya-w" style=3D"text-decoration:none"> <img alt=3D"Facebook" src=3D"https://=
+www.gstatic.com/alerts/images/fb-24.png" border=3D"0" height=3D"16" width=
+=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D=
+"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://=
+www.farmscape.com/f2ShowScript.aspx%3Fi%3D25566%26q%3DQuality%2BBased%2BPor=
+k%2BGrading%2BSystem%2BOffers%2BPotential%2Bto%2BImprove%2BCanada's%2BGloba=
+l%2BCompetitiveness&amp;ss=3Dtw&amp;rt=3DQuality&#43;Based&#43;Pork&#43;Gra=
+ding&#43;System&#43;Offers&#43;Potential&#43;to&#43;Improve&#43;Canada's&#4=
+3;Global&#43;Competitiveness&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4O=
+DIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXO4krvQ7pgmy8BoPHeo7c8wrya-=
+w" style=3D"text-decoration:none"> <img alt=3D"Twitter" src=3D"https://www.=
+gstatic.com/alerts/images/tw-24.png" border=3D"0" height=3D"16" width=3D"16=
+"></a> </td> <td style=3D"padding:0px 0px 6px 15px;font-family:Arial"> <a h=
+ref=3D"https://www.google.co.kr/alerts/feedback?ffu=3Dhttp://www.farmscape.=
+com/f2ShowScript.aspx%3Fi%3D25566%26q%3DQuality%2BBased%2BPork%2BGrading%2B=
+System%2BOffers%2BPotential%2Bto%2BImprove%2BCanada's%2BGlobal%2BCompetitiv=
+eness&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMjM0NzQ4M=
+jQwMDU0NzMyODYxMQ&amp;s=3DAB2Xq4jGLtxXd6_eH_J-gEEDPjoVeFo5zEsRf_4" style=3D=
+"text-decoration:none;vertical-align:middle;color:#aaa;font-size:10px"> Fla=
+g as irrelevant </a> </td> </tr> </table>  </div> </div> </td> <td style=3D=
+"padding-right:18px"></td> </tr>    <tr itemscopeitemtype=3D"http://schema.=
+org/Article"> <td style=3D"padding-left:18px"></td> <td style=3D"padding:18=
+px 0px 12px 0px;vertical-align:top;border-top:1px solid #e4e4e4;font-family=
+:Arial"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=
+=3Dhttp://www.philstar.com/business/2016/07/04/1599202/philippines-slides-c=
+ompetitiveness-ports-logistics-businesses&amp;ct=3Dga&amp;cd=3DCAEYBSoTMjM0=
+NzQ4MjQwMDU0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplbjpLUg&amp;usg=3DAF=
+QjCNEP3NTtywNVlQXUmXmSGSB4JXqbPw" style=3D"text-decoration:none"> <table al=
+ign=3D"right" style=3D"display:inline;border-collapse:collapse"> <tr> <td s=
+tyle=3D"padding-left:18px"></td> <td background=3D"https://encrypted-tbn3.g=
+static.com/images?q=3Dtbn:ANd9GcTJ7VzkoRUTRq_vU_VD3VjpRa8ckUOdPYbbCHegg7Mfn=
+3sJBsk2hgnh7W1vT8M39LA5g0q1nbA" height=3D"100" width=3D"100" valign=3D"bott=
+om" style=3D"padding:0px 0px 0px 0px;background-repeat:no-repeat;text-align=
+:center;border:1px solid #e4e4e4"> <link href=3D"https://encrypted-tbn3.gst=
+atic.com/images?q=3Dtbn:ANd9GcSgmahHBd0ui5t1AcrBX3-qfDkYPLdPmtQVCrTuZ-5c5Ub=
+-u65gxbxdIhsmr1JH2OvOkKWy_mefag" itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn3.gstatic.com/images%3Fq%3Dtbn:ANd9GcTJ7VzkoRUTRq_vU_VD3VjpRa8=
+ckUOdPYbbCHegg7Mfn3sJBsk2hgnh7W1vT8M39LA5g0q1nbA"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Philippine Star</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Philippine Star</div> </div> <!-=
+-[if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <span s=
+tyle=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=
+=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.philstar.com/business/2016/07/04/15992=
+02/philippines-slides-competitiveness-ports-logistics-businesses&amp;ct=3Dg=
+a&amp;cd=3DCAEYBSoTMjM0NzQ4MjQwMDU0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5r=
+cjplbjpLUg&amp;usg=3DAFQjCNEP3NTtywNVlQXUmXmSGSB4JXqbPw" itemprop=3D"url" s=
+tyle=3D"color:#427fed;display:inline;text-decoration:none;font-size:16px;li=
+ne-height:20px"> <span itemprop=3D"name">Philippines slides in competitiven=
+ess of ports, logistics businesses</span> </a> </span>  <div> <div style=3D=
+"padding:2px 0px 8px 0px"> <div itemprop=3D"publisher" itemscopeitemtype=3D=
+"http://schema.org/Organization" style=3D"color:#737373;font-size:12px"> <a=
+ style=3D"text-decoration:none;color:#737373"> <span itemprop=3D"name">Phil=
+ippine Star</span> </a> </div> <div itemprop=3D"description" style=3D"color=
+:#252525;padding:2px 0px 0px 0px;font-size:12px;line-height:18px">... Duter=
+te to government agencies to honor contracts is seen to improve the <b>glob=
+al competitiveness</b> of the country's port and logistics businesses.</div=
+> </div>   <table> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a hr=
+ef=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dht=
+tp://www.philstar.com/business/2016/07/04/1599202/philippines-slides-compet=
+itiveness-ports-logistics-businesses&amp;ss=3Dgp&amp;rt=3DPhilippines&#43;s=
+lides&#43;in&#43;competitiveness&#43;of&#43;ports,&#43;logistics&#43;busine=
+sses&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyO=
+mVuOktS&amp;ssp=3DAMJHsmXfubUGrxXFloR6aEZS4HVfW4Z6JQ" style=3D"text-decorat=
+ion:none"> <img alt=3D"Google Plus" src=3D"https://www.gstatic.com/alerts/i=
+mages/gp-24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td wid=
+th=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/=
+alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.philstar.com/business/=
+2016/07/04/1599202/philippines-slides-competitiveness-ports-logistics-busin=
+esses&amp;ss=3Dfb&amp;rt=3DPhilippines&#43;slides&#43;in&#43;competitivenes=
+s&#43;of&#43;ports,&#43;logistics&#43;businesses&amp;cd=3DKhMyMzQ3NDgyNDAwN=
+TQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXfubUGr=
+xXFloR6aEZS4HVfW4Z6JQ" style=3D"text-decoration:none"> <img alt=3D"Facebook=
+" src=3D"https://www.gstatic.com/alerts/images/fb-24.png" border=3D"0" heig=
+ht=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6=
+px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&a=
+mp;ru=3Dhttp://www.philstar.com/business/2016/07/04/1599202/philippines-sli=
+des-competitiveness-ports-logistics-businesses&amp;ss=3Dtw&amp;rt=3DPhilipp=
+ines&#43;slides&#43;in&#43;competitiveness&#43;of&#43;ports,&#43;logistics&=
+#43;businesses&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODR=
+iOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXfubUGrxXFloR6aEZS4HVfW4Z6JQ" style=3D"te=
+xt-decoration:none"> <img alt=3D"Twitter" src=3D"https://www.gstatic.com/al=
+erts/images/tw-24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <=
+td style=3D"padding:0px 0px 6px 15px;font-family:Arial"> <a href=3D"https:/=
+/www.google.co.kr/alerts/feedback?ffu=3Dhttp://www.philstar.com/business/20=
+16/07/04/1599202/philippines-slides-competitiveness-ports-logistics-busines=
+ses&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMjM0NzQ4MjQ=
+wMDU0NzMyODYxMQ&amp;s=3DAB2Xq4jGLtxXd6_eH_J-gEEDPjoVeFo5zEsRf_4" style=3D"t=
+ext-decoration:none;vertical-align:middle;color:#aaa;font-size:10px"> Flag =
+as irrelevant </a> </td> </tr> </table>  </div> </div> </td> <td style=3D"p=
+adding-right:18px"></td> </tr>    <tr itemscopeitemtype=3D"http://schema.or=
+g/Article"> <td style=3D"padding-left:18px"></td> <td style=3D"padding:18px=
+ 0px 12px 0px;vertical-align:top;border-top:1px solid #e4e4e4;font-family:A=
+rial"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dh=
+ttp://blogs.economictimes.indiatimes.com/et-commentary/digitisation-is-the-=
+key-to-indias-competitiveness/&amp;ct=3Dga&amp;cd=3DCAEYBioTMjM0NzQ4MjQwMDU=
+0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplbjpLUg&amp;usg=3DAFQjCNEJ9U6kM=
+5ZBRDSWcjlHKnr4o7Xlzw" style=3D"text-decoration:none"> <table align=3D"righ=
+t" style=3D"display:inline;border-collapse:collapse"> <tr> <td style=3D"pad=
+ding-left:18px"></td> <td background=3D"https://encrypted-tbn1.gstatic.com/=
+images?q=3Dtbn:ANd9GcQwDWVB5k07KBdrxnfENgQHrIFSKqqx3HRa1pjUoFNVYfYAVxjBP1Q9=
+lwB7muaYYWNpY68kF0PJ" height=3D"100" width=3D"100" valign=3D"bottom" style=
+=3D"padding:0px 0px 0px 0px;background-repeat:no-repeat;text-align:center;b=
+order:1px solid #e4e4e4"> <link href=3D"https://encrypted-tbn1.gstatic.com/=
+images?q=3Dtbn:ANd9GcSdkfS51F8rgpkrxoGe7eBRW5dq7FG9bQeafrqpB-eeJ8W1geR-jJgA=
+8DLMC6E" itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn1.gstatic.com/images%3Fq%3Dtbn:ANd9GcQwDWVB5k07KBdrxnfENgQHrIF=
+SKqqx3HRa1pjUoFNVYfYAVxjBP1Q9lwB7muaYYWNpY68kF0PJ"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Times of India (blog)</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Times of India (blog)</div> </di=
+v> <!--[if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <=
+span style=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/u=
+rl?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://blogs.economictimes.indiatimes.com/e=
+t-commentary/digitisation-is-the-key-to-indias-competitiveness/&amp;ct=3Dga=
+&amp;cd=3DCAEYBioTMjM0NzQ4MjQwMDU0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rc=
+jplbjpLUg&amp;usg=3DAFQjCNEJ9U6kM5ZBRDSWcjlHKnr4o7Xlzw" itemprop=3D"url" st=
+yle=3D"color:#427fed;display:inline;text-decoration:none;font-size:16px;lin=
+e-height:20px"> <span itemprop=3D"name">Digitisation is the key to India's =
+competitiveness</span> </a> </span>  <div> <div style=3D"padding:2px 0px 8p=
+x 0px"> <div itemprop=3D"publisher" itemscopeitemtype=3D"http://schema.org/=
+Organization" style=3D"color:#737373;font-size:12px"> <a style=3D"text-deco=
+ration:none;color:#737373"> <span itemprop=3D"name">Times of India (blog)</=
+span> </a> </div> <div itemprop=3D"description" style=3D"color:#252525;padd=
+ing:2px 0px 0px 0px;font-size:12px;line-height:18px">... digital haves and =
+have-nots, digitisation will be key to maintaining India's <b>global compet=
+itiveness</b>, GDP growth, innovation and creating employment.</div> </div>=
+   <table> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"ht=
+tps://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://blo=
+gs.economictimes.indiatimes.com/et-commentary/digitisation-is-the-key-to-in=
+dias-competitiveness/&amp;ss=3Dgp&amp;rt=3DDigitisation&#43;is&#43;the&#43;=
+key&#43;to&#43;India's&#43;competitiveness&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI=
+4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXevvbEKGriwsg=
+ELfp9eIpFjSfRnQ" style=3D"text-decoration:none"> <img alt=3D"Google Plus" s=
+rc=3D"https://www.gstatic.com/alerts/images/gp-24.png" border=3D"0" height=
+=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px=
+"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp=
+;ru=3Dhttp://blogs.economictimes.indiatimes.com/et-commentary/digitisation-=
+is-the-key-to-indias-competitiveness/&amp;ss=3Dfb&amp;rt=3DDigitisation&#43=
+;is&#43;the&#43;key&#43;to&#43;India's&#43;competitiveness&amp;cd=3DKhMyMzQ=
+3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJ=
+HsmXevvbEKGriwsgELfp9eIpFjSfRnQ" style=3D"text-decoration:none"> <img alt=
+=3D"Facebook" src=3D"https://www.gstatic.com/alerts/images/fb-24.png" borde=
+r=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"pad=
+ding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&a=
+mp;gl=3DKR&amp;ru=3Dhttp://blogs.economictimes.indiatimes.com/et-commentary=
+/digitisation-is-the-key-to-indias-competitiveness/&amp;ss=3Dtw&amp;rt=3DDi=
+gitisation&#43;is&#43;the&#43;key&#43;to&#43;India's&#43;competitiveness&am=
+p;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS=
+&amp;ssp=3DAMJHsmXevvbEKGriwsgELfp9eIpFjSfRnQ" style=3D"text-decoration:non=
+e"> <img alt=3D"Twitter" src=3D"https://www.gstatic.com/alerts/images/tw-24=
+.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td style=3D"paddi=
+ng:0px 0px 6px 15px;font-family:Arial"> <a href=3D"https://www.google.co.kr=
+/alerts/feedback?ffu=3Dhttp://blogs.economictimes.indiatimes.com/et-comment=
+ary/digitisation-is-the-key-to-indias-competitiveness/&amp;source=3Dalertsm=
+ail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMjM0NzQ4MjQwMDU0NzMyODYxMQ&amp;s=3D=
+AB2Xq4jGLtxXd6_eH_J-gEEDPjoVeFo5zEsRf_4" style=3D"text-decoration:none;vert=
+ical-align:middle;color:#aaa;font-size:10px"> Flag as irrelevant </a> </td>=
+ </tr> </table>  </div> </div> </td> <td style=3D"padding-right:18px"></td>=
+ </tr>    <tr itemscopeitemtype=3D"http://schema.org/Article"> <td style=3D=
+"padding-left:18px"></td> <td style=3D"padding:18px 0px 12px 0px;vertical-a=
+lign:top;border-top:1px solid #e4e4e4;font-family:Arial"> <a href=3D"https:=
+//www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3Dhttps://www.youtube.com/w=
+atch%3Fv%3DYTLhHkT70-U&amp;ct=3Dga&amp;cd=3DCAEYByoTMjM0NzQ4MjQwMDU0NzMyODY=
+xMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplbjpLUg&amp;usg=3DAFQjCNHKveMUDAC9uvcmO=
+iDT79wy9E49xg" style=3D"text-decoration:none"> <table align=3D"right" style=
+=3D"display:inline;border-collapse:collapse"> <tr> <td style=3D"padding-lef=
+t:18px"></td> <td background=3D"https://encrypted-tbn2.gstatic.com/images?q=
+=3Dtbn:ANd9GcTOgw1eNKUtmFCEmYFIp6Bq8-cNgzs4neiMoe4u45S_7rHs1lhnPpxe781M9yM5=
+NbK-d_9zNY0" height=3D"100" width=3D"100" valign=3D"bottom" style=3D"paddin=
+g:0px 0px 0px 0px;background-repeat:no-repeat;text-align:center;border:1px =
+solid #e4e4e4"> <link href=3D"https://encrypted-tbn2.gstatic.com/images?q=
+=3Dtbn:ANd9GcR3AHKnwGYvd2FTdK-5I4ixnUwmImpXt4Hl7mjDC7GxKfHIqM3v5diI7KnJ7Q" =
+itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn2.gstatic.com/images%3Fq%3Dtbn:ANd9GcTOgw1eNKUtmFCEmYFIp6Bq8-c=
+Ngzs4neiMoe4u45S_7rHs1lhnPpxe781M9yM5NbK-d_9zNY0"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Arirang News</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Arirang News</div> </div> <!--[i=
+f gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <span styl=
+e=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=3D=
+j&amp;sa=3Dt&amp;url=3Dhttp://english.yonhapnews.co.kr/news/2016/06/29/0200=
+000000AEN20160629000800320.html&amp;ct=3Dga&amp;cd=3DCAEYByoTMjM0NzQ4MjQwMD=
+U0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplbjpLUg&amp;usg=3DAFQjCNGgTC1n=
+d_FiXsgtTZ_8iP3R5T7vuQ" itemprop=3D"url" style=3D"color:#427fed;display:inl=
+ine;text-decoration:none;font-size:16px;line-height:20px"> <span itemprop=
+=3D"name">(EDITORIAL from The Korea Times on June 29)</span> </a> </span>  =
+<div> <div style=3D"padding:2px 0px 8px 0px"> <div itemprop=3D"publisher" i=
+temscopeitemtype=3D"http://schema.org/Organization" style=3D"color:#737373;=
+font-size:12px"> <a style=3D"text-decoration:none;color:#737373"> <span ite=
+mprop=3D"name">Yonhap News</span> </a> </div> <div itemprop=3D"description"=
+ style=3D"color:#252525;padding:2px 0px 0px 0px;font-size:12px;line-height:=
+18px">Samsung Electronics is taking steps toward innovating its corporate c=
+ulture to raise its <b>global competitiveness</b>. The tech company announc=
+ed reform&nbsp;...</div> </div>    <div style=3D"font-size:12px;line-height=
+:18px"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;url=3D=
+http://www.arirang.co.kr/News/News_View.asp%3Fnseq%3D192830&amp;ct=3Dga&amp=
+;cd=3DCAEYByoTMjM0NzQ4MjQwMDU0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplb=
+jpLUg&amp;usg=3DAFQjCNHpXEBzyymDuob607-Db6xNRskDxA" style=3D"color:#427FED;=
+text-decoration:none">Korean firms rank in top ten in global sales across s=
+even industries</a> <span style=3D"color:#737373"> - <a style=3D"text-decor=
+ation:none;color:#737373">Arirang News</a></span> </div>   <div style=3D"pa=
+dding:0px 0px 8px 0px"> <a href=3D"http://news.google.com/news/story?ncl=3D=
+http://english.yonhapnews.co.kr/news/2016/06/29/0200000000AEN20160629000800=
+320.html&amp;hl=3Den&amp;geo=3DKR" target=3D"_blank" style=3D"font-size:10p=
+x;color:#427FED;text-decoration:none">Full Coverage</a> </div>   <table> <t=
+r> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.goo=
+gle.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://english.yonhapne=
+ws.co.kr/news/2016/06/29/0200000000AEN20160629000800320.html&amp;ss=3Dgp&am=
+p;rt=3D(EDITORIAL&#43;from&#43;The&#43;Korea&#43;Times&#43;on&#43;June&#43;=
+29)&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOm=
+VuOktS&amp;ssp=3DAMJHsmV_m_X39Q0Q_OeFIh39cNR4PRLqJA" style=3D"text-decorati=
+on:none"> <img alt=3D"Google Plus" src=3D"https://www.gstatic.com/alerts/im=
+ages/gp-24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td widt=
+h=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/a=
+lerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://english.yonhapnews.co.kr/ne=
+ws/2016/06/29/0200000000AEN20160629000800320.html&amp;ss=3Dfb&amp;rt=3D(EDI=
+TORIAL&#43;from&#43;The&#43;Korea&#43;Times&#43;on&#43;June&#43;29)&amp;cd=
+=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp=
+;ssp=3DAMJHsmV_m_X39Q0Q_OeFIh39cNR4PRLqJA" style=3D"text-decoration:none"> =
+<img alt=3D"Facebook" src=3D"https://www.gstatic.com/alerts/images/fb-24.pn=
+g" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" styl=
+e=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?h=
+l=3Den&amp;gl=3DKR&amp;ru=3Dhttp://english.yonhapnews.co.kr/news/2016/06/29=
+/0200000000AEN20160629000800320.html&amp;ss=3Dtw&amp;rt=3D(EDITORIAL&#43;fr=
+om&#43;The&#43;Korea&#43;Times&#43;on&#43;June&#43;29)&amp;cd=3DKhMyMzQ3NDg=
+yNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmV=
+_m_X39Q0Q_OeFIh39cNR4PRLqJA" style=3D"text-decoration:none"> <img alt=3D"Tw=
+itter" src=3D"https://www.gstatic.com/alerts/images/tw-24.png" border=3D"0"=
+ height=3D"16" width=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15p=
+x;font-family:Arial"> <a href=3D"https://www.google.co.kr/alerts/feedback?f=
+fu=3Dhttp://english.yonhapnews.co.kr/news/2016/06/29/0200000000AEN201606290=
+00800320.html&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DM=
+jM0NzQ4MjQwMDU0NzMyODYxMQ&amp;s=3DAB2Xq4jGLtxXd6_eH_J-gEEDPjoVeFo5zEsRf_4" =
+style=3D"text-decoration:none;vertical-align:middle;color:#aaa;font-size:10=
+px"> Flag as irrelevant </a> </td> </tr> </table>  </div> </div> </td> <td =
+style=3D"padding-right:18px"></td> </tr>    <tr itemscopeitemtype=3D"http:/=
+/schema.org/Article"> <td style=3D"padding-left:18px"></td> <td style=3D"pa=
+dding:18px 0px 12px 0px;vertical-align:top;border-top:1px solid #e4e4e4;fon=
+t-family:Arial"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=3Dt&a=
+mp;url=3Dhttp://www.philstar.com/headlines/2016/06/28/1597375/economic-perf=
+ormance-return-global-respect-cited-noy-accomplishments&amp;ct=3Dga&amp;cd=
+=3DCAEYCCoTMjM0NzQ4MjQwMDU0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0Yjpjby5rcjplbjpL=
+Ug&amp;usg=3DAFQjCNGNDgGKINI9SHLEoRfS4BPOVGn0Sw" style=3D"text-decoration:n=
+one"> <table align=3D"right" style=3D"display:inline;border-collapse:collap=
+se"> <tr> <td style=3D"padding-left:18px"></td> <td background=3D"https://e=
+ncrypted-tbn2.gstatic.com/images?q=3Dtbn:ANd9GcQ6QpGvC0I0KAZO4zzz4049hdae2w=
+XHi6b8uEXZjDuhTKLw8giD-AzivNYIlLkYAGOD0IzgLZAo" height=3D"100" width=3D"100=
+" valign=3D"bottom" style=3D"padding:0px 0px 0px 0px;background-repeat:no-r=
+epeat;text-align:center;border:1px solid #e4e4e4"> <link href=3D"https://en=
+crypted-tbn2.gstatic.com/images?q=3Dtbn:ANd9GcTgIwIOBaHfWs4RDHRcHbQ-B9329Gx=
+raY47zjqpcSD1ubAmnoomZMtdyMT2dnhMPJ58A24MY4UgzN4" itemprop=3D"image"> <!--[=
+if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn2.gstatic.com/images%3Fq%3Dtbn:ANd9GcQ6QpGvC0I0KAZO4zzz4049hda=
+e2wXHi6b8uEXZjDuhTKLw8giD-AzivNYIlLkYAGOD0IzgLZAo"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Philippine Star</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Philippine Star</div> </div> <!-=
+-[if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <span s=
+tyle=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=
+=3Dj&amp;sa=3Dt&amp;url=3Dhttp://www.philstar.com/headlines/2016/06/28/1597=
+375/economic-performance-return-global-respect-cited-noy-accomplishments&am=
+p;ct=3Dga&amp;cd=3DCAEYCioTMjM0NzQ4MjQwMDU0NzMyODYxMTIcNGFhODgyMDhlMDYzZjg0=
+Yjpjby5rcjplbjpLUg&amp;usg=3DAFQjCNGNDgGKINI9SHLEoRfS4BPOVGn0Sw" itemprop=
+=3D"url" style=3D"color:#427fed;display:inline;text-decoration:none;font-si=
+ze:16px;line-height:20px"> <span itemprop=3D"name">Economic performance, re=
+turn of global respect cited as Noy accomplishments</span> </a> </span>  <d=
+iv> <div style=3D"padding:2px 0px 8px 0px"> <div itemprop=3D"publisher" ite=
+mscopeitemtype=3D"http://schema.org/Organization" style=3D"color:#737373;fo=
+nt-size:12px"> <a style=3D"text-decoration:none;color:#737373"> <span itemp=
+rop=3D"name">Philippine Star</span> </a> </div> <div itemprop=3D"descriptio=
+n" style=3D"color:#252525;padding:2px 0px 0px 0px;font-size:12px;line-heigh=
+t:18px">He added that the <b>Global Competitiveness</b> Index of the World =
+Economic Forum of 2010 the country was at 85, but rose to 47 in 2015. =E2=
+=80=9CWe have&nbsp;...</div> </div>   <table> <tr> <td width=3D"16" style=
+=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=
+=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.philstar.com/headlines/2016/06/28/159=
+7375/economic-performance-return-global-respect-cited-noy-accomplishments&a=
+mp;ss=3Dgp&amp;rt=3DEconomic&#43;performance,&#43;return&#43;of&#43;global&=
+#43;respect&#43;cited&#43;as&#43;Noy&#43;accomplishments&amp;cd=3DKhMyMzQ3N=
+DgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHs=
+mUZnzwcEmpxZdS5684ZtDe-XKvDJw" style=3D"text-decoration:none"> <img alt=3D"=
+Google Plus" src=3D"https://www.gstatic.com/alerts/images/gp-24.png" border=
+=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padd=
+ing-right:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&am=
+p;gl=3DKR&amp;ru=3Dhttp://www.philstar.com/headlines/2016/06/28/1597375/eco=
+nomic-performance-return-global-respect-cited-noy-accomplishments&amp;ss=3D=
+fb&amp;rt=3DEconomic&#43;performance,&#43;return&#43;of&#43;global&#43;resp=
+ect&#43;cited&#43;as&#43;Noy&#43;accomplishments&amp;cd=3DKhMyMzQ3NDgyNDAwN=
+TQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmUZnzwcE=
+mpxZdS5684ZtDe-XKvDJw" style=3D"text-decoration:none"> <img alt=3D"Facebook=
+" src=3D"https://www.gstatic.com/alerts/images/fb-24.png" border=3D"0" heig=
+ht=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right:6=
+px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&a=
+mp;ru=3Dhttp://www.philstar.com/headlines/2016/06/28/1597375/economic-perfo=
+rmance-return-global-respect-cited-noy-accomplishments&amp;ss=3Dtw&amp;rt=
+=3DEconomic&#43;performance,&#43;return&#43;of&#43;global&#43;respect&#43;c=
+ited&#43;as&#43;Noy&#43;accomplishments&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4Nj=
+ExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmUZnzwcEmpxZdS568=
+4ZtDe-XKvDJw" style=3D"text-decoration:none"> <img alt=3D"Twitter" src=3D"h=
+ttps://www.gstatic.com/alerts/images/tw-24.png" border=3D"0" height=3D"16" =
+width=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15px;font-family:A=
+rial"> <a href=3D"https://www.google.co.kr/alerts/feedback?ffu=3Dhttp://www=
+.philstar.com/headlines/2016/06/28/1597375/economic-performance-return-glob=
+al-respect-cited-noy-accomplishments&amp;source=3Dalertsmail&amp;hl=3Den&am=
+p;gl=3DKR&amp;msgid=3DMjM0NzQ4MjQwMDU0NzMyODYxMQ&amp;s=3DAB2Xq4jGLtxXd6_eH_=
+J-gEEDPjoVeFo5zEsRf_4" style=3D"text-decoration:none;vertical-align:middle;=
+color:#aaa;font-size:10px"> Flag as irrelevant </a> </td> </tr> </table>  <=
+/div> </div> </td> <td style=3D"padding-right:18px"></td> </tr>    <tr item=
+scopeitemtype=3D"http://schema.org/Article"> <td style=3D"padding-left:18px=
+"></td> <td style=3D"padding:18px 0px 12px 0px;vertical-align:top;border-to=
+p:1px solid #e4e4e4;font-family:Arial"> <a></a> <div>  <span style=3D"paddi=
+ng:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=
+=3Dt&amp;url=3Dhttp://www.shanghaidaily.com/article/article_xinhua.aspx%3Fi=
+d%3D330591&amp;ct=3Dga&amp;cd=3DCAEYCyoTMjM0NzQ4MjQwMDU0NzMyODYxMTIcNGFhODg=
+yMDhlMDYzZjg0Yjpjby5rcjplbjpLUg&amp;usg=3DAFQjCNEAlmeHVvtrPnug6wSQZTf04Msdy=
+A" itemprop=3D"url" style=3D"color:#427fed;display:inline;text-decoration:n=
+one;font-size:16px;line-height:20px"> <span itemprop=3D"name">China Focus: =
+China firms rise on global stage on innovation, acquisition</span> </a> </s=
+pan>  <div> <div style=3D"padding:2px 0px 8px 0px"> <div itemprop=3D"publis=
+her" itemscopeitemtype=3D"http://schema.org/Organization" style=3D"color:#7=
+37373;font-size:12px"> <a style=3D"text-decoration:none;color:#737373"> <sp=
+an itemprop=3D"name">Shanghai Daily (subscription)</span> </a> </div> <div =
+itemprop=3D"description" style=3D"color:#252525;padding:2px 0px 0px 0px;fon=
+t-size:12px;line-height:18px">Li Ming, a partner with PwC, said that Chines=
+e companies see overseas acquisitions as a way to boost <b>global competiti=
+veness</b> and expand overseas.</div> </div>   <table> <tr> <td width=3D"16=
+" style=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts/s=
+hare?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.shanghaidaily.com/article/arti=
+cle_xinhua.aspx%3Fid%3D330591&amp;ss=3Dgp&amp;rt=3DChina&#43;Focus:&#43;Chi=
+na&#43;firms&#43;rise&#43;on&#43;global&#43;stage&#43;on&#43;innovation,&#4=
+3;acquisition&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE4ODIwOGUwNjNmODRi=
+OmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXf45g7ShlMREMvlEAbfD8El-KtxQ" style=3D"tex=
+t-decoration:none"> <img alt=3D"Google Plus" src=3D"https://www.gstatic.com=
+/alerts/images/gp-24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td=
+> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www.goog=
+le.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www.shanghaidaily=
+.com/article/article_xinhua.aspx%3Fid%3D330591&amp;ss=3Dfb&amp;rt=3DChina&#=
+43;Focus:&#43;China&#43;firms&#43;rise&#43;on&#43;global&#43;stage&#43;on&#=
+43;innovation,&#43;acquisition&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3MzI4NjExMhw0YWE=
+4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXf45g7ShlMREMvlEAbfD8El-K=
+txQ" style=3D"text-decoration:none"> <img alt=3D"Facebook" src=3D"https://w=
+ww.gstatic.com/alerts/images/fb-24.png" border=3D"0" height=3D"16" width=3D=
+"16"></a> </td> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"ht=
+tps://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://www=
+.shanghaidaily.com/article/article_xinhua.aspx%3Fid%3D330591&amp;ss=3Dtw&am=
+p;rt=3DChina&#43;Focus:&#43;China&#43;firms&#43;rise&#43;on&#43;global&#43;=
+stage&#43;on&#43;innovation,&#43;acquisition&amp;cd=3DKhMyMzQ3NDgyNDAwNTQ3M=
+zI4NjExMhw0YWE4ODIwOGUwNjNmODRiOmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmXf45g7ShlMR=
+EMvlEAbfD8El-KtxQ" style=3D"text-decoration:none"> <img alt=3D"Twitter" src=
+=3D"https://www.gstatic.com/alerts/images/tw-24.png" border=3D"0" height=3D=
+"16" width=3D"16"></a> </td> <td style=3D"padding:0px 0px 6px 15px;font-fam=
+ily:Arial"> <a href=3D"https://www.google.co.kr/alerts/feedback?ffu=3Dhttp:=
+//www.shanghaidaily.com/article/article_xinhua.aspx%3Fid%3D330591&amp;sourc=
+e=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMjM0NzQ4MjQwMDU0NzMyODYx=
+MQ&amp;s=3DAB2Xq4jGLtxXd6_eH_J-gEEDPjoVeFo5zEsRf_4" style=3D"text-decoratio=
+n:none;vertical-align:middle;color:#aaa;font-size:10px"> Flag as irrelevant=
+ </a> </td> </tr> </table>  </div> </div> </td> <td style=3D"padding-right:=
+18px"></td> </tr>    <tr> <td colspan=3D"3" valign=3D"middle" style=3D"back=
+ground-color:#f8f8f8;font-size:14px;vertical-align:middle;text-align:center=
+;padding:10px 10px 10px 10px;line-height:20px;border:1px solid #e4e4e4;font=
+-family:Arial"> <a href=3D"https://www.google.co.kr/alerts?s=3DAB2Xq4jGLtxX=
+d6_eH_J-gEEDPjoVeFo5zEsRf_4&amp;start=3D1467334804&amp;end=3D1467939612&amp=
+;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMjM0NzQ4MjQwMDU0Nz=
+MyODYxMQ#history" style=3D"text-decoration:none;vertical-align:middle;color=
+:#427fed">See more results</a> <span style=3D"font-size:12px;padding-left:1=
+5px;padding-right:15px;color:#aaa">|</span> <a href=3D"https://www.google.c=
+o.kr/alerts/edit?source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMj=
+M0NzQ4MjQwMDU0NzMyODYxMQ&amp;s=3DAB2Xq4jGLtxXd6_eH_J-gEEDPjoVeFo5zEsRf_4&am=
+p;email=3Dcooldenny%40etri.re.kr" style=3D"text-decoration:none;vertical-al=
+ign:middle;color:#427fed">Edit this alert</a>  </td> </tr>  </table> <table=
+ style=3D"padding-top:6px;font-size:12px;color:#252525;text-align:center;wi=
+dth:100%"> <tr> <td style=3D"font-family:Arial"> You have received this ema=
+il because you have subscribed to <b>Google Alerts</b>. <div> <a href=3D"ht=
+tps://www.google.co.kr/alerts/remove?source=3Dalertsmail&amp;hl=3Den&amp;gl=
+=3DKR&amp;msgid=3DMjM0NzQ4MjQwMDU0NzMyODYxMQ&amp;s=3DAB2Xq4jGLtxXd6_eH_J-gE=
+EDPjoVeFo5zEsRf_4" style=3D"text-decoration:none;color:#427fed">Unsubscribe=
+</a> <span style=3D"padding:0px 4px 0px 4px;color:#252525">|</span> <a href=
+=3D"https://www.google.co.kr/alerts?source=3Dalertsmail&amp;hl=3Den&amp;gl=
+=3DKR&amp;msgid=3DMjM0NzQ4MjQwMDU0NzMyODYxMQ" style=3D"text-decoration:none=
+;color:#427fed">View all your alerts</a> </div> </td> </tr> <tr> <td style=
+=3D"padding:6px 10px 0px 0px;font-family:Arial"> <a href=3D"https://www.goo=
+gle.com/alerts/feeds/00482591768220058731/42781784234755713" style=3D"text-=
+decoration:none;color:#427fed"> <img src=3D"https://www.gstatic.com/alerts/=
+images/rss-16.gif" alt=3D"RSS" border=3D"0" style=3D"padding:0px 8px 0px 0p=
+x;vertical-align:middle"> <span style=3D"display:inline;line-height:16px;ve=
+rtical-align:middle">Receive this alert as RSS feed</span> </a> </td> </tr>=
+ <tr> <td style=3D"padding:6px 0px 0px 0px;font-family:Arial"> <a href=3D"h=
+ttps://www.google.co.kr/alerts?source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&=
+amp;msgid=3DMjM0NzQ4MjQwMDU0NzMyODYxMQ&amp;s=3DAB2Xq4jGLtxXd6_eH_J-gEEDPjoV=
+eFo5zEsRf_4&amp;ffu=3D" style=3D"text-decoration:none;color:#427fed"> <div =
+style=3D"display:inline;line-height:16px;vertical-align:middle">Send Feedba=
+ck</div> </a> </td> </tr> </table> </div> </div> <!--[if mso]>
+</td></tr></table>
+<![endif]-->
+  </div>  </body> </html>=
+
+--001a11c01f9633c4090537155355--

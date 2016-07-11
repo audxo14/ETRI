@@ -1,0 +1,232 @@
+Received: from SMTPEG2.etri.info (129.254.27.142) by SMTP3.etri.info
+ (129.254.28.73) with Microsoft SMTP Server (TLS) id 14.1.355.2; Thu, 7 Jul
+ 2016 16:02:58 +0900
+Received: from spam.etri.re.kr (129.254.9.15) by SMTPEG2.etri.info
+ (129.254.27.142) with Microsoft SMTP Server (TLS) id 14.1.355.2; Thu, 7 Jul
+ 2016 16:02:58 +0900
+Received: from unknown (HELO mail-ob0-f197.google.com) (209.85.214.197)	by
+ 129.254.9.15 with ESMTP; 7 Jul 2016 16:02:45 +0900
+X-Original-SENDERIP: 209.85.214.197
+X-Original-MAILFROM: 3n_59VxQKCVY4CC492y92FHG-BCF2D9M4CC492.0CA0CC912BBM2HF6.F2.8F@alerts.bounces.google.com
+Received: by mail-ob0-f197.google.com with SMTP id gv4so17380068obc.3
+        for <cooldenny@etri.re.kr>; Thu, 07 Jul 2016 00:02:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=mime-version:date:list-id:list-unsubscribe:message-id:subject:from
+         :to;
+        bh=g4wGlArgG5EfXFJSPUECm3GyVpCmQmPoEfTvAk5s3Q4=;
+        b=LUc1Zq3jn+w8A2fEkJ0acUDHYPLTJwU1pfI2OuC8RZjLG6WMvBRQOTE0vLCqkRgHJV
+         mhZTLiek34BxAman4OJSwisjOEo7zHJUhUwTqWW6xofR2ZHNkDsl3+D0ZwiVr73XdJzY
+         Uquv2P3/EpKvRF+m78QfUYMKv0Cj1MkmCPPWKf8kA6EQ4bgukrjRL5FvDg4kQRJW2gac
+         DRZk0jMOTKv/6GSiEv3azR6F5RCjIAqXoYHX6oGHcugYe01Cp0DLg6WmXwjnmhAnFA4h
+         y+spAJOvOm8Bv+vAYNfW+d0sOFwqQnuL4mzptFSTAxJSUrKeCDM5ecI/ffId4gJlrTA+
+         HLug==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:date:list-id:list-unsubscribe
+         :message-id:subject:from:to;
+        bh=g4wGlArgG5EfXFJSPUECm3GyVpCmQmPoEfTvAk5s3Q4=;
+        b=GjtFi3BpYPHI/vbtEsaIoOxj6I8Qq3d5MSsph4MaGYEezeastxCfbY7hOH+fBjbh5i
+         sabmhw9JmxgmZo3MZnTbZRMHSnK+fss59FgrfB9RWiatLtw6XQH8Tqanz1yqU92bBPzg
+         /d9gk2e2DgrEIixfJdxkshRaWUhHL2/VzO/m6JriTC1gUwPJu6hx46OZb70Q+OvZTgUc
+         O58Zn8T6DEIgzpw2/ni3LNSvQF6l5GE80Da2gge6VmXG32t7I+RaLPK3OTPIipBCCNgh
+         OhbMqQxBIxcDXu77BT/POhRGd7Jtoj5s0VyqycOhDDOglwdhmQfdZfbPTHzXNMigwOB5
+         MWGw==
+X-Gm-Message-State: ALyK8tIWEkN0azjtNsK0Bev+uKdmc3YIxvPMmdjNSwDBroRxi+zOxGzM72+wiBOfIDQ=
+X-Received: by 10.157.44.102 with SMTP id f93mr102860otb.6.1467874975395; Thu,
+ 07 Jul 2016 00:02:55 -0700 (PDT)
+Date: Thu, 7 Jul 2016 00:02:55 -0700
+List-Id: <11270557608662612443.alerts.google.com>
+List-Unsubscribe: <mailto:ur@unsubscribe.alerts.google.com?subject=AB2Xq4j1Ya_jzE4z0zLum5Ba2H8pywoefwhyndU>
+Message-ID: <94eb2c0d58647bafa00537064680@google.com>
+Subject: Google Alert - "Urban Institute"
+From: Google Alerts <googlealerts-noreply@google.com>
+To: <cooldenny@etri.re.kr>
+Content-Type: multipart/alternative; boundary="94eb2c0d58647baf79053706467d"
+Return-Path: 3n_59VxQKCVY4CC492y92FHG-BCF2D9M4CC492.0CA0CC912BBM2HF6.F2.8F@alerts.bounces.google.com
+X-MS-Exchange-Organization-AuthSource: SMTPEG2.etri.info
+X-MS-Exchange-Organization-AuthAs: Anonymous
+MIME-Version: 1.0
+
+--94eb2c0d58647baf79053706467d
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+PT09IE5ld3MgLSAxIG5ldyByZXN1bHQgZm9yIFsiVXJiYW4gSW5zdGl0dXRlIl0gPT09DQoNCkNh
+dGFzdHJvcGhpYyBJbnN1cmFuY2UgQ291bGQgSGVscCBXaXRoIExvbmctVGVybSBDYXJlIEV4cGVu
+c2VzOiBTdHVkaWVzDQpLYWlzZXIgSGVhbHRoIE5ld3MNClJlc2VhcmNoZXJzIGF0IHRoZSBVcmJh
+biBJbnN0aXR1dGUgaGF2ZSBiZWVuIGV4YW1pbmluZyB0aGUgc3BlbmRpbmcNCnRyYWRlb2ZmcyBi
+ZXR3ZWVuIHR3byBwdWJsaWMgbG9uZy10ZXJtIGNhcmUgaW5zdXJhbmNlIHByb2dyYW1zOiBhIC4u
+Lg0KPGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vdXJsP3JjdD1qJnNhPXQmdXJsPWh0dHA6Ly9raG4u
+b3JnL25ld3MvY2F0YXN0cm9waGljLWluc3VyYW5jZS1jb3VsZC1oZWxwLXdpdGgtbG9uZy10ZXJt
+LWNhcmUtZXhwZW5zZXMtc3R1ZGllcy8mY3Q9Z2EmY2Q9Q0FFWUFDb1RNVGd5TnpVNU16UTRPVEl5
+TlRJNE5qZzNNakljWW1Wa1kyWTBOemhpTWpRd1lqYzBPRHBqYnk1cmNqcGxianBMVWcmdXNnPUFG
+UWpDTkU4dWRpZVV2V3c0QldsSE9TaHhzMUVVcnFQZWc+DQoNCg0KLSAtIC0gLSAtIC0gLSAtIC0g
+LSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLSAtIC0gLQ0KVW5zdWJz
+Y3JpYmUgZnJvbSB0aGlzIEdvb2dsZSBBbGVydDoNCjxodHRwczovL3d3dy5nb29nbGUuY28ua3Iv
+YWxlcnRzL3JlbW92ZT9zb3VyY2U9YWxlcnRzbWFpbCZobD1lbiZnbD1LUiZtc2dpZD1NVGd5TnpV
+NU16UTRPVEl5TlRJNE5qZzNNZyZzPUFCMlhxNGoxWWFfanpFNHowekx1bTVCYTJIOHB5d29lZndo
+eW5kVT4NCg0KQ3JlYXRlIGFub3RoZXIgR29vZ2xlIEFsZXJ0Og0KPGh0dHBzOi8vd3d3Lmdvb2ds
+ZS5jby5rci9hbGVydHM/c291cmNlPWFsZXJ0c21haWwmaGw9ZW4mZ2w9S1ImbXNnaWQ9TVRneU56
+VTVNelE0T1RJeU5USTROamczTWc+DQoNClNpZ24gaW4gdG8gbWFuYWdlIHlvdXIgYWxlcnRzOg0K
+PGh0dHBzOi8vd3d3Lmdvb2dsZS5jby5rci9hbGVydHM/c291cmNlPWFsZXJ0c21haWwmaGw9ZW4m
+Z2w9S1ImbXNnaWQ9TVRneU56VTVNelE0T1RJeU5USTROamczTWc+DQo=
+--94eb2c0d58647baf79053706467d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html lang=3D"en-KR"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"></=
+head> <body> <div>   <!--[if mso]>
+ <table><tr><td width=3D650>
+<![endif]-->
+ <div style=3D"width:100%;max-width:650px"> <div style=3D"font-family:Arial=
+"> <table style=3D"border-collapse:collapse;border-left:1px solid #e4e4e4;b=
+order-right:1px solid #e4e4e4"> <tr> <td style=3D"background-color:#f8f8f8;=
+padding-left:18px;border-bottom:1px solid #e4e4e4;border-top:1px solid #e4e=
+4e4"></td> <td valign=3D"middle" style=3D"padding:13px 10px 8px 0px;backgro=
+und-color:#f8f8f8;border-top:1px solid #e4e4e4;border-bottom:1px solid #e4e=
+4e4"> <a href=3D"https://www.google.co.kr/alerts?source=3Dalertsmail&amp;hl=
+=3Den&amp;gl=3DKR&amp;msgid=3DMTgyNzU5MzQ4OTIyNTI4Njg3Mg" style=3D"text-dec=
+oration:none"> <img src=3D"https://www.google.com/intl/en_kr/alerts/logo.pn=
+g?cd=3DKhMxODI3NTkzNDg5MjI1Mjg2ODcy" alt=3D"Google" border=3D"0" height=3D"=
+25"> </a> </td> <td style=3D"background-color:#f8f8f8;padding-left:18px;bor=
+der-top:1px solid #e4e4e4;border-bottom:1px solid #e4e4e4"></td> </tr>  <tr=
+> <td style=3D"padding-left:32px"></td> <td style=3D"padding:18px 0px 0px 0=
+px;vertical-align:middle;line-height:20px;font-family:Arial"> <span style=
+=3D"color:#262626;font-size:22px">&quot;Urban Institute&quot;</span> <div s=
+tyle=3D"vertical-align:top;padding-top:6px;color:#aaa;font-size:12px;line-h=
+eight:16px"> <span>Weekly update</span> <span style=3D"padding:0px 4px 0px =
+4px">=E2=8B=85</span> <a style=3D"color:#aaa;text-decoration:none">July 7, =
+2016</a> </div> </td> <td style=3D"padding-left:32px"></td> </tr>  <tr> <td=
+ style=3D"padding-left:18px"></td> <td style=3D"padding:16px 0px 12px 0px;b=
+order-bottom:1px solid #e4e4e4"> <span style=3D"font-size:12px;color:#73737=
+3"> NEWS </span> </td> <td style=3D"padding-right:18px"></td> </tr>   <tr i=
+temscopeitemtype=3D"http://schema.org/Article"> <td style=3D"padding-left:1=
+8px"></td> <td style=3D"padding:18px 0px 12px 0px;vertical-align:top;font-f=
+amily:Arial"> <a href=3D"https://www.google.com/url?rct=3Dj&amp;sa=3Dt&amp;=
+url=3Dhttp://khn.org/news/catastrophic-insurance-could-help-with-long-term-=
+care-expenses-studies/&amp;ct=3Dga&amp;cd=3DCAEYACoTMTgyNzU5MzQ4OTIyNTI4Njg=
+3MjIcYmVkY2Y0NzhiMjQwYjc0ODpjby5rcjplbjpLUg&amp;usg=3DAFQjCNE8udieUvWw4BWlH=
+OShxs1EUrqPeg" style=3D"text-decoration:none"> <table align=3D"right" style=
+=3D"display:inline;border-collapse:collapse"> <tr> <td style=3D"padding-lef=
+t:18px"></td> <td background=3D"https://encrypted-tbn1.gstatic.com/images?q=
+=3Dtbn:ANd9GcRsw1Y7TVIPNknvlEB7Jb_tU0aw9AtkmU9Amc9sf11XCIWUgxwyGyQBb8uhIEz3=
+XTtAr4q2j5B9" height=3D"100" width=3D"100" valign=3D"bottom" style=3D"paddi=
+ng:0px 0px 0px 0px;background-repeat:no-repeat;text-align:center;border:1px=
+ solid #e4e4e4"> <link href=3D"https://encrypted-tbn1.gstatic.com/images?q=
+=3Dtbn:ANd9GcTY05hRU7JY8xyzO1jeXkHqERmB0Nhte0WxiJ7fCsqfnorgO7C6vDcoSQNa_IrD=
+BLVP_H6pw6PSw9k" itemprop=3D"image"> <!--[if gte mso 9]>
+       <v:image xmlns:v=3D"urn:schemas-microsoft-com:vml" id=3D"theImage"
+                style=3D'behavior: url(#default#VML);
+                       display:inline-block; position:absolute;
+                       height: 100px; width: 100px;
+                       top:0; left:0; border:0; z-index:1;' src=3D"https://=
+encrypted-tbn1.gstatic.com/images%3Fq%3Dtbn:ANd9GcRsw1Y7TVIPNknvlEB7Jb_tU0a=
+w9AtkmU9Amc9sf11XCIWUgxwyGyQBb8uhIEz3XTtAr4q2j5B9"/>
+       <v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml"
+               style=3D'behavior: url(#default#VML);
+                      display:inline-block;
+                      position: absolute; top: 82px; left: 0px;
+                      width:100px; border:0; z-index:2;' strokecolor=3D"non=
+e">
+       <v:fill opacity=3D"50%" color=3D"#000000"/>
+       <v:textbox style=3D"mso-fit-shape-to-text:t;
+                         mso-column-margin: 0pt;
+                         letter-spacing: 0.8px;"
+                         inset=3D"0pt,0pt,0pt,0pt">
+         <font size=3D"-1" color=3D"#ffffff">Kaiser Health News</font>
+       </v:textbox>
+       </v:rect>
+       <div style=3D"display: none">
+       <![endif]--> <div style=3D"color:#fff;font-size:9px;letter-spacing:0=
+.8px"> <div style=3D"padding:3px 0px 4px 4px;background:rgb(255,255,255);ba=
+ckground-color:rgba(0,0,0,0.5);width:96px">Kaiser Health News</div> </div> =
+<!--[if gte mso 9]></div><![endif]--> </td> </tr> </table> </a> <div>  <spa=
+n style=3D"padding:0px 6px 0px 0px"> <a href=3D"https://www.google.com/url?=
+rct=3Dj&amp;sa=3Dt&amp;url=3Dhttp://khn.org/news/catastrophic-insurance-cou=
+ld-help-with-long-term-care-expenses-studies/&amp;ct=3Dga&amp;cd=3DCAEYACoT=
+MTgyNzU5MzQ4OTIyNTI4Njg3MjIcYmVkY2Y0NzhiMjQwYjc0ODpjby5rcjplbjpLUg&amp;usg=
+=3DAFQjCNE8udieUvWw4BWlHOShxs1EUrqPeg" itemprop=3D"url" style=3D"color:#427=
+fed;display:inline;text-decoration:none;font-size:16px;line-height:20px"> <=
+span itemprop=3D"name">Catastrophic Insurance Could Help With Long-Term Car=
+e Expenses: Studies</span> </a> </span>  <div> <div style=3D"padding:2px 0p=
+x 8px 0px"> <div itemprop=3D"publisher" itemscopeitemtype=3D"http://schema.=
+org/Organization" style=3D"color:#737373;font-size:12px"> <a style=3D"text-=
+decoration:none;color:#737373"> <span itemprop=3D"name">Kaiser Health News<=
+/span> </a> </div> <div itemprop=3D"description" style=3D"color:#252525;pad=
+ding:2px 0px 0px 0px;font-size:12px;line-height:18px">Researchers at the <b=
+>Urban Institute</b> have been examining the spending tradeoffs between two=
+ public long-term care insurance programs: a&nbsp;...</div> </div>   <table=
+> <tr> <td width=3D"16" style=3D"padding-right:6px"> <a href=3D"https://www=
+.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://khn.org/news=
+/catastrophic-insurance-could-help-with-long-term-care-expenses-studies/&am=
+p;ss=3Dgp&amp;rt=3DCatastrophic&#43;Insurance&#43;Could&#43;Help&#43;With&#=
+43;Long-Term&#43;Care&#43;Expenses:&#43;Studies&amp;cd=3DKhMxODI3NTkzNDg5Mj=
+I1Mjg2ODcyMhxiZWRjZjQ3OGIyNDBiNzQ4OmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmWwBnEm0h=
+dak_9L-w-kjZGnZf3KXg" style=3D"text-decoration:none"> <img alt=3D"Google Pl=
+us" src=3D"https://www.gstatic.com/alerts/images/gp-24.png" border=3D"0" he=
+ight=3D"16" width=3D"16"></a> </td> <td width=3D"16" style=3D"padding-right=
+:6px"> <a href=3D"https://www.google.co.kr/alerts/share?hl=3Den&amp;gl=3DKR=
+&amp;ru=3Dhttp://khn.org/news/catastrophic-insurance-could-help-with-long-t=
+erm-care-expenses-studies/&amp;ss=3Dfb&amp;rt=3DCatastrophic&#43;Insurance&=
+#43;Could&#43;Help&#43;With&#43;Long-Term&#43;Care&#43;Expenses:&#43;Studie=
+s&amp;cd=3DKhMxODI3NTkzNDg5MjI1Mjg2ODcyMhxiZWRjZjQ3OGIyNDBiNzQ4OmNvLmtyOmVu=
+OktS&amp;ssp=3DAMJHsmWwBnEm0hdak_9L-w-kjZGnZf3KXg" style=3D"text-decoration=
+:none"> <img alt=3D"Facebook" src=3D"https://www.gstatic.com/alerts/images/=
+fb-24.png" border=3D"0" height=3D"16" width=3D"16"></a> </td> <td width=3D"=
+16" style=3D"padding-right:6px"> <a href=3D"https://www.google.co.kr/alerts=
+/share?hl=3Den&amp;gl=3DKR&amp;ru=3Dhttp://khn.org/news/catastrophic-insura=
+nce-could-help-with-long-term-care-expenses-studies/&amp;ss=3Dtw&amp;rt=3DC=
+atastrophic&#43;Insurance&#43;Could&#43;Help&#43;With&#43;Long-Term&#43;Car=
+e&#43;Expenses:&#43;Studies&amp;cd=3DKhMxODI3NTkzNDg5MjI1Mjg2ODcyMhxiZWRjZj=
+Q3OGIyNDBiNzQ4OmNvLmtyOmVuOktS&amp;ssp=3DAMJHsmWwBnEm0hdak_9L-w-kjZGnZf3KXg=
+" style=3D"text-decoration:none"> <img alt=3D"Twitter" src=3D"https://www.g=
+static.com/alerts/images/tw-24.png" border=3D"0" height=3D"16" width=3D"16"=
+></a> </td> <td style=3D"padding:0px 0px 6px 15px;font-family:Arial"> <a hr=
+ef=3D"https://www.google.co.kr/alerts/feedback?ffu=3Dhttp://khn.org/news/ca=
+tastrophic-insurance-could-help-with-long-term-care-expenses-studies/&amp;s=
+ource=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTgyNzU5MzQ4OTIyNTI4=
+Njg3Mg&amp;s=3DAB2Xq4j1Ya_jzE4z0zLum5Ba2H8pywoefwhyndU" style=3D"text-decor=
+ation:none;vertical-align:middle;color:#aaa;font-size:10px"> Flag as irrele=
+vant </a> </td> </tr> </table>  </div> </div> </td> <td style=3D"padding-ri=
+ght:18px"></td> </tr>    <tr> <td colspan=3D"3" valign=3D"middle" style=3D"=
+background-color:#f8f8f8;font-size:14px;vertical-align:middle;text-align:ce=
+nter;padding:10px 10px 10px 10px;line-height:20px;border:1px solid #e4e4e4;=
+font-family:Arial"> <a href=3D"https://www.google.co.kr/alerts?s=3DAB2Xq4j1=
+Ya_jzE4z0zLum5Ba2H8pywoefwhyndU&amp;start=3D1467270173&amp;end=3D1467874975=
+&amp;source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=3DMTgyNzU5MzQ4OT=
+IyNTI4Njg3Mg#history" style=3D"text-decoration:none;vertical-align:middle;c=
+olor:#427fed">See more results</a> <span style=3D"font-size:12px;padding-le=
+ft:15px;padding-right:15px;color:#aaa">|</span> <a href=3D"https://www.goog=
+le.co.kr/alerts/edit?source=3Dalertsmail&amp;hl=3Den&amp;gl=3DKR&amp;msgid=
+=3DMTgyNzU5MzQ4OTIyNTI4Njg3Mg&amp;s=3DAB2Xq4j1Ya_jzE4z0zLum5Ba2H8pywoefwhyn=
+dU&amp;email=3Dcooldenny%40etri.re.kr" style=3D"text-decoration:none;vertic=
+al-align:middle;color:#427fed">Edit this alert</a>  </td> </tr>  </table> <=
+table style=3D"padding-top:6px;font-size:12px;color:#252525;text-align:cent=
+er;width:100%"> <tr> <td style=3D"font-family:Arial"> You have received thi=
+s email because you have subscribed to <b>Google Alerts</b>. <div> <a href=
+=3D"https://www.google.co.kr/alerts/remove?source=3Dalertsmail&amp;hl=3Den&=
+amp;gl=3DKR&amp;msgid=3DMTgyNzU5MzQ4OTIyNTI4Njg3Mg&amp;s=3DAB2Xq4j1Ya_jzE4z=
+0zLum5Ba2H8pywoefwhyndU" style=3D"text-decoration:none;color:#427fed">Unsub=
+scribe</a> <span style=3D"padding:0px 4px 0px 4px;color:#252525">|</span> <=
+a href=3D"https://www.google.co.kr/alerts?source=3Dalertsmail&amp;hl=3Den&a=
+mp;gl=3DKR&amp;msgid=3DMTgyNzU5MzQ4OTIyNTI4Njg3Mg" style=3D"text-decoration=
+:none;color:#427fed">View all your alerts</a> </div> </td> </tr> <tr> <td s=
+tyle=3D"padding:6px 10px 0px 0px;font-family:Arial"> <a href=3D"https://www=
+.google.com/alerts/feeds/00482591768220058731/16544576745661251405" style=
+=3D"text-decoration:none;color:#427fed"> <img src=3D"https://www.gstatic.co=
+m/alerts/images/rss-16.gif" alt=3D"RSS" border=3D"0" style=3D"padding:0px 8=
+px 0px 0px;vertical-align:middle"> <span style=3D"display:inline;line-heigh=
+t:16px;vertical-align:middle">Receive this alert as RSS feed</span> </a> </=
+td> </tr> <tr> <td style=3D"padding:6px 0px 0px 0px;font-family:Arial"> <a =
+href=3D"https://www.google.co.kr/alerts?source=3Dalertsmail&amp;hl=3Den&amp=
+;gl=3DKR&amp;msgid=3DMTgyNzU5MzQ4OTIyNTI4Njg3Mg&amp;s=3DAB2Xq4j1Ya_jzE4z0zL=
+um5Ba2H8pywoefwhyndU&amp;ffu=3D" style=3D"text-decoration:none;color:#427fe=
+d"> <div style=3D"display:inline;line-height:16px;vertical-align:middle">Se=
+nd Feedback</div> </a> </td> </tr> </table> </div> </div> <!--[if mso]>
+</td></tr></table>
+<![endif]-->
+  </div>  </body> </html>=
+
+--94eb2c0d58647baf79053706467d--
