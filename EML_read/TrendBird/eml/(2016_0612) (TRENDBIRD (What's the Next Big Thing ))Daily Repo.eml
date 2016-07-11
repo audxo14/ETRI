@@ -1,0 +1,1409 @@
+Received: from SMTP2.etri.info (129.254.28.72) by SMTP3.etri.info
+ (129.254.28.73) with Microsoft SMTP Server (TLS) id 14.1.355.2; Sun, 12 Jun
+ 2016 21:02:42 +0900
+Received: from SMTPEG2.etri.info (129.254.27.142) by SMTP2.etri.info
+ (129.254.28.72) with Microsoft SMTP Server (TLS) id 14.1.355.2; Sun, 12 Jun
+ 2016 21:02:42 +0900
+Received: from spam.etri.re.kr (129.254.9.15) by SMTPEG2.etri.info
+ (129.254.27.142) with Microsoft SMTP Server (TLS) id 14.1.355.2; Sun, 12 Jun
+ 2016 21:02:44 +0900
+Received: from unknown (HELO mail-oi0-f72.google.com) (209.85.218.72)	by
+ 129.254.9.15 with ESMTP; 12 Jun 2016 21:02:06 +0900
+X-Original-SENDERIP: 209.85.218.72
+X-Original-MAILFROM: 3XU9dVxEKCTIbcfSdZm+TSSRdfclmUccUZS.QcaQccZRSbbmShfW.fS.Yf@feedburner.bounces.google.com
+Received: by mail-oi0-f72.google.com with SMTP id x6so86727564oif.0        for
+ <cooldenny@etri.re.kr>; Sun, 12 Jun 2016 05:02:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=mime-version:reply-to:sender:precedence:list-unsubscribe:message-id
+         :date:subject:from:to;
+        bh=qtu80e3yn9sSlqaxDhpbiQbYyiV9BjdmaVBovsYmAsE=;
+        b=nY3zlRYzHq8JIZJfLrjZ+v7x6ACESBmEnscu14gDNrEMLwJxeFQDoNmU7YW6ChxYrC
+         HyRRT22sJM95BNmtH1PGfIWvIJjYTlFRjY6cR1sNxEaiD7k4iDvuHlvoBH8pO288FpPA
+         leL8QtrbP9dlIpc1isbbS8tCu3LmWyfDVuln9IZhInzLvlWRfyhYhywzTvr+ztZ+3OXz
+         D2RN7D/nDXxFgOsTeXG2x2luMSBO9oSTKAWViXfrNY/R7xD3XzWsEE6EXZwm64f5tOqa
+         JcTAQT4/bf1t7nt7Gx0kQOFl3fhQd7A1o9+EMCYoCnhA1zfBsIVq7kYpVLvvafaDLUdW
+         A+vA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:sender:precedence
+         :list-unsubscribe:message-id:date:subject:from:to;
+        bh=qtu80e3yn9sSlqaxDhpbiQbYyiV9BjdmaVBovsYmAsE=;
+        b=ke5BQqu713hhVamyTG6kIpdq+ZO8awfGFJpJMDhVgCcUzDIo6whZCk+kLtqOsv3bUj
+         SRNLKHCsBZRQL1glNzIqMd3ggc2qOBvESRsWIpzS6lFjfOIqHMtBt7I6j1tYkT9KA9NS
+         BY4lUFUWFidD8KDSOODa3RufEpfYH7F3fVZ6cO2hG8O2FCm4F+TOdDlU0K2pmy9fkMKm
+         j2auhpLPUzIg+xkbFHTe7Jnh7QLHeMhnnkclEy1rS/3UW3tkVHTNp5KYcf7z0BarAMPE
+         UOCXkeDn3666DCfhTR46BUIOuZ0hFyTDF9mCZGM3kKRkHuE96TsM3Pa/NeXTrdOqkwc8
+         fcfw==
+X-Gm-Message-State: ALyK8tJCiBw0ejB34nAXWzPEtQ2x6fcrmCcrndM/sCXX0G9phKZ0JlPlI+Tc5BWeInci6ZMuJLdI6VYZtc31tVXa4PH8JlPOX3s=
+X-Received: by 10.107.129.160 with SMTP id l32mt11367652ioi.13.1465732957044;
+ Sun, 12 Jun 2016 05:02:37 -0700 (PDT)
+Reply-To: "TRENDBIRD (What's the Next Big Thing ?)" <service@trendbird.biz>
+Sender: <noreply+feedproxy@google.com>
+Precedence: bulk
+List-Unsubscribe: <https://feedburner.google.com/fb/a/mailunsubscribe?k=x03XmySi-3VUVjuQ7Mo-IBbKdmA>
+Message-ID: <001a113ec3a63d8a350535138cb4@google.com>
+Date: Sun, 12 Jun 2016 12:02:37 +0000
+Subject: =?UTF-8?Q?Daily_Report_=3A_=28PDF=29_Welcome_to_Larry_Page=E2=80=99s_Secre?=
+	=?UTF-8?Q?t_Flying=2DCar_Factories?=
+From: "TRENDBIRD (What's the Next Big Thing ?)" <noreply+feedproxy@google.com>
+To: <cooldenny@etri.re.kr>
+Content-Type: multipart/alternative; boundary="001a113ec3a63fbea70535138c2d"
+Return-Path: 3XU9dVxEKCTIbcfSdZm+TSSRdfclmUccUZS.QcaQccZRSbbmShfW.fS.Yf@feedburner.bounces.google.com
+X-MS-Exchange-Organization-AuthSource: SMTPEG2.etri.info
+X-MS-Exchange-Organization-AuthAs: Anonymous
+MIME-Version: 1.0
+
+--001a113ec3a63fbea70535138c2d
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+VFJFTkRCSVJEIChXaGF0J3MgdGhlIE5leHQgQmlnIFRoaW5nID8pDQoNCi8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8NCihQREYpIFdlbGNvbWUgdG8gTGFycnkgUGFn
+ZXMgU2VjcmV0IEZseWluZy1DYXIgRmFjdG9yaWVzDQoNClBvc3RlZDogMTEgSnVuIDIwMTYgMDc6
+MTAgUE0gUERUDQpodHRwOi8vZmVlZHByb3h5Lmdvb2dsZS5jb20vfnIvdHJlbmRiaXJkcy9+My9O
+bTllcnFWaVJxQS8xNDI2MD91dG1fc291cmNlPWZlZWRidXJuZXImdXRtX21lZGl1bT1lbWFpbA0K
+DQpXaXRoIFplZS5BZXJvIGFuZCBLaXR0eSBIYXdrLCB0aGUgR29vZ2xlIGNvLWZvdW5kZXIgbG9v
+a3MgdG8gdGhlIHNraWVzLg0KDQoNCg0KDQpUaHJlZSB5ZWFycyBhZ28sIFNpbGljb24gVmFsbGV5
+IGRldmVsb3BlZCBhIGZsZWV0aW5nIGluZmF0dWF0aW9uIHdpdGggYSAgDQpzdGFydHVwIGNhbGxl
+ZCBaZWUuQWVyby4gVGhlIGNvbXBhbnkgaGFkIHNldCB1cCBzaG9wIHJpZ2h0IG5leHQgdG8gR29v
+Z2xl4oCZcyAgDQpoZWFkcXVhcnRlcnMgaW4gTW91bnRhaW4gVmlldywgQ2FsaWYuLCB3aGljaCB3
+YXMgY3VyaW91cywgYmVjYXVzZSBHb29nbGUgIA0KdGlnaHRseSBjb250cm9scyBtb3N0IG9mIHRo
+ZSBsYW5kIGluIHRoZSBhcmVhLiBUaGVuIGEgcmVwb3J0ZXIgc3BvdHRlZCAgDQpwYXRlbnQgZmls
+aW5ncyBzaG93aW5nIFplZS5BZXJvIHdhcyB3b3JraW5nIG9uIGEgc21hbGwsIGFsbC1lbGVjdHJp
+YyBwbGFuZSAgDQp0aGF0IGNvdWxkIHRha2Ugb2ZmIGFuZCBsYW5kIHZlcnRpY2FsbHnigJRhIGZs
+eWluZyBjYXIuDQpJbiB0aGUgaGFuZGZ1bCBvZiBuZXdzIGFydGljbGVzIHRoYXQgZW5zdWVkLCBh
+bGwgdGhlIHN0YXJ0dXAgd291bGQgc2F5IHdhcyAgDQp0aGF0IGl0IHdhc27igJl0IGFmZmlsaWF0
+ZWQgd2l0aCBHb29nbGUgb3IgYW55IG90aGVyIHRlY2hub2xvZ3kgY29tcGFueS4gVGhlbiAgDQpp
+dCBzdG9wcGVkIGFuc3dlcmluZyBtZWRpYSBpbnF1aXJpZXMgYWx0b2dldGhlci4gRW1wbG95ZWVz
+IHNheSB0aGV5IHdlcmUgIA0KZXZlbiBnaXZlbiB3YWxsZXQtc2l6ZSBjYXJkcyB3aXRoIGluc3Ry
+dWN0aW9ucyBvbiBob3cgdG8gZGVmbGVjdCBxdWVzdGlvbnMgIA0KZnJvbSByZXBvcnRlcnMuIEFm
+dGVyIHRoYXQsIHRoZSBvbmx5IGluZm9ybWF0aW9uIHRoYXQgdHJpY2tsZWQgb3V0IGNhbWUgIA0K
+ZnJvbSBhbWF0ZXVyIHBpbG90cywgd2hvIG9jY2FzaW9uYWxseSBwb3N0ZWQgcGljdHVyZXMgb2Yg
+YSBzdHJhbmdlLWxvb2tpbmcgIA0KcGxhbmUgdGFraW5nIG9mZiBmcm9tIGEgbmVhcmJ5IGFpcnBv
+cnQuDQpUdXJucyBvdXQsIFplZS5BZXJvIGRvZXNu4oCZdCBiZWxvbmcgdG8gR29vZ2xlIG9yIGl0
+cyBob2xkaW5nIGNvbXBhbnksICANCkFscGhhYmV0LiBJdCBiZWxvbmdzIHRvIExhcnJ5IFBhZ2Us
+IEdvb2dsZeKAmXMgY28tZm91bmRlci4gUGFnZSBoYXMgIA0KcGVyc29uYWxseSBmdW5kZWQgWmVl
+LkFlcm8gc2luY2UgaXRzIGxhdW5jaCBpbiAyMDEwIHdoaWxlIGRlbWFuZGluZyB0aGF0ICANCmhp
+cyBpbnZvbHZlbWVudCBzdGF5IGhpZGRlbiBmcm9tIHRoZSBwdWJsaWMsIGFjY29yZGluZyB0byAx
+MCBwZW9wbGUgd2l0aCAgDQppbnRpbWF0ZSBrbm93bGVkZ2Ugb2YgdGhlIGNvbXBhbnkuIFplZS5B
+ZXJvLCBob3dldmVyLCBpcyBqdXN0IG9uZSBwYXJ0IG9mICANClBhZ2XigJlzIHBsYW4gdG8gdXNo
+ZXIgaW4gYW4gYWdlIG9mIHBlcnNvbmFsaXplZCBhaXIgdHJhdmVsLCBmcmVlIGZyb20gIA0KZ3Jp
+ZGxvY2tlZCBzdHJlZXRzIGFuZCB0aGUgY3JhbXBlZCBpbmRpZ25pdGllcyBvZiBtb2Rlcm4gZmxp
+Z2h0LiBMaWtlIEplZmYgIA0KQmV6b3MgYW5kIEVsb24gTXVzaywgUGFnZSBpcyB1c2luZyBoaXMg
+cGVyc29uYWwgZm9ydHVuZSB0byBidWlsZCB0aGUgZnV0dXJlICANCm9mIGhpcyBjaGlsZGhvb2Qg
+ZHJlYW1zLg0KVGhlIFplZS5BZXJvIGhlYWRxdWFydGVycywgbG9jYXRlZCBhdCAyNzAw4oCvQnJv
+ZGVyaWNrIFdheSwgaXMgYSAgDQozMCwwMDAtc3F1YXJlLWZvb3QsIHR3by1zdG9yeSB3aGl0ZSBi
+dWlsZGluZyB3aXRoIGFuIHVnbHksIGJsb2NreSBkZXNpZ24gIA0KYW5kIGFuIGluZHVzdHJpYWwg
+ZmVlbC4gUGFnZSBpbml0aWFsbHkgcmVzdHJpY3RlZCB0aGUgWmVlLkFlcm8gY3JldyB0byB0aGUg
+IA0KZmlyc3QgZmxvb3IsIHJldGFpbmluZyB0aGUgc2Vjb25kIGZsb29yIGZvciBhIG1hbiBjYXZl
+IHdvcnRoeSBvZiBhICANCm11bHRpYmlsbGlvbmFpcmU6IGJlZHJvb20sIGJhdGhyb29tLCBleHBl
+bnNpdmUgcGFpbnRpbmdzLCBhIHRyZWFkbWlsbC1saWtlICANCmNsaW1iaW5nIHdhbGwsIGFuZCBv
+bmUgb2YgU3BhY2VY4oCZcyBmaXJzdCByb2NrZXQgZW5naW5lc+KAlGEgZ2lmdCBmcm9tIGhpcyBw
+YWwgIA0KTXVzay4gQXMgcGFydCBvZiB0aGUgc2VjcmVjeSwgWmVlLkFlcm8gZW1wbG95ZWVzIGRp
+ZG7igJl0IHJlZmVyIHRvIFBhZ2UgYnkgIA0KbmFtZTsgaGUgd2FzIGtub3duIGFzIEdVUywgdGhl
+IGd1eSB1cHN0YWlycy4gU29vbiBlbm91Z2gsIHRoZXkgbmVlZGVkIHRoZSAgDQp1cHN0YWlycyBz
+cGFjZSwgdG9vLCBhbmQgZW5naW5lZXJzIGxvb2tlZCBvbiBpbiBhd2UgYXMgR1VT4oCZcyBwYWlu
+dGluZ3MsICANCmV4ZXJjaXNlIGdlYXIsIGFuZCByb2NrZXQgZW5naW5lIHdlcmUgaGF1bGVkIGF3
+YXkuDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQpSZWFkIE1vcmUgOiAgDQpodHRwczov
+L3d3dy5ibG9vbWJlcmcuY29tL25ld3MvYXJ0aWNsZXMvMjAxNi0wNi0wOS93ZWxjb21lLXRvLWxh
+cnJ5LXBhZ2Utcy1zZWNyZXQtZmx5aW5nLWNhci1mYWN0b3JpZXNQYXRlbnQgIA0KQXBwbGljYXRp
+b24gOiBodHRwOi8vZ29vLmdsL3p3ZHRPQw0KDQpbYnVzaW5lc3N3ZWVrXQ0KDQoNCi8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8NCihWaWRlbykgTml2ZWEgVW52ZWls
+cyBUaGUgU3VuU2xpZGUgOiBBIFdhdGVyIFNsaWRlIFRoYXQgQXBwbGllcyBTdW5jcmVhbQ0KDQpQ
+b3N0ZWQ6IDExIEp1biAyMDE2IDA3OjA5IFBNIFBEVA0KaHR0cDovL2ZlZWRwcm94eS5nb29nbGUu
+Y29tL35yL3RyZW5kYmlyZHMvfjMvWE9RN3NFam1pRzgvMTQyNjE/dXRtX3NvdXJjZT1mZWVkYnVy
+bmVyJnV0bV9tZWRpdW09ZW1haWwNCg0KTml2ZWEgaGFzIHVudmVpbGVkIGl0cyBsYXRlc3QgcXVp
+cmt5IHN0dW50IGVuc3VyaW5nIGtpZHMgYXJlIG5vdCBzdW5idXJuZWQgIA0KaW4gdGhlIHN1bW1l
+ciBoZWF0Lg0KDQoNCg0KVGhlIHNraW4gY2FyZSBmaXJtLCB3aGljaCBwcm9kdWNlcyBzdW4gc2Ny
+ZWVuLCBoYXMgY3JlYXRlZCBhIHdhdGVyc2xpZGUsICANCmNhbGxlZCB0aGUgU3VuU2xpZGUsIGlu
+IENhcGUgVG93biB0aGF0IGFwcGxpZXMgdGhlIGxvdGlvbiB0byBraWRzIGFzIHRoZXkgIA0KdXNl
+IGl0Lg0KQnVpbGRpbmcgdXBvbiBpdHMgcHJldmlvdXMgZGlzcnVwdGlvbnMgaW5jbHVkaW5nIGEg
+ZG9sbCB0aGF0IHdvdWxkIHR1cm4gcmVkICANCnRvIHJlbWluZCBwYXJlbnRzIHRvIGFwcGx5IGxv
+dGlvbiwgYW5kIGEgc29sYXIgcGFuZWwgbWFnYXppbmUgYWQgdGhhdCBjYW4gIA0KcmVjaGFyZ2Ug
+bW9iaWxlIHBob25lcywgTml2ZWEgaGFzIG1hZGUgdGhlIGFwcGxpY2F0aW9uIG9mIHN1biBsb3Rp
+b24gZnVuLg0KRkNCIENhcGUgVG93biBjcmVhdGVkIHRoZSBpbnN0YWxsYXRpb24gdG8gY29tYmF0
+IHNraW4gY2FuY2VyIGFzIFNvdXRoICANCkFmcmljYSBzZWVzIHNvbWUgb2YgdGhlIGhpZ2hlc3Qg
+cmF0ZXMgb2YgdGhlIGRpc2Vhc2UgaW4gdGhlIHdvcmxkLg0KVGhlIHdhdGVyIGluIHRoZSBzbGlk
+ZSBpcyBkaWx1dGVkIHdpdGggdmFzdCBxdWFudGl0aWVzIG9mIFNQRiA1MCsgIA0Kd2F0ZXJwcm9v
+ZiBzdW5zY3JlZW4gdG8gZW5zdXJlIHRob3NlIHVzaW5nIHRoZSBzbGlkZSBhcmUgZnVsbHkgY29h
+dGVkIGluIGEgIA0KcHJvdGVjdGl2ZSBsYXllci4NCk1pa2UgQmFybndlbGwsIGV4ZWN1dGl2ZSBj
+cmVhdGl2ZSBkaXJlY3RvciBhdCBGQ0IgQ2FwZSBUb3duLCBzYWlkOiAiVGhlICANCk5pdmVhIFN1
+blNsaWRlIHdhcyBhIGh1Z2Ugc3VjY2VzcywgY292ZXJpbmcgb3ZlciAxMDAga2lkcyBhbiBob3Vy
+LiBJbiB0aGUgIA0KZW5kLCBwbGVudHkgb2YgZnVuIHdhcyBoYWQgYnkgYWxsLCBpbmNsdWRpbmcg
+YSBmZXcgcGFyZW50cyB3aG8gY291bGRuJ3QgIA0KaGVscCBqb2luaW5nIGluLuKAnQ0KDQoNCg0K
+DQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KTklWRUEgU1VOU0xJREUgZnJvbSBGQ0IgQ2FwZSBUb3du
+IG9uIFZpbWVvLg0KV2F0Y2ggVmlkZW8gOiBodHRwczovL3ZpbWVvLmNvbS8xNjYzNzE3MjENClt0
+aGVkcnVtXQ0KDQoNCi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8N
+CkF0dGVudGlvbiAhIFRoYXQncyBUaGUgU2VjcmV0IFRvIE1vYmlsZSBHYW1lIFN1Y2Nlc3MNCg0K
+UG9zdGVkOiAxMSBKdW4gMjAxNiAwNzowOCBQTSBQRFQNCmh0dHA6Ly9mZWVkcHJveHkuZ29vZ2xl
+LmNvbS9+ci90cmVuZGJpcmRzL34zL3oxS0h0ZFpUQmdZLzE0MjU4P3V0bV9zb3VyY2U9ZmVlZGJ1
+cm5lciZ1dG1fbWVkaXVtPWVtYWlsDQoNCkluIHRoZSBvdmVyLXNhdHVyYXRlZCBtb2JpbGUgZ2Ft
+ZXMgbWFya2V0LCBwdWJsaXNoZXJzIGFyZSBpbmNyZWFzaW5nbHkgIA0Kd2lsbGluZyB0byBwYXkg
+dG8gZ2V0IHRoZWlyIHRpdGxlcyBpbiBmcm9udCBvZiBlYWdlciBwbGF5ZXJzLiBXaGV0aGVyIGl0
+IGJlICANCnRocm91Z2ggYXBwIHN0b3JlIHByb21vdGlvbnMsIHRyYWRpdGlvbmFsIG1lZGlhIG9y
+IGFkdmVydGlzaW5nIG9uIHNvY2lhbCAgDQptZWRpYSwgdGhlc2UgcGxhdGZvcm1zIGFyZSBvZnRl
+biB0aGUgZmlyc3QgcGxhY2UgY29uc3VtZXJzIGJlY29tZSBhd2FyZSBvZiAgDQpuZXcgZ2FtZXMu
+DQoNCg0KSWYgbW9iaWxlIGdhbWVycyBhcmVu4oCZdCBhd2FyZSBvZiBhIGdhbWUsIHRoZXkgY2Fu
+4oCZdCBjb25zaWRlciBpdCwgZG93bmxvYWQgIA0KaXQgb3IgZ2VuZXJhdGUgYnV6eiBhcm91bmQg
+aXQuIFNvIGluIHRoYXQgcmVnYXJkLCBhd2FyZW5lc3MgYmVjb21lcyB0aGUgIA0KYmFzZWxpbmUg
+Zm9yIHN1Y2Nlc3MgYXQgZXZlcnkgc3Vic2VxdWVudCBzdGVwIHRvd2FyZCBhIGZpbmFsIHB1cmNo
+YXNlLg0KV2hpbGUgYXdhcmVuZXNzIGRvZXNu4oCZdCBndWFyYW50ZWUgc3VjY2VzcywgaXQgZ3Jl
+YXRseSBpbmNyZWFzZXMgYSBnYW1l4oCZcyAgDQpwb3RlbnRpYWwgZm9yIHByb3NwZXJpdHkgYXQg
+ZXZlcnkgb3RoZXIgc3RhZ2UuIE1vYmlsZSB0aXRsZXMgd2l0aCBoaWdoZXIgIA0KYXdhcmVuZXNz
+IHNlZSBleHBvbmVudGlhbGx5IGhpZ2hlciBvd25lcnNoaXAsIHNvIHVuZGVyc3RhbmRpbmcgaG93
+IG1vYmlsZSAgDQpnYW1lcnMgYmVjb21lIGF3YXJlIG9mIHRpdGxlcyBpcyBmdW5kYW1lbnRhbCBp
+biB0aGUgaGlnaGx5IGNvbXBldGl0aXZlICANCm1vYmlsZSBnYW1lcyBtYXJrZXQuDQoNCg0KRW5n
+YWdlbWVudCBoZWF2aWx5IGluZmx1ZW5jZXMgd2hlcmUgbW9iaWxlIGdhbWVycyBnZXQgdGhlaXIg
+aW5mb3JtYXRpb24uICANCkZvciBleGFtcGxlLCBtb2JpbGUgZ2FtZXJzIHdobyBhcmUgaGVhdnkg
+c3BlbmRlcnMgc291cmNlIHRoZWlyIG1vYmlsZSAgDQppbmZvcm1hdGlvbiBmcm9tIGRpZmZlcmVu
+dCBjaGFubmVscyB0aGFuIGxpZ2h0IHNwZW5kZXJzLiBIZWF2eSBzcGVuZGVycywgIA0Kd2hvIGFs
+c28gc2VydmUgYXMgdHJlbmRzZXR0ZXJzIGZvciB0aGUgY2F0ZWdvcnksIGZyZXF1ZW50bHkgdmlz
+aXQgc2l0ZXMgIA0Kd2hlcmUgbW9iaWxlIGdhbWVzIGFyZSBkaXNjdXNzZWQgYW5kIGFkdmVydGlz
+ZWQuIFB1Ymxpc2hlcnMgbG9va2luZyB0byAgDQplbmdhZ2UgdGhlc2UgZ2FtZXJzIHNob3VsZCBl
+c3RhYmxpc2ggYSBzdHJvbmcgZGlnaXRhbCBwcmVzZW5jZSBlYXJseSBpbiBhICANCnRpdGxl4oCZ
+cyBsaWZlIGN5Y2xlIHdpdGggdGFyZ2V0ZWQgYWRzIGFuZCBQUi4NCk9uIHRoZSBmbGlwc2lkZSwg
+Y2F1c2FsLCBsaWdodC1zcGVuZGluZyBtb2JpbGUgZ2FtZXJzIHJlbHkgbW9yZSBvbiB0aGUgIA0K
+cmVjb21tZW5kYXRpb25zIG9mIHRob3NlIGNsb3NlIHRvIHRoZW0sIGVzcGVjaWFsbHkgZnVydGhl
+ciBpbnRvIGEgbW9iaWxlICANCnRpdGxl4oCZcyBsaWZlIGN5Y2xlLiBBdCB0aGlzIHBvaW50LCBt
+ZWRpYSBjYW1wYWlnbnMgdG8gYXR0cmFjdCBjYXN1YWwgZ2FtZXJzICANCmFyZSBsZXNzIGVmZmVj
+dGl2ZSB0aGFuIGluLWdhbWUgcHJvbW90aW9ucyB0aGF0IHByb21wdCBnYW1lcnMgdG8gcmVjb21t
+ZW5kICANCnRoZSB0aXRsZSB0byBhIGZyaWVuZC4NCg0KDQpQdWJsaXNoZXJzIGFsc28gbmVlZCB0
+byBiZSBhd2FyZSBvZiB3aGljaCBjaGFubmVscyBhcmUgbW9zdCBlZmZlY3RpdmUgZm9yICANCnRo
+ZWlyIHNwZWNpZmljIGF1ZGllbmNlcy4gTm90YWJseSwgY2hhbm5lbCBlZmZlY3RpdmVuZXNzIGlz
+IGRyaXZlbiBieSB0aGUgIA0KZGVtb2dyYXBoaWNzIG9mIGEgcHVibGlzaGVy4oCZcyB0YXJnZXQg
+YXVkaWVuY2UuIEZvciBleGFtcGxlLCB3b21lbiBhbmQgdGVlbnMgIA0KdGVuZCB0byBsZWFybiBh
+Ym91dCBtb2JpbGUgdGl0bGVzIGZyb20gcGVvcGxlIHRoZXkga25vdyBhbmQgaGF2ZSAgDQpoaXN0
+b3JpY2FsbHkgbm90IGJlZW4gb3Zlcmx5IGluZmx1ZW5jZWQgYnkgbWVkaWEuDQoNCg0KQmV5b25k
+IHRhcmdldCBhbmQgY2hhbm5lbHMsIHRoZSB1c2Ugb2Ygc3Bva2VzcGVvcGxlIGhhcyBiZWVuIHNp
+Z25pZmljYW50bHkgIA0KZWZmZWN0aXZlIG92ZXIgdGhlIHBhc3QgeWVhci4gV2l0aCBLYXRlIFVw
+dG9uIGFuZCBBcm5vbGQgU2Nod2FyemVuZWdnZXIgYXMgIA0KdGhlaXIgc3Bva2VzcGVvcGxlLCDi
+gJxHYW1lIG9mIFdhcuKAnSBhbmQg4oCcTW9iaWxlIFN0cmlrZSzigJ0gcmVzcGVjdGl2ZWx5LCBo
+YXZlICANCnNpZ25pZmljYW50bHkgaW1wcm92ZWQgdGhlaXIgdmlzaWJpbGl0eSwgd2l0aCBjb25z
+aXN0ZW50IGdyb3d0aCBpbiAgDQphd2FyZW5lc3MgYW5kIGxhcmdlIGp1bXBzIGluIG1lbW9yYWJp
+bGl0eS4gVGhlc2UgY2VsZWJyaXR5LWVuZG9yc2VkICANCmNhbXBhaWducyBoYXZlIHN1Y2Nlc3Nm
+dWxseSBpbXByb3ZlZCBub3RvcmlldHkgd2l0aCBzdWJzdGFuY2UsIGxlYWRpbmcgdG8gIA0Kc2ln
+bmlmaWNhbnQgaW1wcm92ZW1lbnRzIGluIGRvd25sb2FkIGludGVyZXN0IGFuZCBidXp6Lg0KDQoN
+CkdlbmVyYXRpbmcgYXdhcmVuZXNzIGluIHRoZSBtb2JpbGUgZ2FtZXMgbWFya2V0IGlzIGNlcnRh
+aW5seSBub3QgZ2V0dGluZyAgDQphbnkgZWFzaWVyLCBidXQgaXRzIGltcG9ydGFuY2UgaGFzIG5l
+dmVyIGJlZW4gZ3JlYXRlci4gQnkgbWF4aW1pemluZyByZWFjaCAgDQphdCB0aGUgYXdhcmVuZXNz
+IHN0YWdlLCBwdWJsaXNoZXJzIHdpbGwgZXhwb25lbnRpYWxseSBpbmNyZWFzZSB0aGUgIA0KbGlr
+ZWxpaG9vZCBmb3Igc3VjY2VzcyBnb2luZyBmb3J3YXJkLg0KW25pZWxzZW5dDQoNCg0KLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLw0KQnJpbGxpYW50IElLRUEgQWRz
+IENsZXZlcmx5IFJlbWluZCBVcyBPZiBIb3cgQWZmb3JkYWJsZSBJdHMgUHJvZHVjdHMgQXJlDQoN
+ClBvc3RlZDogMTEgSnVuIDIwMTYgMDc6MDcgUE0gUERUDQpodHRwOi8vZmVlZHByb3h5Lmdvb2ds
+ZS5jb20vfnIvdHJlbmRiaXJkcy9+My82bWhfMG0tLVN2dy8xNDI2Mj91dG1fc291cmNlPWZlZWRi
+dXJuZXImdXRtX21lZGl1bT1lbWFpbA0KDQpDcmVhdGVkIGZvciBJS0VBIFNhdWRpIEFyYWJpYSBi
+eSBhZHZlcnRpc2luZyBhZ2VuY3kgTWVtYWMgT2dpbHZ5ICYgTWF0aGVyLCAgDQp0aGVzZSBzaW1w
+bGUgYnV0IGJyaWxsaWFudCBhZHMgcmVtaW5kIHZpZXdlcnMgb2YgaG93IGFmZm9yZGFibGUgSUtF
+QSAgDQpwcm9kdWN0cyBhcmUuDQoNCg0KDQpJbnN0ZWFkIG9mIHNpbXBseSBzaG93Y2FzaW5nIHRo
+ZSBwcmljZXMsIHRoZXNlIGFkcyBjb21tdW5pY2F0ZSAgDQphZmZvcmRhYmlsaXR5IGluIGEgY3Jl
+YXRpdmUgYW5kIGNsZXZlciBtYW5uZXIuDQoNCklLRUE6IEJlZHJvb21UaGUgY2FtcGFpZ24gd2Fz
+IG1hZGUgZm9yIElLRUEgU2F1ZGkgQXJhYmlhLg0KQWR2ZXJ0aXNpbmcgQWdlbmN5OiBNZW1hYyBP
+Z2lsdnkgJiBNYXRoZXIsIFVBRUNoaWVmIENyZWF0aXZlIE9mZmljZXI6IFBhdWwgIA0KU2hlYXJl
+ckV4ZWN1dGl2ZSBDcmVhdGl2ZSBEaXJlY3RvcnM6IFJhbXppIE1vdXRyYW4sIEF0dGlsYSBOeWVr
+aUFzc29jaWF0ZSAgDQpDcmVhdGl2ZSBEaXJlY3RvciAvIEFydCBEaXJlY3RvcjogSnVsaWFuYSBQ
+YXJhY2VuY2lvQXNzb2NpYXRlIENyZWF0aXZlICANCkRpcmVjdG9yIC8gQ29weXdyaXRlcjogTHVp
+eiBWaWNlbnRlIFNpbW9lc0FydCBEaXJlY3RvcnM6IEp1bGlhbmEgIA0KUGFyYWNlbmNpbywgR2Vv
+cmdlIFNlcmhhbkNvcHl3cml0ZXJzOiBMdWl6IFZpY2VudGUgU2ltb2VzLCBNYXlhICANCktoYWlQ
+cm9kdWNlcjogSmltbXkgQWxmcmVkSWxsdXN0cmF0b3I6IEJydW5vIFJvZHJpZ28gZGUgTWlyYW5k
+YVByaW50ICANClByb2R1Y2VyczogUmVldGh1IFphY2hhcmlhLCBSYWZhZWwgTWFsb256b0FjY291
+bnQgbWFuYWdlcjogQmVybmFyZCBBYm91ICANCk5hZGVyU2VuaW9yIEFjY291bnQgTWFuYWdlcjog
+UmFtaSBSaWhhbmkNClB1Ymxpc2hlZDogSnVuZSAyMDE2DQoNCg0KDQoNCg0KW3RheGldDQoNCi8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8NCihWaWRlbykgVGhlIEZp
+cnN0IFNtYXJ0cGhvbmUgd2l0aCBHb29nbGUncyBBdWdtZW50ZWQgUmVhbGl0eSBJcyBIZXJlDQoN
+ClBvc3RlZDogMTEgSnVuIDIwMTYgMDc6MDYgUE0gUERUDQpodHRwOi8vZmVlZHByb3h5Lmdvb2ds
+ZS5jb20vfnIvdHJlbmRiaXJkcy9+My9pc2VFRVV5T3d3SS8xNDI2ND91dG1fc291cmNlPWZlZWRi
+dXJuZXImdXRtX21lZGl1bT1lbWFpbA0KDQpMZW5vdm8ncyBUYW5nby1lbmFibGVkIHBob25lIHZp
+c3VhbGl6ZXMgdmlydHVhbCBlbGVtZW50cyBpbnRvIHRoZSByZWFsICANCndvcmxkLg0KDQoNCg0K
+DQpUaGUgZnV6enkgbWlkd2F5LXBvaW50IGJldHdlZW4gb3VyIHZpcnR1YWwgYW5kIHBoeXNpY2Fs
+IHdvcmxkcyBpcyBhdWdtZW50ZWQgIA0KcmVhbGl0eS4gV2hpbGUgdGhlcmUgaGF2ZSBiZWVuIHBy
+b2plY3RzIHRvIHNob3cgYSB2aXJ0dWFsIGVsZW1lbnQgb24gYSAgDQpwaG9uZSB3aGVuIHBvaW50
+ZWQgYXQgYSBzcGVjaWFsIGFuY2hvciBwb2ludCBpbiByZWFsIGxpZmUsIGxpa2UgYSBRUiBjb2Rl
+ICANCm9yIG90aGVyIHBhdHRlcm4sIG5vIGF0dGVtcHQgaGFzIHJpdmFsZWQgR29vZ2xlJ3MgUHJv
+amVjdCBUYW5nbywgd2hpY2ggIA0KYWN0dWFsbHkgYW5hbHl6ZXMgYW5kIGJ1aWxkcyBhbiBpbnRl
+cm5hbCBtb2RlbCBvZiBhIHNwYWNlLg0KVGhpcyBjYW4gYmUgdXNlZCBhcyBhIHRvb2wgZm9yIGJ1
+aWxkaW5nIHRydWUgYXVnbWVudGVkIHJlYWxpdHksIHdpdGggIA0KYXBwbGljYXRpb25zIGxpa2Ug
+bWVhc3VyaW5nIG9iamVjdHMgYW5kIHNlZWluZyBpZiBhIGNoYWlyIHdpbGwgZml0IHRocm91Z2gg
+IA0KYSBkb29yd2F5LiAoUmlnaHQgbm93IGl0J3MgYSBjb250cmFjdG9yJ3MgZHJlYW0uKVRvZGF5
+LCBDaGluZXNlIGhhcmR3YXJlICANCm1ha2VyIExlbm92byBhbm5vdW5jZWQgdGhlIGZpcnN0IFRh
+bmdvLWVuYWJsZWQgcGhvbmUsIGNhbGxlZCB0aGUgUGhhYiAyICANClByby4gVGhlIHBob25lIG5v
+dCBvbmx5IHBhY2tzIGEgMTYtbWVnYXBpeGVsIGNhbWVyYSwgYnV0IGFsc28gZGVkaWNhdGVkICAN
+CmRlcHRoIGFuZCBtb3Rpb24tdHJhY2tpbmcgY2FtZXJhcyB0byBlbmFibGUgVGFuZ28uDQpJbiBk
+ZW1vbnN0cmF0aW9ucywgTGVub3ZvIHNob3dlZCBhdWdtZW50ZWQgcmVhbGl0eSBkaW5vc2F1cnMg
+cGxhY2VkIHJpZ2h0ICANCm9uIHN0YWdlLCB2aXNpYmxlIHRocm91Z2ggdGhlIHBob25lLCBhbmQg
+cXVpY2ssIGFjY3VyYXRlIG1lYXN1cmVtZW50cyBvZiAgDQpzdXJmYWNlcy4gVGhleSBhbHNvIGRl
+Y29yYXRlZCBhIHJvb20gd2l0aCB2aXJ0dWFsIGRyYXBpbmdzLCBwb3RlbnRpYWxseSAgDQptYWtp
+bmcgcmVkZWNvcmF0aW9uIGVhc2llciB0aGFuIGV2ZXIuDQpMZW5vdm8gYW5kIEdvb2dsZSBoYXZl
+IGJlZW4gcHVibGljYWxseSB3b3JraW5nIG9uIFRhbmdvIHRvZ2V0aGVyIGZvciBzb21lICANCnRp
+bWXigJR0aGUgbW9zdCByZWNlbnQgbWFqb3IgdGVhc2Ugd2FzIGF0IDIwMTYncyBDb25zdW1lciBF
+bGVjdHJvbmljcyBTaG93LCAgDQp3aGVyZSB0aGUgZ3JvdXAgZGVtb25zdHJhdGVkIEFSIHZpZGVv
+IGdhbWVzIGFuZCB0aGUgc2FtZSByb29tIG1lYXN1cmVtZW50LiAgDQpMZW5vdm8gYWxzbyBwdXJj
+aGFzZWQgTW90b3JvbGEgZnJvbSBHb29nbGUgZm9yICQyLjkxIGJpbGxpb24gaW4gMjAxNC5UaGUg
+IA0KUGhhYiAyIFBybyBoYXMgYSA2LjQtaW5jaCBkaXNwbGF5LCBTbmFwZHJhZ29uIDY1MiBwcm9j
+ZXNzb3IsIGFuZCB3aWxsIGNvc3QgIA0KJDQ5OS4gWW91J2xsIGJlIGFibGUgdG8gYnV5IGluIFNl
+cHRlbWJlciBvbmxpbmUgYW5kIGluIExvd2VzLg0KDQoNCg0KDQoNCg0KDQoNCldhdGNoIFZpZGVv
+IDogaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj15QnpEUVd5RkU2bw0KW3BvcHNjaV0N
+Cg0KLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLw0KVGhlIEFwcCBC
+b29tIGlzIE92ZXINCg0KUG9zdGVkOiAxMSBKdW4gMjAxNiAwNzowNSBQTSBQRFQNCmh0dHA6Ly9m
+ZWVkcHJveHkuZ29vZ2xlLmNvbS9+ci90cmVuZGJpcmRzL34zLzdRRVZWd3dWeGY0LzE0MjU5P3V0
+bV9zb3VyY2U9ZmVlZGJ1cm5lciZ1dG1fbWVkaXVtPWVtYWlsDQoNCllvdXIgcGhvbmUgaXMgZnVs
+bCBvZiBhcHBzLCBhbmQgeW91J3JlIGRvbmUgZG93bmxvYWRpbmcgbmV3IG9uZXMg4oCUIHVubGVz
+cyAgDQp0aGV5J3JlIFNuYXBjaGF0IG9yIFViZXIuIFRoZSBtb2JpbGUgYXBwIGJvb20ga2lja2Vk
+IG9mZiBpbiBKdWx5IDIwMDgsIHdoZW4gIA0KQXBwbGUgaW50cm9kdWNlZCB0aGUgQXBwIFN0b3Jl
+LiBOb3cgaXQgaXMgb3Zlci4NCg0KDQoNClBlb3BsZSBhcmUgc3RpbGwgbWFraW5nIHBsZW50eSBv
+ZiBhcHBzLCBvZiBjb3Vyc2UuIEFuZCBtYW55IHBlb3BsZSBhcmUgIA0Kc3RpbGwgZG93bmxvYWRp
+bmcgdGhlbS4gQnV0IHRoZSBnby1nbyBncm93dGggZGF5cyBhcmUgZ29uZS4NCklmIHlvdSBhcmUg
+YW4gaW5kZXBlbmRlbnQgYXBwIGRldmVsb3BlciBvciBwdWJsaXNoZXIsIHlvdSBoYXZlIHByb2Jh
+Ymx5ICANCmtub3duIHRoaXMgZm9yIGEgd2hpbGUsIGJlY2F1c2UgeW91IGhhdmUgZm91bmQgaXQg
+dmVyeSBkaWZmaWN1bHQgdG8gZ2V0ICANCnBlb3BsZSB0byBkb3dubG9hZCB5b3VyIGFwcCDigJQg
+dGhlIGF2ZXJhZ2UgQW1lcmljYW4gc21hcnRwaG9uZSB1c2VyICANCmRvd25sb2FkcyB6ZXJvIGFw
+cHMgcGVyIG1vbnRoLg0KQnV0IG5vdyBldmVuIHRoZSB2ZXJ5IGJpZ2dlc3QgYXBwIHB1Ymxpc2hl
+cnMgYXJlIHNlZWluZyB0aGVpciBncm93dGggc2xvdyAgDQpkb3duIG9yIHN0b3AgYWx0b2dldGhl
+ci4gTW9zdCBwZW9wbGUgaGF2ZSBhbGwgdGhlIGFwcHMgdGhleSB3YW50IGFuZC9vciAgDQpuZWVk
+LiBUaGV5J3JlIG5vdCBsb29raW5nIGZvciBuZXcgb25lcy4NCkxhc3QgbW9udGgsIHRoZSB0b3Ag
+MTUgYXBwIHB1Ymxpc2hlcnMgc2F3IGRvd25sb2FkcyBkcm9wIGFuIGF2ZXJhZ2Ugb2YgMjAgIA0K
+cGVyY2VudCBpbiB0aGUgVS5TLiwgYWNjb3JkaW5nIHRvIHJlc2VhcmNoIGZyb20gTm9tdXJhLCB3
+aGljaCByZWxpZXMgb24gIA0KZGF0YSBmcm9tIGFwcCB0cmFja2VyIFNlbnNvclRvd2VyLg0KICBH
+bG9iYWxseSwgdGhlIG1vYmlsZSBwaG9uZSBtYXJrZXQgaXMgc3RpbGwgZ3Jvd2luZywgc28gdGhl
+IGFwcCBtYXJrZXQgaXMgIA0KYXMgd2VsbC4gQnV0IG5vdCBieSBtdWNoLg0KT3V0c2lkZSB0aGUg
+VS5TLiwgdGhlIHRvcCAxNSBhcHBzIGdyZXcgYnkgMyBwZXJjZW50IGxhc3QgbW9udGguDQogIFlv
+dSdsbCBub3RlIHRoYXQgdGhlIGJpZyBleGNlcHRpb25zIGhlcmUgYXJlIFNuYXBjaGF0IGFuZCBV
+YmVyLCB3aGljaCAgDQpjb250aW51ZSB0byBncm93IGF0IGFuIGFzdG9uaXNoaW5nIGNsaXAuDQpJ
+biBNYXkgMjAxNSwgdXNlcnMgZG93bmxvYWRlZCBFdmFuIFNwaWVnZWwncyBtZXNzYWdpbmcgYXBw
+IDEzIG1pbGxpb24gIA0KdGltZXM7IGluIE1heSAyMDE2IHRoYXQgbnVtYmVyIGhhZCBkb3VibGVk
+IHRvIDI3IG1pbGxpb24uIFViZXIncyBncm93dGggIA0KcmF0ZSBpcyBhbHNvIGFib3ZlIDEwMCBw
+ZXJjZW50Lg0KDQogIEFuZCBpbiB0aGUgVS5TLiwgU25hcGNoYXQncyBkb3dubG9hZCByYXRlIGhh
+cyBub3cgZWNsaXBzZWQgRmFjZWJvb2suDQogIFNvIHlvdSBjYW4gc3RpbGwgYnJlYWsgdGhyb3Vn
+aCB0aGUgc2F0dXJhdGVkIGFwcCBtYXJrZXQsIGlmIHlvdSBhcmUgdmVyeSAgDQp2ZXJ5IHZlcnkg
+bHVja3ksIGFuZCBnb29kLiBCdXQgdGhlIG9kZHMgYXJlIHN0YWNrZWQgYWdhaW5zdCB5b3UuDQpE
+b3dubG9hZCByYXRlcyBkb24ndCBnaXZlIHlvdSBhIGZ1bGwgcGljdHVyZSBvZiBhbiBhcHAgcHVi
+bGlzaGVyJ3MgIA0KYnVzaW5lc3MsIG9mIGNvdXJzZS4gRmFjZWJvb2ssIGZvciBpbnN0YW5jZSwg
+aXMga2lsbGluZyBpdCBldmVuIGFzIGl0cyAgDQppbnN0YWxsIG51bWJlcnMgc2xvdyDigJQgb25j
+ZSB5b3UgZ2V0IHRvIDEuNjUgYmlsbGlvbiB1c2VycywgaXQgZ2V0cyBoYXJkZXIgIA0KdG8gZmlu
+ZCBuZXcgb25lcy4NCkFuZCB0aGUgZmFjdCB0aGF0IGl0J3MgaGFyZGVyIGZvciBhcHAgcHVibGlz
+aGVycyB0byBmaW5kIHVzZXJzIGlzIGdvb2QgbmV3cyAgDQpmb3IgRmFjZWJvb2sncyBhcHAgaW5z
+dGFsbCBhZCBidXNpbmVzcywgd2hpY2ggaXMgYWltZWQgYXQgYXBwIHB1Ymxpc2hlcnMgIA0Kd2hv
+IG5lZWQgdG8gZmluZCB1c2Vycy4NCg0KDQpbcmUuY29kZV0NCg0KLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLw0KVmlkZW8tRW5hYmxlZCBUb290aGJydXNoIE9mZmVy
+cyBhIEZyZXNoIExvb2sgYXQgWW91ciBUZWV0aCAtIFByb3BoaXgNCg0KUG9zdGVkOiAxMSBKdW4g
+MjAxNiAwNzowNCBQTSBQRFQNCmh0dHA6Ly9mZWVkcHJveHkuZ29vZ2xlLmNvbS9+ci90cmVuZGJp
+cmRzL34zLzZBNW1QbE5OSkJZLzE0MjYzP3V0bV9zb3VyY2U9ZmVlZGJ1cm5lciZ1dG1fbWVkaXVt
+PWVtYWlsDQoNClRoZSBQcm9waGl4IGZlYXR1cmVzIGFuIGluLWJ1aWx0IGNhbWVyYSBjYXBhYmxl
+IG9mIGNhcHR1cmluZyAxMDgwcCB2aWRlbywgIA0KdGhhdCBhbGxvd3MgdXNlcnMgdG8gd2F0Y2gg
+YSBsaXZlIGZlZWQgb2YgdGhlaXIgYnJ1c2hpbmcgdmlhIHRoZSAgDQphY2NvbXBhbnlpbmcgYXBw
+Lg0KDQoNCg0KDQpSZWdhcmRsZXNzIG9mIGhvdyB0aG9yb3VnaCB5b3VyIG1vdXRoLWNhcmUgcmVn
+aW1lIGlzLCBpdCdzIG5vdCBhbHdheXMgIA0KcG9zc2libGUgdG8gc2VlIGp1c3QgaG93IHdlbGwg
+4oCTIG9yIG5vdCDigJMgeW91J3ZlIGNsZWFuZWQgeW91ciB0ZWV0aC4gT05WSSdzICANClByb3Bo
+aXggdG9vdGhicnVzaCwgaG93ZXZlciwgaGFzIGEgYnVpbHQtaW4gdmlkZW8gY2FtZXJhIHRoYXQg
+bGV0cyB5b3Ugc2VlbiAgDQpldmVyeSBsYXN0IG5vb2sgYW5kIGNyYW5ueSBvZiB5b3VyIG1vdXRo
+LCBpZiB0aGF0J3Mgd2hhdCB5b3UgcmVhbGx5IHdhbnQuDQpPTlZJIGNsYWltcyB0aGUgUHJvcGhp
+eCBpcyB0aGUgZmlyc3QtZXZlciB2aWRlbyB0b290aGJydXNoLiBJdCBpcyBhaW1lZCBhdCAgDQph
+bGxvd2luZyB1c2VycyB0byBzZWUgdGhlIGNvbmRpdGlvbiBvZiB0aGVpciB0ZWV0aCBhbmQgdG8g
+YmV0dGVyIHVuZGVyc3RhbmQgIA0KdGhlaXIgb3JhbCBoZWFsdGguIEluIG9yZGVyIHRvIGRvIHRo
+aXMsIGl0IHBhaXJzIHdpdGggYW4gYWNjb21wYW55aW5nIGlPUyAgDQphcHAgdmlhIEJsdWV0b290
+aCBvciBXaS1GaS4gVGhlcmUncyBhbiBBbmRyb2lkIHZlcnNpb24gb2YgdGhlIGFwcCBpbiAgDQpk
+ZXZlbG9wbWVudC4NCg0KVGhlIFByb3BoaXggZmVhdHVyZXMgYW4gaW4tYnVpbHQgY2FtZXJhIGNh
+cGFibGUgb2YgY2FwdHVyaW5nIDEwODBwIHZpZGVvICANCnRoYXQgYWxsb3dzIHVzZXJzIHRvIHdh
+dGNoIGEgbGl2ZSBmZWVkIG9mIHRoZWlyIGJydXNoaW5nIHZpYSB0aGUgYXBwIGFuZCAgDQpzZWUg
+aWYgdGhleSBhcmUgbWlzc2luZyBhbnkgc3BvdHMuIEl0J3MgYWxzbyBhYmxlIHRvIGNhcHR1cmUg
+MTAtbWVnYXBpeGVsICANCnBob3RvcyB0aGF0IGNhbiBiZSBzYXZlZCB2aWEgdGhlIGFwcCBzbyBh
+cyB0byB0cmFjayB0aGUgY29uZGl0aW9uIG9mIGFyZWFzICANCm9mIGludGVyZXN0IGluIHRoZSBt
+b3V0aCBvdmVyIHRpbWUuDQpUaGVyZSBhcmUgZm91ciBpbnRlcmNoYW5nZWFibGUgYXR0YWNobWVu
+dHMgcHJvdmlkZWQgd2l0aCB0aGUgUHJvcGhpeCwgIA0KaW5jbHVkaW5nIGEgcm90YXRpbmcgYnJ1
+c2gtaGVhZCBhbmQgYSBwcm9waHkgY3VwLCB3aGljaCBpcyB1c2VkIGZvciBjb250b3VyICANCmNs
+ZWFuaW5nIGFyb3VuZCB0aGUgdG9vdGggYW5kIHVuZGVyIHRoZSBndW0gbGluZS4gVGhlcmUncyBh
+bHNvIGEgbWlycm9yIHRvICANCmhlbHAgdXNlcnMgdmlldyBhbmQgY2FwdHVyZSBoYXJkLXRvLXJl
+YWNoIHBsYWNlcywgYW5kIGEgcnViYmVyIHRpcCBmb3IgIA0KbWFzc2FnaW5nIGd1bXMgYW5kIHJl
+bW92aW5nIHBsYXF1ZSBhbmQgdGFydGFyLg0KSW4gYWRkaXRpb24gdG8gYWxsb3dpbmcgdXNlcnMg
+dG8gdmlldyBhbmQgbW9uaXRvciB0aGVpciBvcmFsIGhlYWx0aCwgdGhlICANCmFwcCBwcm92aWRl
+cyB0aXBzIHRvIGhlbHAgaW1wcm92ZSB0aGVpciBtb3V0aC1jYXJlIGhhYml0cy4gVGhlIHRvb3Ro
+YnJ1c2ggIA0KaXRzZWxmIGlzIHBvd2VyZWQgYnkgYSBsaXRoaXVtLWlvbiBiYXR0ZXJ5Lg0KVGhl
+IFByb3BoaXggaXMgYXZhaWxhYmxlIGZvciBwcmUtb3JkZXIgYXQgYSBkaXNjb3VudGVkIHByaWNl
+IG9mIFVTJDI5OSwgIA0Kd2l0aCB0aGUgZXZlbnR1YWwgcmV0YWlsIHByaWNlIHRvIGJlIHNldCBh
+dCAkMzk5LiBJdCBpcyBzY2hlZHVsZWQgdG8gc2hpcCAgDQppbiB0aGUgZmlyc3QgcXVhcnRlciBv
+ZiBuZXh0IHllYXIuDQoNCg0KDQoNCg0KDQoNCg0KDQpXZWJzaXRlIDogaHR0cHM6Ly93d3cuZ2V0
+cHJvcGhpeC5jb20vDQpbZ2l6bWFnXQ0KDQovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vDQpUaGUgU21hcnQgVG91Y2ggUmVmcmlnZXJhdG9yDQoNClBvc3RlZDogMTEg
+SnVuIDIwMTYgMDc6MDMgUE0gUERUDQpodHRwOi8vZmVlZHByb3h5Lmdvb2dsZS5jb20vfnIvdHJl
+bmRiaXJkcy9+My9GOUFTcC10OHkyQS8xNDI1Nz91dG1fc291cmNlPWZlZWRidXJuZXImdXRtX21l
+ZGl1bT1lbWFpbA0KDQpXaGlsZSB0aGUgbW9zdCBvYnZpb3VzIHVwZ3JhZGUgdG8gYSBmcmlkZ2Ug
+aXMgYSBmcmlkZ2UgdGhhdCBjb25uZWN0cyB0byAgDQp5b3VyIHBob25lIGFuZCBhbGxvd3MgeW91
+IHRvIHJ1biBCdXp6ZmVlZCB0YXN0eSB2aWRlb3MgY3VzdG9taXplZCB0byB5b3VyICANCmxpa2lu
+ZywgaXQgaXNu4oCZdCB0cnVseSB0aGUgd2lzZXN0IHVwZ3JhZGUuDQoNCg0KDQpUaGUgU21hcnQg
+VG91Y2ggcmVmcmlnZXJhdG9yIG1heSBzZWVtIGxpa2UgaXTigJlzIGEgbG9uZyBzaG90LCBidXQg
+aW4gIA0KcGhpbG9zb3BoeSwgaXQgY2FwdHVyZXMgd2hhdCBhIHNtYXJ0IGZyaWRnZSBpcyByZXF1
+aXJlZCB0byBiZSBsaWtlLiAgDQpBZXN0aGV0aWNhbGx5LCB0aGUgZnJpZGdlIGlzIGRlZmluaXRl
+bHkgYSBjbGFzcyBhcGFydCwgd2l0aCBpdHMgaGFsZi1zd2lybCAgDQpoYW5kbGUgdGhhdCBob25l
+c3RseSBnaXZlcyBteSBoZWFydCBwYWxwaXRhdGlvbnMhIFRoZSBoYW5kbGUgaG9zdHMgYW4gIA0K
+aW5idWlsdCBiaW9tZXRyaWMgc2Vuc29yIHRoYXQga25vd3Mgd2hv4oCZcyBvcGVuaW5nIHRoZSBm
+cmlkZ2UgZG9vci4NCkZvb2Qga2VwdCBpbnNpZGUgdGhlIGZyaWRnZSBpcyB0aGVyZWZvcmUgdGFn
+Z2VkIHRvIHRoZSBwZW9wbGUgd2hvIHB1dCB0aGVtICANCnRoZXJlIGluIHRoZSBmaXJzdCBwbGFj
+ZS4gUHJvamVjdG9ycyBvbiBlYWNoIGZvb2QgdHJheSBwcm9qZWN0IOKAmHRpbWUgIA0Kc3RhbXBz
+4oCZIG4gdGhlIGZvb2Qgd2hlbiB5b3Ugb3BlbiB0aGUgZG9vci4gVGhlc2Ugc3RhbXBzIGluZGlj
+YXRlIHdobyB0aGUgIA0KZm9vZCBiZWxvbmdzIHRvLCBhbmQgYnkgd2hhdCB0aW1lIG11c3QgaXQg
+YmUgY29uc3VtZWQuDQpUaGUgZGVzaWduZXIgSGFpTWVuZyBGYW5nIHdhbnRzIHRvIGVsaW1pbmF0
+ZSB0aGUgcG9zc2liaWxpdHkgKGEgcHJldHR5ICANCmNvbW1vbiBvbmUpIG9mIHN0b2NraW5nIG9u
+ZeKAmXMgcmVmcmlnZXJhdG9yLCBidXQgZm9yZ2V0dGluZyBhYm91dCBwZXJpc2hhYmxlICANCmZv
+b2QgaXRlbXMga2VwdCB3aXRoaW4gdGhlIGZyaWRnZS4gVGhlIFNtYXJ0IFRvdWNoIGRvZXMgYSBu
+aWZ0eSBqb2Igb2YgIA0KdGVsbGluZyB5b3Ugd2hhdCB5b3XigJl2ZSBnb3QgaW4geW91ciBmcmlk
+Z2UgdGhhdOKAmXMgZ29vZCB0byBlYXQsIGFuZCB0aGF04oCZcyAgDQpuZWFyaW5nIGl0cyBleHBp
+cmF0aW9uIGRhdGUuIElzbuKAmXQgdGhhdCBqdXN0IG1hZ2ljYWw/IQ0KDQoNCg0KDQoNCg0KRGVz
+aWduZXIgOiBIYWlNZW5nIEZhbmcgKE5ld3BsYW4gRGVzaWduKQ0KW3lhbmtvZGVzaWduXQ0KDQot
+LQ0KWW91IGFyZSBzdWJzY3JpYmVkIHRvIGVtYWlsIHVwZGF0ZXMgZnJvbSAiVFJFTkRCSVJEIChX
+aGF0J3MgdGhlIE5leHQgQmlnICANClRoaW5nID8pLiINClRvIHN0b3AgcmVjZWl2aW5nIHRoZXNl
+IGVtYWlscywgeW91IG1heSB1bnN1YnNjcmliZSBub3c6ICANCmh0dHBzOi8vZmVlZGJ1cm5lci5n
+b29nbGUuY29tL2ZiL2EvbWFpbHVuc3Vic2NyaWJlP2s9eDAzWG15U2ktM1ZVVmp1UTdNby1JQmJL
+ZG1BDQoNCkVtYWlsIGRlbGl2ZXJ5IHBvd2VyZWQgYnkgR29vZ2xlLg0KR29vZ2xlIEluYy4sIDE2
+MDAgQW1waGl0aGVhdHJlIFBhcmt3YXksIE1vdW50YWluIFZpZXcsIENBIDk0MDQzLCBVbml0ZWQg
+IA0KU3RhdGVzDQoNCg==
+--001a113ec3a63fbea70535138c2d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<title>TRENDBIRD (What's the Next Big Thing ?)</title>
+</head>
+<body>
+<style type=3D"text/css">
+
+                        h1 a:hover {background-color:#888;color:#fff ! impo=
+rtant;}
+
+                        div#emailbody table#itemcontentlist tr td div ul {
+                                        list-style-type:square;
+                                        padding-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div block=
+quote {
+                                padding-left:6px;
+                                border-left: 6px solid #dadada;
+                                margin-left:1em;
+                        }
+       =20
+                        div#emailbody table#itemcontentlist tr td div li {
+                                margin-bottom:1em;
+                                margin-left:1em;
+                        }
+
+
+                        table#itemcontentlist tr td a:link, table#itemconte=
+ntlist tr td a:visited, table#itemcontentlist tr td a:active, ul#summarylis=
+t li a {
+                                color:#993333;
+                                font-weight:bold;
+                                text-decoration:none;
+                        }      =20
+
+                        img {border:none;}
+
+
+                </style>
+<div xmlns=3D"http://www.w3.org/1999/xhtml" id=3D"emailbody" style=3D"margi=
+n:0 2em;font-family:Arial, Helvetica, sans-serif;line-height:140%;font-size=
+:12px;color:#000000;">
+<table style=3D"border:0;padding:0;margin:0;width:100%">
+<tr>
+<td style=3D"vertical-align:top" width=3D"99%">
+<h1 style=3D"margin:0;padding-bottom:6px;">
+<a style=3D"color:#888;font-size:22px;font-family:Arial, Helvetica, sans-se=
+rif;font-weight:normal;text-decoration:none;" href=3D"http://www.trendbird.=
+biz/" title=3D"(http://www.trendbird.biz/)">Daily Report : (PDF) Welcome to=
+ Larry Page=E2=80=99s Secret Flying-Car Factories</a>
+</h1>
+</td>
+<td width=3D"1%">
+<a href=3D"http://www.trendbird.biz/">
+<img src=3D"http://www.trendbird.biz/attach/trendbird.jpg" alt=3D"Link to T=
+RENDBIRD (What's the Next Big Thing ?)" id=3D"feedimage" style=3D"padding:0=
+ 0 10px 3px;border:0;">
+</a>
+</td>
+</tr>
+</table>
+<hr style=3D"border:1px solid #ccc;padding:0;margin:0">
+<ul style=3D"clear:both;padding:0 0 0 1.2em;width:100%" id=3D"summarylist">
+<li>
+<a href=3D"#1">(PDF) Welcome to Larry Page=E2=80=99s Secret Flying-Car Fact=
+ories</a>
+</li>
+<li>
+<a href=3D"#2">(Video) Nivea Unveils The SunSlide : A Water Slide That Appl=
+ies Suncream</a>
+</li>
+<li>
+<a href=3D"#3">Attention ! That's The Secret To Mobile Game Success</a>
+</li>
+<li>
+<a href=3D"#4">Brilliant IKEA Ads Cleverly Remind Us Of How Affordable Its =
+Products Are</a>
+</li>
+<li>
+<a href=3D"#5">(Video) The First Smartphone with Google's Augmented Reality=
+ Is Here</a>
+</li>
+<li>
+<a href=3D"#6">The App Boom is Over</a>
+</li>
+<li>
+<a href=3D"#7">Video-Enabled Toothbrush Offers a Fresh Look at Your Teeth -=
+ Prophix</a>
+</li>
+<li>
+<a href=3D"#8">The Smart Touch Refrigerator</a>
+</li>
+</ul>
+<table id=3D"itemcontentlist">
+<tr xmlns=3D"">
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"1" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:2=
+0px;" href=3D"http://feedproxy.google.com/~r/trendbirds/~3/Nm9erqViRqA/1426=
+0?utm_source=3Dfeedburner&amp;utm_medium=3Demail">(PDF) Welcome to Larry Pa=
+ge=E2=80=99s Secret Flying-Car Factories</a>
+</p>
+<p style=3D"font-size:12px;color:#555;margin:9px 0 3px 0;font-family:Arial,=
+ Helvetica, sans-serif;line-height:140%;font-size:12px;">
+<span>Posted:</span> 11 Jun 2016 07:10 PM PDT</p>
+<div style=3D"margin:0;font-family:Arial, Helvetica, sans-serif;line-height=
+:140%;font-size:12px;color:#000000;"><div><div><font face=3D"Tahoma, arial,=
+ helvetica, sans-serif" color=3D"#d41a01"><b>With Zee.Aero and Kitty Hawk, =
+the Google co-founder looks to the skies.</b></font></div><div><br></div><d=
+iv><br></div><div><div class=3D"imageblock center" style=3D"text-align: cen=
+ter; clear: both;"><a href=3D"http://www.trendbird.biz/attach/1/1339272973.=
+png" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"htt=
+p://www.trendbird.biz/thumbnail/1/1339272973.w655-h807.png" width=3D"655" h=
+eight=3D"807" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" bord=
+er=3D"0"></a></div><br></div><div><div class=3D"imageblock center" style=3D=
+"text-align: center; clear: both;"><a href=3D"http://www.trendbird.biz/atta=
+ch/1/1265029255.gif" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"=
+><img src=3D"http://www.trendbird.biz/attach/1/1265029255.gif" width=3D"600=
+" height=3D"450" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" b=
+order=3D"0"></a></div><br></div><div><br></div><div><font face=3D"Tahoma, a=
+rial, helvetica, sans-serif">Three years ago, Silicon Valley developed a fl=
+eeting infatuation with a startup called Zee.Aero. The company had set up s=
+hop right next to Google=E2=80=99s headquarters in Mountain View, Calif., w=
+hich was curious, because Google tightly controls most of the land in the a=
+rea. Then a reporter spotted patent filings showing Zee.Aero was working on=
+ a small, all-electric plane that could take off and land vertically=E2=80=
+=94a flying car.</font></div><div><font face=3D"Tahoma, arial, helvetica, s=
+ans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helvetica, sa=
+ns-serif">In the handful of news articles that ensued, all the startup woul=
+d say was that it wasn=E2=80=99t affiliated with Google or any other techno=
+logy company. Then it stopped answering media inquiries altogether. Employe=
+es say they were even given wallet-size cards with instructions on how to d=
+eflect questions from reporters. After that, the only information that tric=
+kled out came from amateur pilots, who occasionally posted pictures of a st=
+range-looking plane taking off from a nearby airport.</font></div><div><br>=
+</div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">Turns out, Z=
+ee.Aero doesn=E2=80=99t belong to Google or its holding company, Alphabet. =
+It belongs to Larry Page, Google=E2=80=99s co-founder. Page has personally =
+funded Zee.Aero since its launch in 2010 while demanding that his involveme=
+nt stay hidden from the public, according to 10 people with intimate knowle=
+dge of the company. Zee.Aero, however, is just one part of Page=E2=80=99s p=
+lan to usher in an age of personalized air travel, free from gridlocked str=
+eets and the cramped indignities of modern flight. Like Jeff Bezos and Elon=
+ Musk, Page is using his personal fortune to build the future of his childh=
+ood dreams.</font></div><div><font face=3D"Tahoma, arial, helvetica, sans-s=
+erif"><br></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-se=
+rif">The Zee.Aero headquarters, located at 2700=E2=80=AFBroderick Way, is a=
+ 30,000-square-foot, two-story white building with an ugly, blocky design a=
+nd an industrial feel. Page initially restricted the Zee.Aero crew to the f=
+irst floor, retaining the second floor for a man cave worthy of a multibill=
+ionaire: bedroom, bathroom, expensive paintings, a treadmill-like climbing =
+wall, and one of SpaceX=E2=80=99s first rocket engines=E2=80=94a gift from =
+his pal Musk. As part of the secrecy, Zee.Aero employees didn=E2=80=99t ref=
+er to Page by name; he was known as GUS, the guy upstairs. Soon enough, the=
+y needed the upstairs space, too, and engineers looked on in awe as GUS=E2=
+=80=99s paintings, exercise gear, and rocket engine were hauled away.</font=
+></div></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br><=
+/font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></=
+font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div cl=
+ass=3D"imageblock center" style=3D"text-align: center; clear: both;"><a hre=
+f=3D"http://www.trendbird.biz/attach/1/1250473211.png" rel=3D"lightbox[2gro=
+up0]" title=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/thu=
+mbnail/1/1250473211.w655-h360.png" width=3D"655" height=3D"360" alt=3D"User=
+ image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></=
+font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div cl=
+ass=3D"imageblock center" style=3D"text-align: center; clear: both;"><a hre=
+f=3D"http://www.trendbird.biz/attach/1/1222459641.png" rel=3D"lightbox[2gro=
+up0]" title=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/thu=
+mbnail/1/1222459641.w655-h363.png" width=3D"655" height=3D"363" alt=3D"User=
+ image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></=
+font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div cl=
+ass=3D"imageblock center" style=3D"text-align: center; clear: both;"><a hre=
+f=3D"http://www.trendbird.biz/attach/1/1174054563.png" rel=3D"lightbox[2gro=
+up0]" title=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/thu=
+mbnail/1/1174054563.w655-h309.png" width=3D"655" height=3D"309" alt=3D"User=
+ image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></=
+font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div cl=
+ass=3D"imageblock center" style=3D"text-align: center; clear: both;"><a hre=
+f=3D"http://www.trendbird.biz/attach/1/1253907287.png" rel=3D"lightbox[2gro=
+up0]" title=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/thu=
+mbnail/1/1253907287.w655-h327.png" width=3D"655" height=3D"327" alt=3D"User=
+ image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></=
+font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div cl=
+ass=3D"imageblock center" style=3D"text-align: center; clear: both;"><a hre=
+f=3D"http://www.trendbird.biz/attach/1/1279727015.png" rel=3D"lightbox[2gro=
+up0]" title=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/thu=
+mbnail/1/1279727015.w655-h291.png" width=3D"655" height=3D"291" alt=3D"User=
+ image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></=
+font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div cl=
+ass=3D"imageblock center" style=3D"text-align: center; clear: both;"><a hre=
+f=3D"http://www.trendbird.biz/attach/1/1109167873.png" rel=3D"lightbox[2gro=
+up0]" title=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/thu=
+mbnail/1/1109167873.w655-h363.png" width=3D"655" height=3D"363" alt=3D"User=
+ image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></=
+font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></f=
+ont></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div cla=
+ss=3D"imageblock center" style=3D"text-align: center; clear: both;"><a href=
+=3D"http://www.trendbird.biz/attach/1/1172680938.png" rel=3D"lightbox[2grou=
+p0]" title=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/thum=
+bnail/1/1172680938.w655-h914.png" width=3D"655" height=3D"914" alt=3D"User =
+image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></f=
+ont></div><div><br></div><div><font face=3D"Tahoma, arial, helvetica, sans-=
+serif"><div class=3D"imageblock center" style=3D"text-align: center; clear:=
+ both;"><a href=3D"http://www.trendbird.biz/attach/1/1184635069.png" rel=3D=
+"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"http://www.tre=
+ndbird.biz/thumbnail/1/1184635069.w655-h543.png" width=3D"655" height=3D"54=
+3" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></=
+a></div><br></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-=
+serif"><div class=3D"imageblock center" style=3D"text-align: center; clear:=
+ both;"><a href=3D"http://www.trendbird.biz/attach/1/1007924157.png" rel=3D=
+"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"http://www.tre=
+ndbird.biz/thumbnail/1/1007924157.w655-h556.png" width=3D"655" height=3D"55=
+6" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></=
+a></div><br></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-=
+serif"><div class=3D"imageblock center" style=3D"text-align: center; clear:=
+ both;"><a href=3D"http://www.trendbird.biz/attach/1/1206187243.png" rel=3D=
+"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"http://www.tre=
+ndbird.biz/thumbnail/1/1206187243.w655-h469.png" width=3D"655" height=3D"46=
+9" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></=
+a></div><br></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-=
+serif"><div class=3D"imageblock center" style=3D"text-align: center; clear:=
+ both;"><a href=3D"http://www.trendbird.biz/attach/1/1263875387.png" rel=3D=
+"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"http://www.tre=
+ndbird.biz/thumbnail/1/1263875387.w655-h440.png" width=3D"655" height=3D"44=
+0" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></=
+a></div><br></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-=
+serif"><br></font></div><div><div style=3D"padding:10px; background-color:#=
+FFDAED"><font face=3D"Tahoma, arial, helvetica, sans-serif"><b><font color=
+=3D"#d41a01">Read More : </font></b><a href=3D"https://www.bloomberg.com/ne=
+ws/articles/2016-06-09/welcome-to-larry-page-s-secret-flying-car-factories"=
+ target=3D"_blank">https://www.bloomberg.com/news/articles/2016-06-09/welco=
+me-to-larry-page-s-secret-flying-car-factories</a></font></div><div style=
+=3D"padding:10px; background-color:#FFDAED"><font face=3D"Tahoma, arial, he=
+lvetica, sans-serif"><b><font color=3D"#d41a01">Patent Application :</font>=
+</b> <a href=3D"http://goo.gl/zwdtOC" target=3D"_blank">http://goo.gl/zwdtO=
+C</a></font><br></div><font face=3D"Tahoma, arial, helvetica, sans-serif"><=
+a href=3D"https://www.bloomberg.com/news/articles/2016-06-09/welcome-to-lar=
+ry-page-s-secret-flying-car-factories" target=3D"_blank"></a><br></font></d=
+iv><div><span style=3D"color: rgb(0, 0, 255); font-family: Tahoma, arial, h=
+elvetica, sans-serif; font-size: 12px; line-height: 1.4em;">[businessweek]<=
+/span><br></div><iframe src=3D"http://www.facebook.com/plugins/like.php?loc=
+ale=3Den_US&amp;href=3Dhttp%3A%2F%2Fwww.trendbird.biz%2F&amp;layout=3Dstand=
+ard&amp;show_faces=3Dfalse&amp;width=3D655&amp;action=3Dlike&amp;colorschem=
+e=3Dlight&amp;" scrolling=3D"no" frameborder=3D"0" allowTransparency=3D"tru=
+e" style=3D"border:none; overflow=3Dhidden; width:655px; height:50px; margi=
+n-top:15px;"></iframe><img src=3D"http://feeds.feedburner.com/~r/trendbirds=
+/~4/Nm9erqViRqA?utm_source=3Dfeedburner&amp;utm_medium=3Demail" height=3D"1=
+" width=3D"1" alt=3D""></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"2" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:2=
+0px;" href=3D"http://feedproxy.google.com/~r/trendbirds/~3/XOQ7sEjmiG8/1426=
+1?utm_source=3Dfeedburner&amp;utm_medium=3Demail">(Video) Nivea Unveils The=
+ SunSlide : A Water Slide That Applies Suncream</a>
+</p>
+<p style=3D"font-size:12px;color:#555;margin:9px 0 3px 0;font-family:Arial,=
+ Helvetica, sans-serif;line-height:140%;font-size:12px;">
+<span>Posted:</span> 11 Jun 2016 07:09 PM PDT</p>
+<div style=3D"margin:0;font-family:Arial, Helvetica, sans-serif;line-height=
+:140%;font-size:12px;color:#000000;"><div><div><b><font color=3D"#d41a01" f=
+ace=3D"Tahoma, arial, helvetica, sans-serif">Nivea has unveiled its latest =
+quirky stunt ensuring kids are not sunburned in the summer heat.</font></b>=
+</div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font><=
+/div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></=
+div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"=
+imageblock center" style=3D"text-align: center; clear: both;"><a href=3D"ht=
+tp://www.trendbird.biz/attach/1/1164693074.png" rel=3D"lightbox[2group0]" t=
+itle=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/attach/1/1=
+164693074.png" width=3D"652" height=3D"364" alt=3D"User image" title=3D"" s=
+tyle=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><fon=
+t face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font=
+ face=3D"Tahoma, arial, helvetica, sans-serif">The skin care firm, which pr=
+oduces sun screen, has created a waterslide, called the SunSlide, in Cape T=
+own that applies the lotion to kids as they use it.</font></div><div><font =
+face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font f=
+ace=3D"Tahoma, arial, helvetica, sans-serif">Building upon its previous dis=
+ruptions including a doll that would turn red to remind parents to apply lo=
+tion, and a solar panel magazine ad that can recharge mobile phones, Nivea =
+has made the application of sun lotion fun.</font></div><div><font face=3D"=
+Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font face=3D"T=
+ahoma, arial, helvetica, sans-serif">FCB Cape Town created the installation=
+ to combat skin cancer as South Africa sees some of the highest rates of th=
+e disease in the world.</font></div><div><font face=3D"Tahoma, arial, helve=
+tica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helvet=
+ica, sans-serif">The water in the slide is diluted with vast quantities of =
+SPF 50&#43; waterproof sunscreen to ensure those using the slide are fully =
+coated in a protective layer.</font></div><div><font face=3D"Tahoma, arial,=
+ helvetica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, =
+helvetica, sans-serif">Mike Barnwell, executive creative director at FCB Ca=
+pe Town, said: &quot;The Nivea SunSlide was a huge success, covering over 1=
+00 kids an hour. In the end, plenty of fun was had by all, including a few =
+parents who couldn't help joining in.=E2=80=9D</font></div></div><div><font=
+ face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font =
+face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font f=
+ace=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock cente=
+r" style=3D"text-align: center; clear: both;"><a href=3D"http://www.trendbi=
+rd.biz/attach/1/1237156545.png" rel=3D"lightbox[2group0]" title=3D"" target=
+=3D"_blank"><img src=3D"http://www.trendbird.biz/attach/1/1237156545.png" w=
+idth=3D"634" height=3D"317" alt=3D"User image" title=3D"" style=3D"cursor: =
+pointer;" border=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma=
+, arial, helvetica, sans-serif"><div class=3D"imageblock center" style=3D"t=
+ext-align: center; clear: both;"><a href=3D"http://www.trendbird.biz/attach=
+/1/1023823495.jpg" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><=
+img src=3D"http://www.trendbird.biz/thumbnail/1/1023823495.w655-h354.jpg" w=
+idth=3D"655" height=3D"354" alt=3D"User image" title=3D"" style=3D"cursor: =
+pointer;" border=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma=
+, arial, helvetica, sans-serif"><div class=3D"imageblock center" style=3D"t=
+ext-align: center; clear: both;"><a href=3D"http://www.trendbird.biz/attach=
+/1/1382661922.jpg" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><=
+img src=3D"http://www.trendbird.biz/thumbnail/1/1382661922.w655-h358.jpg" w=
+idth=3D"655" height=3D"358" alt=3D"User image" title=3D"" style=3D"cursor: =
+pointer;" border=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma=
+, arial, helvetica, sans-serif"><div class=3D"imageblock center" style=3D"t=
+ext-align: center; clear: both;"><a href=3D"http://www.trendbird.biz/attach=
+/1/1184757347.png" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><=
+img src=3D"http://www.trendbird.biz/attach/1/1184757347.png" width=3D"560" =
+height=3D"314" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" bor=
+der=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><div class=3D"imageblock center" style=3D"text-align: ce=
+nter; clear: both;"><a href=3D"http://www.trendbird.biz/attach/1/1042264921=
+.png" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"ht=
+tp://www.trendbird.biz/thumbnail/1/1042264921.w655-h365.png" width=3D"655" =
+height=3D"365" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" bor=
+der=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><div class=3D"imageblock center" style=3D"text-align: ce=
+nter; clear: both;"><a href=3D"http://www.trendbird.biz/attach/1/1027240757=
+.jpg" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"ht=
+tp://www.trendbird.biz/thumbnail/1/1027240757.w655-h362.jpg" width=3D"655" =
+height=3D"362" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" bor=
+der=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><div class=3D"imageblock center" style=3D"text-align: ce=
+nter; clear: both;"><a href=3D"http://www.trendbird.biz/attach/1/1150836877=
+.jpg" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"ht=
+tp://www.trendbird.biz/thumbnail/1/1150836877.w655-h366.jpg" width=3D"655" =
+height=3D"366" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" bor=
+der=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><div class=3D"imageblock center" style=3D"text-align: ce=
+nter; clear: both;"><a href=3D"http://www.trendbird.biz/attach/1/1232246035=
+.png" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"ht=
+tp://www.trendbird.biz/thumbnail/1/1232246035.w655-h366.png" width=3D"655" =
+height=3D"366" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" bor=
+der=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><div class=3D"imageblock center" style=3D"text-align: ce=
+nter; clear: both;"><a href=3D"http://www.trendbird.biz/attach/1/1156283846=
+.png" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"ht=
+tp://www.trendbird.biz/thumbnail/1/1156283846.w655-h365.png" width=3D"655" =
+height=3D"365" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" bor=
+der=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><div class=3D"imageblock center" style=3D"text-align: ce=
+nter; clear: both;"><a href=3D"http://www.trendbird.biz/attach/1/1104501774=
+.jpg" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"ht=
+tp://www.trendbird.biz/thumbnail/1/1104501774.w655-h368.jpg" width=3D"655" =
+height=3D"368" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" bor=
+der=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helve=
+tica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helvet=
+ica, sans-serif"><iframe src=3D"https://player.vimeo.com/video/166371721" w=
+idth=3D"630" height=3D"354" frameborder=3D"0" webkitallowfullscreenmozallow=
+fullscreenallowfullscreen=3D""></iframe>
+</font><p><font face=3D"Tahoma, arial, helvetica, sans-serif"><a href=3D"ht=
+tps://vimeo.com/166371721">NIVEA SUNSLIDE</a> from <a href=3D"https://vimeo=
+.com/user52134813">FCB Cape Town</a> on <a href=3D"https://vimeo.com">Vimeo=
+</a>.</font></p></div><div><font face=3D"Tahoma, arial, helvetica, sans-ser=
+if"><br></font></div><div><div style=3D"padding:10px; background-color:#FFD=
+AED"><font face=3D"Tahoma, arial, helvetica, sans-serif"><b><font color=3D"=
+#d41a01">Watch Video :</font></b>&nbsp;<a href=3D"https://vimeo.com/1663717=
+21" target=3D"_blank">https://vimeo.com/166371721</a></font></div><font fac=
+e=3D"Tahoma, arial, helvetica, sans-serif"><a href=3D"https://vimeo.com/166=
+371721" target=3D"_blank"></a><br></font></div><div><span style=3D"font-siz=
+e: 12px; line-height: 1.4em;"><font color=3D"#0000ff" face=3D"Tahoma, arial=
+, helvetica, sans-serif">[thedrum]</font></span><br></div><iframe src=3D"ht=
+tp://www.facebook.com/plugins/like.php?locale=3Den_US&amp;href=3Dhttp%3A%2F=
+%2Fwww.trendbird.biz%2F&amp;layout=3Dstandard&amp;show_faces=3Dfalse&amp;wi=
+dth=3D655&amp;action=3Dlike&amp;colorscheme=3Dlight&amp;" scrolling=3D"no" =
+frameborder=3D"0" allowTransparency=3D"true" style=3D"border:none; overflow=
+=3Dhidden; width:655px; height:50px; margin-top:15px;"></iframe><img src=3D=
+"http://feeds.feedburner.com/~r/trendbirds/~4/XOQ7sEjmiG8?utm_source=3Dfeed=
+burner&amp;utm_medium=3Demail" height=3D"1" width=3D"1" alt=3D""></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"3" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:2=
+0px;" href=3D"http://feedproxy.google.com/~r/trendbirds/~3/z1KHtdZTBgY/1425=
+8?utm_source=3Dfeedburner&amp;utm_medium=3Demail">Attention ! That's The Se=
+cret To Mobile Game Success</a>
+</p>
+<p style=3D"font-size:12px;color:#555;margin:9px 0 3px 0;font-family:Arial,=
+ Helvetica, sans-serif;line-height:140%;font-size:12px;">
+<span>Posted:</span> 11 Jun 2016 07:08 PM PDT</p>
+<div style=3D"margin:0;font-family:Arial, Helvetica, sans-serif;line-height=
+:140%;font-size:12px;color:#000000;"><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif" color=3D"#d41a01"><b>In the over-saturated mobile games =
+market, publishers are increasingly willing to pay to get their titles in f=
+ront of eager players. Whether it be through app store promotions, traditio=
+nal media or advertising on social media, these platforms are often the fir=
+st place consumers become aware of new games. </b></font></div><div><font f=
+ace=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font fa=
+ce=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font fac=
+e=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font face=
+=3D"Tahoma, arial, helvetica, sans-serif">If mobile gamers aren=E2=80=99t a=
+ware of a game, they can=E2=80=99t consider it, download it or generate buz=
+z around it. So in that regard, awareness becomes the baseline for success =
+at every subsequent step toward a final purchase.</font></div><div><font fa=
+ce=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font fac=
+e=3D"Tahoma, arial, helvetica, sans-serif">While awareness doesn=E2=80=99t =
+guarantee success, it greatly increases a game=E2=80=99s potential for pros=
+perity at every other stage. Mobile titles with higher awareness see expone=
+ntially higher ownership, so understanding how mobile gamers become aware o=
+f titles is fundamental in the highly competitive mobile games market.</fon=
+t></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font=
+></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div class=
+=3D"imageblock center" style=3D"text-align: center; clear: both;"><a href=
+=3D"http://www.trendbird.biz/attach/1/1368715999.jpg" rel=3D"lightbox[2grou=
+p0]" title=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/thum=
+bnail/1/1368715999.w655-h518.jpg" width=3D"655" height=3D"518" alt=3D"User =
+image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></f=
+ont></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></fo=
+nt></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">Engagemen=
+t heavily influences where mobile gamers get their information. For example=
+, mobile gamers who are heavy spenders source their mobile information from=
+ different channels than light spenders. Heavy spenders, who also serve as =
+trendsetters for the category, frequently visit sites where mobile games ar=
+e discussed and advertised. Publishers looking to engage these gamers shoul=
+d establish a strong digital presence early in a title=E2=80=99s life cycle=
+ with targeted ads and PR.</font></div><div><font face=3D"Tahoma, arial, he=
+lvetica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, hel=
+vetica, sans-serif">On the flipside, causal, light-spending mobile gamers r=
+ely more on the recommendations of those close to them, especially further =
+into a mobile title=E2=80=99s life cycle. At this point, media campaigns to=
+ attract casual gamers are less effective than in-game promotions that prom=
+pt gamers to recommend the title to a friend.</font></div><div><font face=
+=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font face=
+=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock center" =
+style=3D"text-align: center; clear: both;"><a href=3D"http://www.trendbird.=
+biz/attach/1/1240899213.jpg" rel=3D"lightbox[2group0]" title=3D"" target=3D=
+"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/1240899213.w655-h=
+518.jpg" width=3D"655" height=3D"518" alt=3D"User image" title=3D"" style=
+=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><font fa=
+ce=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font fac=
+e=3D"Tahoma, arial, helvetica, sans-serif">Publishers also need to be aware=
+ of which channels are most effective for their specific audiences. Notably=
+, channel effectiveness is driven by the demographics of a publisher=E2=80=
+=99s target audience. For example, women and teens tend to learn about mobi=
+le titles from people they know and have historically not been overly influ=
+enced by media.</font></div><div><font face=3D"Tahoma, arial, helvetica, sa=
+ns-serif"><br></font></div><div><font face=3D"Tahoma, arial, helvetica, san=
+s-serif"><div class=3D"imageblock center" style=3D"text-align: center; clea=
+r: both;"><a href=3D"http://www.trendbird.biz/attach/1/1258948180.jpg" rel=
+=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"http://www.=
+trendbird.biz/thumbnail/1/1258948180.w655-h518.jpg" width=3D"655" height=3D=
+"518" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" border=3D"0"=
+></a></div><br></font></div><div><font face=3D"Tahoma, arial, helvetica, sa=
+ns-serif"><br></font></div><div><font face=3D"Tahoma, arial, helvetica, san=
+s-serif">Beyond target and channels, the use of spokespeople has been signi=
+ficantly effective over the past year. With Kate Upton and Arnold Schwarzen=
+egger as their spokespeople, =E2=80=9CGame of War=E2=80=9D and =E2=80=9CMob=
+ile Strike,=E2=80=9D respectively, have significantly improved their visibi=
+lity, with consistent growth in awareness and large jumps in memorability. =
+These celebrity-endorsed campaigns have successfully improved notoriety wit=
+h substance, leading to significant improvements in download interest and b=
+uzz.</font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><=
+br></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><d=
+iv class=3D"imageblock center" style=3D"text-align: center; clear: both;"><=
+a href=3D"http://www.trendbird.biz/attach/1/1252990782.jpg" rel=3D"lightbox=
+[2group0]" title=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.bi=
+z/thumbnail/1/1252990782.w655-h518.jpg" width=3D"655" height=3D"518" alt=3D=
+"User image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><=
+br></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><b=
+r></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">Gen=
+erating awareness in the mobile games market is certainly not getting any e=
+asier, but its importance has never been greater. By maximizing reach at th=
+e awareness stage, publishers will exponentially increase the likelihood fo=
+r success going forward.</font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><br></font></div><div><span style=3D"color: rgb(0, 0, 25=
+5); font-family: Tahoma, arial, helvetica, sans-serif; font-size: 12px; lin=
+e-height: 1.4em;">[nielsen]</span><br></div><iframe src=3D"http://www.faceb=
+ook.com/plugins/like.php?locale=3Den_US&amp;href=3Dhttp%3A%2F%2Fwww.trendbi=
+rd.biz%2F&amp;layout=3Dstandard&amp;show_faces=3Dfalse&amp;width=3D655&amp;=
+action=3Dlike&amp;colorscheme=3Dlight&amp;" scrolling=3D"no" frameborder=3D=
+"0" allowTransparency=3D"true" style=3D"border:none; overflow=3Dhidden; wid=
+th:655px; height:50px; margin-top:15px;"></iframe><img src=3D"http://feeds.=
+feedburner.com/~r/trendbirds/~4/z1KHtdZTBgY?utm_source=3Dfeedburner&amp;utm=
+_medium=3Demail" height=3D"1" width=3D"1" alt=3D""></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"4" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:2=
+0px;" href=3D"http://feedproxy.google.com/~r/trendbirds/~3/6mh_0m--Svw/1426=
+2?utm_source=3Dfeedburner&amp;utm_medium=3Demail">Brilliant IKEA Ads Clever=
+ly Remind Us Of How Affordable Its Products Are</a>
+</p>
+<p style=3D"font-size:12px;color:#555;margin:9px 0 3px 0;font-family:Arial,=
+ Helvetica, sans-serif;line-height:140%;font-size:12px;">
+<span>Posted:</span> 11 Jun 2016 07:07 PM PDT</p>
+<div style=3D"margin:0;font-family:Arial, Helvetica, sans-serif;line-height=
+:140%;font-size:12px;color:#000000;"><div><div><b><font color=3D"#d41a01" f=
+ace=3D"Tahoma, arial, helvetica, sans-serif">Created for IKEA Saudi Arabia =
+by advertising agency Memac Ogilvy &amp; Mather, these simple but brilliant=
+ ads remind viewers of how affordable IKEA products are. </font></b></div><=
+div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><d=
+iv><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><di=
+v><font face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imagebl=
+ock center" style=3D"text-align: center; clear: both;"><a href=3D"http://ww=
+w.trendbird.biz/attach/1/1289048206.jpg" rel=3D"lightbox[2group0]" title=3D=
+"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/attach/1/12890482=
+06.jpg" width=3D"600" height=3D"846" alt=3D"User image" title=3D"" style=3D=
+"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><font face=
+=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font face=
+=3D"Tahoma, arial, helvetica, sans-serif">Instead of simply showcasing the =
+prices, these ads communicate affordability in a creative and clever manner=
+. </font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br=
+></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br>=
+</font></div><div><div><font face=3D"Tahoma, arial, helvetica, sans-serif" =
+color=3D"#d41a01"><b>IKEA: Bedroom</b></font></div><div><font face=3D"Tahom=
+a, arial, helvetica, sans-serif">The campaign was made for IKEA Saudi Arabi=
+a.</font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br=
+></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">Adve=
+rtising Agency: Memac Ogilvy &amp; Mather, UAE</font></div><div><font face=
+=3D"Tahoma, arial, helvetica, sans-serif">Chief Creative Officer: Paul Shea=
+rer</font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">Ex=
+ecutive Creative Directors: Ramzi Moutran, Attila Nyeki</font></div><div><f=
+ont face=3D"Tahoma, arial, helvetica, sans-serif">Associate Creative Direct=
+or / Art Director: Juliana Paracencio</font></div><div><font face=3D"Tahoma=
+, arial, helvetica, sans-serif">Associate Creative Director / Copywriter: L=
+uiz Vicente Simoes</font></div><div><font face=3D"Tahoma, arial, helvetica,=
+ sans-serif">Art Directors: Juliana Paracencio, George Serhan</font></div><=
+div><font face=3D"Tahoma, arial, helvetica, sans-serif">Copywriters: Luiz V=
+icente Simoes, Maya Khai</font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif">Producer: Jimmy Alfred</font></div><div><font face=3D"Ta=
+homa, arial, helvetica, sans-serif">Illustrator: Bruno Rodrigo de Miranda</=
+font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">Print P=
+roducers: Reethu Zacharia, Rafael Malonzo</font></div><div><font face=3D"Ta=
+homa, arial, helvetica, sans-serif">Account manager: Bernard Abou Nader</fo=
+nt></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">Senior Ac=
+count Manager: Rami Rihani</font></div><div><font face=3D"Tahoma, arial, he=
+lvetica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, hel=
+vetica, sans-serif">Published: June 2016</font></div></div></div><div><font=
+ face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font =
+face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font f=
+ace=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock cente=
+r" style=3D"text-align: center; clear: both;"><a href=3D"http://www.trendbi=
+rd.biz/attach/1/1329681758.jpg" rel=3D"lightbox[2group0]" title=3D"" target=
+=3D"_blank"><img src=3D"http://www.trendbird.biz/attach/1/1329681758.jpg" w=
+idth=3D"600" height=3D"846" alt=3D"User image" title=3D"" style=3D"cursor: =
+pointer;" border=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma=
+, arial, helvetica, sans-serif"><div class=3D"imageblock center" style=3D"t=
+ext-align: center; clear: both;"><a href=3D"http://www.trendbird.biz/attach=
+/1/1347245745.jpg" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><=
+img src=3D"http://www.trendbird.biz/attach/1/1347245745.jpg" width=3D"600" =
+height=3D"846" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" bor=
+der=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><div class=3D"imageblock center" style=3D"text-align: ce=
+nter; clear: both;"><a href=3D"http://www.trendbird.biz/attach/1/1383242999=
+.jpg" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"ht=
+tp://www.trendbird.biz/attach/1/1383242999.jpg" width=3D"600" height=3D"846=
+" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a=
+></div><br></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-s=
+erif"><div class=3D"imageblock center" style=3D"text-align: center; clear: =
+both;"><a href=3D"http://www.trendbird.biz/attach/1/1212851273.jpg" rel=3D"=
+lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"http://www.tren=
+dbird.biz/attach/1/1212851273.jpg" width=3D"600" height=3D"846" alt=3D"User=
+ image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div></font=
+></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font>=
+</div><div><font color=3D"#0000ff" face=3D"Tahoma, arial, helvetica, sans-s=
+erif">[taxi]</font></div><iframe src=3D"http://www.facebook.com/plugins/lik=
+e.php?locale=3Den_US&amp;href=3Dhttp%3A%2F%2Fwww.trendbird.biz%2F&amp;layou=
+t=3Dstandard&amp;show_faces=3Dfalse&amp;width=3D655&amp;action=3Dlike&amp;c=
+olorscheme=3Dlight&amp;" scrolling=3D"no" frameborder=3D"0" allowTransparen=
+cy=3D"true" style=3D"border:none; overflow=3Dhidden; width:655px; height:50=
+px; margin-top:15px;"></iframe><img src=3D"http://feeds.feedburner.com/~r/t=
+rendbirds/~4/6mh_0m--Svw?utm_source=3Dfeedburner&amp;utm_medium=3Demail" he=
+ight=3D"1" width=3D"1" alt=3D""></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"5" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:2=
+0px;" href=3D"http://feedproxy.google.com/~r/trendbirds/~3/iseEEUyOwwI/1426=
+4?utm_source=3Dfeedburner&amp;utm_medium=3Demail">(Video) The First Smartph=
+one with Google's Augmented Reality Is Here</a>
+</p>
+<p style=3D"font-size:12px;color:#555;margin:9px 0 3px 0;font-family:Arial,=
+ Helvetica, sans-serif;line-height:140%;font-size:12px;">
+<span>Posted:</span> 11 Jun 2016 07:06 PM PDT</p>
+<div style=3D"margin:0;font-family:Arial, Helvetica, sans-serif;line-height=
+:140%;font-size:12px;color:#000000;"><div><span style=3D"font-family: Tahom=
+a, arial, helvetica, sans-serif; line-height: 18.2px; font-size: 12px;"><b>=
+<font color=3D"#d41a01">Lenovo's Tango-enabled phone visualizes virtual ele=
+ments into the real world. </font></b></span><font face=3D"Tahoma, arial, h=
+elvetica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, he=
+lvetica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, hel=
+vetica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><div class=3D"imageblock center" style=3D"text-align: ce=
+nter; clear: both;"><a href=3D"http://www.trendbird.biz/attach/1/1100300698=
+.jpg" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"ht=
+tp://www.trendbird.biz/thumbnail/1/1100300698.w655-h318.jpg" width=3D"655" =
+height=3D"318" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" bor=
+der=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helve=
+tica, sans-serif">The fuzzy midway-point between our virtual and physical w=
+orlds is augmented reality. While there have been projects to show a virtua=
+l element on a phone when pointed at a special anchor point in real life, l=
+ike a QR code or other pattern, no attempt has rivaled Google's Project Tan=
+go, which actually analyzes and builds an internal model of a space.</font>=
+</div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font><=
+/div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">This can be u=
+sed as a tool for building true augmented reality, with applications like m=
+easuring objects and seeing if a chair will fit through a doorway. (Right n=
+ow it's a contractor's dream.)</font></div><div><font face=3D"Tahoma, arial=
+, helvetica, sans-serif">Today, Chinese hardware maker Lenovo announced the=
+ first Tango-enabled phone, called the Phab 2 Pro. The phone not only packs=
+ a 16-megapixel camera, but also dedicated depth and motion-tracking camera=
+s to enable Tango.</font></div><div><span style=3D"font-family: Tahoma, ari=
+al, helvetica, sans-serif; font-size: 12px; line-height: 1.4em;"><br></span=
+></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">In demonstr=
+ations, Lenovo showed augmented reality dinosaurs placed right on stage, vi=
+sible through the phone, and quick, accurate measurements of surfaces. They=
+ also decorated a room with virtual drapings, potentially making redecorati=
+on easier than ever.</font></div><div><font face=3D"Tahoma, arial, helvetic=
+a, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helvetica=
+, sans-serif">Lenovo and Google have been publically working on Tango toget=
+her for some time=E2=80=94the most recent major tease was at 2016's Consume=
+r Electronics Show, where the group demonstrated AR video games and the sam=
+e room measurement. Lenovo also purchased Motorola from Google for $2.91 bi=
+llion in 2014.</font></div><div><font face=3D"Tahoma, arial, helvetica, san=
+s-serif">The Phab 2 Pro has a 6.4-inch display, Snapdragon 652 processor, a=
+nd will cost $499. You'll be able to buy in September online and in Lowes.<=
+/font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></=
+font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></f=
+ont></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div cla=
+ss=3D"imageblock center" style=3D"text-align: center; clear: both;"><a href=
+=3D"http://www.trendbird.biz/attach/1/1070790102.jpg" rel=3D"lightbox[2grou=
+p0]" title=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/atta=
+ch/1/1070790102.jpg" width=3D"500" height=3D"332" alt=3D"User image" title=
+=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><d=
+iv><font face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageb=
+lock center" style=3D"text-align: center; clear: both;"><a href=3D"http://w=
+ww.trendbird.biz/attach/1/1231313769.jpg" rel=3D"lightbox[2group0]" title=
+=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/attach/1/12313=
+13769.jpg" width=3D"550" height=3D"275" alt=3D"User image" title=3D"" style=
+=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><font fa=
+ce=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock center=
+" style=3D"text-align: center; clear: both;"><a href=3D"http://www.trendbir=
+d.biz/attach/1/1152498561.jpg" rel=3D"lightbox[2group0]" title=3D"" target=
+=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/1152498561.w65=
+5-h368.jpg" width=3D"655" height=3D"368" alt=3D"User image" title=3D"" styl=
+e=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><font f=
+ace=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock cente=
+r" style=3D"text-align: center; clear: both;"><a href=3D"http://www.trendbi=
+rd.biz/attach/1/1243901189.jpg" rel=3D"lightbox[2group0]" title=3D"" target=
+=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/1243901189.w65=
+5-h368.jpg" width=3D"655" height=3D"368" alt=3D"User image" title=3D"" styl=
+e=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><font f=
+ace=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock cente=
+r" style=3D"text-align: center; clear: both;"><a href=3D"http://www.trendbi=
+rd.biz/attach/1/1250427136.jpg" rel=3D"lightbox[2group0]" title=3D"" target=
+=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/1250427136.w65=
+5-h364.jpg" width=3D"655" height=3D"364" alt=3D"User image" title=3D"" styl=
+e=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><font f=
+ace=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font fa=
+ce=3D"Tahoma, arial, helvetica, sans-serif"><iframe width=3D"640" height=3D=
+"360" src=3D"https://www.youtube.com/embed/yBzDQWyFE6o" frameborder=3D"0" a=
+llowfullscreen=3D""></iframe></font></div><div><font face=3D"Tahoma, arial,=
+ helvetica, sans-serif"><br></font></div><div><div style=3D"padding:10px; b=
+ackground-color:#FFDAED"><font face=3D"Tahoma, arial, helvetica, sans-serif=
+"><b><font color=3D"#d41a01">Watch Video : </font></b><a href=3D"https://ww=
+w.youtube.com/watch?v=3DyBzDQWyFE6o" target=3D"_blank">https://www.youtube.=
+com/watch?v=3DyBzDQWyFE6o</a></font></div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><a href=3D"https://www.youtube.com/watch?v=3DyBzDQWyFE6o=
+" target=3D"_blank"></a><br></font></div><div><font color=3D"#0000ff" face=
+=3D"Tahoma, arial, helvetica, sans-serif">[popsci]</font></div><iframe src=
+=3D"http://www.facebook.com/plugins/like.php?locale=3Den_US&amp;href=3Dhttp=
+%3A%2F%2Fwww.trendbird.biz%2F&amp;layout=3Dstandard&amp;show_faces=3Dfalse&=
+amp;width=3D655&amp;action=3Dlike&amp;colorscheme=3Dlight&amp;" scrolling=
+=3D"no" frameborder=3D"0" allowTransparency=3D"true" style=3D"border:none; =
+overflow=3Dhidden; width:655px; height:50px; margin-top:15px;"></iframe><im=
+g src=3D"http://feeds.feedburner.com/~r/trendbirds/~4/iseEEUyOwwI?utm_sourc=
+e=3Dfeedburner&amp;utm_medium=3Demail" height=3D"1" width=3D"1" alt=3D""></=
+div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"6" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:2=
+0px;" href=3D"http://feedproxy.google.com/~r/trendbirds/~3/7QEVVwwVxf4/1425=
+9?utm_source=3Dfeedburner&amp;utm_medium=3Demail">The App Boom is Over</a>
+</p>
+<p style=3D"font-size:12px;color:#555;margin:9px 0 3px 0;font-family:Arial,=
+ Helvetica, sans-serif;line-height:140%;font-size:12px;">
+<span>Posted:</span> 11 Jun 2016 07:05 PM PDT</p>
+<div style=3D"margin:0;font-family:Arial, Helvetica, sans-serif;line-height=
+:140%;font-size:12px;color:#000000;"><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif" color=3D"#d41a01"><b>Your phone is full of apps, and you=
+'re done downloading new ones =E2=80=94 unless they're Snapchat or Uber. </=
+b></font><span style=3D"font-family: Tahoma, arial, helvetica, sans-serif; =
+font-size: 12px; line-height: 1.4em;"><b><font color=3D"#d41a01">The mobile=
+ app boom kicked off in July 2008, when Apple introduced the App Store. Now=
+ it is over.</font></b></span></div><div><font face=3D"Tahoma, arial, helve=
+tica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helvet=
+ica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helveti=
+ca, sans-serif"><div class=3D"imageblock center" style=3D"text-align: cente=
+r; clear: both;"><a href=3D"http://www.trendbird.biz/attach/1/1292024358.jp=
+g" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"http:=
+//www.trendbird.biz/attach/1/1292024358.jpg" width=3D"600" height=3D"337" a=
+lt=3D"User image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></=
+div><br></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-seri=
+f"><br></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif=
+">People are still making plenty of apps, of course. And many people are st=
+ill downloading them. But the go-go growth days are gone.</font></div><div>=
+<font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><=
+font face=3D"Tahoma, arial, helvetica, sans-serif">If you are an independen=
+t app developer or publisher, you have probably known this for a while, bec=
+ause you have found it very difficult to get people to download your app =
+=E2=80=94 the average American smartphone user downloads zero apps per mont=
+h.</font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br=
+></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">But =
+now even the very biggest app publishers are seeing their growth slow down =
+or stop altogether. Most people have all the apps they want and/or need. Th=
+ey're not looking for new ones.</font></div><div><font face=3D"Tahoma, aria=
+l, helvetica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial=
+, helvetica, sans-serif">Last month, the top 15 app publishers saw download=
+s drop an average of 20 percent in the U.S., according to research from Nom=
+ura, which relies on data from app tracker SensorTower.</font></div><div><f=
+ont face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><fo=
+nt face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock c=
+enter" style=3D"text-align: center; clear: both;"><a href=3D"http://www.tre=
+ndbird.biz/attach/1/1344417982.png" rel=3D"lightbox[2group0]" title=3D"" ta=
+rget=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/1344417982=
+.w655-h472.png" width=3D"655" height=3D"472" alt=3D"User image" title=3D"" =
+style=3D"cursor: pointer;" border=3D"0"></a></div></font></div><div><font f=
+ace=3D"Tahoma, arial, helvetica, sans-serif">&nbsp;</font></div><div><font =
+face=3D"Tahoma, arial, helvetica, sans-serif">Globally, the mobile phone ma=
+rket is still growing, so the app market is as well. But not by much.</font=
+></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font>=
+</div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">Outside the =
+U.S., the top 15 apps grew by 3 percent last month.</font></div><div><font =
+face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font f=
+ace=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock cente=
+r" style=3D"text-align: center; clear: both;"><a href=3D"http://www.trendbi=
+rd.biz/attach/1/1057916102.png" rel=3D"lightbox[2group0]" title=3D"" target=
+=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/1057916102.w65=
+5-h471.png" width=3D"655" height=3D"471" alt=3D"User image" title=3D"" styl=
+e=3D"cursor: pointer;" border=3D"0"></a></div>&nbsp;</font></div><div><font=
+ face=3D"Tahoma, arial, helvetica, sans-serif">You'll note that the big exc=
+eptions here are Snapchat and Uber, which continue to grow at an astonishin=
+g clip.</font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif=
+"><br></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"=
+>In May 2015, users downloaded Evan Spiegel's messaging app 13 million time=
+s; in May 2016 that number had doubled to 27 million. Uber's growth rate is=
+ also above 100 percent.</font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helve=
+tica, sans-serif"><div class=3D"imageblock center" style=3D"text-align: cen=
+ter; clear: both;"><a href=3D"http://www.trendbird.biz/attach/1/1145590491.=
+png" rel=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"htt=
+p://www.trendbird.biz/thumbnail/1/1145590491.w655-h616.png" width=3D"655" h=
+eight=3D"616" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" bord=
+er=3D"0"></a></div><br></font></div><div><font face=3D"Tahoma, arial, helve=
+tica, sans-serif">&nbsp;</font></div><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif">And in the U.S., Snapchat's download rate has now eclips=
+ed Facebook.</font></div><div><font face=3D"Tahoma, arial, helvetica, sans-=
+serif"><br></font></div><div><font face=3D"Tahoma, arial, helvetica, sans-s=
+erif"><div class=3D"imageblock center" style=3D"text-align: center; clear: =
+both;"><a href=3D"http://www.trendbird.biz/attach/1/1049081230.png" rel=3D"=
+lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"http://www.tren=
+dbird.biz/attach/1/1049081230.png" width=3D"651" height=3D"423" alt=3D"User=
+ image" title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div></font=
+></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">&nbsp;</fon=
+t></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">So you can=
+ still break through the saturated app market, if you are very very very lu=
+cky, and good. But the odds are stacked against you.</font></div><div><font=
+ face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font =
+face=3D"Tahoma, arial, helvetica, sans-serif">Download rates don't give you=
+ a full picture of an app publisher's business, of course. Facebook, for in=
+stance, is killing it even as its install numbers slow =E2=80=94 once you g=
+et to 1.65 billion users, it gets harder to find new ones.</font></div><div=
+><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div>=
+<font face=3D"Tahoma, arial, helvetica, sans-serif">And the fact that it's =
+harder for app publishers to find users is good news for Facebook's app ins=
+tall ad business, which is aimed at app publishers who need to find users.<=
+/font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></=
+font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></f=
+ont></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div cla=
+ss=3D"imageblock center" style=3D"text-align: center; clear: both;"><a href=
+=3D"http://www.trendbird.biz/attach/1/1179818919.png" rel=3D"lightbox[2grou=
+p0]" title=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/atta=
+ch/1/1179818919.png" width=3D"649" height=3D"338" alt=3D"User image" title=
+=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div></font></div><div><=
+font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><f=
+ont color=3D"#0000ff" face=3D"Tahoma, arial, helvetica, sans-serif">[re.cod=
+e]</font></div><iframe src=3D"http://www.facebook.com/plugins/like.php?loca=
+le=3Den_US&amp;href=3Dhttp%3A%2F%2Fwww.trendbird.biz%2F&amp;layout=3Dstanda=
+rd&amp;show_faces=3Dfalse&amp;width=3D655&amp;action=3Dlike&amp;colorscheme=
+=3Dlight&amp;" scrolling=3D"no" frameborder=3D"0" allowTransparency=3D"true=
+" style=3D"border:none; overflow=3Dhidden; width:655px; height:50px; margin=
+-top:15px;"></iframe><img src=3D"http://feeds.feedburner.com/~r/trendbirds/=
+~4/7QEVVwwVxf4?utm_source=3Dfeedburner&amp;utm_medium=3Demail" height=3D"1"=
+ width=3D"1" alt=3D""></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"7" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:2=
+0px;" href=3D"http://feedproxy.google.com/~r/trendbirds/~3/6A5mPlNNJBY/1426=
+3?utm_source=3Dfeedburner&amp;utm_medium=3Demail">Video-Enabled Toothbrush =
+Offers a Fresh Look at Your Teeth - Prophix</a>
+</p>
+<p style=3D"font-size:12px;color:#555;margin:9px 0 3px 0;font-family:Arial,=
+ Helvetica, sans-serif;line-height:140%;font-size:12px;">
+<span>Posted:</span> 11 Jun 2016 07:04 PM PDT</p>
+<div style=3D"margin:0;font-family:Arial, Helvetica, sans-serif;line-height=
+:140%;font-size:12px;color:#000000;"><div><font face=3D"Tahoma, arial, helv=
+etica, sans-serif" color=3D"#d41a01"><b>The Prophix features an in-built ca=
+mera capable of capturing 1080p video, that allows users to watch a live fe=
+ed of their brushing via the accompanying app.</b></font></div><div><font f=
+ace=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font fa=
+ce=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font fac=
+e=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock center"=
+ style=3D"text-align: center; clear: both;"><a href=3D"http://www.trendbird=
+.biz/attach/1/1048019915.jpg" rel=3D"lightbox[2group0]" title=3D"" target=
+=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/1048019915.w65=
+5-h368.jpg" width=3D"655" height=3D"368" alt=3D"User image" title=3D"" styl=
+e=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><font f=
+ace=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock cente=
+r" style=3D"text-align: center; clear: both;"><a href=3D"http://www.trendbi=
+rd.biz/attach/1/1061784326.jpg" rel=3D"lightbox[2group0]" title=3D"" target=
+=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/1061784326.w65=
+5-h368.jpg" width=3D"655" height=3D"368" alt=3D"User image" title=3D"" styl=
+e=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><font f=
+ace=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><font fa=
+ce=3D"Tahoma, arial, helvetica, sans-serif">Regardless of how thorough your=
+ mouth-care regime is, it's not always possible to see just how well =E2=80=
+=93 or not =E2=80=93 you've cleaned your teeth. ONVI's Prophix toothbrush, =
+however, has a built-in video camera that lets you seen every last nook and=
+ cranny of your mouth, if that's what you really want.</font></div><div><fo=
+nt face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><spa=
+n style=3D"font-family: Tahoma, arial, helvetica, sans-serif; font-size: 12=
+px; line-height: 1.4em;">ONVI claims the Prophix is the first-ever video to=
+othbrush. It is aimed at allowing users to see the condition of their teeth=
+ and to better understand their oral health. In order to do this, it pairs =
+with an accompanying iOS app via Bluetooth or Wi-Fi. There's an Android ver=
+sion of the app in development.</span><br></div><div><font face=3D"Tahoma, =
+arial, helvetica, sans-serif"><br></font></div><div><font face=3D"Tahoma, a=
+rial, helvetica, sans-serif">The Prophix features an in-built camera capabl=
+e of capturing 1080p video that allows users to watch a live feed of their =
+brushing via the app and see if they are missing any spots. It's also able =
+to capture 10-megapixel photos that can be saved via the app so as to track=
+ the condition of areas of interest in the mouth over time.</font></div><di=
+v><span style=3D"font-family: Tahoma, arial, helvetica, sans-serif; font-si=
+ze: 12px; line-height: 1.4em;">&nbsp;</span><br></div><div><font face=3D"Ta=
+homa, arial, helvetica, sans-serif">There are four interchangeable attachme=
+nts provided with the Prophix, including a rotating brush-head and a prophy=
+ cup, which is used for contour cleaning around the tooth and under the gum=
+ line. There's also a mirror to help users view and capture hard-to-reach p=
+laces, and a rubber tip for massaging gums and removing plaque and tartar.<=
+/font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></=
+font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">In addi=
+tion to allowing users to view and monitor their oral health, the app provi=
+des tips to help improve their mouth-care habits. The toothbrush itself is =
+powered by a lithium-ion battery.</font></div><div><font face=3D"Tahoma, ar=
+ial, helvetica, sans-serif"><br></font></div><div><font face=3D"Tahoma, ari=
+al, helvetica, sans-serif">The Prophix is available for pre-order at a disc=
+ounted price of US$299, with the eventual retail price to be set at $399. I=
+t is scheduled to ship in the first quarter of next year.</font></div><div>=
+<font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><=
+font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><f=
+ont face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock =
+center" style=3D"text-align: center; clear: both;"><a href=3D"http://www.tr=
+endbird.biz/attach/1/1023943095.png" rel=3D"lightbox[2group0]" title=3D"" t=
+arget=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/102394309=
+5.w655-h424.png" width=3D"655" height=3D"424" alt=3D"User image" title=3D""=
+ style=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><f=
+ont face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock =
+center" style=3D"text-align: center; clear: both;"><a href=3D"http://www.tr=
+endbird.biz/attach/1/1160679896.png" rel=3D"lightbox[2group0]" title=3D"" t=
+arget=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/116067989=
+6.w655-h474.png" width=3D"655" height=3D"474" alt=3D"User image" title=3D""=
+ style=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><f=
+ont face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock =
+center" style=3D"text-align: center; clear: both;"><a href=3D"http://www.tr=
+endbird.biz/attach/1/1373340943.png" rel=3D"lightbox[2group0]" title=3D"" t=
+arget=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/137334094=
+3.w655-h461.png" width=3D"655" height=3D"461" alt=3D"User image" title=3D""=
+ style=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><f=
+ont face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock =
+center" style=3D"text-align: center; clear: both;"><a href=3D"http://www.tr=
+endbird.biz/attach/1/1297962597.jpg" rel=3D"lightbox[2group0]" title=3D"" t=
+arget=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/129796259=
+7.w655-h368.jpg" width=3D"655" height=3D"368" alt=3D"User image" title=3D""=
+ style=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><f=
+ont face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock =
+center" style=3D"text-align: center; clear: both;"><a href=3D"http://www.tr=
+endbird.biz/attach/1/1175126842.jpg" rel=3D"lightbox[2group0]" title=3D"" t=
+arget=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/117512684=
+2.w655-h368.jpg" width=3D"655" height=3D"368" alt=3D"User image" title=3D""=
+ style=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><f=
+ont face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock =
+center" style=3D"text-align: center; clear: both;"><a href=3D"http://www.tr=
+endbird.biz/attach/1/1267601581.jpg" rel=3D"lightbox[2group0]" title=3D"" t=
+arget=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/126760158=
+1.w655-h368.jpg" width=3D"655" height=3D"368" alt=3D"User image" title=3D""=
+ style=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><f=
+ont face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"imageblock =
+center" style=3D"text-align: center; clear: both;"><a href=3D"http://www.tr=
+endbird.biz/attach/1/1088960533.jpg" rel=3D"lightbox[2group0]" title=3D"" t=
+arget=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1/108896053=
+3.w655-h368.jpg" width=3D"655" height=3D"368" alt=3D"User image" title=3D""=
+ style=3D"cursor: pointer;" border=3D"0"></a></div><br></font></div><div><f=
+ont face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><di=
+v style=3D"padding:10px; background-color:#FFDAED"><font face=3D"Tahoma, ar=
+ial, helvetica, sans-serif"><b><font color=3D"#d41a01">Website : </font></b=
+><a href=3D"https://www.getprophix.com/" target=3D"_blank">https://www.getp=
+rophix.com/</a></font></div><font face=3D"Tahoma, arial, helvetica, sans-se=
+rif"><a href=3D"https://www.getprophix.com/" target=3D"_blank"></a><br></fo=
+nt></div><div><font color=3D"#0000ff" face=3D"Tahoma, arial, helvetica, san=
+s-serif">[gizmag]</font></div><iframe src=3D"http://www.facebook.com/plugin=
+s/like.php?locale=3Den_US&amp;href=3Dhttp%3A%2F%2Fwww.trendbird.biz%2F&amp;=
+layout=3Dstandard&amp;show_faces=3Dfalse&amp;width=3D655&amp;action=3Dlike&=
+amp;colorscheme=3Dlight&amp;" scrolling=3D"no" frameborder=3D"0" allowTrans=
+parency=3D"true" style=3D"border:none; overflow=3Dhidden; width:655px; heig=
+ht:50px; margin-top:15px;"></iframe><img src=3D"http://feeds.feedburner.com=
+/~r/trendbirds/~4/6A5mPlNNJBY?utm_source=3Dfeedburner&amp;utm_medium=3Demai=
+l" height=3D"1" width=3D"1" alt=3D""></div>
+</td>
+</tr>
+<tr>
+<td style=3D"margin-bottom:0;line-height:1.4em;">
+<p style=3D"margin:1em 0 3px 0;">
+<a name=3D"8" style=3D"font-family:Arial, Helvetica, sans-serif;font-size:2=
+0px;" href=3D"http://feedproxy.google.com/~r/trendbirds/~3/F9ASp-t8y2A/1425=
+7?utm_source=3Dfeedburner&amp;utm_medium=3Demail">The Smart Touch Refrigera=
+tor</a>
+</p>
+<p style=3D"font-size:12px;color:#555;margin:9px 0 3px 0;font-family:Arial,=
+ Helvetica, sans-serif;line-height:140%;font-size:12px;">
+<span>Posted:</span> 11 Jun 2016 07:03 PM PDT</p>
+<div style=3D"margin:0;font-family:Arial, Helvetica, sans-serif;line-height=
+:140%;font-size:12px;color:#000000;"><div><b><font color=3D"#d41a01" face=
+=3D"Tahoma, arial, helvetica, sans-serif">While the most obvious upgrade to=
+ a fridge is a fridge that connects to your phone and allows you to run Buz=
+zfeed tasty videos customized to your liking, it isn=E2=80=99t truly the wi=
+sest upgrade. </font></b></div><div><font face=3D"Tahoma, arial, helvetica,=
+ sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helvetica, =
+sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helvetica, s=
+ans-serif"><div class=3D"imageblock center" style=3D"text-align: center; cl=
+ear: both;"><a href=3D"http://www.trendbird.biz/attach/1/1014299249.jpg" re=
+l=3D"lightbox[2group0]" title=3D"" target=3D"_blank"><img src=3D"http://www=
+.trendbird.biz/thumbnail/1/1014299249.w655-h353.jpg" width=3D"655" height=
+=3D"353" alt=3D"User image" title=3D"" style=3D"cursor: pointer;" border=3D=
+"0"></a></div><br></font></div><div><font face=3D"Tahoma, arial, helvetica,=
+ sans-serif"><br></font></div><div><font face=3D"Tahoma, arial, helvetica, =
+sans-serif">The Smart Touch refrigerator may seem like it=E2=80=99s a long =
+shot, but in philosophy, it captures what a smart fridge is required to be =
+like. Aesthetically, the fridge is definitely a class apart, with its half-=
+swirl handle that honestly gives my heart palpitations! The handle hosts an=
+ inbuilt biometric sensor that knows who=E2=80=99s opening the fridge door.=
+</font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br><=
+/font></div><div><font face=3D"Tahoma, arial, helvetica, sans-serif">Food k=
+ept inside the fridge is therefore tagged to the people who put them there =
+in the first place. Projectors on each food tray project =E2=80=98time stam=
+ps=E2=80=99 n the food when you open the door. These stamps indicate who th=
+e food belongs to, and by what time must it be consumed. </font></div><div>=
+<font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></div><div><=
+font face=3D"Tahoma, arial, helvetica, sans-serif">The designer HaiMeng Fan=
+g wants to eliminate the possibility (a pretty common one) of stocking one=
+=E2=80=99s refrigerator, but forgetting about perishable food items kept wi=
+thin the fridge. The Smart Touch does a nifty job of telling you what you=
+=E2=80=99ve got in your fridge that=E2=80=99s good to eat, and that=E2=80=
+=99s nearing its expiration date. Isn=E2=80=99t that just magical?!</font><=
+/div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></=
+div><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font></d=
+iv><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"i=
+mageblock center" style=3D"text-align: center; clear: both;"><a href=3D"htt=
+p://www.trendbird.biz/attach/1/1291228703.jpg" rel=3D"lightbox[2group0]" ti=
+tle=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1=
+/1291228703.w655-h353.jpg" width=3D"655" height=3D"353" alt=3D"User image" =
+title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></font></d=
+iv><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"i=
+mageblock center" style=3D"text-align: center; clear: both;"><a href=3D"htt=
+p://www.trendbird.biz/attach/1/1261250578.jpg" rel=3D"lightbox[2group0]" ti=
+tle=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1=
+/1261250578.w655-h353.jpg" width=3D"655" height=3D"353" alt=3D"User image" =
+title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></font></d=
+iv><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"i=
+mageblock center" style=3D"text-align: center; clear: both;"><a href=3D"htt=
+p://www.trendbird.biz/attach/1/1170356641.jpg" rel=3D"lightbox[2group0]" ti=
+tle=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1=
+/1170356641.w655-h261.jpg" width=3D"655" height=3D"261" alt=3D"User image" =
+title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></font></d=
+iv><div><font face=3D"Tahoma, arial, helvetica, sans-serif"><div class=3D"i=
+mageblock center" style=3D"text-align: center; clear: both;"><a href=3D"htt=
+p://www.trendbird.biz/attach/1/1125671321.jpg" rel=3D"lightbox[2group0]" ti=
+tle=3D"" target=3D"_blank"><img src=3D"http://www.trendbird.biz/thumbnail/1=
+/1125671321.w655-h494.jpg" width=3D"655" height=3D"494" alt=3D"User image" =
+title=3D"" style=3D"cursor: pointer;" border=3D"0"></a></div><br></font></d=
+iv><div><b><font face=3D"Tahoma, arial, helvetica, sans-serif"><br></font><=
+/b></div><div><b><font face=3D"Tahoma, arial, helvetica, sans-serif">Design=
+er : HaiMeng Fang (Newplan Design)</font></b></div><div><font face=3D"Tahom=
+a, arial, helvetica, sans-serif"><br></font></div><div><font color=3D"#0000=
+ff" face=3D"Tahoma, arial, helvetica, sans-serif">[yankodesign]</font></div=
+><iframe src=3D"http://www.facebook.com/plugins/like.php?locale=3Den_US&amp=
+;href=3Dhttp%3A%2F%2Fwww.trendbird.biz%2F&amp;layout=3Dstandard&amp;show_fa=
+ces=3Dfalse&amp;width=3D655&amp;action=3Dlike&amp;colorscheme=3Dlight&amp;"=
+ scrolling=3D"no" frameborder=3D"0" allowTransparency=3D"true" style=3D"bor=
+der:none; overflow=3Dhidden; width:655px; height:50px; margin-top:15px;"></=
+iframe><img src=3D"http://feeds.feedburner.com/~r/trendbirds/~4/F9ASp-t8y2A=
+?utm_source=3Dfeedburner&amp;utm_medium=3Demail" height=3D"1" width=3D"1" a=
+lt=3D""></div>
+</td>
+</tr>
+</table>
+<table style=3D"border-top:1px solid #999;padding-top:4px;margin-top:1.5em;=
+width:100%" id=3D"footer">
+<tr>
+<td style=3D"text-align:left;font-family:Helvetica,Arial,Sans-Serif;font-si=
+ze:11px;margin:0 6px 1.2em 0;color:#333;">You are subscribed to email updat=
+es from <a href=3D"http://www.trendbird.biz/">TRENDBIRD (What's the Next Bi=
+g Thing ?)</a>.<br>To stop receiving these emails, you may <a href=3D"https=
+://feedburner.google.com/fb/a/mailunsubscribe?k=3Dx03XmySi-3VUVjuQ7Mo-IBbKd=
+mA">unsubscribe now</a>.</td>
+<td style=3D"font-family:Helvetica,Arial,Sans-Serif;font-size:11px;margin:0=
+ 6px 1.2em 0;color:#333;text-align:right;vertical-align:top">Email delivery=
+ powered by Google</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"text-align:left;font-family:Helvetica,Arial,Sans=
+-Serif;font-size:11px;margin:0 6px 1.2em 0;color:#333;">Google Inc., 1600 A=
+mphitheatre Parkway, Mountain View, CA 94043, United States</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+--001a113ec3a63fbea70535138c2d--
