@@ -1,9 +1,12 @@
 package kor_wr_freq;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -41,6 +44,9 @@ public class kor_wr_freq {
     }
 	public static void main(String args[]) throws IOException{
 		try {
+			String csv_file = "test.csv";
+			BufferedWriter writer = new BufferedWriter( new OutputStreamWriter(new FileOutputStream(csv_file), "MS949"));
+			writer.write("단어 , 횟수\n");
 			Map<String, Integer> map = new HashMap<String, Integer>();
 			BufferedReader br = new BufferedReader(new FileReader("document\\회의록2.txt"));
 			BufferedReader br_sw = Files.newBufferedReader(Paths.get("stopwords.txt"), Charset.forName("MS949"));
@@ -98,13 +104,14 @@ public class kor_wr_freq {
 				if( is_stop == true){
 					i = i-1;
 				}else{
-					System.out.println(temp + ": " + map.get(temp));
+					
+					writer.write(temp+" ,"+map.get(temp)+"\n");
 				}
 				
 				is_stop = false;
 			}
 		
-		
+			writer.close();
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
