@@ -42,31 +42,57 @@ public class kor_wr_freq {
         Collections.reverse(list); // 주석시 오름차순
         return list;
     }
+	
+	static List<String> removeDuplicates(List<String> stopwords) {
+
+		// Store unique items in result.
+		List<String> result = new ArrayList<>();
+
+		// Record encountered Strings in HashSet.
+		HashSet<String> set = new HashSet<>();
+
+		// Loop over argument list.
+		for (String item : stopwords) {
+
+		    // If String is not in set, add it to the list and the set.
+		    if (!set.contains(item)) {
+			result.add(item);
+			set.add(item);
+		    }
+		}
+		return result;
+	}
+	
 	public static void main(String args[]) throws IOException{
 		try {
 			String csv_file = "test.csv";
+			String collocation = "";
+			List<String> cols = new ArrayList();
+			boolean firstN = false;
+			boolean secondN = false;
 			BufferedWriter writer = new BufferedWriter( new OutputStreamWriter(new FileOutputStream(csv_file), "MS949"));
-			writer.write("단어 , 횟수\n");
+			writer.write("구분 , 단어 , 횟수\n");
 			Map<String, Integer> map = new HashMap<String, Integer>();
+			Map<String, Integer> colsmap = new HashMap<String, Integer>();
 			BufferedReader br = new BufferedReader(new FileReader("document\\회의록2.txt"));
 			BufferedReader br_sw = Files.newBufferedReader(Paths.get("stopwords.txt"), Charset.forName("MS949"));
 			StringBuilder sb = new StringBuilder();
 			String line = br.readLine();
 			String line_sw = br_sw.readLine();
-			List stopwords = new ArrayList();
+			List<String> tempstopwords = new ArrayList();
 			while(line_sw != null){
-				stopwords.add(new String(line_sw.getBytes("UTF-8")));
+				tempstopwords.add(new String(line_sw.getBytes("UTF-8")));
 				line_sw = br_sw.readLine();
 				
 			}
-			System.out.println(stopwords);
 			while(line != null){
 				sb.append(line);
 				sb.append(System.lineSeparator());
 				line = br.readLine();
 			}
 			
-			
+			List<String> stopwords = removeDuplicates(tempstopwords);
+			System.out.println(stopwords);
 			List<String> word_list = new ArrayList<String>();
 			Komoran komoran = new Komoran("C:\\Users\\KimHyeMin\\eclipse\\java-neon\\eclipse\\komoran\\models-light");
 			List<List<Pair<String, String>>> result = komoran.analyze(sb.toString());
@@ -75,15 +101,32 @@ public class kor_wr_freq {
 					//System.out.println(wordMorph);
 					if( wordMorph.getSecond().equals("NNG")){
 						word_list.add(wordMorph.getFirst());
+						
+						if(firstN == false){
+							firstN = true;
+							collocation = wordMorph.getFirst();
+						}else if(firstN ==true && secondN == false){
+							collocation = collocation + " "+ wordMorph.getFirst();
+							cols.add(collocation);
+							collocation = wordMorph.getFirst();
+						}
+					}else{
+						collocation = "";
+						firstN = false;
 					}
 				}
 			}
+			int max = 0;
 			//System.out.println(word_list);
 			for (String temp : word_list) {
 				Integer count = map.get(temp);
 				map.put(temp, (count == null) ? 1 : count + 1);
 			}
 			
+			for (String tempcols : cols) {
+				Integer count = colsmap.get(tempcols);
+				colsmap.put(tempcols, (count == null) ? 1 : count + 1);
+			}
 			
 			Iterator it = sortByValue(map).iterator();
 			int i = 0;
@@ -105,13 +148,48 @@ public class kor_wr_freq {
 					i = i-1;
 				}else{
 					
-					writer.write(temp+" ,"+map.get(temp)+"\n");
+					writer.write("unigram ,"+temp+" ,"+map.get(temp)+"\n");
+					if( i==19 ){
+						max = map.get(temp);
+					}
 				}
 				
 				is_stop = false;
 			}
-		
+			String word1 = "";
+			String word2 = "";
+			Iterator itcols = sortByValue(colsmap).iterator();
+			boolean moremax = true;
+			is_stop = false;
+			System.out.println(colsmap);
+			while(moremax && itcols.hasNext()){
+				String tempcols = (String) itcols.next();
+				int index = tempcols.indexOf(" ");
+				word1 = tempcols.substring(0, index);
+				word2 = tempcols.substring(index+1);
+				moremax = max < colsmap.get(tempcols);
+				if(moremax){
+					for (int j = 0; j < stopwords.size(); j= j+1){
+						if(word1.equals(stopwords.get(j))){
+							is_stop = true;
+							break;
+						}
+						if(word2.equals(stopwords.get(j))){
+							is_stop = true;
+							break;
+						}
+					}
+				}
+				
+				if( is_stop == false){
+					writer.write("Bigram ,"+ tempcols+" ,"+colsmap.get(tempcols)+ "\n");
+				}
+				
+				is_stop = false;
+			}
+			
 			writer.close();
+			
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
