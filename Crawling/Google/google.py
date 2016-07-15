@@ -121,7 +121,7 @@ for item in range(0, len(search_key)):
 
     if flag == 1:
         for key in key_list:
-            for i in range(0, 20):
+            for i in range(0, 50):
                 delay = random.randrange(10, 30)
                 html = get_google_list_html(i*10, key)
                 tmp_list = get_google_article(html, key, index)
@@ -152,7 +152,7 @@ for item in range(0, len(search_key)):
             dup_index += 1
 
     else:
-        for i in range(0,20):
+        for i in range(0, 50):
             delay = random.randrange(10, 30)
             html = get_google_list_html(i*10, search_key[item])
             tmp_list = get_google_article(html, search_key[item], index)
@@ -160,8 +160,9 @@ for item in range(0, len(search_key)):
             if len(tmp_list) == 0:
                 break
             google_list = google_list + tmp_list
-            index += 1
             time.sleep(delay)
+
+        index += 1
 
 google_list = OrderedDict((frozenset(item.items()),item) for item in google_list).values()      #Delete the duplicated items
 date = str(datetime.today()).split(" ")[0]
