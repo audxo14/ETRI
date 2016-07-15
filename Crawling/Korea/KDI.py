@@ -88,6 +88,11 @@ while (keepgo == 1):
 
 dataset = sorted(dataset, key =itemgetter('발표처'))
 csv_columns = ['구분', '발표처', '제목', '웹주소']
-currentPath = os.getcwd()
-csv_file = "KDI-"+str(date)+".csv"
+current_dir = os.path.dirname(os.path.abspath(__file__))    #Get current Path
+KDI_dir = current_dir + "/KDI/"
+if not os.path.exists(KDI_dir):
+    os.makedirs(KDI_dir)
+
+current_dir = current_dir.replace('\\', '/')
+csv_file = KDI_dir + "KDI-"+str(date)+".csv"
 WriteDictToCSV(csv_file, csv_columns, dataset)

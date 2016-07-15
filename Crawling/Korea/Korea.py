@@ -140,5 +140,12 @@ kor_re = sorted(kor_re, key = itemgetter('발표처'))
 dataset = kor_gv + kor_re
 csv_columns = ['구분', '발표처', '제목', '웹주소']
 currentPath = os.getcwd()
-csv_file = "Korea-"+str(todate)+".csv"
+current_dir = os.path.dirname(os.path.abspath(__file__))    #Get current Path
+current_dir = current_dir.replace('\\', '/')
+
+Korea_dir = current_dir + "/Korea/"
+if not os.path.exists(Korea_dir):
+    os.makedirs(Korea_dir)
+
+csv_file = Korea_dir + "Korea-"+str(todate)+".csv"
 WriteDictToCSV(csv_file,csv_columns,dataset)
