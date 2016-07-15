@@ -9,6 +9,7 @@ import csv
 import os
 import sys
 from collections import OrderedDict
+import urllib
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -22,7 +23,7 @@ def get_google_list_html(num, key):
 # To get what we want from the HTML... News Title, Date, Reference, and links for each article.
 def get_google_article(html, keyword, index):
     article_list = []
-    
+
     tot_article = html.find_all(class_='g')
     for k in range(0, len(tot_article)):
         flag = 1
@@ -38,53 +39,47 @@ def get_google_article(html, keyword, index):
                     test_str = tmp_title.find_all('a')[j].get_text()
                     article_title = test_str.encode('utf-8')
                     tmp_link = tmp_test[j]
-                    article_link = tmp_link.encode('utf-8').split('\"')[1].split('&amp')[0].split('/url?q=')[1].replace('%3F','?')
-                    article_link = article_link.replace('%3D','=')
-                    article_link = article_link.replace('%26','&')
+                    article_link = tmp_link.encode('utf-8').split('\"')[1].split('&amp')[0].split('/url?q=')[1].replace(
+                        '%3F', '?')
+                    article_link = article_link.replace('%3D', '=')
+                    article_link = article_link.replace('%26', '&')
+
                     article_ref = unicode(tmp_title.find_all(class_='slp')[j].get_text().split(' - ')[0])
+                    url = urllib.unquote(article_link).decode('utf8')
                     if len(article_title) == 0:
                         break
 
-                    article_link = '=HYPERLINK(\"'+article_link+"\")"
+                    article_link = '=HYPERLINK(\"' + url + '\")'
 
                     article = {'순번': str(index), '키워드': unicode(keyword, 'cp949').encode('utf-8'),
-                               '발표처' : article_ref,
-                               '웹주소' : article_link,
-                               '제목' : article_title}
+                               '발표처': article_ref,
+                               '웹주소': article_link,
+                               '제목': article_title}
                     article_list.append(article)
 
             else:
                 test_str = tmp_title.find_all('a')[0].get_text()
-                #test = unicode(test_str, 'utf-8')
                 article_title = test_str.encode('utf-8')
-                article_link = tmp_link.encode('utf-8').split('\"')[1].split('&amp')[0].split('/url?q=')[1].replace('%3F','?')
-                article_link = article_link.replace('%3D','=')
-                article_link = article_link.replace('%26','&')
+                article_link = tmp_link.encode('utf-8').split('\"')[1].split('&amp')[0].split('/url?q=')[1].replace(
+                    '%3F', '?')
+                article_link = article_link.replace('%3D', '=')
+                article_link = article_link.replace('%26', '&')
                 article_ref = unicode(tmp_title.find_all(class_='slp')[0].get_text().split(' - ')[0])
+                url = urllib.unquote(article_link).decode('utf8')
+                if len(article_title) == 0:
+                    break
 
-                article_link = '=HYPERLINK(\"' + article_link + "\")"
+                article_link = '=HYPERLINK(\"' + url + '\")'
 
                 article = {'순번': str(index), '키워드': unicode(keyword, 'cp949').encode('utf-8'),
-                           '발표처' : article_ref,
-                           '웹주소' : article_link,
-                           '제목' : article_title}
+                           '발표처': article_ref,
+                           '웹주소': article_link,
+                           '제목': article_title}
                 article_list.append(article)
-                #print test_str
-            """
-            test_str = tmp_title.find_all('a')[0].get_text()
-            #test = unicode(test_str, 'utf-8')
-            article_title = test_str.encode('utf-8')
-            article_link = tmp_link.encode('utf-8').split('\"')[1].split('&amp')[0].split('/url?q=')[1].replace('%3F','?')
-            article_link = article_link.replace('%3D','=')
-            article_ref = unicode(tmp_title.find_all(class_='slp')[0].get_text().split(' - ')[0])
-
-            article = {'구분': '뉴스', '발표처' : article_ref, '웹주소' : article_link, '제목' : article_title}
-            article_list.append(article)
-            #print test_str
-            """
         except:
             continue
     return article_list
+
 
 def WriteDictToCSV(csv_file,csv_columns,dict_data):
     try:
@@ -95,34 +90,90 @@ def WriteDictToCSV(csv_file,csv_columns,dict_data):
             for data in dict_data:
                 writer.writerow({k: v.encode('utf-8').strip() for k, v in data.items()})
     except IOError as (errno, strerror):
-            print("I/O error({0}): {1}".format(errno, strerror)) 
-    return   
+            print("I/O error({0}): {1}".format(errno, strerror))
+    return
 
 google_list = []
 tmp_list = []
 search_key = []
+key_list = []
+check_dup = []
+index = 1
+
 f = open("keyword.txt", 'r')
+
 while True:
     line = f.readline()
-    if not line: 
+    if not line:
         break
     search_key.append(line)
 f.close()
 
 for item in range(0, len(search_key)):
-    for i in range(0, 20):
-        delay = random.randrange(10, 30)
-        html = get_google_list_html(i*10, search_key[item])
-        tmp_list = get_google_article(html, search_key[item], item+1)
-        if len(tmp_list) == 0:
-            break
-        google_list = google_list + tmp_list
-        time.sleep(delay)
+    tmp_key = search_key[item].split("=")
+    flag = 0
+
+    if len(tmp_key) > 1:
+        for key in tmp_key:
+            tmp_search = key.strip()
+            flag = 1
+            key_list.append(tmp_search)
+
+    if flag == 1:
+        for key in key_list:
+            for i in range(0, 20):
+                delay = random.randrange(10, 30)
+                html = get_google_list_html(i*10, key)
+                tmp_list = get_google_article(html, key, index)
+
+                if len(tmp_list) == 0:
+                    break
+
+                google_list += tmp_list
+                time.sleep(delay)
+
+            index += 1
+
+        dup_index = 0
+
+        while (1):
+            list_len = len(google_list)
+            if dup_index >= list_len:
+                break
+            tmp_item = google_list[dup_index]['웹주소']
+            for j in range(dup_index + 1, list_len):
+                try:
+                    tmp_ref = google_list[j]['웹주소']
+
+                    if tmp_item == tmp_ref:
+                        google_list.remove(google_list[j])
+                except:
+                    continue
+            dup_index += 1
+
+    else:
+        for i in range(0,20):
+            delay = random.randrange(10, 30)
+            html = get_google_list_html(i*10, search_key[item])
+            tmp_list = get_google_article(html, search_key[item], index)
+
+            if len(tmp_list) == 0:
+                break
+            google_list = google_list + tmp_list
+            index += 1
+            time.sleep(delay)
 
 google_list = OrderedDict((frozenset(item.items()),item) for item in google_list).values()      #Delete the duplicated items
 date = str(datetime.today()).split(" ")[0]
 csv_columns = ['순번', '키워드', '발표처', '제목', '웹주소']
-currentPath = os.getcwd()
-csv_file = "google-"+str(date)+".csv"
+
+current_dir = os.path.dirname(os.path.abspath(__file__))    #Get current Path
+current_dir = current_dir.replace('\\', '/')
+
+google_dir = current_dir + "/google/"
+if not os.path.exists(google_dir):
+    os.makedirs(google_dir)
+
+csv_file = google_dir + "google-"+str(date)+".csv"
 
 WriteDictToCSV(csv_file, csv_columns, google_list)
