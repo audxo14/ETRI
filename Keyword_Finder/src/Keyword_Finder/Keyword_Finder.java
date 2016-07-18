@@ -310,6 +310,7 @@ public class Keyword_Finder {
 				// Unigram
 				Iterator<?> it = sortByValue(map).iterator();
 				int i = 0;
+				int freq = 0;
 				boolean is_stop = false;
 				while(i < 99 && it.hasNext()){
 					String temp = (String) it.next();
@@ -327,7 +328,20 @@ public class Keyword_Finder {
 						i = i-1;
 					}else{
 						
-						writer.write("unigram ,"+temp+" ,"+map.get(temp)+"\n");
+						if(map.get(temp) > 500){
+							freq = map.get(temp) * 0.4;
+						}else if( map.get(temp) > 400){
+							freq = map.get(temp) * 0.5;
+						}else if(map.get(temp) > 300){
+							freq = map.get(temp) * 0.6;
+						}else if(map.get(temp)> 200){
+							freq = map.get(temp) * 0.65;
+						}else if(map.get(temp) > 100){
+							freq = map.get(temp) * 0.7;
+						}else {
+							freq = map.get(temp) * 0.75;
+						}
+						writer.write("unigram ,"+temp+" ,"+freq+"\n");
 						max = map.get(temp);
 					
 					}
@@ -339,6 +353,7 @@ public class Keyword_Finder {
 				Iterator<?> itcols = sortByValue(colsmap).iterator();
 				boolean moremax = true;
 				is_stop = false;
+				int colsfreq = 0;
 				while(moremax && itcols.hasNext()){
 					String tempcols = (String) itcols.next();
 					moremax = max < colsmap.get(tempcols);
@@ -351,7 +366,20 @@ public class Keyword_Finder {
 					}
 					
 					if( is_stop == false){
-						writer.write("Bigram ,"+ tempcols+" ,"+colsmap.get(tempcols)+ "\n");
+						if(colsmap.get(tempcols) > 500){
+							colsfreq = colsmap.get(tempcols) * 0.4;
+						}else if( colsmap.get(tempcols) > 400){
+							colsfreq = colsmap.get(tempcols) * 0.5;
+						}else if(colsmap.get(tempcols) > 300){
+							colsfreq = colsmap.get(tempcols) * 0.6;
+						}else if(colsmap.get(tempcols)> 200){
+							colsfreq = colsmap.get(tempcols) * 0.65;
+						}else if(colsmap.get(tempcols) > 100){
+							colsfreq = colsmap.get(tempcols) * 0.7;
+						}else {
+							colsfreq = colsmap.get(tempcols) * 0.75;
+						}
+						writer.write("Bigram ,"+ tempcols+" ,"+colsfreq+ "\n");
 					}
 					
 					is_stop = false;
