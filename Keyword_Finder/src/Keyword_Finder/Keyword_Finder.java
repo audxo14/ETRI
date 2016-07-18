@@ -26,10 +26,21 @@ import rcc.h2tlib.parser.*;
 public class Keyword_Finder {
 
 	private static String prog_bar = "";
-	private static synchronized void loading(int total, int current) throws IOException, InterruptedException {
+	private static synchronized void loading(String file_name, int total, int current) throws IOException, InterruptedException {
 	    int mult_num = 50/total;
 	    int progress = current * mult_num;
 	    String percentage;
+	    String file_prog;
+
+    	try {
+    		file_prog = "File Name: " + file_name;    		
+	    	System.out.write("\r".getBytes());
+	    	System.out.write(file_prog.getBytes("EUC-KR"));
+	    	System.out.write("\r".getBytes());
+    	} catch (IOException e) {
+    		e.printStackTrace();
+    	}
+    	
         try {
         	prog_bar = "";
         	if (current == total)
@@ -40,10 +51,10 @@ public class Keyword_Finder {
 	        		prog_bar += "*";
 	        	for (int j = progress; j < 50; j++)
 	        		prog_bar += "-";
-        	}
+        	}        	
         	percentage = String.format("%.2f", (float)current / (float)total * 100);
         	prog_bar += "| " + percentage +"%";
-			System.out.write("\r|".getBytes());
+			System.out.write("\r\n|".getBytes());
             System.out.write(prog_bar.getBytes());
             if(current == total)
             	System.out.write(" Done \r\n".getBytes());
@@ -51,7 +62,19 @@ public class Keyword_Finder {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}
+	}	
+
+    private static void pressAnyKeyToExit()
+    { 
+           System.out.println("\nPress Enter to exit...");
+           try
+           {
+               System.in.read();
+               System.exit(1);
+           }  
+           catch(Exception e)
+           {}  
+    }
 	
 	@SuppressWarnings("unchecked")
 	private static List<String> sortByValue(final Map<String, Integer> map){
@@ -100,8 +123,8 @@ public class Keyword_Finder {
 		File txt_dir = new File(txt_folder);
 		
 		if (!hwp_file.isDirectory()){
-			System.out.println("해당 디렉토리가 없습니다..");
-			System.exit(1);
+			System.out.println("No such Directory (hwp) found...");
+			pressAnyKeyToExit();
 		}
 		
 		File[] hwp_Filelist= hwp_file.listFiles();
@@ -161,7 +184,7 @@ public class Keyword_Finder {
 				parser.GetText(filename, meta, fo);
 
 				try {
-					loading(total_txt, index);
+					loading(hwp_f.getName(), total_txt, index);
 				} catch (IOException | InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -201,7 +224,7 @@ public class Keyword_Finder {
 		String docu_name;
 		List<String> docu_list = new ArrayList<String>();
 		
-		String result_dir = current_dir.concat("\\result\\");		//result folder
+		String result_dir = current_dir.concat("\\csv\\");		//result folder
 		File result_folder = new File(result_dir);
 		if (!result_folder.isDirectory()){							//create the folder if it doesn't exist
 			result_folder.mkdir();
@@ -310,7 +333,6 @@ public class Keyword_Finder {
 				// Unigram
 				Iterator<?> it = sortByValue(map).iterator();
 				int i = 0;
-				int freq = 0;
 				boolean is_stop = false;
 				while(i < 99 && it.hasNext()){
 					String temp = (String) it.next();
@@ -328,20 +350,7 @@ public class Keyword_Finder {
 						i = i-1;
 					}else{
 						
-						if(map.get(temp) > 500){
-							freq = map.get(temp) * 0.4;
-						}else if( map.get(temp) > 400){
-							freq = map.get(temp) * 0.5;
-						}else if(map.get(temp) > 300){
-							freq = map.get(temp) * 0.6;
-						}else if(map.get(temp)> 200){
-							freq = map.get(temp) * 0.65;
-						}else if(map.get(temp) > 100){
-							freq = map.get(temp) * 0.7;
-						}else {
-							freq = map.get(temp) * 0.75;
-						}
-						writer.write("unigram ,"+temp+" ,"+freq+"\n");
+						writer.write("unigram ,"+temp+" ,"+map.get(temp)+"\n");
 						max = map.get(temp);
 					
 					}
@@ -353,7 +362,6 @@ public class Keyword_Finder {
 				Iterator<?> itcols = sortByValue(colsmap).iterator();
 				boolean moremax = true;
 				is_stop = false;
-				int colsfreq = 0;
 				while(moremax && itcols.hasNext()){
 					String tempcols = (String) itcols.next();
 					moremax = max < colsmap.get(tempcols);
@@ -366,20 +374,7 @@ public class Keyword_Finder {
 					}
 					
 					if( is_stop == false){
-						if(colsmap.get(tempcols) > 500){
-							colsfreq = colsmap.get(tempcols) * 0.4;
-						}else if( colsmap.get(tempcols) > 400){
-							colsfreq = colsmap.get(tempcols) * 0.5;
-						}else if(colsmap.get(tempcols) > 300){
-							colsfreq = colsmap.get(tempcols) * 0.6;
-						}else if(colsmap.get(tempcols)> 200){
-							colsfreq = colsmap.get(tempcols) * 0.65;
-						}else if(colsmap.get(tempcols) > 100){
-							colsfreq = colsmap.get(tempcols) * 0.7;
-						}else {
-							colsfreq = colsmap.get(tempcols) * 0.75;
-						}
-						writer.write("Bigram ,"+ tempcols+" ,"+colsfreq+ "\n");
+						writer.write("Bigram ,"+ tempcols+" ,"+colsmap.get(tempcols)+ "\n");
 					}
 					
 					is_stop = false;
@@ -387,17 +382,17 @@ public class Keyword_Finder {
 			
 				writer.close();
 				
+				try {
+					loading(csv_file, total_csv, index);
+				} catch (IOException | InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			
-			}
-			
-			try {
-				loading(total_csv, index);
-			} catch (IOException | InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
 			}
 			index++;
 		}	
@@ -410,5 +405,6 @@ public class Keyword_Finder {
 		find_keyword(current_dir);
 		File tmp_folder = new File(txt);
 		tmp_folder.delete();
+		pressAnyKeyToExit();
 	}
 }
