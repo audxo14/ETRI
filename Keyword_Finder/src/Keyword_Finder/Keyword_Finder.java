@@ -220,6 +220,7 @@ public class Keyword_Finder {
 				
 		String docu_dir = current_dir.concat("\\txt\\");
 		File docu_folder = new File(docu_dir);
+		
 		int str_len;
 		String docu_name;
 		List<String> docu_list = new ArrayList<String>();
@@ -233,6 +234,7 @@ public class Keyword_Finder {
 		File[] result_Filelist = result_folder.listFiles();
 
 		hwp2txt(current_dir, result_Filelist);						//Execute hwp2txt() method
+		
 		File[] docu_Filelist = docu_folder.listFiles();
 		
 		if(docu_folder.isDirectory())								//Check files in txt folder
@@ -247,7 +249,7 @@ public class Keyword_Finder {
 		}
 		
 		System.out.println("");
-		System.out.println("Prasing hwp files into txt files...");
+		System.out.println("Getting Keywords from hwp files...");
 		int total_csv = docu_Filelist.length;
 		int index = 1;
 		
