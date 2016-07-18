@@ -24,8 +24,37 @@ import kr.co.shineware.util.common.model.Pair;
 import rcc.h2tlib.parser.*;
 
 public class Keyword_Finder {
+
+	private static String prog_bar = "";
+	private static synchronized void loading(int total, int current) throws IOException, InterruptedException {
+	    int mult_num = 50/total;
+	    int progress = current * mult_num;
+	    String percentage;
+        try {
+        	prog_bar = "";
+        	if (current == total)
+        		prog_bar = "**************************************************";
+        	else
+        	{
+	        	for (int i = 0; i < progress; i++)
+	        		prog_bar += "*";
+	        	for (int j = progress; j < 50; j++)
+	        		prog_bar += "-";
+        	}
+        	percentage = String.format("%.2f", (float)current / (float)total * 100);
+        	prog_bar += "| " + percentage +"%";
+			System.out.write("\r|".getBytes());
+            System.out.write(prog_bar.getBytes());
+            if(current == total)
+            	System.out.write(" Done \r\n".getBytes());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 	@SuppressWarnings("unchecked")
-	static List<String> sortByValue(final Map<String, Integer> map){
+	private static List<String> sortByValue(final Map<String, Integer> map){
         List<String> list = new ArrayList<String>();
         list.addAll(map.keySet());
          
@@ -44,7 +73,7 @@ public class Keyword_Finder {
     }
 	
 
-	static List<String> removeDuplicates(List<String> stopwords) {				//To remove the duplicate words in stopwords.txt
+	private static List<String> removeDuplicates(List<String> stopwords) {				//To remove the duplicate words in stopwords.txt
 
 		// Store unique items in result.
 		List<String> result = new ArrayList<>();
@@ -63,7 +92,8 @@ public class Keyword_Finder {
 		}
 		return result;
 	}
-	static void hwp2txt(String current_dir, File[] result_Filelist){								//To convert hwp files to txt files
+	
+	private static void hwp2txt(String current_dir, File[] result_Filelist){								//To convert hwp files to txt files
 		String hwp_folder = current_dir.concat("\\hwp");			//Get the folder containing hwp files
 		String txt_folder = current_dir.concat("\\txt");
 		File hwp_file = new File(hwp_folder);
@@ -92,6 +122,10 @@ public class Keyword_Finder {
 		if(!txt_dir.isDirectory())
 			txt_dir.mkdir();
 		
+		System.out.println("Converting hwp files into txt files...");
+		int total_txt = hwp_Filelist.length;
+		total_txt -= csv_list.size();
+		int index = 0;
 		for (File hwp_f:hwp_Filelist)
 		{
 			flag = 0;
@@ -121,18 +155,25 @@ public class Keyword_Finder {
 			
 			if (flag == 0)
 			{				
+				index++;
 				String fo = txt_folder.concat("\\".concat(text_name)+ ".txt");	//Create txt file with hwp contents
 				HWPMeta meta = new HWPMeta();
 				parser.GetText(filename, meta, fo);
+
+				try {
+					loading(total_txt, index);
+				} catch (IOException | InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
+			
 		}
 	}
 	
-	static void find_keyword(String current_dir) throws IOException
+	private static void find_keyword(String current_dir) throws IOException
 	{
 		String collocation = "";		
-		String word1;
-		String word2;
 		
 		String model_dir = current_dir.concat("\\models");			//Get the model files
 		String stop_dir = current_dir.concat("\\stopwords.txt");
@@ -168,7 +209,7 @@ public class Keyword_Finder {
 		
 		File[] result_Filelist = result_folder.listFiles();
 
-		hwp2txt(current_dir, result_Filelist);													//Execute hwp2txt() method
+		hwp2txt(current_dir, result_Filelist);						//Execute hwp2txt() method
 		File[] docu_Filelist = docu_folder.listFiles();
 		
 		if(docu_folder.isDirectory())								//Check files in txt folder
@@ -181,6 +222,11 @@ public class Keyword_Finder {
 				docu_list.add(docu_name);							//Get the names of txt files
 			}
 		}
+		
+		System.out.println("");
+		System.out.println("Prasing hwp files into txt files...");
+		int total_csv = docu_Filelist.length;
+		int index = 1;
 		
 		for (String f:docu_list)
 		{
@@ -235,8 +281,8 @@ public class Keyword_Finder {
 							if(firstN == false){
 								firstN = true;
 								collocation = wordMorph.getFirst();
-							}else if(firstN ==true && secondN == false){
-								collocation = collocation + " "+ wordMorph.getFirst();
+							}else if(firstN ==true && secondN == false){			//Bigram
+								collocation = collocation + wordMorph.getFirst();
 								cols.add(collocation);
 								collocation = wordMorph.getFirst();
 							}
@@ -261,10 +307,11 @@ public class Keyword_Finder {
 				BufferedWriter writer = new BufferedWriter( new OutputStreamWriter(new FileOutputStream(result_dir.concat(csv_file)), "MS949"));
 				writer.write("구분, 단어, 횟수\n");
 				
+				// Unigram
 				Iterator<?> it = sortByValue(map).iterator();
 				int i = 0;
 				boolean is_stop = false;
-				while(i < 19 && it.hasNext()){
+				while(i < 99 && it.hasNext()){
 					String temp = (String) it.next();
 					
 					i = i+1;
@@ -281,33 +328,25 @@ public class Keyword_Finder {
 					}else{
 						
 						writer.write("unigram ,"+temp+" ,"+map.get(temp)+"\n");
-						if( i==19 ){
-							max = map.get(temp);
-						}
+						max = map.get(temp);
+					
 					}
 					
 					is_stop = false;
 				}
 				
+				// Bigram
 				Iterator<?> itcols = sortByValue(colsmap).iterator();
 				boolean moremax = true;
 				is_stop = false;
 				while(moremax && itcols.hasNext()){
 					String tempcols = (String) itcols.next();
-					int index = tempcols.indexOf(" ");
-					word1 = tempcols.substring(0, index);
-					word2 = tempcols.substring(index+1);
 					moremax = max < colsmap.get(tempcols);
-					if(moremax){
-						for (int j = 0; j < stopwords.size(); j= j+1){
-							if(word1.equals(stopwords.get(j))){
-								is_stop = true;
-								break;
-							}
-							if(word2.equals(stopwords.get(j))){
-								is_stop = true;
-								break;
-							}
+					
+					for (int j = 0; j < stopwords.size(); j= j+1){
+						if(tempcols.equals(stopwords.get(j))){
+							is_stop = true;
+							break;
 						}
 					}
 					
@@ -325,8 +364,17 @@ public class Keyword_Finder {
 				e.printStackTrace();
 			
 			}
+			
+			try {
+				loading(total_csv, index);
+			} catch (IOException | InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			index++;
 		}	
-	}
+	}	
+	
 	
 	public static void main(String args[]) throws IOException{
 		String current_dir = System.getProperty("user.dir");	//Get the current Directory
