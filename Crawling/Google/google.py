@@ -122,6 +122,8 @@ for item in range(0, len(search_key)):
     if flag == 1:
         for key in key_list:
             for i in range(0, 50):
+                key = key.replace('\"', '')
+                key = key.replace('\'', '')
                 delay = random.randrange(10, 30)
                 html = get_google_list_html(i*10, key)
                 tmp_list = get_google_article(html, key, index)
@@ -151,11 +153,15 @@ for item in range(0, len(search_key)):
                     continue
             dup_index += 1
 
+
     else:
         for i in range(0, 50):
+            key = search_key[item]
+            key = key.replace('\"', '')
+            key = key.replace('\'', '')
             delay = random.randrange(10, 30)
-            html = get_google_list_html(i*10, search_key[item])
-            tmp_list = get_google_article(html, search_key[item], index)
+            html = get_google_list_html(i*10, key)
+            tmp_list = get_google_article(html, key, index)
 
             if len(tmp_list) == 0:
                 break
