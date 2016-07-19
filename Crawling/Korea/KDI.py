@@ -75,7 +75,11 @@ def WriteDictToCSV(csv_file,csv_columns,dict_data):
     return
 
 dataset = []
-date = str(datetime.datetime.now()- datetime.timedelta(days=1)).split(" ")[0]
+if(datetime.datetime.now().weekday() == 0 ):
+    date = str(datetime.datetime.now() - datetime.timedelta(days = 3)).split(" ")[0]
+else:
+    date = str(datetime.datetime.now()- datetime.timedelta(days=1)).split(" ")[0]
+
 currentmonth = date.split('-')[1]
 currentday = date.split('-')[2]
 
