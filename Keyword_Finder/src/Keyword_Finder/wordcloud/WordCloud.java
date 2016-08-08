@@ -27,8 +27,8 @@ public class WordCloud {
     	
     	int str_len;
     	int flag;
-		String csv_folder = current_dir.concat("\\csv");
-		String cloud_folder = current_dir.concat("\\cloud");
+		String csv_folder = current_dir.concat("\\2. csv");
+		String cloud_folder = current_dir.concat("\\3. cloud");
 		
 		File csv_dir = new File(csv_folder);
 		File[] csv_Filelist= csv_dir.listFiles();

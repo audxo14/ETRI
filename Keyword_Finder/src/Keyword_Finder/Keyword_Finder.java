@@ -3,10 +3,13 @@ package Keyword_Finder;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -22,11 +25,12 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import com.opencsv.CSVReader;
+
+import Keyword_Finder.wordcloud.WordCloud;
 import kr.co.shineware.nlp.komoran.core.analyzer.Komoran;
 import kr.co.shineware.util.common.model.Pair;
 import rcc.h2tlib.parser.*;
-
-import Keyword_Finder.wordcloud.WordCloud;
 
 public class Keyword_Finder {
 
@@ -83,14 +87,14 @@ public class Keyword_Finder {
 			"whoever", "whole", "whom", "whose", "why", "will", "willing", "wish", "with", "within", "without", "wont", 
 			"wonder", "would", "would", "wouldnt", "www", "yes", "yet", "you", "youd", "youll", "youre", "youve", "your", 
 			"yours", "yourself", "yourselves", "zero", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "b", "c", 
-			"d", "e", "f", "g", "h", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
+			"d", "e", "f", "g", "h", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "http"};
 	private static String[] eng_bi_stop = {"how to", "thank you", "good morning"};
 			
 	public static synchronized void loading(int total, int current) throws IOException, InterruptedException {
 	    int mult_num = 50/total;
 	    int progress = current * mult_num;
 	    String percentage;
-        try {
+	    try {
         	prog_bar = "";
         	if (current == total)
         		prog_bar = "**************************************************";
@@ -165,14 +169,14 @@ public class Keyword_Finder {
 		return result;
 	}
 	
-	private static void hwp2txt(String current_dir, File[] result_Filelist){								//To convert hwp files to txt files
-		String hwp_folder = current_dir.concat("\\hwp");			//Get the folder containing hwp files
+	private static void hwp2txt(String current_dir, File[] result_Filelist) throws IOException{								//To convert hwp files to txt files
+		String hwp_folder = current_dir.concat("\\1. source");			//Get the folder containing hwp files
 		String txt_folder = current_dir.concat("\\txt");
 		File hwp_file = new File(hwp_folder);
 		File txt_dir = new File(txt_folder);
 		
 		if (!hwp_file.isDirectory()){
-			System.out.println("No such Directory (hwp) found...");
+			System.out.println("No such Directory (1. source) found...");
 			pressAnyKeyToExit();
 		}
 		
@@ -190,9 +194,7 @@ public class Keyword_Finder {
 			String hwp_filename = hwp_f.getName();
 			int str_len = hwp_filename.length();
 			String hwp_name = hwp_filename.substring(0,str_len-4);		//delete the suffix ".hwp"	
-			String is_hwp = hwp_filename.substring(str_len-3, str_len);
-			if (is_hwp.equals("hwp"))
-				hwp_list.add(hwp_name);			
+			hwp_list.add(hwp_name);			
 		}
 		
 		for (File result_file:result_Filelist)							//check the number of csv files in csv folder
@@ -208,7 +210,7 @@ public class Keyword_Finder {
 		if(!txt_dir.isDirectory())
 			txt_dir.mkdir();
 		
-		System.out.println("Converting hwp files into txt files...");
+		System.out.println("Converting files into txt files...");
 		int total_txt = hwp_list.size();
 		total_txt -= csv_list.size();
 		int index = 0;
@@ -227,33 +229,92 @@ public class Keyword_Finder {
 			
 			if(!fig)
 			{
-				continue;
-			}	
-			
-			for (String csv_name:csv_list)
-			{
-				if(csv_name.equals(text_name))
+				for (String csv_name:csv_list)
 				{
-					flag = 1;
-					break;
+					if(csv_name.equals(text_name))
+					{
+						flag = 1;
+						break;
+					}
+				}
+				
+				if (flag == 0)
+				{				
+					int flag_set = 0;
+					int date_flag = 0;
+					int link_flag = 0;
+					
+					@SuppressWarnings("resource")
+					CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(hwp_f), "MS949"));
+					String contents = null;
+					String[] nextLine;
+			        while((nextLine = reader.readNext()) != null)
+			        {
+			        	if(flag_set == 0)
+			        	{
+				        	for(int i = 0; i < nextLine.length; i++)
+				        	{
+				        		if(nextLine[i].equals("ë‚ ì§œ"))
+				        			date_flag = i;
+				        		else if(nextLine[i].equals("ì›¹ì£¼ì†Œ"))
+				        			link_flag = i;
+				        		else
+				        			continue;
+				        		
+				        		flag_set = 1;
+				        		continue;
+				        	}
+			        	}
+			        	
+			        	for (int i = 0; i < nextLine.length; i++)
+			        	{
+			        		if(i == date_flag || i == link_flag)
+			        			continue;
+			        		contents += nextLine[i] + " ";
+			        	}
+			        }
+			        
+			        index++;
+					String fo = txt_folder.concat("\\".concat(text_name)+ ".txt");	//Create txt file with hwp contents
+					BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(fo));
+					
+					bufferedWriter.write(contents);
+					bufferedWriter.close();
+	
+					try {
+						loading(total_txt, index);
+					} catch (IOException | InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}		        
+			}	
+			else
+			{
+				for (String csv_name:csv_list)
+				{
+					if(csv_name.equals(text_name))
+					{
+						flag = 1;
+						break;
+					}
+				}
+				
+				if (flag == 0)
+				{				
+					index++;
+					String fo = txt_folder.concat("\\".concat(text_name)+ ".txt");	//Create txt file with hwp contents
+					HWPMeta meta = new HWPMeta();
+					parser.GetText(filename, meta, fo);
+	
+					try {
+						loading(total_txt, index);
+					} catch (IOException | InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 				}
 			}
-			
-			if (flag == 0)
-			{				
-				index++;
-				String fo = txt_folder.concat("\\".concat(text_name)+ ".txt");	//Create txt file with hwp contents
-				HWPMeta meta = new HWPMeta();
-				parser.GetText(filename, meta, fo);
-
-				try {
-					loading(total_txt, index);
-				} catch (IOException | InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			}
-			
 		}
 	}
 	
@@ -285,10 +346,10 @@ public class Keyword_Finder {
 		
 		String eng_word = sb.toString().toLowerCase();		
 
-		Stream<String> stream = Stream.of(eng_word.split("\\W+")).parallel();
+		Stream<String> stream = Stream.of(eng_word.split("[^a-z&0-9]+")).parallel();
 		map = stream.collect(Collectors.groupingBy(String::toString,Collectors.counting()));
 		
-		Stream<String> bi_stream = Stream.of(eng_word.split("\\W+")).parallel();
+		Stream<String> bi_stream = Stream.of(eng_word.split("[^a-z&0-9]+")).parallel();
 		List<String> bi_list = bi_stream.collect(Collectors.toList());
 		
 		for (int i = 0; i + 1 < bi_list.size(); i++)
@@ -361,7 +422,7 @@ public class Keyword_Finder {
 		List<String> stopwords = new ArrayList<String>();		
 		
 		while(line_sw != null){
-			stopwords.add(new String(line_sw.getBytes("UTF-8")).toLowerCase());
+			stopwords.add(new String(line_sw.getBytes("UTF-8")).toLowerCase().trim());
 			line_sw = br_sw.readLine();
 			
 		}
@@ -373,7 +434,7 @@ public class Keyword_Finder {
 		String docu_name;
 		List<String> docu_list = new ArrayList<String>();
 		
-		String result_dir = current_dir.concat("\\csv\\");		//result folder
+		String result_dir = current_dir.concat("\\2. csv\\");		//result folder
 		File result_folder = new File(result_dir);
 		if (!result_folder.isDirectory()){							//create the folder if it doesn't exist
 			result_folder.mkdir();
@@ -431,7 +492,7 @@ public class Keyword_Finder {
 
 				String csv_file = f.concat(".csv");
 				BufferedWriter writer = new BufferedWriter( new OutputStreamWriter(new FileOutputStream(result_dir.concat(csv_file)), "MS949"));
-				writer.write("±¸ºÐ, ´Ü¾î, È½¼ö\n");
+				writer.write("êµ¬ë¶„, ë‹¨ì–´, íšŸìˆ˜\n");
 				
 				
 				// Unigram
@@ -524,7 +585,6 @@ public class Keyword_Finder {
 		find_keyword(current_dir);
 		File tmp_folder = new File(txt);
 		tmp_folder.delete();
-		//WordCloud word_cloud = new WordCloud();
 		WordCloud.main(current_dir);
 		pressAnyKeyToExit();
 	}
