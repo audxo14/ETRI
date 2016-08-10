@@ -206,10 +206,12 @@ file_list = [os.path.join(dirpath, f)
 
 for i in range(0, len(file_list)):
     file_list[i] = file_list[i].replace('\\', '/')
-    file_list[i] = unicode(file_list[i], 'utf-8')
+    #print (file_list[i].decode('utf-8').encode('utf-8'))
+    #file_list[i] = unicode(file_list[i].decode('utf-8'), 'utf-8')
+    file_list[i] = unicode(file_list[i], 'cp949').encode('utf-8')       # Unicode problem with Korean words...
 
 for fileName in file_list:
-    f = open(fileName, "rb")
+    f = open(unicode(fileName, 'utf-8'), "rb")                          # Unicode problem with Korean words....
     eml_content = extract(f, f.name)
     text = eml_content['html']                      #Get html info
     date = eml_content['date'].split(" ")           #Get date info
