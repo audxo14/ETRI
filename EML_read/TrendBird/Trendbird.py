@@ -4,6 +4,8 @@ import os
 import fnmatch
 from bs4 import BeautifulSoup
 import csv
+import getch
+import progressbar
 
 # Path to directory where attachments will be stored:
 path = "./msgfiles"
@@ -154,12 +156,16 @@ def get_Contents(html, date):
     tmp = html.find_all('a')
     for item in title_list:
         for i in range(0, len(tmp)):
-            if title_url.count(str(tmp[i])) == 1:
+            #tmp_text = unicode(tmp[i].getText(), 'cp949').encode('utf-8')
+            #print tmp[i].getText().encode('utf-8')
+            if title_url.count(str(tmp[i].encode('utf-8'))) == 1:
                 continue
 
-            tmp_title = tmp[i].getText()
-            if tmp_title == item:
-                tmp_link = str(tmp[i])
+            #tmp_title = tmp[i].getText().encode('utf-8')
+            tmp_index = str(title_list.index(item)+1)
+            tmp_link = str(tmp[i])
+            tmp_str = "name="+"\""+tmp_index+"\""
+            if tmp_str in tmp_link:
                 tmp_link = '=HYPERLINK(\"' + tmp_link.split("\"")[1] + "\")"
                 link_list.append(tmp_link)
                 break
@@ -206,33 +212,38 @@ file_list = [os.path.join(dirpath, f)
 
 for i in range(0, len(file_list)):
     file_list[i] = file_list[i].replace('\\', '/')
-    #print (file_list[i].decode('utf-8').encode('utf-8'))
-    #file_list[i] = unicode(file_list[i].decode('utf-8'), 'utf-8')
     file_list[i] = unicode(file_list[i], 'cp949').encode('utf-8')       # Unicode problem with Korean words...
 
+
+bar = progressbar.ProgressBar(redirect_stdout=True, max_value=len(file_list))
 for fileName in file_list:
-    f = open(unicode(fileName, 'utf-8'), "rb")                          # Unicode problem with Korean words....
-    eml_content = extract(f, f.name)
-    text = eml_content['html']                      #Get html info
-    date = eml_content['date'].split(" ")           #Get date info
-    f.close()
+        f = open(unicode(fileName, 'utf-8'), "rb")                          # Unicode problem with Korean words....
+        eml_content = extract(f, f.name)
+        text = eml_content['html']                      #Get html info
+        date = eml_content['date'].split(" ")           #Get date info
+        f.close()
 
-    s = os.path.split(fileName)
+        s = os.path.split(fileName)
 
-    soup = BeautifulSoup(text, "lxml")
+        soup = BeautifulSoup(text, "lxml")
 
-    month = str(month_list.index(date[2]) + 1)
+        month = str(month_list.index(date[2]) + 1)
 
-    year = str(date[3])
+        year = str(date[3])
 
-    if date[1] < 10:
-        day = '0' + str(date[1])
-    else:
-        day = str(date[1])
+        if date[1] < 10:
+            day = '0' + str(date[1])
+        else:
+            day = str(date[1])
 
-    date = year + '-' + month + '-' + day
+        date = year + '-' + month + '-' + day
 
-    final_list += get_Contents(soup, date)
+        try:
+            final_list += get_Contents(soup, date)
+            bar.update(file_list.index(fileName)+1)
+        except:
+            print "\n" + fileName + " has an error!"
+            getch.pause_exit(0, 'Press Any Key To Exit.')
 
 csv_columns = ['일자', '구분', '제목', 'URL']
 currentPath = os.getcwd()
