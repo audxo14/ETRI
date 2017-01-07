@@ -1,5 +1,6 @@
 #-*- coding: utf-8 -*-
 
+# use pytagcloud module and make wordcloud
 from collections import Counter
 import urllib
 import random
