@@ -10,3 +10,11 @@ IEEE Spectrum: http://spectrum.ieee.org/
 #PDF to Text
 
 PDFMiner
+
+---------------------------------------------------------------
+
+# Word clouding with Hannanum module
+
+Crawling next daily site, then make wordcloud.
+
+But because of font problem, it failed. 
